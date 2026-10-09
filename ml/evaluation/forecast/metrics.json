@@ -1,0 +1,239 @@
+{
+  "winner": {
+    "family": "xgboost",
+    "algorithm": "xgboost",
+    "params": {
+      "colsample_bytree": 0.9407415593496101,
+      "learning_rate": 0.014256764166827952,
+      "max_depth": 9,
+      "min_child_weight": 3.6526887020578847,
+      "reg_alpha": 0.15416238995437415,
+      "reg_lambda": 2.6435585897764167,
+      "subsample": 0.5697609133074022,
+      "weighting": "none"
+    },
+    "experiment_id": "FORE-022",
+    "validation": {
+      "mae_kg": 258.1304828335386,
+      "rmse_kg": 1104.9707021696042,
+      "r2": 0.9914805041909159,
+      "mape_pct_y_gt_1kg": 7.902531900270722,
+      "median_ape_pct": 6.4653687719247595,
+      "r2_log": 0.9976874852199106,
+      "rows": 8057
+    },
+    "test": {
+      "mae_kg": 401.56983023524197,
+      "rmse_kg": 2749.491886123409,
+      "r2": 0.9862572238851119,
+      "mape_pct_y_gt_1kg": 7.842279232987375,
+      "median_ape_pct": 6.524492446970795,
+      "r2_log": 0.997932846246355,
+      "rows": 10542
+    },
+    "info": {
+      "best_iteration": 555
+    }
+  },
+  "test_baselines": {
+    "F0_last_value": {
+      "mae_kg": 659.7702866628723,
+      "rmse_kg": 4229.321710588579,
+      "r2": 0.9674829581366096,
+      "mape_pct_y_gt_1kg": 13.26846255762198,
+      "median_ape_pct": 10.325436897987839,
+      "r2_log": 0.9932215224118079,
+      "rows": 10542
+    },
+    "F1_seasonal_naive_with_fallback": {
+      "mae_kg": 726.1708109466896,
+      "rmse_kg": 4195.338868165094,
+      "r2": 0.9680034113579258,
+      "mape_pct_y_gt_1kg": 14.721996863986849,
+      "median_ape_pct": 11.947009552595766,
+      "r2_log": 0.9847769810858259,
+      "rows": 10542
+    }
+  },
+  "test_breakdown": {
+    "seen_companies": {
+      "mae_kg": 260.41965385484514,
+      "rmse_kg": 1166.978246940525,
+      "r2": 0.9886118491567278,
+      "mape_pct_y_gt_1kg": 7.75950217933782,
+      "median_ape_pct": 6.489688883519576,
+      "r2_log": 0.9978487814248569,
+      "rows": 8515
+    },
+    "held_out_companies": {
+      "mae_kg": 994.5119870576787,
+      "rmse_kg": 5796.174684491038,
+      "r2": 0.9854663191813224,
+      "mape_pct_y_gt_1kg": 8.190550547003014,
+      "median_ape_pct": 6.71308467350578,
+      "r2_log": 0.9981779052451027,
+      "rows": 2027
+    },
+    "last_value_seen": {
+      "mae_kg": 441.30683311802693,
+      "rmse_kg": 2117.9821026112654,
+      "r2": 0.9624878236402823,
+      "mape_pct_y_gt_1kg": 13.352057924508397,
+      "median_ape_pct": 10.439363504508522,
+      "r2_log": 0.9926498041651315,
+      "rows": 8515
+    },
+    "last_value_held_out": {
+      "mae_kg": 1577.4892343364577,
+      "rmse_kg": 8612.970390297305,
+      "r2": 0.9679078661292525,
+      "mape_pct_y_gt_1kg": 12.91674832055324,
+      "median_ape_pct": 10.025637685458957,
+      "r2_log": 0.9949937837489803,
+      "rows": 2027
+    }
+  },
+  "target_r2": 0.8,
+  "target_met": true,
+  "experiments": 40,
+  "experiments_by_algorithm": {
+    "xgboost": 30,
+    "random_forest": 8,
+    "linear_regression_raw": 1,
+    "linear_regression_logratio": 1
+  },
+  "permutation_importance_val_mae_kg": {
+    "log_packaging_kg": 0.7195321261673371,
+    "r_lag1": 15.925630425973111,
+    "r_lag2": 5.542566747254568,
+    "r_lag3": 6.255370575014183,
+    "r_lag6": 3.5482369745964206,
+    "r_lag11": 6.095222256682746,
+    "r_lag12": 0.8068003974299813,
+    "r_rm3": 9.55362544589093,
+    "r_rm6": 22.938983480514423,
+    "seasonal_shift": -1.3504315896065577,
+    "season_ratio": 146.70184969522234,
+    "sales_growth": 6.5518001833718245,
+    "log_weight_g": 0.9625563225585552,
+    "weight_change": -0.07793061008305813,
+    "target_month_sin": 3.214630139896883,
+    "target_month_cos": 1.1063020860229926,
+    "history_months": 24.00441973184644,
+    "industry_Appliances": 0.3761258924913591,
+    "industry_Automotive": 0.05249931374163452,
+    "industry_Beverages": 5.4690626948988665,
+    "industry_Cosmetics": 0.010124601266795707,
+    "industry_E-commerce": 0.2910377729973561,
+    "industry_Electronics": 0.029822188389346138,
+    "industry_FMCG": 0.39682184181469893,
+    "industry_Food": 0.18721840724015237,
+    "industry_Household Products": 0.5591189097422102,
+    "industry_Industrial Goods": -0.005231055436809129,
+    "industry_Personal Care": 0.6804152451043706,
+    "industry_Pharmaceuticals": 0.5837551571387394,
+    "industry_Retail": 0.019308978712217595
+  },
+  "xgb_gain_importance": {
+    "log_packaging_kg": 0.009490264279454538,
+    "r_lag1": 0.024095399919234227,
+    "r_lag2": 0.020171809712519584,
+    "r_lag3": 0.012103046654491492,
+    "r_lag6": 0.011282210177468716,
+    "r_lag11": 0.018684607137113507,
+    "r_lag12": 0.00944606879972238,
+    "r_rm3": 0.0173048012685012,
+    "r_rm6": 0.05482764780093423,
+    "seasonal_shift": 0.008822934228697695,
+    "season_ratio": 0.1854180758550999,
+    "sales_growth": 0.08208585232341763,
+    "log_weight_g": 0.00913357457123064,
+    "weight_change": 0.014548062599012477,
+    "target_month_sin": 0.05778899603749356,
+    "target_month_cos": 0.11301856358129389,
+    "history_months": 0.1206917292397257,
+    "industry_Appliances": 0.031109121944112902,
+    "industry_Automotive": 0.01730722225225329,
+    "industry_Beverages": 0.02446332112451687,
+    "industry_Cosmetics": 0.02023732431140263,
+    "industry_E-commerce": 0.031544985564534216,
+    "industry_Electronics": 0.014689681038505145,
+    "industry_FMCG": 0.010134140053706222,
+    "industry_Food": 0.009272664415040559,
+    "industry_Household Products": 0.01200248472873256,
+    "industry_Industrial Goods": 0.011702052715854193,
+    "industry_Personal Care": 0.014704852612601627,
+    "industry_Pharmaceuticals": 0.01907838481326868,
+    "industry_Retail": 0.01484012024005976
+  },
+  "split": {
+    "train_rows": 25985,
+    "validation_rows": 8057,
+    "test_rows": 10542,
+    "unused_holdout_window_rows": 8347,
+    "train_companies": 160,
+    "test_companies": 200,
+    "held_out_companies": 40
+  },
+  "baselines_train_validation": {
+    "train": {
+      "F0_last_value": {
+        "mae_kg": 380.79357717914183,
+        "rmse_kg": 1989.789804989548,
+        "r2": 0.9642562879463235,
+        "mape_pct_y_gt_1kg": 12.642860436726048,
+        "median_ape_pct": 9.752020302633973,
+        "r2_log": 0.9925679532003205,
+        "rows": 25985
+      },
+      "F1_seasonal_naive_with_fallback": {
+        "mae_kg": 421.23815959207235,
+        "rmse_kg": 1837.1642798963248,
+        "r2": 0.9695293838842292,
+        "mape_pct_y_gt_1kg": 14.156938051053602,
+        "median_ape_pct": 11.179022594936214,
+        "r2_log": 0.9860125582182501,
+        "rows": 25985
+      },
+      "F1_seasonal_naive_rows_with_history": {
+        "mae_kg": 480.16993562945373,
+        "rmse_kg": 1827.7806374800616,
+        "r2": 0.9727748760796127,
+        "mape_pct_y_gt_1kg": 14.833617758540493,
+        "median_ape_pct": 12.293379146293114,
+        "r2_log": 0.9810266578306709,
+        "rows": 12630
+      }
+    },
+    "validation": {
+      "F0_last_value": {
+        "mae_kg": 419.4557892515825,
+        "rmse_kg": 2219.852509667964,
+        "r2": 0.9656156666955453,
+        "mape_pct_y_gt_1kg": 11.555974443993552,
+        "median_ape_pct": 9.11460597930832,
+        "r2_log": 0.9940684303291734,
+        "rows": 8057
+      },
+      "F1_seasonal_naive_with_fallback": {
+        "mae_kg": 528.1115971205163,
+        "rmse_kg": 2382.0857239392,
+        "r2": 0.9604062040810232,
+        "mape_pct_y_gt_1kg": 15.337393898485413,
+        "median_ape_pct": 12.44614315496873,
+        "r2_log": 0.9832226643787392,
+        "rows": 8057
+      },
+      "F1_seasonal_naive_rows_with_history": {
+        "mae_kg": 538.2319652885566,
+        "rmse_kg": 2461.1734717343425,
+        "r2": 0.9594927568134642,
+        "mape_pct_y_gt_1kg": 14.87723802115983,
+        "median_ape_pct": 12.257046626906416,
+        "r2_log": 0.9832059488925922,
+        "rows": 7087
+      }
+    }
+  },
+  "synthetic_only": true
+}

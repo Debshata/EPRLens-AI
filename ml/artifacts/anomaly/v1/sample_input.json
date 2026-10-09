@@ -1,0 +1,86 @@
+{
+  "record_type": "invoice",
+  "record_id": "INV_00017685",
+  "company_id": "COMP_0001",
+  "invoice": {
+    "invoice_id": "INV_00017685",
+    "invoice_number": "SYEC/2526/00004",
+    "invoice_type": "PKG_PURCHASE",
+    "company_id": "COMP_0001",
+    "supplier_id": "SUP_TEST_001",
+    "buyer_id": "COMP_0001",
+    "invoice_date": "2025-11-17",
+    "status": "issued",
+    "supplier_gstin": "06ODQCM2783K1Z4",
+    "buyer_gstin": "07OLWCZ2975K3ZF",
+    "currency": "INR",
+    "fx_rate": null,
+    "total_taxable_value": 105529.09,
+    "gst": 18995.24,
+    "total": 124524.33,
+    "original_invoice_id": null
+  },
+  "lines": [
+    {
+      "line_no": 1,
+      "item_description": "PET bottle for 750 ml - PET",
+      "product_id": "PROD_000001",
+      "component_id": "PKGCOMP_000002",
+      "material": "PET",
+      "plastic_category": "CAT_I",
+      "hsn_code": "3923",
+      "raw_quantity": 0.5,
+      "raw_unit": "MT",
+      "weight_per_unit_g": null,
+      "normalized_quantity_kg": 500.0,
+      "recorded_quantity_kg": 500000.0,
+      "rate": 211058.17,
+      "taxable_value": 105529.09,
+      "gst_rate": 18,
+      "gst_amount": 18995.24,
+      "transaction_id": "TXN_00121740",
+      "transaction": {
+        "transaction_id": "TXN_00121740",
+        "transaction_type": "purchase",
+        "status": "posted",
+        "raw_quantity": 500.0,
+        "raw_unit": "MT",
+        "normalized_quantity_kg": 500000.0,
+        "supplier_id": "SUP_TEST_001",
+        "date": "2025-11-17"
+      },
+      "master_component": {
+        "material": "PET",
+        "synthetic_category": "CAT_I",
+        "weight_per_unit_g": 25.0,
+        "component_form": "bottle"
+      }
+    }
+  ],
+  "context": {
+    "item_month_qty": {
+      "1": 500000.0
+    },
+    "item_median_qty": {
+      "1": 30.1
+    },
+    "item_prev_month_qty": {
+      "1": 49.125
+    },
+    "issuer_company_median_total_inr": 7496.84,
+    "issuer_company_invoice_count": 13,
+    "earlier_same_key_invoice_ids": []
+  },
+  "master": {
+    "issuer_has_gstin": true,
+    "issuer_supplier": {
+      "supported_materials": [
+        "PET"
+      ],
+      "supported_component_forms": [
+        "bottle",
+        "jar"
+      ]
+    }
+  }
+}

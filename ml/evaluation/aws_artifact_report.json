@@ -1,0 +1,55 @@
+{
+  "note": "All timings are measured on the LOCAL development machine (Windows, Python 3.12) in a fresh process, not on AWS. Dependency sizes are local installed sizes (Windows wheels); Linux/Lambda wheels differ.",
+  "forecast_model_file": "model.onnx",
+  "forecast_model_mb": 7.101,
+  "forecast_artifact_folder_mb": 7.1,
+  "forecast_dependencies": {
+    "onnxruntime": 47.7,
+    "numpy": 53.3,
+    "joblib": 1.9
+  },
+  "forecast_dependencies_total_mb": 102.9,
+  "anomaly_model_file": "isolation_forest.joblib",
+  "anomaly_model_mb": 1.006,
+  "anomaly_artifact_folder_mb": 1.1,
+  "anomaly_dependencies": {
+    "scikit-learn": 42.4,
+    "numpy": 53.3,
+    "scipy": 134.8,
+    "joblib": 1.9
+  },
+  "anomaly_dependencies_total_mb": 232.4,
+  "anomaly_onnx_available": false,
+  "measured_local_load_time_ms": {
+    "forecast": 1981.9,
+    "anomaly": 1619.9
+  },
+  "measured_local_inference_time_ms": {
+    "forecast": {
+      "median": 0.15,
+      "max": 0.93
+    },
+    "anomaly": {
+      "median": 7.53,
+      "max": 19.11
+    }
+  },
+  "recommended_lambda_memory_mb": {
+    "forecast": 512,
+    "anomaly": 1024
+  },
+  "recommendation_basis": "Starting points only: forecast uses onnxruntime+numpy (small); anomaly loads scikit-learn+scipy. Verify memory and cold start in AWS CloudWatch-free testing per D057.",
+  "lambda_limits_reminder": "zip <= 50 MB direct upload (or via S3), <= 250 MB unzipped including layers",
+  "timing_raw": {
+    "forecast": {
+      "load_ms": 1981.870700023137,
+      "infer_ms_median": 0.15380000695586205,
+      "infer_ms_max": 0.9294000919908285
+    },
+    "anomaly": {
+      "load_ms": 1619.8557000607252,
+      "infer_ms_median": 7.5261000311002135,
+      "infer_ms_max": 19.109999993816018
+    }
+  }
+}

@@ -1,0 +1,34 @@
+# EPRLens AI — synthetic ML training configuration. SYNTHETIC — EPRLens Demo.
+# Tuning uses VALIDATION data only; the test split is evaluated once per final system.
+run_id: synthetic-v1
+seed: 20261009
+data_dir: data/generated
+masters_dir: synthetic-data/masters
+expected_dataset_sha256: 0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8
+
+forecast:
+  target: next_month_packaging_kg
+  desired_test_r2: 0.80
+  selection_metric: val_mae_kg          # operational error in kg; R2 reported, not used alone
+  budget_configs: 100                   # all tuned forecast configurations (LR + RF + XGB)
+  patience: 20                          # stop a search after 20 trials without >0.1 % validation-MAE gain
+  min_relative_gain: 0.001
+  rf_configs: 8
+  xgb_early_stopping_rounds: 50
+  xgb_max_estimators: 2000
+  n_jobs: -1
+
+anomaly:
+  desired_test_f1: 0.80
+  max_fpr: 0.10
+  budget_configs: 100                   # Isolation-Forest parameter sets (each with a validation-chosen threshold)
+  patience: 20
+  min_f1_gain: 0.001
+  threshold_quantiles: [0.80, 0.85, 0.90, 0.92, 0.94, 0.95, 0.96, 0.97, 0.98, 0.985, 0.99, 0.993, 0.995, 0.997, 0.999]
+  qty_tolerance_kg: 0.5
+  qty_tolerance_rel: 0.005
+
+export:
+  forecast_dir: ml/artifacts/forecast/v1
+  anomaly_dir: ml/artifacts/anomaly/v1
+  timing_repeats: 50

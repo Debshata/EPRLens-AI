@@ -16,3 +16,12 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# ML runs, caches and logs (final metrics/artifacts are copied to ml/evaluation and ml/artifacts)
+ml/runs/
+ml/logs/
+.ipynb_checkpoints/
+
+# Exported model artifacts ARE committed (small: see ml/evaluation/aws_artifact_report.json)
+!ml/artifacts/**/*.joblib
+!ml/artifacts/**/*.onnx

@@ -1,0 +1,149 @@
+{
+  "model_name": "xgboost",
+  "model_version": "forecast-v1",
+  "algorithm": "xgboost",
+  "training_timestamp": "2026-10-09T14:33:27+00:00",
+  "git_commit": "b245219b183cd36ccc4b1752bb16609bd2e96b66",
+  "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+  "seed": 20261009,
+  "features": [
+    "log_packaging_kg",
+    "r_lag1",
+    "r_lag2",
+    "r_lag3",
+    "r_lag6",
+    "r_lag11",
+    "r_lag12",
+    "r_rm3",
+    "r_rm6",
+    "seasonal_shift",
+    "season_ratio",
+    "sales_growth",
+    "log_weight_g",
+    "weight_change",
+    "target_month_sin",
+    "target_month_cos",
+    "history_months",
+    "industry_Appliances",
+    "industry_Automotive",
+    "industry_Beverages",
+    "industry_Cosmetics",
+    "industry_E-commerce",
+    "industry_Electronics",
+    "industry_FMCG",
+    "industry_Food",
+    "industry_Household Products",
+    "industry_Industrial Goods",
+    "industry_Personal Care",
+    "industry_Pharmaceuticals",
+    "industry_Retail"
+  ],
+  "target": "next_month_packaging_kg",
+  "training_rows": 25985,
+  "validation_rows": 8057,
+  "test_rows": 10542,
+  "metrics": {
+    "validation": {
+      "mae_kg": 258.1304828335386,
+      "rmse_kg": 1104.9707021696042,
+      "r2": 0.9914805041909159,
+      "mape_pct_y_gt_1kg": 7.902531900270722,
+      "median_ape_pct": 6.4653687719247595,
+      "r2_log": 0.9976874852199106,
+      "rows": 8057
+    },
+    "test": {
+      "mae_kg": 401.56983023524197,
+      "rmse_kg": 2749.491886123409,
+      "r2": 0.9862572238851119,
+      "mape_pct_y_gt_1kg": 7.842279232987375,
+      "median_ape_pct": 6.524492446970795,
+      "r2_log": 0.997932846246355,
+      "rows": 10542
+    },
+    "test_last_value_baseline": {
+      "mae_kg": 659.7702866628723,
+      "rmse_kg": 4229.321710588579,
+      "r2": 0.9674829581366096,
+      "mape_pct_y_gt_1kg": 13.26846255762198,
+      "median_ape_pct": 10.325436897987839,
+      "r2_log": 0.9932215224118079,
+      "rows": 10542
+    },
+    "test_breakdown": {
+      "seen_companies": {
+        "mae_kg": 260.41965385484514,
+        "rmse_kg": 1166.978246940525,
+        "r2": 0.9886118491567278,
+        "mape_pct_y_gt_1kg": 7.75950217933782,
+        "median_ape_pct": 6.489688883519576,
+        "r2_log": 0.9978487814248569,
+        "rows": 8515
+      },
+      "held_out_companies": {
+        "mae_kg": 994.5119870576787,
+        "rmse_kg": 5796.174684491038,
+        "r2": 0.9854663191813224,
+        "mape_pct_y_gt_1kg": 8.190550547003014,
+        "median_ape_pct": 6.71308467350578,
+        "r2_log": 0.9981779052451027,
+        "rows": 2027
+      },
+      "last_value_seen": {
+        "mae_kg": 441.30683311802693,
+        "rmse_kg": 2117.9821026112654,
+        "r2": 0.9624878236402823,
+        "mape_pct_y_gt_1kg": 13.352057924508397,
+        "median_ape_pct": 10.439363504508522,
+        "r2_log": 0.9926498041651315,
+        "rows": 8515
+      },
+      "last_value_held_out": {
+        "mae_kg": 1577.4892343364577,
+        "rmse_kg": 8612.970390297305,
+        "r2": 0.9679078661292525,
+        "mape_pct_y_gt_1kg": 12.91674832055324,
+        "median_ape_pct": 10.025637685458957,
+        "r2_log": 0.9949937837489803,
+        "rows": 2027
+      }
+    },
+    "target_r2": 0.8,
+    "target_met": true
+  },
+  "python_version": "3.12.14",
+  "library_versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "xgboost": "3.4.0",
+    "joblib": "1.6.0",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.31.0",
+    "onnxmltools": "1.16.0",
+    "skl2onnx": "1.20.0",
+    "matplotlib": "3.11.2"
+  },
+  "params": {
+    "colsample_bytree": 0.9407415593496101,
+    "learning_rate": 0.014256764166827952,
+    "max_depth": 9,
+    "min_child_weight": 3.6526887020578847,
+    "reg_alpha": 0.15416238995437415,
+    "reg_lambda": 2.6435585897764167,
+    "subsample": 0.5697609133074022,
+    "weighting": "none"
+  },
+  "model_file": "model.onnx",
+  "runtime": "onnxruntime",
+  "onnx_parity": {
+    "max_abs_diff_log_ratio": 6.556510925292969e-07,
+    "max_rel_diff_kg": 7.152557373046875e-07,
+    "rows_checked": 2000
+  },
+  "synthetic_only": true,
+  "warning": "Trained and evaluated on SYNTHETIC data — metrics are not real-world accuracy.",
+  "artifact_sha256": "9f1099f4b190663c40400eb49680b13e4fecd987ba733d301cb36e621b6da6f9"
+}

@@ -1,0 +1,9 @@
+{
+  "company_id": "COMP_0001",
+  "product_id": "PROD_000001",
+  "target_month": "2026-03",
+  "forecast_kg": 603.748,
+  "model_version": "forecast-v1",
+  "model_name": "xgboost",
+  "status": "success"
+}

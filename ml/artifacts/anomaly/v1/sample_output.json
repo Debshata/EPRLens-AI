@@ -1,0 +1,21 @@
+{
+  "record_id": "INV_00017685",
+  "is_anomaly": true,
+  "anomaly_score": 0.599222,
+  "threshold": 0.53867,
+  "ml_flag": true,
+  "rule_findings": [
+    {
+      "rule_id": "QTY_MATCH_TOL",
+      "severity": "medium",
+      "reason": "line1: invoice 500.000 kg vs record 500000.000 kg"
+    },
+    {
+      "rule_id": "QTY_RATIO_POW10",
+      "severity": "high",
+      "reason": "record differs by a power of ten on lines [1]"
+    }
+  ],
+  "model_version": "anomaly-v1",
+  "status": "success"
+}

@@ -1,0 +1,8 @@
+{
+  "threshold": 0.5386695519803739,
+  "iforest_only_threshold": 0.515166130192634,
+  "score_definition": "anomaly_score = -IsolationForest.score_samples(x); higher = more unusual",
+  "decision": "is_anomaly = any deterministic rule triggered OR anomaly_score >= threshold",
+  "chosen_on": "validation companies only",
+  "max_fpr_constraint": 0.1
+}

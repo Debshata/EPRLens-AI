@@ -1,0 +1,59 @@
+{
+  "model_version": "anomaly-v1",
+  "feature_order": [
+    "log_amount_inr",
+    "log_total_kg",
+    "n_lines",
+    "max_qty_log_ratio",
+    "item_spike",
+    "item_mom",
+    "issuer_rel_amount",
+    "issuer_frequency",
+    "rate_rel",
+    "weight_rel",
+    "type_CREDIT_NOTE",
+    "type_FG_SALES",
+    "type_IMPORT_COMMERCIAL",
+    "type_MULTI_MATERIAL",
+    "type_PKG_COMPONENT",
+    "type_PKG_PURCHASE",
+    "type_RECYCLING_SERVICE",
+    "type_RETURN",
+    "type_WASTE_PROCUREMENT"
+  ],
+  "n_features": 19,
+  "record_types": [
+    "invoice",
+    "recycling"
+  ],
+  "request": "see ml/AWS_HANDOFF.md §Anomaly request — invoice header, lines (+ linked internal record and master component), master, context; or a recycling record",
+  "response": {
+    "is_anomaly": "bool",
+    "anomaly_score": "number | null (null for recycling records)",
+    "threshold": "number",
+    "rule_findings": "list of {rule_id, severity, reason}",
+    "ml_flag": "bool",
+    "model_version": "anomaly-v1",
+    "status": "success | error"
+  },
+  "forbidden_inputs": [
+    "anomaly_instance_id",
+    "anomaly_instance_ids",
+    "anomaly_type",
+    "anomaly_types",
+    "bad_value",
+    "expected_detection",
+    "expected_detection_method",
+    "expected_rule_ids",
+    "ground_truth",
+    "is_anomaly",
+    "label",
+    "modified_value",
+    "note",
+    "original_value",
+    "severity",
+    "split",
+    "test_case",
+    "test_case_type"
+  ]
+}

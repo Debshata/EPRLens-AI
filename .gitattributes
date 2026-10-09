@@ -7,3 +7,5 @@
 *.md text eol=lf
 *.pdf binary
 *.png binary
+*.onnx binary
+*.joblib binary
