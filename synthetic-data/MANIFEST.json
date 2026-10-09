@@ -2,7 +2,7 @@
   "synthetic": true,
   "watermark": "SYNTHETIC — EPRLens Demo",
   "generator_version": "1.0.0",
-  "git_commit": "dbfe2b215cf5b04211865b454718fb0f2c33dfbf",
+  "git_commit": "829896353618e8376e21c8655f0a3410621e542f",
   "seed": 20261009,
   "config_sha256": "9a68cdb0dc127ebe942016c91caaf4e5e3446cb1c28123d39c9a605ce36c80a0",
   "entity_config_sha256": "fae8d8de4d432aa783fdf9fe90133bfe37a902e783e473aae86fb1bdc8d96423",
@@ -17,7 +17,7 @@
     "synthetic-data/masters/entity_relationships.csv": "b1c7da4fd761cf3ddbd478a5b30f7b36d8fd69bf9c7907c514a22ab1787e70ea",
     "synthetic-data/masters/test_users.json": "9b262e67d7d45d551cc842b5e5babef1e4d4cfeee4f7ad5ce0704b6c66aff89d"
   },
-  "generated_at": "2026-10-09T13:15:30+00:00",
+  "generated_at": "2026-10-09T13:22:15+00:00",
   "python": "3.12.14",
   "run": {
     "company_limit": null,
