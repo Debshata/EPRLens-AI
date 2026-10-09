@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000034",
+  "invoice_id": "INV_00017398",
+  "invoice_number": "SYVA/2324/00002",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0198",
+  "supplier_id": "COMP_0198",
+  "buyer_id": "BUY_0106",
+  "expected_fields": {
+    "invoice_number": "SYVA/2324/00002",
+    "invoice_date": "2023-05-08",
+    "printed_date": "08-05-2023",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vananest Food Products LLP",
+    "vendor_gstin": "07DVCCO4587J3Z9",
+    "buyer": "Zarafizz Retail Mart",
+    "buyer_gstin": "29RDNFN4691W3Z0",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000034:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rituwave Spicy Bhujia 150 g",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "1905",
+        "quantity": 3089,
+        "unit": "pcs",
+        "printed_quantity": "3,089",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 83.403,
+        "normalization_requires_master": true,
+        "rate": 53.23,
+        "printed_rate": "53.23",
+        "amount": 164427.47,
+        "printed_amount": "1,64,427.47",
+        "gst_rate": 12,
+        "gst_amount": 19731.3,
+        "printed_description_lines": [
+          "Rituwave Spicy Bhujia 150 g"
+        ]
+      }
+    ],
+    "total_taxable_value": 164427.47,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 19731.3,
+    "gst": 19731.3,
+    "invoice_total": 184158.77,
+    "printed_total": "1,84,158.77",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    83.403
+  ],
+  "linked_transaction_ids": [
+    "TXN_00117422"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 17204159774770906499,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "fe7d3c5460b264e28708d446fb76d729dd168b5fb9b01b8f1356f1071a84e9cb"
+}

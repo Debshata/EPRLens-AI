@@ -1,0 +1,89 @@
+{
+  "document_id": "DOC_000351",
+  "invoice_id": "INV_00040001",
+  "invoice_number": "SYRN/2425/00002",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0013",
+  "supplier_id": "BUY_0060",
+  "buyer_id": "COMP_0013",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00002",
+    "invoice_date": "2024-05-14",
+    "printed_date": "14-May-2024",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Suvarnashore Supermarket LLP",
+    "vendor_gstin": "06YCGFB0075J2ZY",
+    "buyer": "Rituwick Healthcare LLP",
+    "buyer_gstin": "29TOCCY9858S3ZJ",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYRI/2425/00002",
+    "lines": [
+      {
+        "line_reference": "DOC_000351:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Arunbrook Multivitamin Capsules (synthetic SKU) 30 caps",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3004",
+        "quantity": 560,
+        "unit": "bottles",
+        "printed_quantity": "560",
+        "printed_unit": "Btl",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 9.52,
+        "normalization_requires_master": true,
+        "rate": 261.83,
+        "printed_rate": "261.83",
+        "amount": 146624.8,
+        "printed_amount": "1,46,624.80",
+        "gst_rate": 12,
+        "gst_amount": 17594.98,
+        "printed_description_lines": [
+          "Goods returned: Arunbrook Multivitamin Capsules (synthetic",
+          "SKU) 30 caps"
+        ]
+      }
+    ],
+    "total_taxable_value": 146624.8,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 17594.98,
+    "gst": 17594.98,
+    "invoice_total": 164219.78,
+    "printed_total": "1,64,219.78",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    9.52
+  ],
+  "linked_transaction_ids": [
+    "TXN_00119699"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 17459709328600991359,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "e13c77ee0f8a81f323846ea874a8f6449de7c9ea654f2c409828c8ac2bf21402"
+}

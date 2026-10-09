@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000771",
+  "invoice_id": "INV_00031898",
+  "invoice_number": "SYNO/2526/00016",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0127",
+  "supplier_id": "SUP_0108",
+  "buyer_id": "COMP_0127",
+  "expected_fields": {
+    "invoice_number": "SYNO/2526/00016",
+    "invoice_date": "2025-08-20",
+    "printed_date": "2025-08-20",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Novavale Flexibles Pvt Ltd",
+    "vendor_gstin": "19EJTCD9463Y3ZZ",
+    "buyer": "Vedastone Devices Ltd",
+    "buyer_gstin": "37DWVCI7868H1ZS",
+    "place_of_supply": "Andhra Pradesh (37)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000771:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Protective bag for 33 W - LDPE",
+        "material": "LDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 647,
+        "unit": "kg",
+        "printed_quantity": "647.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 647.0,
+        "normalization_requires_master": false,
+        "rate": 188.36,
+        "printed_rate": "188.36",
+        "amount": 121868.92,
+        "printed_amount": "121,868.92",
+        "gst_rate": 18,
+        "gst_amount": 21936.41,
+        "printed_description_lines": [
+          "Protective bag for 33 W - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 121868.92,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 21936.41,
+    "gst": 21936.41,
+    "invoice_total": 143805.33,
+    "printed_total": "143,805.33",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    647.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00154519"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 1918634427724294381,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "a0459ce5ae507a5c2e08c589bc048241908e949e46db6eb2544e210b4d890768"
+}

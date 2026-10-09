@@ -1,0 +1,122 @@
+{
+  "document_id": "DOC_000227",
+  "invoice_id": "INV_00042464",
+  "invoice_number": "SYVR/2324/00041",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0149",
+  "supplier_id": "SUP_0052",
+  "buyer_id": "COMP_0149",
+  "expected_fields": {
+    "invoice_number": "SYVR/2324/00041",
+    "invoice_date": "2024-01-21",
+    "printed_date": "21/01/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "cancelled",
+    "vendor": "Vrikshmint Flexibles Pvt Ltd",
+    "vendor_gstin": "09NOACJ2756U1ZT",
+    "buyer": "Rituwave Retail Pvt Ltd",
+    "buyer_gstin": "08INWCN2131K1Z6",
+    "place_of_supply": "Rajasthan (08)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000227:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Compostable carry bag for Bag Medium - COMPOSTABLE (lot 1/2)",
+        "material": "COMPOSTABLE",
+        "plastic_category": "CAT_IV",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 430,
+        "unit": "kg",
+        "printed_quantity": "430.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 430.0,
+        "normalization_requires_master": false,
+        "rate": 411.76,
+        "printed_rate": "411.76",
+        "amount": 177056.8,
+        "printed_amount": "1,77,056.80",
+        "gst_rate": 18,
+        "gst_amount": 31870.22,
+        "printed_description_lines": [
+          "Compostable carry bag for Bag Medium - COMPOSTABLE (lot",
+          "1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000227:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Compostable carry bag for Bag Medium - COMPOSTABLE (lot 2/2)",
+        "material": "COMPOSTABLE",
+        "plastic_category": "CAT_IV",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 581,
+        "unit": "kg",
+        "printed_quantity": "581.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 581.0,
+        "normalization_requires_master": false,
+        "rate": 411.76,
+        "printed_rate": "411.76",
+        "amount": 239232.56,
+        "printed_amount": "2,39,232.56",
+        "gst_rate": 18,
+        "gst_amount": 43061.86,
+        "printed_description_lines": [
+          "Compostable carry bag for Bag Medium - COMPOSTABLE (lot",
+          "2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 416289.36,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 74932.08,
+    "gst": 74932.08,
+    "invoice_total": 491221.44,
+    "printed_total": "4,91,221.44",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    430.0,
+    581.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00173738",
+    "TXN_00173739"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN14"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002144"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN14",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 7491784872983177517,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "93aba2792e86499ebdfa77b4415a8f7beb51801069ff1d2e7ea2117c8cbf072c"
+}

@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000039",
+  "invoice_id": "INV_00039366",
+  "invoice_number": "SYCH/2324/00013",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0195",
+  "supplier_id": "SUP_0002",
+  "buyer_id": "COMP_0195",
+  "expected_fields": {
+    "invoice_number": "SYCH/2324/00013",
+    "invoice_date": "2023-05-11",
+    "printed_date": "11/05/2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Chandraleaf Caps Pvt Ltd",
+    "vendor_gstin": "29PHMCO5664A2Z4",
+    "buyer": "Hirawick Household Products LLP",
+    "buyer_gstin": "02NMQCV2794G2ZU",
+    "place_of_supply": "Himachal Pradesh (02)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000039:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Actuator cap 220 ml - PP (7.0 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 219395,
+        "unit": "pcs",
+        "printed_quantity": "2,19,395",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 7.0,
+        "normalized_quantity_kg": 1535.765,
+        "normalization_requires_master": false,
+        "rate": 1.62,
+        "printed_rate": "1.62",
+        "amount": 355419.9,
+        "printed_amount": "3,55,419.90",
+        "gst_rate": 18,
+        "gst_amount": 63975.58,
+        "printed_description_lines": [
+          "Actuator cap 220 ml - PP (7.0 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 355419.9,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 63975.58,
+    "gst": 63975.58,
+    "invoice_total": 419395.48,
+    "printed_total": "4,19,395.48",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1535.765
+  ],
+  "linked_transaction_ids": [
+    "TXN_00171556"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001504"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 14296860320774963611,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "45d6a9e586ed750a2188cd67a23d6eb404b1076f28e8fe2bebb2bf49f7688ac9"
+}

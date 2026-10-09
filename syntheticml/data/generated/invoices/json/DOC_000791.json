@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000791",
+  "invoice_id": "INV_00038200",
+  "invoice_number": "SYVR/2526/00036",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0182",
+  "supplier_id": "SUP_0063",
+  "buyer_id": "COMP_0182",
+  "expected_fields": {
+    "invoice_number": "SYVR/2526/00036",
+    "invoice_date": "2025-09-18",
+    "printed_date": "18-Sep-2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshkart Pack Components Pvt Ltd",
+    "vendor_gstin": "07ZBDCR3506M3ZE",
+    "buyer": "Pranacrest Automotive Parts Pvt Ltd",
+    "buyer_gstin": "32JYXCB9888S2ZA",
+    "place_of_supply": "Kerala (32)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000791:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PP tray Set Rear - PP (20.4 g/pc)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 53213,
+        "unit": "pcs",
+        "printed_quantity": "53,213",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 20.4,
+        "normalized_quantity_kg": 1085.545,
+        "normalization_requires_master": false,
+        "rate": 3.26,
+        "printed_rate": "3.26",
+        "amount": 173474.38,
+        "printed_amount": "1,73,474.38",
+        "gst_rate": 18,
+        "gst_amount": 31225.39,
+        "printed_description_lines": [
+          "PP tray Set Rear - PP (20.4 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 173474.38,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 31225.39,
+    "gst": 31225.39,
+    "invoice_total": 204699.77,
+    "printed_total": "2,04,699.77",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1085.545
+  ],
+  "linked_transaction_ids": [
+    "TXN_00168904"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "g_and_pcs_units",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 4560146305032664724,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "5057e3d7cc1ea828202923294497ecaff26cc6f59f7a96868082243b3a9b5211"
+}

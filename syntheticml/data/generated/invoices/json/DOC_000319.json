@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000319",
+  "invoice_id": "INV_00019769",
+  "invoice_number": "SYOJ/2425/00007",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0026",
+  "supplier_id": "SUP_0075",
+  "buyer_id": "COMP_0026",
+  "expected_fields": {
+    "invoice_number": "SYOJ/2425/00007",
+    "invoice_date": "2024-04-11",
+    "printed_date": "11/04/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ojasvale Converters Pvt Ltd",
+    "vendor_gstin": "27XMNCX7424K3ZS",
+    "buyer": "Dharawick Food Products LLP",
+    "buyer_gstin": "06AXTCW0125X3ZY",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000319:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Inner tray for 200 g - PS",
+        "material": "PS",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": null,
+        "unit": "kg",
+        "printed_quantity": "",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 240.96,
+        "printed_rate": "240.96",
+        "amount": 153009.6,
+        "printed_amount": "153,009.60",
+        "gst_rate": 18,
+        "gst_amount": 27541.73,
+        "printed_description_lines": [
+          "Inner tray for 200 g - PS"
+        ]
+      }
+    ],
+    "total_taxable_value": 153009.6,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 27541.73,
+    "gst": 27541.73,
+    "invoice_total": 180551.33,
+    "printed_total": "180,551.33",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    635.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00126680"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN06"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001656"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN06",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 4017227999245904893,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "a01cadbff06e8380e55e269045c086feea5cbf87ddb59f7fef88bd1c2b2181c5"
+}

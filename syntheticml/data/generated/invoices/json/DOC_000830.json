@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000830",
+  "invoice_id": "INV_00023943",
+  "invoice_number": "SYBO/2526/00097",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0055",
+  "supplier_id": "SUP_0018",
+  "buyer_id": "COMP_0055",
+  "expected_fields": {
+    "invoice_number": "SYBO/2526/00097",
+    "invoice_date": "2025-11-14",
+    "printed_date": "2025-11-14",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Bodhiridge Converters Pvt Ltd",
+    "vendor_gstin": "27IBICS1654G1ZJ",
+    "buyer": "Ecohaven Consumer Products Pvt Ltd",
+    "buyer_gstin": "24PEECC9884T3ZR",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000830:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminated tube for 150 g - MLP",
+        "material": "MLP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 7275,
+        "unit": "kg",
+        "printed_quantity": "7,275.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 7275.0,
+        "normalization_requires_master": false,
+        "rate": 325.91,
+        "printed_rate": "325.91",
+        "amount": 2370995.25,
+        "printed_amount": "23,70,995.25",
+        "gst_rate": 18,
+        "gst_amount": 426779.15,
+        "printed_description_lines": [
+          "Laminated tube for 150 g - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 2370995.25,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 426779.15,
+    "gst": 426779.15,
+    "invoice_total": 2797774.4,
+    "printed_total": "27,97,774.40",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    7275.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00135976"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 5323061609544234099,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "652b05809680f647c8769b6a372a36fbf24c49b34324e4796f31e6cc88e90288"
+}

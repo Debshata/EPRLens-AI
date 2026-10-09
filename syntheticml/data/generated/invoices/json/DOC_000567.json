@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000567",
+  "invoice_id": "INV_00032830",
+  "invoice_number": "SYVR/2425/00032",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0138",
+  "supplier_id": "SUP_0074",
+  "buyer_id": "COMP_0138",
+  "expected_fields": {
+    "invoice_number": "SYVR/2425/00032",
+    "invoice_date": "2025-02-11",
+    "printed_date": "11/02/2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshdale Closures Pvt Ltd",
+    "vendor_gstin": "18UAVCK2044O1Z6",
+    "buyer": "Chandrawave Life Sciences LLP",
+    "buyer_gstin": "30NTTCR7850D2ZE",
+    "place_of_supply": "Goa (30)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000567:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 60 caps - PP (36.4 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 1179539,
+        "unit": "pcs",
+        "printed_quantity": "11,79,539",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 36.4,
+        "normalized_quantity_kg": 42935.22,
+        "normalization_requires_master": false,
+        "rate": 0.82,
+        "printed_rate": "0.82",
+        "amount": 967221.98,
+        "printed_amount": "9,67,221.98",
+        "gst_rate": 18,
+        "gst_amount": 174099.96,
+        "printed_description_lines": [
+          "Cap 60 caps - PP (36.4 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000567:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Cap 60 caps - PP (4.0 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 1096808,
+        "unit": "pcs",
+        "printed_quantity": "10,96,808",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 4.0,
+        "normalized_quantity_kg": 4387.232,
+        "normalization_requires_master": false,
+        "rate": 0.82,
+        "printed_rate": "0.82",
+        "amount": 899382.56,
+        "printed_amount": "8,99,382.56",
+        "gst_rate": 18,
+        "gst_amount": 161888.86,
+        "printed_description_lines": [
+          "Cap 60 caps - PP (4.0 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 1866604.54,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 335988.82,
+    "gst": 335988.82,
+    "invoice_total": 2202593.36,
+    "printed_total": "22,02,593.36",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    4718.156,
+    4387.232
+  ],
+  "linked_transaction_ids": [
+    "TXN_00156665",
+    "TXN_00156666"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN10"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001547"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN10",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 5248750550009479086,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "0a219748959cb42b8cc6434a01c249cf04b95460ebfb60bc7208c37c0f4b3493"
+}

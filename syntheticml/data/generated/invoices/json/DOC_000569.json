@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000569",
+  "invoice_id": "INV_00031598",
+  "invoice_number": "SYUD/2425/00039",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0125",
+  "supplier_id": "SUP_0083",
+  "buyer_id": "COMP_0125",
+  "expected_fields": {
+    "invoice_number": "SYUD/2425/00039",
+    "invoice_date": "2025-02-12",
+    "printed_date": "12/02/2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Udayafield Labels Pvt Ltd",
+    "vendor_gstin": "27OQPCH5123Q1Z9",
+    "buyer": "Purewick Personal Care Pvt Ltd",
+    "buyer_gstin": "27PMMCO6513E2Z7",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000569:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Label 180 ml - PP (0.7 g/pc)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3919",
+        "quantity": 444933,
+        "unit": "pcs",
+        "printed_quantity": "444,933",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 0.7,
+        "normalized_quantity_kg": 311.453,
+        "normalization_requires_master": false,
+        "rate": 0.11,
+        "printed_rate": "0.11",
+        "amount": 48942.63,
+        "printed_amount": "48,942.63",
+        "gst_rate": 18,
+        "gst_amount": 8809.67,
+        "printed_description_lines": [
+          "Label 180 ml - PP (0.7 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 48942.63,
+    "cgst": 4404.84,
+    "sgst": 4404.83,
+    "igst": 0.0,
+    "gst": 8809.67,
+    "invoice_total": 57752.3,
+    "printed_total": "57,752.30",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    311.453
+  ],
+  "linked_transaction_ids": [
+    "TXN_00153448"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 10690583647298455530,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "59389ffc36077bc718aefe9f080b1bb450547ee621dc2332639c8856020cee08"
+}

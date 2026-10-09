@@ -1,0 +1,93 @@
+{
+  "document_id": "DOC_000303",
+  "invoice_id": "INV_00046405",
+  "invoice_number": "SYPR/2324/00004",
+  "invoice_type": "RECYCLER_PROCESSING",
+  "invoice_type_code": "IT03",
+  "company_id": "COMP_0163",
+  "supplier_id": "REC_0024",
+  "buyer_id": "COMP_0163",
+  "expected_fields": {
+    "invoice_number": "SYPR/2324/00004",
+    "invoice_date": "2024-03-26",
+    "printed_date": "26/03/2024",
+    "invoice_type": "RECYCLER_PROCESSING",
+    "title": "TAX INVOICE - PROCESSING SERVICES",
+    "status": "issued",
+    "vendor": "Pranastone Waste Solutions Pvt Ltd",
+    "vendor_gstin": "06CXZCH1457A3ZL",
+    "buyer": "Saffravale Food Products Pvt Ltd",
+    "buyer_gstin": "27XUVCN2267X1ZW",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000303:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Processing of post-consumer CAT_I plastic waste 2023-08 (received 2810.41 kg)",
+        "material": null,
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 2608.68,
+        "unit": "kg",
+        "printed_quantity": "2,608.68",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2608.68,
+        "normalization_requires_master": false,
+        "rate": 8.52,
+        "printed_rate": "8.52",
+        "amount": 22225.95,
+        "printed_amount": "22,225.95",
+        "gst_rate": 18,
+        "gst_amount": 4000.67,
+        "printed_description_lines": [
+          "Processing of post-consumer CAT_I plastic waste 2023-08",
+          "(received 2810.41 kg)"
+        ]
+      }
+    ],
+    "total_taxable_value": 22225.95,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 4000.67,
+    "gst": 4000.67,
+    "invoice_total": 26226.62,
+    "printed_total": "26,226.62",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2608.675
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [
+    "RCY_0012050"
+  ],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN13"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002914"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN13",
+  "paired_document_id": null,
+  "template_id": "L10",
+  "template_name": "Recycler service",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 10246604320602157217,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ad9fb2071e271ec83c7ed62da6c4335cd2922a96d6501b498d55743ee9727ba5"
+}

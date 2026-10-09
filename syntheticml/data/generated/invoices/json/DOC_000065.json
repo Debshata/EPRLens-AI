@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000065",
+  "invoice_id": "INV_00028357",
+  "invoice_number": "SYUD/2324/00010",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0095",
+  "supplier_id": "SUP_0083",
+  "buyer_id": "COMP_0095",
+  "expected_fields": {
+    "invoice_number": "SYUD/2324/00010",
+    "invoice_date": "2023-06-10",
+    "printed_date": "10/06/2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Udayafield Labels Pvt Ltd",
+    "vendor_gstin": "27OQPCH5123Q1Z9",
+    "buyer": "Pranaray Home Care Ltd",
+    "buyer_gstin": "27XUNCS9952M3ZR",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000065:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Label 500 ml - PP (1.2 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 282011,
+        "unit": "pcs",
+        "printed_quantity": "2,82,011",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 1.2,
+        "normalized_quantity_kg": 338.413,
+        "normalization_requires_master": false,
+        "rate": 0.18,
+        "printed_rate": "0.18",
+        "amount": 50761.98,
+        "printed_amount": "50,761.98",
+        "gst_rate": 18,
+        "gst_amount": 9137.16,
+        "printed_description_lines": [
+          "Label 500 ml - PP (1.2 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000065:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Label 500 ml - PP (1.2 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 224748,
+        "unit": "pcs",
+        "printed_quantity": "2,24,748",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 1.2,
+        "normalized_quantity_kg": 269.698,
+        "normalization_requires_master": false,
+        "rate": 0.18,
+        "printed_rate": "0.18",
+        "amount": 40454.64,
+        "printed_amount": "40,454.64",
+        "gst_rate": 18,
+        "gst_amount": 7281.84,
+        "printed_description_lines": [
+          "Label 500 ml - PP (1.2 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 91216.62,
+    "cgst": 8209.5,
+    "sgst": 8209.5,
+    "igst": 0.0,
+    "gst": 16419.0,
+    "invoice_total": 107635.62,
+    "printed_total": "1,07,635.62",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    338.413,
+    430.13
+  ],
+  "linked_transaction_ids": [
+    "TXN_00146119",
+    "TXN_00146120"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN07"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000753"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN07",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 6005410137740622896,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ff67f691a1d228c4340494efe613be73ae18b8c6c4e1540ee896c07ce5183ada"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000098",
+  "invoice_id": "INV_00000207",
+  "invoice_number": "SYTA/2324/00009",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0003",
+  "supplier_id": "COMP_0003",
+  "buyer_id": "BUY_0010",
+  "expected_fields": {
+    "invoice_number": "SYTA/2324/00009",
+    "invoice_date": "2023-08-09",
+    "printed_date": "09-Aug-2023",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Tarapath Hygiene Products Ltd",
+    "vendor_gstin": "23CLTCJ1977Z3ZN",
+    "buyer": "Nilapeak Wholesale Traders LLP",
+    "buyer_gstin": "06YUEFM8629B3Z3",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000098:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Lumipeak Aloe Gel 200 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3305",
+        "quantity": 9680,
+        "unit": "bottles",
+        "printed_quantity": "9,680",
+        "printed_unit": "Btl",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 686.312,
+        "normalization_requires_master": true,
+        "rate": 151.9,
+        "printed_rate": "151.90",
+        "amount": 1470392.0,
+        "printed_amount": "14,70,392.00",
+        "gst_rate": 18,
+        "gst_amount": 264670.56,
+        "printed_description_lines": [
+          "Lumipeak Aloe Gel 200 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 1470392.0,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 264670.56,
+    "gst": 264670.56,
+    "invoice_total": 1735062.56,
+    "printed_total": "17,35,062.56",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    686.312
+  ],
+  "linked_transaction_ids": [
+    "TXN_00000741"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "igst_ship_to",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 13267031096837715348,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "29f164f9fd6b7182e6d3f1e64aa708afa10819cd824fa3decef179e06809feff"
+}

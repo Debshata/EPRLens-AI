@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000420",
+  "invoice_id": "INV_00041290",
+  "invoice_number": "SYRN/2425/00004",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0136",
+  "supplier_id": "BUY_0013",
+  "buyer_id": "COMP_0136",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00004",
+    "invoice_date": "2024-08-08",
+    "printed_date": "08/08/2024",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Vrikshleaf Wholesalers LLP",
+    "vendor_gstin": "19NGMFP3128H1ZQ",
+    "buyer": "Mithrahaven Consumer Products LLP",
+    "buyer_gstin": "19AYECI5610Z2ZH",
+    "place_of_supply": "West Bengal (19)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYMI/2425/00008",
+    "lines": [
+      {
+        "line_reference": "DOC_000420:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Puremint Clove Gel 150 g",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 2084,
+        "unit": "pcs",
+        "printed_quantity": "2,084",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 43.347,
+        "normalization_requires_master": true,
+        "rate": 14.4,
+        "printed_rate": "14.40",
+        "amount": 30009.6,
+        "printed_amount": "30,009.60",
+        "gst_rate": 18,
+        "gst_amount": 5401.73,
+        "printed_description_lines": [
+          "Goods returned: Puremint Clove Gel 150 g"
+        ]
+      }
+    ],
+    "total_taxable_value": 30009.6,
+    "cgst": 2700.86,
+    "sgst": 2700.87,
+    "igst": 0.0,
+    "gst": 5401.73,
+    "invoice_total": 35411.33,
+    "printed_total": "35,411.33",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN16"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002282"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN16",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 2439948434223008050,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "193c0fc3f934e95703096524573ada8709a7b03b9d6fb5bb2d6ceb6681e2490e"
+}

@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000922",
+  "invoice_id": "INV_00033727",
+  "invoice_number": "SYEXP-00048",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0145",
+  "supplier_id": "SUP_0060",
+  "buyer_id": "COMP_0145",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00048",
+    "invoice_date": "2026-02-23",
+    "printed_date": "23-Feb-2026",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Samavale Cap Works Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Samamint Consumer Goods Pvt Ltd",
+    "buyer_gstin": "07KGSCV0557V1Z4",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000922:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Flip cap 100 g - PP (4.0 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 4835,
+        "unit": "pcs",
+        "printed_quantity": "4,835",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 4.0,
+        "normalized_quantity_kg": 19.34,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 48.35,
+        "printed_amount": "48.35",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Flip cap 100 g - PP (4.0 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000922:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Flip cap 100 g - PP (4.0 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 3370,
+        "unit": "pcs",
+        "printed_quantity": "3,370",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 4.0,
+        "normalized_quantity_kg": 13.48,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 33.7,
+        "printed_amount": "33.70",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Flip cap 100 g - PP (4.0 g/pc) (lot 2/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000922:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Flip cap 150 g - PP (2.7 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 865391,
+        "unit": "pcs",
+        "printed_quantity": "8,65,391",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 2.7,
+        "normalized_quantity_kg": 2336.556,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 8653.91,
+        "printed_amount": "8,653.91",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Flip cap 150 g - PP (2.7 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 8735.96,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 8735.96,
+    "printed_total": "8,735.96",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    0.019,
+    13.48,
+    2336.556
+  ],
+  "linked_transaction_ids": [
+    "TXN_00158820",
+    "TXN_00158821",
+    "TXN_00158867"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN02"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000412"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN02",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 4230386600584341901,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "2343df57d5dd8537f66cd4ff2779ad08e577f7c43d8e4f0793733288baf444a8"
+}

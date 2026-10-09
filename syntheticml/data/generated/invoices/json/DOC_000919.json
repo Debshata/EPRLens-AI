@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000919",
+  "invoice_id": "INV_00037811",
+  "invoice_number": "SYRI/2526/00059",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0179",
+  "supplier_id": "SUP_0039",
+  "buyer_id": "COMP_0179",
+  "expected_fields": {
+    "invoice_number": "SYRI/2526/00059",
+    "invoice_date": "2026-02-21",
+    "printed_date": "2026-02-21",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Rituvista Packaging Components Pvt Ltd",
+    "vendor_gstin": "23IQKCC6220C3Z8",
+    "buyer": "Vanastone Appliances Pvt Ltd",
+    "buyer_gstin": "29USCCM6416B3Z5",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000919:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "EPS blocks 400 mm - PS (161.8 g/pc) (lot 1/2)",
+        "material": "PS",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 213,
+        "unit": "pcs",
+        "printed_quantity": "213",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 161.8,
+        "normalized_quantity_kg": 34.463,
+        "normalization_requires_master": false,
+        "rate": 34.44,
+        "printed_rate": "34.44",
+        "amount": 7335.72,
+        "printed_amount": "7335.72",
+        "gst_rate": 18,
+        "gst_amount": 1320.43,
+        "printed_description_lines": [
+          "EPS blocks 400 mm - PS (161.8 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000919:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "EPS blocks 400 mm - PS (161.8 g/pc) (lot 2/2)",
+        "material": "PS",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 310,
+        "unit": "pcs",
+        "printed_quantity": "310",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 161.8,
+        "normalized_quantity_kg": 50.158,
+        "normalization_requires_master": false,
+        "rate": 34.44,
+        "printed_rate": "34.44",
+        "amount": 10676.4,
+        "printed_amount": "10676.40",
+        "gst_rate": 18,
+        "gst_amount": 1921.75,
+        "printed_description_lines": [
+          "EPS blocks 400 mm - PS (161.8 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 18012.12,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 3242.18,
+    "gst": 3242.18,
+    "invoice_total": 21254.3,
+    "printed_total": "21254.30",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    34.463,
+    50.158
+  ],
+  "linked_transaction_ids": [
+    "TXN_00168069",
+    "TXN_00168070"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001461"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "plain",
+    "currency_mark": "INR"
+  },
+  "seed": 15014182182633834617,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "553934b43c3efc9494d7135c53490962530a8c223d7e33b6aba0c6579a91e916"
+}

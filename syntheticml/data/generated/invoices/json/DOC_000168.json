@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000168",
+  "invoice_id": "INV_00042163",
+  "invoice_number": "SYCN/2324/00001",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0095",
+  "supplier_id": "SUP_0006",
+  "buyer_id": "COMP_0095",
+  "expected_fields": {
+    "invoice_number": "SYCN/2324/00001",
+    "invoice_date": "2023-10-25",
+    "printed_date": "25-Oct-2023",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Taravale Pouch Pack Pvt Ltd",
+    "vendor_gstin": "36HXLCQ8971U3ZZ",
+    "buyer": "Pranaray Home Care Ltd",
+    "buyer_gstin": "27XUNCS9952M3ZR",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYTA/2324/00018",
+    "lines": [
+      {
+        "line_reference": "DOC_000168:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2023-10-09",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 25.66,
+        "printed_rate": "25.66",
+        "amount": 25.66,
+        "printed_amount": "25.66",
+        "gst_rate": 18,
+        "gst_amount": 4.62,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2023-10-09"
+        ]
+      }
+    ],
+    "total_taxable_value": 25.66,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 4.62,
+    "gst": 4.62,
+    "invoice_total": 30.28,
+    "printed_total": "30.28",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN15"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002222"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN15",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 7368061341014362072,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "dcbcfbd7aa9e542dda857530bef797ef44351f2d60f6705274e92c18590ecb08"
+}

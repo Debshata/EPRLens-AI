@@ -1,0 +1,122 @@
+{
+  "document_id": "DOC_000083",
+  "invoice_id": "INV_00035696",
+  "invoice_number": "SYUD/2324/00032",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0163",
+  "supplier_id": "SUP_0013",
+  "buyer_id": "COMP_0163",
+  "expected_fields": {
+    "invoice_number": "SYUD/2324/00032",
+    "invoice_date": "2023-07-17",
+    "printed_date": "17/07/2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Udayacrest Corrugators Pvt Ltd",
+    "vendor_gstin": "29ESWCM6163W3ZH",
+    "buyer": "Saffravale Food Products Pvt Ltd",
+    "buyer_gstin": "27XUVCN2267X1ZW",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000083:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Outer carton (per-unit share) 100 g - CARDBOARD (20.5 g/pc) (lot 1/2)",
+        "material": "CARDBOARD",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "4819",
+        "quantity": 77538,
+        "unit": "pcs",
+        "printed_quantity": "77,538",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 20.5,
+        "normalized_quantity_kg": 1589.529,
+        "normalization_requires_master": false,
+        "rate": 1.77,
+        "printed_rate": "1.77",
+        "amount": 137242.26,
+        "printed_amount": "1,37,242.26",
+        "gst_rate": 18,
+        "gst_amount": 24703.61,
+        "printed_description_lines": [
+          "Outer carton (per-unit share) 100 g - CARDBOARD (20.5 g/pc)",
+          "(lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000083:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Outer carton (per-unit share) 100 g - CARDBOARD (20.5 g/pc) (lot 2/2)",
+        "material": "CARDBOARD",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "4819",
+        "quantity": 100954,
+        "unit": "pcs",
+        "printed_quantity": "1,00,954",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 20.5,
+        "normalized_quantity_kg": 2069.557,
+        "normalization_requires_master": false,
+        "rate": 1.77,
+        "printed_rate": "1.77",
+        "amount": 178688.58,
+        "printed_amount": "1,78,688.58",
+        "gst_rate": 18,
+        "gst_amount": 32163.94,
+        "printed_description_lines": [
+          "Outer carton (per-unit share) 100 g - CARDBOARD (20.5 g/pc)",
+          "(lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 315930.84,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 56867.55,
+    "gst": 56867.55,
+    "invoice_total": 372798.39,
+    "printed_total": "3,72,798.39",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    158.953,
+    2069.557
+  ],
+  "linked_transaction_ids": [
+    "TXN_00163269",
+    "TXN_00163270"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN02"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000442"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN02",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 9970556129076566468,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "82fa8a7b684262de073dff0f572a8d33e355b80da9c577a053a530ee2ab1a3a1"
+}

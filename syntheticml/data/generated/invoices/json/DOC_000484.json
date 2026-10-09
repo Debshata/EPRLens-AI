@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000484",
+  "invoice_id": "INV_00042175",
+  "invoice_number": "SYCN/2425/00001",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0107",
+  "supplier_id": "SUP_0117",
+  "buyer_id": "COMP_0107",
+  "expected_fields": {
+    "invoice_number": "SYCN/2425/00001",
+    "invoice_date": "2024-11-09",
+    "printed_date": "09/11/2024",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Hirabloom Pouch Pack Pvt Ltd",
+    "vendor_gstin": "07OXMCU3405C2ZL",
+    "buyer": "Arunwick Consumer Goods Pvt Ltd",
+    "buyer_gstin": "27YMICO3136Z2ZP",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYHI/2425/00016",
+    "lines": [
+      {
+        "line_reference": "DOC_000484:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2024-11-01",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 19630.29,
+        "printed_rate": "19,630.29",
+        "amount": 19630.29,
+        "printed_amount": "19,630.29",
+        "gst_rate": 18,
+        "gst_amount": 3533.45,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2024-11-01"
+        ]
+      }
+    ],
+    "total_taxable_value": 19630.29,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 3533.45,
+    "gst": 3533.45,
+    "invoice_total": 23163.74,
+    "printed_total": "23,163.74",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [
+    "TXN_00172949"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "credit_note_applied",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 18245638941374960754,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "21076b2dbd2532805b49e03da1e724a2e29103299e2d3f1359556998c7b855c4"
+}

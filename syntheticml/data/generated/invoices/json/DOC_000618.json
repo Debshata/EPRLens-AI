@@ -1,0 +1,93 @@
+{
+  "document_id": "DOC_000618",
+  "invoice_id": "INV_00046421",
+  "invoice_number": "SYRI/2425/00002",
+  "invoice_type": "RECYCLER_PROCESSING",
+  "invoice_type_code": "IT03",
+  "company_id": "COMP_0017",
+  "supplier_id": "REC_0038",
+  "buyer_id": "COMP_0017",
+  "expected_fields": {
+    "invoice_number": "SYRI/2425/00002",
+    "invoice_date": "2025-03-21",
+    "printed_date": "21-Mar-2025",
+    "invoice_type": "RECYCLER_PROCESSING",
+    "title": "TAX INVOICE - PROCESSING SERVICES",
+    "status": "issued",
+    "vendor": "Ritupath Recyclers Pvt Ltd",
+    "vendor_gstin": "27PPFCO5099A3ZB",
+    "buyer": "Taragrove Beauty Pvt Ltd",
+    "buyer_gstin": "06XJFCM8140M2ZD",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000618:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Processing of post-consumer CAT_I plastic waste 2024-11 (received 7092.15 kg)",
+        "material": null,
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 6816.68,
+        "unit": "kg",
+        "printed_quantity": "6,816.68",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 6816.68,
+        "normalization_requires_master": false,
+        "rate": 11.52,
+        "printed_rate": "11.52",
+        "amount": 78528.15,
+        "printed_amount": "78,528.15",
+        "gst_rate": 18,
+        "gst_amount": 14135.07,
+        "printed_description_lines": [
+          "Processing of post-consumer CAT_I plastic waste 2024-11",
+          "(received 7092.15 kg)"
+        ]
+      }
+    ],
+    "total_taxable_value": 78528.15,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 14135.07,
+    "gst": 14135.07,
+    "invoice_total": 92663.22,
+    "printed_total": "92,663.22",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    6816.679
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [
+    "RCY_0001152"
+  ],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN13"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002930"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN13",
+  "paired_document_id": null,
+  "template_id": "L10",
+  "template_name": "Recycler service",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 5410777302558204269,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "9a48afc3308a710497d5d9a755bc820e9eaf36cf0dc30b83be11a163af7ffea7"
+}

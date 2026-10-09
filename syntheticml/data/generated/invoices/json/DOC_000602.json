@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000602",
+  "invoice_id": "INV_00018543",
+  "invoice_number": "SYEXP-00041",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0013",
+  "supplier_id": "SUP_0008",
+  "buyer_id": "COMP_0013",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00041",
+    "invoice_date": "2025-03-20",
+    "printed_date": "20-03-2025",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshbloom Packaging Solutions Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Rituwick Healthcare LLP",
+    "buyer_gstin": "29TOCCY9858S3ZJ",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000602:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 30 caps - HDPE",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 431,
+        "unit": "kg",
+        "printed_quantity": "431.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 431.0,
+        "normalization_requires_master": false,
+        "rate": 2.29,
+        "printed_rate": "2.29",
+        "amount": 986.99,
+        "printed_amount": "986.99",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "HDPE bottle for 30 caps - HDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 986.99,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 986.99,
+    "printed_total": "986.99",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    4310.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00124144"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN01"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000296"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN01",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "plain",
+    "currency_mark": "USD"
+  },
+  "seed": 6235911335914955172,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "20f98c966f04a705c745fa093fa8dc0fc597b5d865731793e6a63447f21dbd3c"
+}

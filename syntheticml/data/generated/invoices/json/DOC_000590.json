@@ -1,0 +1,122 @@
+{
+  "document_id": "DOC_000590",
+  "invoice_id": "INV_00037107",
+  "invoice_number": "SYTA/2425/00033",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0173",
+  "supplier_id": "SUP_0107",
+  "buyer_id": "COMP_0173",
+  "expected_fields": {
+    "invoice_number": "SYTA/2425/00033",
+    "invoice_date": "2025-03-04",
+    "printed_date": "04-03-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Tarapeak Polyfilms Pvt Ltd",
+    "vendor_gstin": "23WPMCW9877G1ZE",
+    "buyer": "Lumiroot Industrial Products Pvt Ltd",
+    "buyer_gstin": "08SVTCR2627V1ZW",
+    "place_of_supply": "Rajasthan (08)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000590:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Stretch wrap (per-unit share) for 20 L - PP (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 66,
+        "unit": "kg",
+        "printed_quantity": "66.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 66.0,
+        "normalization_requires_master": false,
+        "rate": 153.25,
+        "printed_rate": "153.25",
+        "amount": 10114.5,
+        "printed_amount": "10114.50",
+        "gst_rate": 12,
+        "gst_amount": 1213.74,
+        "printed_description_lines": [
+          "Stretch wrap (per-unit share) for 20 L - PP (lot",
+          "1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000590:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Stretch wrap (per-unit share) for 20 L - LLDPE (lot 2/2)",
+        "material": "LLDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 93,
+        "unit": "kg",
+        "printed_quantity": "93.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 93.0,
+        "normalization_requires_master": false,
+        "rate": 153.25,
+        "printed_rate": "153.25",
+        "amount": 14252.25,
+        "printed_amount": "14252.25",
+        "gst_rate": 12,
+        "gst_amount": 1710.27,
+        "printed_description_lines": [
+          "Stretch wrap (per-unit share) for 20 L - LLDPE (lot",
+          "2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 24366.75,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 2924.01,
+    "gst": 2924.01,
+    "invoice_total": 27290.76,
+    "printed_total": "27290.76",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    66.0,
+    93.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00166566",
+    "TXN_00166567"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN03"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001374"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN03",
+  "paired_document_id": null,
+  "template_id": "L02",
+  "template_name": "Modern corporate",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "plain",
+    "currency_mark": "INR"
+  },
+  "seed": 5918204441292292597,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "f1ff8a07223c3e3155330f00857573a15a825454760af57d15d7ff9e670bac41"
+}

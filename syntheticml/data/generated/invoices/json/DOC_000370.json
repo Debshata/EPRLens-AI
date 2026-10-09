@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000370",
+  "invoice_id": "INV_00021580",
+  "invoice_number": "SYEXP-00016",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0039",
+  "supplier_id": "SUP_0048",
+  "buyer_id": "COMP_0039",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00016",
+    "invoice_date": "2024-06-06",
+    "printed_date": "2024-06-06",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Jalashore Cap Works Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Hiragrove Drinks Ltd",
+    "buyer_gstin": "03NRTCY3105C1Z0",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000370:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 750 ml - PP (1.7 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 237089,
+        "unit": "pcs",
+        "printed_quantity": "2,37,089",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 1.7,
+        "normalized_quantity_kg": 403.051,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 2370.89,
+        "printed_amount": "2,370.89",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Cap 750 ml - PP (1.7 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000370:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Cap 750 ml - PP (1.7 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 240322,
+        "unit": "pcs",
+        "printed_quantity": "2,40,322",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 1.7,
+        "normalized_quantity_kg": 408.547,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 2403.22,
+        "printed_amount": "2,403.22",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Cap 750 ml - PP (1.7 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 4774.11,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 4774.11,
+    "printed_total": "4,774.11",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    40.305,
+    408.547
+  ],
+  "linked_transaction_ids": [
+    "TXN_00130758",
+    "TXN_00130759"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN02"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000487"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN02",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 1527216370868199566,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c491c7ead682b16d7dd38d9a16abcbe9650a496e5d8f906d4e25cd1260e7e9ed"
+}

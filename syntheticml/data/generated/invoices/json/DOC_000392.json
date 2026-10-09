@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000392",
+  "invoice_id": "INV_00025718",
+  "invoice_number": "SYAQ/2425/00018",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0069",
+  "supplier_id": "SUP_0097",
+  "buyer_id": "COMP_0069",
+  "expected_fields": {
+    "invoice_number": "SYAQ/2425/00018",
+    "invoice_date": "2024-07-03",
+    "printed_date": "03-07-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Aquafield Flexibles Pvt Ltd",
+    "vendor_gstin": "29MWFCU9588Y1Z5",
+    "buyer": "Vanahaven Consumer Products LLP",
+    "buyer_gstin": "21EXZCC2370V3Z7",
+    "place_of_supply": "Odisha (21)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000392:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LLDPE pouch for 1 kg - LLDPE",
+        "material": "LLDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 3030,
+        "unit": "kg",
+        "printed_quantity": "3,030.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 3030.0,
+        "normalization_requires_master": false,
+        "rate": 195.46,
+        "printed_rate": "195.46",
+        "amount": 592243.8,
+        "printed_amount": "5,92,243.80",
+        "gst_rate": 18,
+        "gst_amount": 106603.88,
+        "printed_description_lines": [
+          "LLDPE pouch for 1 kg - LLDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 592243.8,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 106603.88,
+    "gst": 106603.88,
+    "invoice_total": 698847.68,
+    "printed_total": "6,98,847.68",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    3030.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00139859"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 6226212506792790004,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "226755f31b21e93bc7d1554539da7c0515e241c06fac60fac4d84c39a746eaa8"
+}

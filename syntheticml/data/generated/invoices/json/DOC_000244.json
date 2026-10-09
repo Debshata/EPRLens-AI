@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000244",
+  "invoice_id": "INV_00028969",
+  "invoice_number": "SYEXP-00018",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0102",
+  "supplier_id": "SUP_0010",
+  "buyer_id": "COMP_0102",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00018",
+    "invoice_date": "2024-02-14",
+    "printed_date": "14/02/2024",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Jalavista Converters Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Novadale Drinks Pvt Ltd",
+    "buyer_gstin": "29LFYCB5749W2Z7",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000244:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 1 L - HDPE (lot 1/2)",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 13149,
+        "unit": "kg",
+        "printed_quantity": "13,149.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 13149.0,
+        "normalization_requires_master": false,
+        "rate": 2.36,
+        "printed_rate": "2.36",
+        "amount": 31031.64,
+        "printed_amount": "31,031.64",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "HDPE bottle for 1 L - HDPE (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000244:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "HDPE bottle for 1 L - HDPE (lot 2/2)",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 17025,
+        "unit": "kg",
+        "printed_quantity": "17,025.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 17025.0,
+        "normalization_requires_master": false,
+        "rate": 2.36,
+        "printed_rate": "2.36",
+        "amount": 40179.0,
+        "printed_amount": "40,179.00",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "HDPE bottle for 1 L - HDPE (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 71210.64,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 71210.64,
+    "printed_total": "71,210.64",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    131490.0,
+    17025.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00147573",
+    "TXN_00147574"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN01"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000225"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN01",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 15934361571240629975,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c286bfcdb5df4e68b7db9c7fce1dbc96756cc1e0abda2772dbcccd60e63e680f"
+}

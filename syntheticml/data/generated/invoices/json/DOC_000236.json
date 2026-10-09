@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000236",
+  "invoice_id": "INV_00024495",
+  "invoice_number": "SYAQ/2324/00046",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0061",
+  "supplier_id": "SUP_0097",
+  "buyer_id": "COMP_0061",
+  "expected_fields": {
+    "invoice_number": "SYAQ/2324/00046",
+    "invoice_date": "2024-02-05",
+    "printed_date": "05-02-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Aquafield Flexibles Pvt Ltd",
+    "vendor_gstin": "29MWFCU9588Y1Z5",
+    "buyer": "Kesarstone Automotive Parts LLP",
+    "buyer_gstin": "07YQSCL2993N3ZM",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000236:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LDPE bag for Type B - LDPE",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 527,
+        "unit": "kg",
+        "printed_quantity": "527.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 527.0,
+        "normalization_requires_master": false,
+        "rate": 166.3,
+        "printed_rate": "166.30",
+        "amount": 87640.1,
+        "printed_amount": "87,640.10",
+        "gst_rate": 18,
+        "gst_amount": 15775.22,
+        "printed_description_lines": [
+          "LDPE bag for Type B - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 87640.1,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 15775.22,
+    "gst": 15775.22,
+    "invoice_total": 103415.32,
+    "printed_total": "1,03,415.32",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    527.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00137263"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 4955286374024418714,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "335dc16117176820c7ec78346a9d3770acd70550b254510f0e87574d3f16d2ad"
+}

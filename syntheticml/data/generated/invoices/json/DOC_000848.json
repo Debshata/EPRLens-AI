@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000848",
+  "invoice_id": "INV_00041443",
+  "invoice_number": "SYRN/2526/00005",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0149",
+  "supplier_id": "BUY_0057",
+  "buyer_id": "COMP_0149",
+  "expected_fields": {
+    "invoice_number": "SYRN/2526/00005",
+    "invoice_date": "2025-12-08",
+    "printed_date": "08/12/2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Pureshore Industries Pvt Ltd",
+    "vendor_gstin": "29CJRFX0805R3ZK",
+    "buyer": "Rituwave Retail Pvt Ltd",
+    "buyer_gstin": "08INWCN2131K1Z6",
+    "place_of_supply": "Rajasthan (08)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYRI/2526/00049",
+    "lines": [
+      {
+        "line_reference": "DOC_000848:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Vanabloom Store Carry Bag Medium",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "1006",
+        "quantity": 16829,
+        "unit": "bags",
+        "printed_quantity": "16,829",
+        "printed_unit": "bags",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 176.704,
+        "normalization_requires_master": true,
+        "rate": 980.29,
+        "printed_rate": "980.29",
+        "amount": 16497300.41,
+        "printed_amount": "1,64,97,300.41",
+        "gst_rate": 5,
+        "gst_amount": 824865.02,
+        "printed_description_lines": [
+          "Goods returned: Vanabloom Store Carry Bag Medium"
+        ]
+      }
+    ],
+    "total_taxable_value": 16497300.41,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 824865.02,
+    "gst": 824865.02,
+    "invoice_total": 17322165.43,
+    "printed_total": "1,73,22,165.43",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    176.704
+  ],
+  "linked_transaction_ids": [
+    "TXN_00121141"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 15313395641558404933,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "d38e05d13a4688eeb3eb5eff642739c17a39fde5899d214924552bac13747159"
+}

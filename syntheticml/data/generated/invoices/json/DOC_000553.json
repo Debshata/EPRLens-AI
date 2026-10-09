@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000553",
+  "invoice_id": "INV_00022497",
+  "invoice_number": "SYEXP-00033",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0046",
+  "supplier_id": "SUP_0076",
+  "buyer_id": "COMP_0046",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00033",
+    "invoice_date": "2025-01-27",
+    "printed_date": "27/01/2025",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Ritumint Packaging Components Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Saffrafizz Appliances Pvt Ltd",
+    "buyer_gstin": "08JVGCM6093S3ZI",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000553:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "EPS blocks 400 mm - PS (137.0 g/pc)",
+        "material": "PS",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3921",
+        "quantity": 2893,
+        "unit": "pcs",
+        "printed_quantity": "2,893",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 137.0,
+        "normalized_quantity_kg": 396.341,
+        "normalization_requires_master": false,
+        "rate": 0.33,
+        "printed_rate": "0.33",
+        "amount": 954.69,
+        "printed_amount": "954.69",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "EPS blocks 400 mm - PS (137.0 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 954.69,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 954.69,
+    "printed_total": "954.69",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    396.341
+  ],
+  "linked_transaction_ids": [
+    "TXN_00132922"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 4478322813337864750,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ca6c8263dda2ff001ca16cff08446802c20692dbe1e5f96ecf9ddaf4e8fac593"
+}

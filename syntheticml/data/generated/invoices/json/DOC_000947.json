@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000947",
+  "invoice_id": "INV_00041688",
+  "invoice_number": "SYRN/2526/00004",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0169",
+  "supplier_id": "BUY_0147",
+  "buyer_id": "COMP_0169",
+  "expected_fields": {
+    "invoice_number": "SYRN/2526/00004",
+    "invoice_date": "2026-03-18",
+    "printed_date": "2026-03-18",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Nilapact General Stores",
+    "vendor_gstin": "33IBKFD0722X1ZG",
+    "buyer": "Ojasridge Appliances LLP",
+    "buyer_gstin": "33DFLCY2067Q2ZH",
+    "place_of_supply": "Tamil Nadu (33)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYOJ/2526/00022",
+    "lines": [
+      {
+        "line_reference": "DOC_000947:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Nilapact Hand Blender 500 W",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "8509",
+        "quantity": 3,
+        "unit": "pcs",
+        "printed_quantity": "3",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2.081,
+        "normalization_requires_master": true,
+        "rate": 30280.78,
+        "printed_rate": "30,280.78",
+        "amount": 90842.34,
+        "printed_amount": "90,842.34",
+        "gst_rate": 18,
+        "gst_amount": 16351.62,
+        "printed_description_lines": [
+          "Goods returned: Nilapact Hand Blender 500 W"
+        ]
+      }
+    ],
+    "total_taxable_value": 90842.34,
+    "cgst": 8175.81,
+    "sgst": 8175.81,
+    "igst": 0.0,
+    "gst": 16351.62,
+    "invoice_total": 107193.96,
+    "printed_total": "1,07,193.96",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2.081
+  ],
+  "linked_transaction_ids": [
+    "TXN_00121386"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 4176234781061942393,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "02eb75d20744186b08fb5b055f8910391e7c9a7a470fa0a4b3816c3a0199707b"
+}

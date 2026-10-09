@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000441",
+  "invoice_id": "INV_00019906",
+  "invoice_number": "SYSU/2425/00037",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0027",
+  "supplier_id": "SUP_0088",
+  "buyer_id": "COMP_0027",
+  "expected_fields": {
+    "invoice_number": "SYSU/2425/00037",
+    "invoice_date": "2024-09-13",
+    "printed_date": "13/09/2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Suvarnamint Packaging Components Pvt Ltd",
+    "vendor_gstin": "23BGNCN2841P1Z1",
+    "buyer": "Tarafizz Automotive Parts Pvt Ltd",
+    "buyer_gstin": "10FMKCS8418J1Z5",
+    "place_of_supply": "Bihar (10)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000441:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PP tray Set Front - PP (29.0 g/pc)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 15004,
+        "unit": "pcs",
+        "printed_quantity": "15,004",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 29.0,
+        "normalized_quantity_kg": 435.116,
+        "normalization_requires_master": false,
+        "rate": 4.76,
+        "printed_rate": "4.76",
+        "amount": 71419.04,
+        "printed_amount": "71,419.04",
+        "gst_rate": 12,
+        "gst_amount": 8570.28,
+        "printed_description_lines": [
+          "PP tray Set Front - PP (29.0 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 71419.04,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 8570.28,
+    "gst": 8570.28,
+    "invoice_total": 79989.32,
+    "printed_total": "79,989.32",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    435.116
+  ],
+  "linked_transaction_ids": [
+    "TXN_00126828"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 4618011299200688252,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "5344fa754d3db6aa5817c6ce410604990c0e2124862d6d61545a710dc50315f4"
+}

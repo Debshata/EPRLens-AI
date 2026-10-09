@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000232",
+  "invoice_id": "INV_00037357",
+  "invoice_number": "SYEXP-00006",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0176",
+  "supplier_id": "SUP_0040",
+  "buyer_id": "COMP_0176",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00006",
+    "invoice_date": "2024-02-02",
+    "printed_date": "02/02/2024",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Arunsprout Flexibles Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Chandrawick Devices Pvt Ltd",
+    "buyer_gstin": "06MOGCY0671Z1Z0",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000232:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Protective bag for 10 W - LDPE",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 31,
+        "unit": "kg",
+        "printed_quantity": "31.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 31.0,
+        "normalization_requires_master": false,
+        "rate": 2.14,
+        "printed_rate": "2.14",
+        "amount": 66.34,
+        "printed_amount": "66.34",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Protective bag for 10 W - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 66.34,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 66.34,
+    "printed_total": "66.34",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    31.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00167019"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 4900387572949355899,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "89991c34913a9a9948b45cf87f11c7321724bc3624e5f2c2d29f05bbadde7f96"
+}

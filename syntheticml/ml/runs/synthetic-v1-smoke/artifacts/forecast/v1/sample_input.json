@@ -1,0 +1,85 @@
+{
+  "company_id": "COMP_0001",
+  "product_id": "PROD_000001",
+  "industry": "Beverages",
+  "history": [
+    {
+      "month": "2025-02",
+      "packaging_kg": 447.821,
+      "units_sold": 9408,
+      "weight_per_unit_g": 47.6
+    },
+    {
+      "month": "2025-03",
+      "packaging_kg": 522.22,
+      "units_sold": 10971,
+      "weight_per_unit_g": 47.6
+    },
+    {
+      "month": "2025-04",
+      "packaging_kg": 528.465,
+      "units_sold": 11849,
+      "weight_per_unit_g": 44.6
+    },
+    {
+      "month": "2025-05",
+      "packaging_kg": 574.983,
+      "units_sold": 12892,
+      "weight_per_unit_g": 44.6
+    },
+    {
+      "month": "2025-06",
+      "packaging_kg": 491.18,
+      "units_sold": 11013,
+      "weight_per_unit_g": 44.6
+    },
+    {
+      "month": "2025-07",
+      "packaging_kg": 369.333,
+      "units_sold": 8281,
+      "weight_per_unit_g": 44.6
+    },
+    {
+      "month": "2025-08",
+      "packaging_kg": 380.215,
+      "units_sold": 8525,
+      "weight_per_unit_g": 44.6
+    },
+    {
+      "month": "2025-09",
+      "packaging_kg": 469.415,
+      "units_sold": 10525,
+      "weight_per_unit_g": 44.6
+    },
+    {
+      "month": "2025-10",
+      "packaging_kg": 437.258,
+      "units_sold": 9804,
+      "weight_per_unit_g": 44.6
+    },
+    {
+      "month": "2025-11",
+      "packaging_kg": 346.676,
+      "units_sold": 7773,
+      "weight_per_unit_g": 44.6
+    },
+    {
+      "month": "2025-12",
+      "packaging_kg": 419.017,
+      "units_sold": 9395,
+      "weight_per_unit_g": 44.6
+    },
+    {
+      "month": "2026-01",
+      "packaging_kg": 406.083,
+      "units_sold": 9105,
+      "weight_per_unit_g": 44.6
+    },
+    {
+      "month": "2026-02",
+      "packaging_kg": 511.74,
+      "units_sold": 11474,
+      "weight_per_unit_g": 44.6
+    }
+  ]
+}

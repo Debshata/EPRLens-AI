@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000748",
+  "invoice_id": "INV_00041834",
+  "invoice_number": "SYRN/2526/00004",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0183",
+  "supplier_id": "BUY_0125",
+  "buyer_id": "COMP_0183",
+  "expected_fields": {
+    "invoice_number": "SYRN/2526/00004",
+    "invoice_date": "2025-07-21",
+    "printed_date": "21-07-2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Saffranest Distributors Pvt Ltd",
+    "vendor_gstin": "07GYAFR5019J3ZR",
+    "buyer": "Lumiwing Household Products Pvt Ltd",
+    "buyer_gstin": "07LBNCB1789Q2ZU",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYLU/2526/00005",
+    "lines": [
+      {
+        "line_reference": "DOC_000748:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Hiraglow Floor Cleaner 500 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 1743,
+        "unit": "bottles",
+        "printed_quantity": "1,743",
+        "printed_unit": "bottles",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 108.588,
+        "normalization_requires_master": true,
+        "rate": 96.98,
+        "printed_rate": "96.98",
+        "amount": 169036.14,
+        "printed_amount": "1,69,036.14",
+        "gst_rate": 18,
+        "gst_amount": 30426.51,
+        "printed_description_lines": [
+          "Goods returned: Hiraglow Floor Cleaner 500 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 169036.14,
+    "cgst": 15213.25,
+    "sgst": 15213.26,
+    "igst": 0.0,
+    "gst": 30426.51,
+    "invoice_total": 199462.65,
+    "printed_total": "1,99,462.65",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    108.588
+  ],
+  "linked_transaction_ids": [
+    "TXN_00121532"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 16582686102763221125,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "10d4cf7c4e883a5cdf300632bb38818b9a20080d748fd2842ec36c9b141135ed"
+}

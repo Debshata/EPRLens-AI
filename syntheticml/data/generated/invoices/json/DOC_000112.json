@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000112",
+  "invoice_id": "INV_00028950",
+  "invoice_number": "SYCH/2324/00037",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0102",
+  "supplier_id": "SUP_0002",
+  "buyer_id": "COMP_0102",
+  "expected_fields": {
+    "invoice_number": "SYCH/2324/00037",
+    "invoice_date": "2023-08-25",
+    "printed_date": "25-Aug-2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Chandraleaf Caps Pvt Ltd",
+    "vendor_gstin": "29PHMCO5664A2Z4",
+    "buyer": "Novadale Drinks Pvt Ltd",
+    "buyer_gstin": "29LFYCB5749W2Z7",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000112:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 750 ml - PP (2.4 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 635853,
+        "unit": "pcs",
+        "printed_quantity": "6,35,853",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 2.4,
+        "normalized_quantity_kg": 1526.047,
+        "normalization_requires_master": false,
+        "rate": 0.55,
+        "printed_rate": "0.55",
+        "amount": 349719.15,
+        "printed_amount": "3,49,719.15",
+        "gst_rate": 18,
+        "gst_amount": 62949.45,
+        "printed_description_lines": [
+          "Cap 750 ml - PP (2.4 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 349719.15,
+    "cgst": 31474.72,
+    "sgst": 31474.73,
+    "igst": 0.0,
+    "gst": 62949.45,
+    "invoice_total": 412668.6,
+    "printed_total": "4,12,668.60",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1526.047
+  ],
+  "linked_transaction_ids": [
+    "TXN_00147391"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 17627331309534003525,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c8f61dd72745bda0d8567886cda1d70e83d3944c45e446c8d56e8c46c87e65c2"
+}

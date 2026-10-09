@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000224",
+  "invoice_id": "INV_00019944",
+  "invoice_number": "SYTA/2324/00025",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0027",
+  "supplier_id": "SUP_0107",
+  "buyer_id": "COMP_0027",
+  "expected_fields": {
+    "invoice_number": "SYTA/2324/00025",
+    "invoice_date": "2024-01-17",
+    "printed_date": "17-01-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Tarapeak Polyfilms Pvt Ltd",
+    "vendor_gstin": "23WPMCW9877G1ZE",
+    "buyer": "Tarafizz Automotive Parts Pvt Ltd",
+    "buyer_gstin": "10FMKCS8418J1Z5",
+    "place_of_supply": "Bihar (10)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000224:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Stretch wrap (per-unit share) for Set Front - LLDPE",
+        "material": "LLDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3920",
+        "quantity": 31,
+        "unit": "kg",
+        "printed_quantity": "31.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 31.0,
+        "normalization_requires_master": false,
+        "rate": 153.25,
+        "printed_rate": "153.25",
+        "amount": 4750.75,
+        "printed_amount": "4,750.75",
+        "gst_rate": 12,
+        "gst_amount": 570.09,
+        "printed_description_lines": [
+          "Stretch wrap (per-unit share) for Set Front - LLDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 4750.75,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 570.09,
+    "gst": 570.09,
+    "invoice_total": 5320.84,
+    "printed_total": "5,320.84",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    31.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00126996"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 16196650193527355187,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "555d09c8d9fdf4083d2d0c88605acfea3f810685c10acb7d35318b9aca504fdc"
+}

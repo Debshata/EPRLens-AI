@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000429",
+  "invoice_id": "INV_00022899",
+  "invoice_number": "SYHI/2425/00024",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0048",
+  "supplier_id": "SUP_0087",
+  "buyer_id": "COMP_0048",
+  "expected_fields": {
+    "invoice_number": "SYHI/2425/00024",
+    "invoice_date": "2024-08-26",
+    "printed_date": "26/08/2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Hirawave Packaging Components Pvt Ltd",
+    "vendor_gstin": "27UVXCB3127U2ZP",
+    "buyer": "Aquadale Foods Ltd",
+    "buyer_gstin": "24NODCK1858I1ZK",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000429:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Inner tray 100 g - PP (5.6 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 6960030,
+        "unit": "pcs",
+        "printed_quantity": "69,60,030",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 5.6,
+        "normalized_quantity_kg": 38976.168,
+        "normalization_requires_master": false,
+        "rate": 1.67,
+        "printed_rate": "1.67",
+        "amount": 11623250.1,
+        "printed_amount": "1,16,23,250.10",
+        "gst_rate": 18,
+        "gst_amount": 2092185.02,
+        "printed_description_lines": [
+          "Inner tray 100 g - PP (5.6 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000429:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Inner tray 100 g - PS (5.6 g/pc) (lot 2/2)",
+        "material": "PS",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 5671296,
+        "unit": "pcs",
+        "printed_quantity": "56,71,296",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 5.6,
+        "normalized_quantity_kg": 31759.258,
+        "normalization_requires_master": false,
+        "rate": 1.67,
+        "printed_rate": "1.67",
+        "amount": 9471064.32,
+        "printed_amount": "94,71,064.32",
+        "gst_rate": 18,
+        "gst_amount": 1704791.58,
+        "printed_description_lines": [
+          "Inner tray 100 g - PS (5.6 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 21094314.42,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 3796976.6,
+    "gst": 3796976.6,
+    "invoice_total": 24891291.02,
+    "printed_total": "2,48,91,291.02",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    38976.168,
+    31759.258
+  ],
+  "linked_transaction_ids": [
+    "TXN_00133290",
+    "TXN_00133291"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN03"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001389"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN03",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 7162787234458003546,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "2f4b8b604ed25db5c5a03d73733ef9ff353c84fdd52fceefbe294012a82607d0"
+}

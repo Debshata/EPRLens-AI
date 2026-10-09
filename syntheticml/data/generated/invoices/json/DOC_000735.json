@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000735",
+  "invoice_id": "INV_00039204",
+  "invoice_number": "SYSU/2526/00026",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0193",
+  "supplier_id": "SUP_0024",
+  "buyer_id": "COMP_0193",
+  "expected_fields": {
+    "invoice_number": "SYSU/2526/00026",
+    "invoice_date": "2025-07-08",
+    "printed_date": "08-Jul-2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Suvarnawing Cap Works Pvt Ltd",
+    "vendor_gstin": "32KIOCT1164C3ZK",
+    "buyer": "Gangawick Life Sciences Ltd",
+    "buyer_gstin": "24MRCCB0970X3ZJ",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000735:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 30 caps - PP (4.6 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 20340,
+        "unit": "pcs",
+        "printed_quantity": "20,340",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 4.6,
+        "normalized_quantity_kg": 93.564,
+        "normalization_requires_master": false,
+        "rate": 0.85,
+        "printed_rate": "0.85",
+        "amount": 17289.0,
+        "printed_amount": "17,289.00",
+        "gst_rate": 12,
+        "gst_amount": 2074.68,
+        "printed_description_lines": [
+          "Cap 30 caps - PP (4.6 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 17289.0,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 2074.68,
+    "gst": 2074.68,
+    "invoice_total": 19363.68,
+    "printed_total": "19,363.68",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    93.564
+  ],
+  "linked_transaction_ids": [
+    "TXN_00171366"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001530"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 5620333374963011023,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "83fc96bdcb84d0c03a4488590301d5ca76d2adda2c69a27a442e3ec81215c0f4"
+}

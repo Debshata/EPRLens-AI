@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000554",
+  "invoice_id": "INV_00029201",
+  "invoice_number": "SYSA/2425/00051",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0104",
+  "supplier_id": "SUP_0072",
+  "buyer_id": "COMP_0104",
+  "expected_fields": {
+    "invoice_number": "SYSA/2425/00051",
+    "invoice_date": "2025-01-27",
+    "printed_date": "27-Jan-2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Samastone Cap Works Pvt Ltd",
+    "vendor_gstin": "27DEFCW6312R2Z0",
+    "buyer": "Saffraridge Healthcare Pvt Ltd",
+    "buyer_gstin": "09JFSCF4930G3ZT",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000554:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 30 caps - PP (3.9 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 25640,
+        "unit": "pcs",
+        "printed_quantity": "25,640",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 3.9,
+        "normalized_quantity_kg": 99.996,
+        "normalization_requires_master": false,
+        "rate": 0.56,
+        "printed_rate": "0.56",
+        "amount": 14358.4,
+        "printed_amount": "14,358.40",
+        "gst_rate": 18,
+        "gst_amount": 2584.51,
+        "printed_description_lines": [
+          "Cap 30 caps - PP (3.9 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000554:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Cap 30 caps - PP (3.9 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 30473,
+        "unit": "pcs",
+        "printed_quantity": "30,473",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 3.9,
+        "normalized_quantity_kg": 118.845,
+        "normalization_requires_master": false,
+        "rate": 0.56,
+        "printed_rate": "0.56",
+        "amount": 17064.88,
+        "printed_amount": "17,064.88",
+        "gst_rate": 18,
+        "gst_amount": 3071.68,
+        "printed_description_lines": [
+          "Cap 30 caps - PP (3.9 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 31423.28,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 5656.19,
+    "gst": 5656.19,
+    "invoice_total": 37079.47,
+    "printed_total": "37,079.47",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    99.996,
+    118.845
+  ],
+  "linked_transaction_ids": [
+    "TXN_00147890",
+    "TXN_00147891"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001404"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 14419717934295541095,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "3dff0d538d1a5ea000b9ef2541673651d8a7a46c627f1f6f10ff9c19f67597fb"
+}

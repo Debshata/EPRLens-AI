@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000347",
+  "invoice_id": "INV_00022522",
+  "invoice_number": "SYBO/2425/00004",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0046",
+  "supplier_id": "SUP_0096",
+  "buyer_id": "COMP_0046",
+  "expected_fields": {
+    "invoice_number": "SYBO/2425/00004",
+    "invoice_date": "2024-05-13",
+    "printed_date": "13/05/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Bodhinest Flexibles Pvt Ltd",
+    "vendor_gstin": "24IENCV6498Q2ZZ",
+    "buyer": "Saffrafizz Appliances Pvt Ltd",
+    "buyer_gstin": "08JVGCM6093S3ZI",
+    "place_of_supply": "Rajasthan (08)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000347:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LDPE cover for 500 W - LDPE",
+        "material": "LDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 0.33,
+        "unit": "MT",
+        "printed_quantity": "0.330",
+        "printed_unit": "M.T.",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 330.0,
+        "normalization_requires_master": false,
+        "rate": 211636.8,
+        "printed_rate": "2,11,636.80",
+        "amount": 69840.14,
+        "printed_amount": "69,840.14",
+        "gst_rate": 12,
+        "gst_amount": 8380.82,
+        "printed_description_lines": [
+          "LDPE cover for 500 W - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 69840.14,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 8380.82,
+    "gst": 8380.82,
+    "invoice_total": 78220.96,
+    "printed_total": "78,220.96",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    330.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00132784"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 3797951606919573782,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "39d5fdce2bbc3371625f44ea2ba154a875274c30bd12af7e6eed111d0938e9a2"
+}

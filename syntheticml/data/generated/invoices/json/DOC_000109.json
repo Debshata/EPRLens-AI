@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000109",
+  "invoice_id": "INV_00031214",
+  "invoice_number": "SYEXP-00006",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0124",
+  "supplier_id": "SUP_0075",
+  "buyer_id": "COMP_0124",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00006",
+    "invoice_date": "2023-08-22",
+    "printed_date": "22/08/2023",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Ojasvale Converters Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Indrawick Appliances Pvt Ltd",
+    "buyer_gstin": "10XNJCI7082J1ZN",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000109:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "EPS blocks for 500 W - PS",
+        "material": "PS",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3921",
+        "quantity": 8.74,
+        "unit": "MT",
+        "printed_quantity": "8.740",
+        "printed_unit": "Tonne",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 8740.0,
+        "normalization_requires_master": false,
+        "rate": 2903.1,
+        "printed_rate": "2,903.10",
+        "amount": 25373.09,
+        "printed_amount": "25,373.09",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "EPS blocks for 500 W - PS"
+        ]
+      }
+    ],
+    "total_taxable_value": 25373.09,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 25373.09,
+    "printed_total": "25,373.09",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    8740.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00152699"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 15546964059509606896,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ab8ceaf0d180731a60ae0a67e62deb77fa82c6738af7a6aec6022923eeb1dd63"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000462",
+  "invoice_id": "INV_00018763",
+  "invoice_number": "SYOJ/2425/00083",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0015",
+  "supplier_id": "SUP_0049",
+  "buyer_id": "COMP_0015",
+  "expected_fields": {
+    "invoice_number": "SYOJ/2425/00083",
+    "invoice_date": "2024-10-09",
+    "printed_date": "09/10/2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ojascrest Cartons Pvt Ltd",
+    "vendor_gstin": "24OVECR3278W2ZN",
+    "buyer": "Ritupath Devices Pvt Ltd",
+    "buyer_gstin": "33ZHVCQ0095Q1ZX",
+    "place_of_supply": "Tamil Nadu (33)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000462:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Paper backing card 1 m - CARDBOARD (22.9 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 5534,
+        "unit": "pcs",
+        "printed_quantity": "5,534",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 22.9,
+        "normalized_quantity_kg": 126.729,
+        "normalization_requires_master": false,
+        "rate": 2.18,
+        "printed_rate": "2.18",
+        "amount": 12064.12,
+        "printed_amount": "12,064.12",
+        "gst_rate": 18,
+        "gst_amount": 2171.54,
+        "printed_description_lines": [
+          "Paper backing card 1 m - CARDBOARD (22.9 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 12064.12,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 2171.54,
+    "gst": 2171.54,
+    "invoice_total": 14235.66,
+    "printed_total": "14,235.66",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    126.729
+  ],
+  "linked_transaction_ids": [
+    "TXN_00124430"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 11266635774375710383,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "354e851a068534882a1bf1a58a35aa3172429cad86d584c4a3f59ff258201c36"
+}

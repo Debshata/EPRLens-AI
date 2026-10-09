@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000141",
+  "invoice_id": "INV_00042096",
+  "invoice_number": "SYCN/2324/00001",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0059",
+  "supplier_id": "SUP_0097",
+  "buyer_id": "COMP_0059",
+  "expected_fields": {
+    "invoice_number": "SYCN/2324/00001",
+    "invoice_date": "2023-10-03",
+    "printed_date": "2023-10-03",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Aquafield Flexibles Pvt Ltd",
+    "vendor_gstin": "29MWFCU9588Y1Z5",
+    "buyer": "Lumiroot Appliances Pvt Ltd",
+    "buyer_gstin": "09CNVCO7889B3ZJ",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYAQ/2324/00026",
+    "lines": [
+      {
+        "line_reference": "DOC_000141:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2023-09-23",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 21.98,
+        "printed_rate": "21.98",
+        "amount": 21.98,
+        "printed_amount": "21.98",
+        "gst_rate": 18,
+        "gst_amount": 3.96,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2023-09-23"
+        ]
+      }
+    ],
+    "total_taxable_value": 21.98,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 3.96,
+    "gst": 3.96,
+    "invoice_total": 25.94,
+    "printed_total": "25.94",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [
+    "TXN_00172870"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "credit_note_applied",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 14556399826026206065,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "7f5ff181a6bdbf06f345b8b63000b405c122a4d804c300076cb1c2d0d6aa049b"
+}

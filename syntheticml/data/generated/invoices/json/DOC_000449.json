@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000449",
+  "invoice_id": "INV_00040430",
+  "invoice_number": "SYRN/2425/00005",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0051",
+  "supplier_id": "BUY_0121",
+  "buyer_id": "COMP_0051",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00005",
+    "invoice_date": "2024-09-19",
+    "printed_date": "19-09-2024",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Arunridge Distributors Pvt Ltd",
+    "vendor_gstin": "21OFHCH8907R2ZS",
+    "buyer": "Arunbloom Auto Components LLP",
+    "buyer_gstin": "21XLZCF0431A2ZT",
+    "place_of_supply": "Odisha (21)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYAR/2425/00005",
+    "lines": [
+      {
+        "line_reference": "DOC_000449:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Indrashore Oil Filter Type B",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "8708",
+        "quantity": 1580,
+        "unit": "pcs",
+        "printed_quantity": "1,580",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 145.36,
+        "normalization_requires_master": true,
+        "rate": 835.2,
+        "printed_rate": "835.20",
+        "amount": 1319616.0,
+        "printed_amount": "13,19,616.00",
+        "gst_rate": 18,
+        "gst_amount": 237530.88,
+        "printed_description_lines": [
+          "Goods returned: Indrashore Oil Filter Type B"
+        ]
+      }
+    ],
+    "total_taxable_value": 1319616.0,
+    "cgst": 118765.44,
+    "sgst": 118765.44,
+    "igst": 0.0,
+    "gst": 237530.88,
+    "invoice_total": 1557146.88,
+    "printed_total": "15,57,146.88",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    145.36
+  ],
+  "linked_transaction_ids": [
+    "TXN_00120128"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 8251822127074010363,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "b880555995551e92c2b84da63113ed3ee2e1b6af20336f0afc70d5bc8dfd4555"
+}

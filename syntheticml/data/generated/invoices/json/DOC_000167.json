@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000167",
+  "invoice_id": "INV_00026705",
+  "invoice_number": "SYEXP-00004",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0079",
+  "supplier_id": "SUP_0081",
+  "buyer_id": "COMP_0079",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00004",
+    "invoice_date": "2023-10-25",
+    "printed_date": "2023-10-25",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Vanaline Shrink Films Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Kesarpact Food Products Pvt Ltd",
+    "buyer_gstin": "10YYACM4280P2ZY",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000167:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "BOPP wrapper for 200 g - PP",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 2.2,
+        "unit": "MT",
+        "printed_quantity": "2.200",
+        "printed_unit": "Tonne",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2200.0,
+        "normalization_requires_master": false,
+        "rate": 1931.74,
+        "printed_rate": "1,931.74",
+        "amount": 4249.83,
+        "printed_amount": "4,249.83",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "BOPP wrapper for 200 g - PP"
+        ]
+      }
+    ],
+    "total_taxable_value": 4249.83,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 4249.83,
+    "printed_total": "4,249.83",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2200000.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00142242"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000019"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 14513512460190499446,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c1f09b01f486702b16e25559dc09acb909041a2f8c1a56ba3229f722c7d2a281"
+}

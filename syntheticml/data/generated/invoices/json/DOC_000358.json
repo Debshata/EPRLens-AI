@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000358",
+  "invoice_id": "INV_00024557",
+  "invoice_number": "SYCH/2425/00019",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0062",
+  "supplier_id": "SUP_0002",
+  "buyer_id": "COMP_0062",
+  "expected_fields": {
+    "invoice_number": "SYCH/2425/00019",
+    "invoice_date": "2024-05-23",
+    "printed_date": "23-May-2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Chandraleaf Caps Pvt Ltd",
+    "vendor_gstin": "29PHMCO5664A2Z4",
+    "buyer": "Jalasprout Personal Care Pvt Ltd",
+    "buyer_gstin": "27POMCQ0850Z2ZZ",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000358:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Flip cap 180 ml - PP (38.2 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 104470,
+        "unit": "pcs",
+        "printed_quantity": "1,04,470",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 38.2,
+        "normalized_quantity_kg": 3990.754,
+        "normalization_requires_master": false,
+        "rate": 0.72,
+        "printed_rate": "0.72",
+        "amount": 75218.4,
+        "printed_amount": "75,218.40",
+        "gst_rate": 18,
+        "gst_amount": 13539.31,
+        "printed_description_lines": [
+          "Flip cap 180 ml - PP (38.2 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 75218.4,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 13539.31,
+    "gst": 13539.31,
+    "invoice_total": 88757.71,
+    "printed_total": "88,757.71",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    323.857
+  ],
+  "linked_transaction_ids": [
+    "TXN_00137458"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN10"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001594"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN10",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 2023409166023616799,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ea90facf12d2f1d625a5ce248cae9ae9d26a045fc7bb030e7ee89115d42b3834"
+}

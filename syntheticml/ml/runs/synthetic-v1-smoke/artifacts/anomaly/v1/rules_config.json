@@ -1,0 +1,127 @@
+{
+  "rules_version": "rules-v1",
+  "tolerances": {
+    "qty_tolerance_kg": 0.01,
+    "qty_tolerance_rel": 0.0005
+  },
+  "rules": {
+    "DUP_COMPOSITE_KEY": {
+      "severity": "high",
+      "designed_for": [
+        "AN05"
+      ]
+    },
+    "REQUIRED_FIELDS": {
+      "severity": "medium",
+      "designed_for": [
+        "AN06"
+      ]
+    },
+    "QTY_MATCH_TOL": {
+      "severity": "medium",
+      "designed_for": [
+        "AN01",
+        "AN02",
+        "AN07",
+        "AN18",
+        "AN19",
+        "AN10"
+      ]
+    },
+    "QTY_RATIO_POW10": {
+      "severity": "high",
+      "designed_for": [
+        "AN01",
+        "AN02"
+      ]
+    },
+    "UNIT_MISMATCH": {
+      "severity": "high",
+      "designed_for": [
+        "AN08"
+      ]
+    },
+    "RECORD_MISSING": {
+      "severity": "medium",
+      "designed_for": [
+        "AN15",
+        "AN16",
+        "AN19"
+      ]
+    },
+    "MATERIAL_MASTER_MATCH": {
+      "severity": "medium",
+      "designed_for": [
+        "AN03"
+      ]
+    },
+    "CATEGORY_MASTER_MATCH": {
+      "severity": "high",
+      "designed_for": [
+        "AN04"
+      ]
+    },
+    "WEIGHT_MASTER_MATCH": {
+      "severity": "medium",
+      "designed_for": [
+        "AN10"
+      ]
+    },
+    "SUPPLIER_SUPPLIES_ITEM": {
+      "severity": "medium",
+      "designed_for": [
+        "AN20"
+      ]
+    },
+    "SUPPLIER_RECORD_MATCH": {
+      "severity": "medium",
+      "designed_for": [
+        "AN20"
+      ]
+    },
+    "STATUS_CANCELLED_EXCLUDED": {
+      "severity": "high",
+      "designed_for": [
+        "AN14"
+      ]
+    },
+    "CREDIT_NOTE_APPLIED": {
+      "severity": "medium",
+      "designed_for": [
+        "AN15"
+      ]
+    },
+    "RETURN_APPLIED": {
+      "severity": "medium",
+      "designed_for": [
+        "AN16"
+      ]
+    },
+    "ARITHMETIC_TOTALS": {
+      "severity": "high",
+      "designed_for": []
+    },
+    "NEGATIVE_VALUE": {
+      "severity": "high",
+      "designed_for": []
+    },
+    "RECYCLED_LE_COLLECTED": {
+      "severity": "high",
+      "designed_for": [
+        "AN11"
+      ]
+    },
+    "COLLECTED_LE_GENERATED": {
+      "severity": "medium",
+      "designed_for": [
+        "AN12"
+      ]
+    },
+    "RECYCLER_REGISTERED": {
+      "severity": "high",
+      "designed_for": [
+        "AN13"
+      ]
+    }
+  }
+}

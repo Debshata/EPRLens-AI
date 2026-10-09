@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000216",
+  "invoice_id": "INV_00041846",
+  "invoice_number": "SYRN/2324/00007",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0185",
+  "supplier_id": "BUY_0030",
+  "buyer_id": "COMP_0185",
+  "expected_fields": {
+    "invoice_number": "SYRN/2324/00007",
+    "invoice_date": "2024-01-05",
+    "printed_date": "05/01/2024",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Rituvale Online Sellers LLP",
+    "vendor_gstin": "27NPFCK7310Y2ZU",
+    "buyer": "Ecoroot Consumer Products Pvt Ltd",
+    "buyer_gstin": "09JOKCH2447M3ZF",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYEC/2324/00017",
+    "lines": [
+      {
+        "line_reference": "DOC_000216:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Vrikshwick Herbal Toothpaste 150 g",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 40514,
+        "unit": "pcs",
+        "printed_quantity": "40514",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 798.126,
+        "normalization_requires_master": true,
+        "rate": 55.2,
+        "printed_rate": "55.20",
+        "amount": 2236372.8,
+        "printed_amount": "2236372.80",
+        "gst_rate": 18,
+        "gst_amount": 402547.1,
+        "printed_description_lines": [
+          "Goods returned: Vrikshwick Herbal Toothpaste 150 g"
+        ]
+      }
+    ],
+    "total_taxable_value": 2236372.8,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 402547.1,
+    "gst": 402547.1,
+    "invoice_total": 2638919.9,
+    "printed_total": "2638919.90",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    798.126
+  ],
+  "linked_transaction_ids": [
+    "TXN_00121544"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "plain",
+    "currency_mark": "INR"
+  },
+  "seed": 12445490620319341380,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "aa329ddc8d11bd52a749177550e1fadf83cad5b463b21370b4484f514adbb7c2"
+}

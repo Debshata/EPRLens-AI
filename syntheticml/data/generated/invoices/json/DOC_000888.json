@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000888",
+  "invoice_id": "INV_00022464",
+  "invoice_number": "SYVR/2526/00048",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0046",
+  "supplier_id": "SUP_0052",
+  "buyer_id": "COMP_0046",
+  "expected_fields": {
+    "invoice_number": "SYVR/2526/00048",
+    "invoice_date": "2026-01-19",
+    "printed_date": "19-01-2026",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshmint Flexibles Pvt Ltd",
+    "vendor_gstin": "09NOACJ2756U1ZT",
+    "buyer": "Saffrafizz Appliances Pvt Ltd",
+    "buyer_gstin": "08JVGCM6093S3ZI",
+    "place_of_supply": "Rajasthan (08)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000888:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LDPE cover for 500 W - LDPE",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 28,
+        "unit": "kg",
+        "printed_quantity": "28.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 28.0,
+        "normalization_requires_master": false,
+        "rate": 211.04,
+        "printed_rate": "211.04",
+        "amount": 5909.12,
+        "printed_amount": "5,909.12",
+        "gst_rate": 12,
+        "gst_amount": 709.09,
+        "printed_description_lines": [
+          "LDPE cover for 500 W - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 5909.12,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 709.09,
+    "gst": 709.09,
+    "invoice_total": 6618.21,
+    "printed_total": "6,618.21",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    28.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00132858"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 12799048911257897140,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "49e4851002042aa9e18eacfcfcbe1ba2d688e432b154e348dddf2315b802a9f5"
+}

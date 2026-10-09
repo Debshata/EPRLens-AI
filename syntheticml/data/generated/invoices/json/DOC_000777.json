@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000777",
+  "invoice_id": "INV_00040084",
+  "invoice_number": "SYRN/2526/00004",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0019",
+  "supplier_id": "BUY_0096",
+  "buyer_id": "COMP_0019",
+  "expected_fields": {
+    "invoice_number": "SYRN/2526/00004",
+    "invoice_date": "2025-08-27",
+    "printed_date": "27/08/2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Ojasfizz Distributors LLP",
+    "vendor_gstin": "37GIBCT5278Q1ZZ",
+    "buyer": "Novawick Household Products Pvt Ltd",
+    "buyer_gstin": "27BXVCT8014Z1ZI",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYNO/2526/00016",
+    "lines": [
+      {
+        "line_reference": "DOC_000777:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Suvarnapeak Floor Cleaner 500 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 1756,
+        "unit": "bottles",
+        "printed_quantity": "1,756",
+        "printed_unit": "bottles",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 85.166,
+        "normalization_requires_master": true,
+        "rate": 158.05,
+        "printed_rate": "158.05",
+        "amount": 277535.8,
+        "printed_amount": "2,77,535.80",
+        "gst_rate": 18,
+        "gst_amount": 49956.44,
+        "printed_description_lines": [
+          "Goods returned: Suvarnapeak Floor Cleaner 500 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 277535.8,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 49956.44,
+    "gst": 49956.44,
+    "invoice_total": 327492.24,
+    "printed_total": "3,27,492.24",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN16"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002271"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN16",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 2281169924146356497,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ba8bd1af21842d1e107beb33fa9b5a6f66687788fe55a58c55f3c789bedc0dc9"
+}

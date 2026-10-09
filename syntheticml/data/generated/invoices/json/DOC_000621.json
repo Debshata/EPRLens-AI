@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000621",
+  "invoice_id": "INV_00030277",
+  "invoice_number": "SYBO/2425/00049",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0113",
+  "supplier_id": "SUP_0096",
+  "buyer_id": "COMP_0113",
+  "expected_fields": {
+    "invoice_number": "SYBO/2425/00049",
+    "invoice_date": "2025-03-22",
+    "printed_date": "2025-03-22",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Bodhinest Flexibles Pvt Ltd",
+    "vendor_gstin": "24IENCV6498Q2ZZ",
+    "buyer": "Vrikshmint Consumer Goods Pvt Ltd",
+    "buyer_gstin": "29XHQCT4468A1ZB",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000621:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LLDPE pouch for 500 g - LLDPE",
+        "material": "LLDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 2874,
+        "unit": "kg",
+        "printed_quantity": "2,874.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2874.0,
+        "normalization_requires_master": false,
+        "rate": 203.02,
+        "printed_rate": "203.02",
+        "amount": 583479.48,
+        "printed_amount": "5,83,479.48",
+        "gst_rate": 18,
+        "gst_amount": 105026.31,
+        "printed_description_lines": [
+          "LLDPE pouch for 500 g - LLDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 583479.48,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 105026.31,
+    "gst": 105026.31,
+    "invoice_total": 688505.79,
+    "printed_total": "6,88,505.79",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2874.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00150567"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 1605268036350985575,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "5b7cc7cc1d9319335e05307936a0421a35a79952d56de69b843dbfedf1c4203b"
+}

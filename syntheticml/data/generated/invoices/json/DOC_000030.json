@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000030",
+  "invoice_id": "INV_00009905",
+  "invoice_number": "SYTA/2324/00008",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0111",
+  "supplier_id": "COMP_0111",
+  "buyer_id": "BUY_0137",
+  "expected_fields": {
+    "invoice_number": "SYTA/2324/00008",
+    "invoice_date": "2023-05-01",
+    "printed_date": "01/05/2023",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Tarawave Drinks Pvt Ltd",
+    "vendor_gstin": "07GMVCK1879X1ZT",
+    "buyer": "Suvarnabloom Distribution",
+    "buyer_gstin": "27JWOFN9456H2ZY",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000030:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Lumipact Orange Juice 200 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "2202",
+        "quantity": 9576,
+        "unit": "bottles",
+        "printed_quantity": "9,576",
+        "printed_unit": "Btl",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 568.814,
+        "normalization_requires_master": true,
+        "rate": 57.08,
+        "printed_rate": "57.08",
+        "amount": 546598.08,
+        "printed_amount": "5,46,598.08",
+        "gst_rate": 18,
+        "gst_amount": 98387.65,
+        "printed_description_lines": [
+          "Lumipact Orange Juice 200 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 546598.08,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 98387.65,
+    "gst": 98387.65,
+    "invoice_total": 644985.73,
+    "printed_total": "6,44,985.73",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    568.814
+  ],
+  "linked_transaction_ids": [
+    "TXN_00066779"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 7536068859190850617,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "60f55536e7889223bb1d4dba8040c2737b4d2c35d01fda83a661428aa8ec5444"
+}

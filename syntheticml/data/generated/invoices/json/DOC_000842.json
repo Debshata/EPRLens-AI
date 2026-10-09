@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000842",
+  "invoice_id": "INV_00018505",
+  "invoice_number": "SYKE/2526/00028",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0012",
+  "supplier_id": "SUP_0101",
+  "buyer_id": "COMP_0012",
+  "expected_fields": {
+    "invoice_number": "SYKE/2526/00028",
+    "invoice_date": "2025-11-26",
+    "printed_date": "26/11/2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Kesarvista Polyfilms Pvt Ltd",
+    "vendor_gstin": "29NQFCK8564A3ZA",
+    "buyer": "Udayasprout Foods Pvt Ltd",
+    "buyer_gstin": "27TZNCP5101J2ZR",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000842:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "BOPP wrapper for 200 g - PP (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 1446,
+        "unit": "kg",
+        "printed_quantity": "1,446.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1446.0,
+        "normalization_requires_master": false,
+        "rate": 226.22,
+        "printed_rate": "226.22",
+        "amount": 327114.12,
+        "printed_amount": "3,27,114.12",
+        "gst_rate": 18,
+        "gst_amount": 58880.54,
+        "printed_description_lines": [
+          "BOPP wrapper for 200 g - PP (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000842:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "BOPP wrapper for 200 g - PP (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 1337,
+        "unit": "kg",
+        "printed_quantity": "1,337.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1337.0,
+        "normalization_requires_master": false,
+        "rate": 226.22,
+        "printed_rate": "226.22",
+        "amount": 302456.14,
+        "printed_amount": "3,02,456.14",
+        "gst_rate": 18,
+        "gst_amount": 54442.11,
+        "printed_description_lines": [
+          "BOPP wrapper for 200 g - PP (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 629570.26,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 113322.65,
+    "gst": 113322.65,
+    "invoice_total": 742892.91,
+    "printed_total": "7,42,892.91",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1446.0,
+    1337.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00123726",
+    "TXN_00123727"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001469"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 10581906169307652093,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "40fe3d329ebf349ef91930141c709c82a11f53d6074dea13300cc374367ba66e"
+}

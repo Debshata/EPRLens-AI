@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000374",
+  "invoice_id": "INV_00041702",
+  "invoice_number": "SYRN/2425/00002",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0172",
+  "supplier_id": "BUY_0135",
+  "buyer_id": "COMP_0172",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00002",
+    "invoice_date": "2024-06-12",
+    "printed_date": "12/06/2024",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Udayakart Distribution LLP",
+    "vendor_gstin": "21AEMCV2817D2ZJ",
+    "buyer": "Hiraleaf Automotive Parts LLP",
+    "buyer_gstin": "27QIRCS0058B2Z8",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYHI/2425/00008",
+    "lines": [
+      {
+        "line_reference": "DOC_000374:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Samasprout Oil Filter Type A",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "8708",
+        "quantity": 90,
+        "unit": "pcs",
+        "printed_quantity": "90",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 8.307,
+        "normalization_requires_master": true,
+        "rate": 4261.79,
+        "printed_rate": "4,261.79",
+        "amount": 383561.1,
+        "printed_amount": "3,83,561.10",
+        "gst_rate": 18,
+        "gst_amount": 69041.0,
+        "printed_description_lines": [
+          "Goods returned: Samasprout Oil Filter Type A"
+        ]
+      }
+    ],
+    "total_taxable_value": 383561.1,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 69041.0,
+    "gst": 69041.0,
+    "invoice_total": 452602.1,
+    "printed_total": "4,52,602.10",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN16"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002255"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN16",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 2698208535661272219,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "2ea471ecbb7fef7c6adf047721116b680f91fa0058b9746ca6070445684dc321"
+}

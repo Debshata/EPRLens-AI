@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000002",
+  "invoice_id": "INV_00034754",
+  "invoice_number": "SYRI/2526/00063",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0154",
+  "supplier_id": "SUP_0076",
+  "buyer_id": "COMP_0154",
+  "expected_fields": {
+    "invoice_number": "SYRI/2526/00063",
+    "invoice_date": null,
+    "printed_date": "",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ritumint Packaging Components Pvt Ltd",
+    "vendor_gstin": "27TGICB5857F1ZZ",
+    "buyer": "Ecoroot Drinks Pvt Ltd",
+    "buyer_gstin": "30PEMCA1726Y2ZN",
+    "place_of_supply": "Goa (30)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000002:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 1 L - HDPE (2.1 g/pc) (lot 1/2)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 63675,
+        "unit": "pcs",
+        "printed_quantity": "63675",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 2.1,
+        "normalized_quantity_kg": 133.718,
+        "normalization_requires_master": false,
+        "rate": 0.42,
+        "printed_rate": "0.42",
+        "amount": 26743.5,
+        "printed_amount": "26743.50",
+        "gst_rate": 18,
+        "gst_amount": 4813.83,
+        "printed_description_lines": [
+          "Cap 1 L - HDPE (2.1 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000002:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Cap 1 L - HDPE (2.1 g/pc) (lot 2/2)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 76496,
+        "unit": "pcs",
+        "printed_quantity": "76496",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 2.1,
+        "normalized_quantity_kg": 160.642,
+        "normalization_requires_master": false,
+        "rate": 0.42,
+        "printed_rate": "0.42",
+        "amount": 32128.32,
+        "printed_amount": "32128.32",
+        "gst_rate": 18,
+        "gst_amount": 5783.1,
+        "printed_description_lines": [
+          "Cap 1 L - HDPE (2.1 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 58871.82,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 10596.93,
+    "gst": 10596.93,
+    "invoice_total": 69468.75,
+    "printed_total": "69468.75",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    133.718,
+    160.642
+  ],
+  "linked_transaction_ids": [
+    "TXN_00160754",
+    "TXN_00160755"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN06"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001712"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN06",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "plain",
+    "currency_mark": "INR"
+  },
+  "seed": 955466490244187418,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "5b9c45c7f7fb62d489bdb6934ebdd8010b34143effe23bb2f362fb56c0b09456"
+}

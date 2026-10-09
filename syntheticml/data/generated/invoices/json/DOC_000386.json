@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000386",
+  "invoice_id": "INV_00020540",
+  "invoice_number": "SYOJ/2425/00033",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0031",
+  "supplier_id": "SUP_0075",
+  "buyer_id": "COMP_0031",
+  "expected_fields": {
+    "invoice_number": "SYOJ/2425/00033",
+    "invoice_date": "2024-06-24",
+    "printed_date": "24/06/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ojasvale Converters Pvt Ltd",
+    "vendor_gstin": "27XMNCX7424K3ZS",
+    "buyer": "Bodhisprout Electronics Pvt Ltd",
+    "buyer_gstin": "06IBICL7666Y1ZG",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000386:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "EPS insert for 10 W - PS",
+        "material": "PS",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3921",
+        "quantity": 4,
+        "unit": "kg",
+        "printed_quantity": "4.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 4.0,
+        "normalization_requires_master": false,
+        "rate": 240.96,
+        "printed_rate": "240.96",
+        "amount": 963.84,
+        "printed_amount": "963.84",
+        "gst_rate": 18,
+        "gst_amount": 173.49,
+        "printed_description_lines": [
+          "EPS insert for 10 W - PS"
+        ]
+      }
+    ],
+    "total_taxable_value": 963.84,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 173.49,
+    "gst": 173.49,
+    "invoice_total": 1137.33,
+    "printed_total": "1,137.33",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    4.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00128451"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 6354640403096483231,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "b952f4dbf3d9d9de4ce33710a409d7d69eb3e4733d485f5270b04aadbb64bb3a"
+}

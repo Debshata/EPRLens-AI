@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000691",
+  "invoice_id": "INV_00023008",
+  "invoice_number": "SYEXP-00009",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0049",
+  "supplier_id": "SUP_0009",
+  "buyer_id": "COMP_0049",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00009",
+    "invoice_date": "2025-05-12",
+    "printed_date": "12/05/2025",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Ecoroot Flexi Pack Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Prananest Devices Pvt Ltd",
+    "buyer_gstin": "33VFECC6925G1ZL",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000691:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Protective bag for 20 W - LDPE (lot 1/2)",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 19,
+        "unit": "kg",
+        "printed_quantity": "19.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 19.0,
+        "normalization_requires_master": false,
+        "rate": 1.95,
+        "printed_rate": "1.95",
+        "amount": 37.05,
+        "printed_amount": "37.05",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Protective bag for 20 W - LDPE (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000691:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Protective bag for 20 W - LDPE (lot 2/2)",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 19,
+        "unit": "kg",
+        "printed_quantity": "19.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 19.0,
+        "normalization_requires_master": false,
+        "rate": 1.95,
+        "printed_rate": "1.95",
+        "amount": 37.05,
+        "printed_amount": "37.05",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Protective bag for 20 W - LDPE (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 74.1,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 74.1,
+    "printed_total": "74.10",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    19.0,
+    19000.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00134169",
+    "TXN_00134170"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000059"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 14421208046285720729,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "6e24b021c553895a483ad126f91afa8b1bae78aa12c3620c08059340c521fb75"
+}

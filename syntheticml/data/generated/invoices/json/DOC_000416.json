@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000416",
+  "invoice_id": "INV_00029675",
+  "invoice_number": "SYJA/2425/00056",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0110",
+  "supplier_id": "SUP_0010",
+  "buyer_id": "COMP_0110",
+  "expected_fields": {
+    "invoice_number": "SYJA/2425/00056",
+    "invoice_date": "2024-08-06",
+    "printed_date": "06-Aug-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Jalavista Converters Pvt Ltd",
+    "vendor_gstin": "27OSJCQ7156S3Z1",
+    "buyer": "Gangagrove Consumer Goods Pvt Ltd",
+    "buyer_gstin": "09EWPCA5619U2Z9",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000416:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminated tube for 100 g - MLP",
+        "material": "MLP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 269,
+        "unit": "kg",
+        "printed_quantity": "269.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 269.0,
+        "normalization_requires_master": false,
+        "rate": 478.05,
+        "printed_rate": "478.05",
+        "amount": 128595.45,
+        "printed_amount": "1,28,595.45",
+        "gst_rate": 18,
+        "gst_amount": 23147.18,
+        "printed_description_lines": [
+          "Laminated tube for 100 g - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 128595.45,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 23147.18,
+    "gst": 23147.18,
+    "invoice_total": 151742.63,
+    "printed_total": "1,51,742.63",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    0.269
+  ],
+  "linked_transaction_ids": [
+    "TXN_00149053"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000128"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 6185224171441071428,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ae9f04f103bf10835d95dc73bc5d115f6aff22e6df00a7254011adca08eaddaa"
+}

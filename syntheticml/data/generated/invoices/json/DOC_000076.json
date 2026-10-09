@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000076",
+  "invoice_id": "INV_00028035",
+  "invoice_number": "SYEXP-00002",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0093",
+  "supplier_id": "SUP_0058",
+  "buyer_id": "COMP_0093",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00002",
+    "invoice_date": "2023-07-06",
+    "printed_date": "2023-07-06",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Udayawell Shrink Films Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Jalabloom Engineering Goods Ltd",
+    "buyer_gstin": "27LDVCE8584S3ZD",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000076:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Stretch wrap (per-unit share) for 10 L - PP",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 68,
+        "unit": "kg",
+        "printed_quantity": "68.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 68.0,
+        "normalization_requires_master": false,
+        "rate": 2.01,
+        "printed_rate": "2.01",
+        "amount": 136.68,
+        "printed_amount": "136.68",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Stretch wrap (per-unit share) for 10 L - PP"
+        ]
+      }
+    ],
+    "total_taxable_value": 136.68,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 136.68,
+    "printed_total": "136.68",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    68.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00145340"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN03"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001345"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN03",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 9783406270544740077,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "3a7c0aff7edc06e87a00328a01b143645c6b65d2d8db822cd372959a28aedb1d"
+}

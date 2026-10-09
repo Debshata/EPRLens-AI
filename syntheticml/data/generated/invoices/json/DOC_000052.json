@@ -1,0 +1,118 @@
+{
+  "document_id": "DOC_000052",
+  "invoice_id": "INV_00009454",
+  "invoice_number": "SYVE/2324/00005",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0108",
+  "supplier_id": "COMP_0108",
+  "buyer_id": "BUY_0033",
+  "expected_fields": {
+    "invoice_number": "SYVE/2324/00005",
+    "invoice_date": "2023-05-26",
+    "printed_date": "26-May-2023",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vedamint Personal Care Ltd",
+    "vendor_gstin": "09AMYCS0260Q2ZV",
+    "buyer": "Mithrawell Wholesale Traders Pvt Ltd",
+    "buyer_gstin": "27DCBFO8846B2ZV",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000052:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Dharapath Body Lotion 400 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3305",
+        "quantity": 5660,
+        "unit": "bottles",
+        "printed_quantity": "5,660",
+        "printed_unit": "bottles",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 284.698,
+        "normalization_requires_master": true,
+        "rate": 109.06,
+        "printed_rate": "109.06",
+        "amount": 617279.6,
+        "printed_amount": "6,17,279.60",
+        "gst_rate": 18,
+        "gst_amount": 111110.33,
+        "printed_description_lines": [
+          "Dharapath Body Lotion 400 ml"
+        ]
+      },
+      {
+        "line_reference": "DOC_000052:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Dharapath Shampoo 340 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3305",
+        "quantity": 5364,
+        "unit": "bottles",
+        "printed_quantity": "5,364",
+        "printed_unit": "bottles",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 178.085,
+        "normalization_requires_master": true,
+        "rate": 143.72,
+        "printed_rate": "143.72",
+        "amount": 770914.08,
+        "printed_amount": "7,70,914.08",
+        "gst_rate": 18,
+        "gst_amount": 138764.53,
+        "printed_description_lines": [
+          "Dharapath Shampoo 340 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 1388193.68,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 249874.86,
+    "gst": 249874.86,
+    "invoice_total": 1638068.54,
+    "printed_total": "16,38,068.54",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    284.698,
+    178.085
+  ],
+  "linked_transaction_ids": [
+    "TXN_00065422",
+    "TXN_00065425"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [
+    "ANM_0003377"
+  ],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "AN17_shared_number",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 4858036078876847564,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c8bb0cf8394542d9e7d7b5e6243a37f4483c6bf861c00fa30d97dff0b97ea8f6"
+}

@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000204",
+  "invoice_id": "INV_00032679",
+  "invoice_number": "SYVR/2324/00082",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0138",
+  "supplier_id": "SUP_0008",
+  "buyer_id": "COMP_0138",
+  "expected_fields": {
+    "invoice_number": "SYVR/2324/00082",
+    "invoice_date": "2023-12-19",
+    "printed_date": "19/12/2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshbloom Packaging Solutions Pvt Ltd",
+    "vendor_gstin": "27JOVCI0213D2ZV",
+    "buyer": "Chandrawave Life Sciences LLP",
+    "buyer_gstin": "30NTTCR7850D2ZE",
+    "place_of_supply": "Goa (30)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000204:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PVC blister for 15 tabs - PVC",
+        "material": "PVC",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3920",
+        "quantity": 0.33,
+        "unit": "MT",
+        "printed_quantity": "0.330",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 330.0,
+        "normalization_requires_master": false,
+        "rate": 140801.2,
+        "printed_rate": "140,801.20",
+        "amount": 46464.4,
+        "printed_amount": "46,464.40",
+        "gst_rate": 18,
+        "gst_amount": 8363.59,
+        "printed_description_lines": [
+          "PVC blister for 15 tabs - PVC"
+        ]
+      },
+      {
+        "line_reference": "DOC_000204:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "HDPE bottle for 60 caps - HDPE",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 24947,
+        "unit": "kg",
+        "printed_quantity": "24,947.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 24947.0,
+        "normalization_requires_master": false,
+        "rate": 190.33,
+        "printed_rate": "190.33",
+        "amount": 4748162.51,
+        "printed_amount": "4,748,162.51",
+        "gst_rate": 12,
+        "gst_amount": 569779.5,
+        "printed_description_lines": [
+          "HDPE bottle for 60 caps - HDPE"
+        ]
+      },
+      {
+        "line_reference": "DOC_000204:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "HDPE bottle for 30 caps - HDPE",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 32.27,
+        "unit": "MT",
+        "printed_quantity": "32.270",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 32270.0,
+        "normalization_requires_master": false,
+        "rate": 190331.75,
+        "printed_rate": "190,331.75",
+        "amount": 6142005.57,
+        "printed_amount": "6,142,005.57",
+        "gst_rate": 12,
+        "gst_amount": 737040.67,
+        "printed_description_lines": [
+          "HDPE bottle for 30 caps - HDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 10936632.48,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1315183.76,
+    "gst": 1315183.76,
+    "invoice_total": 12251816.24,
+    "printed_total": "12,251,816.24",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    330000.0,
+    24947.0,
+    32270.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00156517",
+    "TXN_00156679",
+    "TXN_00156734"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000033"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 12415605823379449874,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "cfdc5fa9370d139bc6400d95f188b7139411a3d0e352a4e851cf1517cbfaf916"
+}

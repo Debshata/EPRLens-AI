@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000027",
+  "invoice_id": "INV_00025414",
+  "invoice_number": "SYCH/2324/00014",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0066",
+  "supplier_id": "SUP_0073",
+  "buyer_id": "COMP_0066",
+  "expected_fields": {
+    "invoice_number": "SYCH/2324/00014",
+    "invoice_date": "2023-04-26",
+    "printed_date": "26/04/2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Chandracrest Corrugators Pvt Ltd",
+    "vendor_gstin": "19LBGCY3657E3ZR",
+    "buyer": "Aquaridge Consumer Goods Pvt Ltd",
+    "buyer_gstin": "08RSMCK0496F3Z9",
+    "place_of_supply": "Rajasthan (08)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000027:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Outer carton (per-unit share) 500 g - CARDBOARD (23.9 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "4819",
+        "quantity": 18254,
+        "unit": "pcs",
+        "printed_quantity": "18254",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 23.9,
+        "normalized_quantity_kg": 436.271,
+        "normalization_requires_master": false,
+        "rate": 2.73,
+        "printed_rate": "2.73",
+        "amount": 49833.42,
+        "printed_amount": "49833.42",
+        "gst_rate": 18,
+        "gst_amount": 8970.02,
+        "printed_description_lines": [
+          "Outer carton (per-unit share) 500 g - CARDBOARD (23.9 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 49833.42,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 8970.02,
+    "gst": 8970.02,
+    "invoice_total": 58803.44,
+    "printed_total": "58803.44",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    436.271
+  ],
+  "linked_transaction_ids": [
+    "TXN_00139447"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "plain",
+    "currency_mark": "Rs."
+  },
+  "seed": 7528735421971709064,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "d9eb13211505f040dc7b4c11b0ca6d9163c4314e3477c49d88d202f15ce68226"
+}

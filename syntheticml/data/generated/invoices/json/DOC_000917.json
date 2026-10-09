@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000917",
+  "invoice_id": "INV_00033650",
+  "invoice_number": "SYEXP-00019",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0145",
+  "supplier_id": "SUP_0028",
+  "buyer_id": "COMP_0145",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00019",
+    "invoice_date": "2026-02-19",
+    "printed_date": "19-Feb-2026",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Lumiwing Flexibles Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Samamint Consumer Goods Pvt Ltd",
+    "buyer_gstin": "07KGSCV0557V1Z4",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000917:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminate sachet for 8 ml - MLP (lot 1/2)",
+        "material": "MLP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 118,
+        "unit": "kg",
+        "printed_quantity": "118.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 118.0,
+        "normalization_requires_master": false,
+        "rate": 3.64,
+        "printed_rate": "3.64",
+        "amount": 429.52,
+        "printed_amount": "429.52",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Laminate sachet for 8 ml - MLP (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000917:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Laminate sachet for 8 ml - MLP (lot 2/2)",
+        "material": "MLP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 148,
+        "unit": "kg",
+        "printed_quantity": "148.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 148.0,
+        "normalization_requires_master": false,
+        "rate": 3.64,
+        "printed_rate": "3.64",
+        "amount": 538.72,
+        "printed_amount": "538.72",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Laminate sachet for 8 ml - MLP (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 968.24,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 968.24,
+    "printed_total": "968.24",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    118.0,
+    148000.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00158790",
+    "TXN_00158791"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN01"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000253"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN01",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 7780435561932564027,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "f7de4ce112424419fce4c254a897e3bb0c9b345f3a9ab661148d712b38d8746d"
+}

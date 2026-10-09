@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000400",
+  "invoice_id": "INV_00023667",
+  "invoice_number": "SYPU/2425/00012",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0053",
+  "supplier_id": "SUP_0064",
+  "buyer_id": "COMP_0053",
+  "expected_fields": {
+    "invoice_number": "SYPU/2425/00012",
+    "invoice_date": "2024-07-13",
+    "printed_date": "13-Jul-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Puresprout Flexi Pack Pvt Ltd",
+    "vendor_gstin": "19BCSCV7632T2Z4",
+    "buyer": "Jalacrest Beverages Ltd",
+    "buyer_gstin": "06LVZCC1903M3ZC",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000400:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Spouted laminate pouch for 160 ml - MLP",
+        "material": "MLP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 845,
+        "unit": "kg",
+        "printed_quantity": "845.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 845.0,
+        "normalization_requires_master": false,
+        "rate": 396.65,
+        "printed_rate": "396.65",
+        "amount": 335169.25,
+        "printed_amount": "3,35,169.25",
+        "gst_rate": 18,
+        "gst_amount": 60330.46,
+        "printed_description_lines": [
+          "Spouted laminate pouch for 160 ml - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 335169.25,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 60330.46,
+    "gst": 60330.46,
+    "invoice_total": 395499.71,
+    "printed_total": "3,95,499.71",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    845.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00135501"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 17188058238651534415,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "5e755cb793cf847fc3a96fbcb469f667404f8963ca2a2018b4576c661326f1b4"
+}

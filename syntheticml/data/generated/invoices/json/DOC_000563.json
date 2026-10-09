@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000563",
+  "invoice_id": "INV_00026862",
+  "invoice_number": "SYUD/2425/00115",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0083",
+  "supplier_id": "SUP_0013",
+  "buyer_id": "COMP_0083",
+  "expected_fields": {
+    "invoice_number": "SYUD/2425/00115",
+    "invoice_date": "2025-02-08",
+    "printed_date": "08-Feb-2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Udayacrest Corrugators Pvt Ltd",
+    "vendor_gstin": "29ESWCM6163W3ZH",
+    "buyer": "Dhararidge Digital Commerce Pvt Ltd",
+    "buyer_gstin": "09SDICO2224M2ZT",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000563:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Paper void fill Shipment Large - PAPER (14.6 g/pc) (lot 1/2)",
+        "material": "PAPER",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": null,
+        "unit": "pcs",
+        "printed_quantity": "",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 14.6,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 1.55,
+        "printed_rate": "1.55",
+        "amount": 35282.65,
+        "printed_amount": "35,282.65",
+        "gst_rate": 18,
+        "gst_amount": 6350.88,
+        "printed_description_lines": [
+          "Paper void fill Shipment Large - PAPER (14.6 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000563:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Paper void fill Shipment Large - PAPER (14.6 g/pc) (lot 2/2)",
+        "material": "PAPER",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 28849,
+        "unit": "pcs",
+        "printed_quantity": "28,849",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 14.6,
+        "normalized_quantity_kg": 421.195,
+        "normalization_requires_master": false,
+        "rate": 1.55,
+        "printed_rate": "1.55",
+        "amount": 44715.95,
+        "printed_amount": "44,715.95",
+        "gst_rate": 18,
+        "gst_amount": 8048.87,
+        "printed_description_lines": [
+          "Paper void fill Shipment Large - PAPER (14.6 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 79998.6,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 14399.75,
+    "gst": 14399.75,
+    "invoice_total": 94398.35,
+    "printed_total": "94,398.35",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    332.34,
+    421.195
+  ],
+  "linked_transaction_ids": [
+    "TXN_00142850",
+    "TXN_00142851"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN06"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001634"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN06",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 161887122175768287,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "e469a7e923d62befdb3ee3d5b64fb8c08ee84241739f5f3b2fb026259925541a"
+}

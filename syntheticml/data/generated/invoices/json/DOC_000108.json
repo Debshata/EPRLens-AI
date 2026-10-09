@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000108",
+  "invoice_id": "INV_00041386",
+  "invoice_number": "SYRN/2324/00002",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0144",
+  "supplier_id": "BUY_0050",
+  "buyer_id": "COMP_0144",
+  "expected_fields": {
+    "invoice_number": "SYRN/2324/00002",
+    "invoice_date": "2023-08-21",
+    "printed_date": "2023-08-21",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Kesarbloom Wholesalers LLP",
+    "vendor_gstin": "36WIUCD5425X1ZE",
+    "buyer": "Vanashore Beverages Pvt Ltd",
+    "buyer_gstin": "10YYZCX0393G2ZH",
+    "place_of_supply": "Bihar (10)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYVA/2324/00012",
+    "lines": [
+      {
+        "line_reference": "DOC_000108:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Lumiray Jeera Fizz 300 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "2202",
+        "quantity": 32733,
+        "unit": "bottles",
+        "printed_quantity": "32,733",
+        "printed_unit": "bottles",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1394.425,
+        "normalization_requires_master": true,
+        "rate": 33.65,
+        "printed_rate": "33.65",
+        "amount": 1101465.45,
+        "printed_amount": "11,01,465.45",
+        "gst_rate": 18,
+        "gst_amount": 198263.78,
+        "printed_description_lines": [
+          "Goods returned: Lumiray Jeera Fizz 300 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 1101465.45,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 198263.78,
+    "gst": 198263.78,
+    "invoice_total": 1299729.23,
+    "printed_total": "12,99,729.23",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1394.425
+  ],
+  "linked_transaction_ids": [
+    "TXN_00121084"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 12953728527507194830,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "a7b1c6aed3a0068c07e0809a6a5850828de0e813f37a7c5ed035475e21a748de"
+}

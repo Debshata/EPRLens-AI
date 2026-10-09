@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000907",
+  "invoice_id": "INV_00031352",
+  "invoice_number": "SYUD/2526/00045",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0125",
+  "supplier_id": "SUP_0014",
+  "buyer_id": "COMP_0125",
+  "expected_fields": {
+    "invoice_number": "SYUD/2526/00045",
+    "invoice_date": "2026-02-07",
+    "printed_date": "2026-02-07",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Udayaloom Closures Pvt Ltd",
+    "vendor_gstin": "36TCWCK4161O3ZD",
+    "buyer": "Purewick Personal Care Pvt Ltd",
+    "buyer_gstin": "27PMMCO6513E2Z7",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000907:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Pump closure 200 ml - PP (6.1 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 164987,
+        "unit": "pcs",
+        "printed_quantity": "1,64,987",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 6.1,
+        "normalized_quantity_kg": 1006.421,
+        "normalization_requires_master": false,
+        "rate": 0.99,
+        "printed_rate": "0.99",
+        "amount": 163337.13,
+        "printed_amount": "1,63,337.13",
+        "gst_rate": 12,
+        "gst_amount": 19600.46,
+        "printed_description_lines": [
+          "Pump closure 200 ml - PP (6.1 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000907:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Pump closure 200 ml - PP (6.1 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 123463,
+        "unit": "pcs",
+        "printed_quantity": "1,23,463",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 6.1,
+        "normalized_quantity_kg": 753.124,
+        "normalization_requires_master": false,
+        "rate": 0.99,
+        "printed_rate": "0.99",
+        "amount": 122228.37,
+        "printed_amount": "1,22,228.37",
+        "gst_rate": 12,
+        "gst_amount": 14667.4,
+        "printed_description_lines": [
+          "Pump closure 200 ml - PP (6.1 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 285565.5,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 34267.86,
+    "gst": 34267.86,
+    "invoice_total": 319833.36,
+    "printed_total": "3,19,833.36",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1006.421,
+    7.531
+  ],
+  "linked_transaction_ids": [
+    "TXN_00153792",
+    "TXN_00153793"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN02"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000418"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN02",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 4096506298748361765,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "118c1ce5be265b1b56ea9c564c5fc9195faa524f5f013a35cc0421c170c30cb7"
+}

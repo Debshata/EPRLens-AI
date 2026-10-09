@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000533",
+  "invoice_id": "INV_00041831",
+  "invoice_number": "SYRN/2425/00004",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0183",
+  "supplier_id": "BUY_0125",
+  "buyer_id": "COMP_0183",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00004",
+    "invoice_date": "2025-01-06",
+    "printed_date": "06-Jan-2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Saffranest Distributors Pvt Ltd",
+    "vendor_gstin": "07GYAFR5019J3ZR",
+    "buyer": "Lumiwing Household Products Pvt Ltd",
+    "buyer_gstin": "07LBNCB1789Q2ZU",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYLU/2425/00017",
+    "lines": [
+      {
+        "line_reference": "DOC_000533:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Hiraglow Dishwash Liquid Refill 1 L",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 914,
+        "unit": "pcs",
+        "printed_quantity": "914",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 10.328,
+        "normalization_requires_master": true,
+        "rate": 50.6,
+        "printed_rate": "50.60",
+        "amount": 46248.4,
+        "printed_amount": "46,248.40",
+        "gst_rate": 18,
+        "gst_amount": 8324.71,
+        "printed_description_lines": [
+          "Goods returned: Hiraglow Dishwash Liquid Refill 1 L"
+        ]
+      }
+    ],
+    "total_taxable_value": 46248.4,
+    "cgst": 4162.35,
+    "sgst": 4162.36,
+    "igst": 0.0,
+    "gst": 8324.71,
+    "invoice_total": 54573.11,
+    "printed_total": "54,573.11",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    10.328
+  ],
+  "linked_transaction_ids": [
+    "TXN_00121529"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "return_applied",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 6851975391909014461,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "4f76f474f1359c527d88ae9fa6d4dcc6c57245719d80104113cd3ffe3231d4e1"
+}

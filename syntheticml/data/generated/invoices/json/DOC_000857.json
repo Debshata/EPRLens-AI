@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000857",
+  "invoice_id": "INV_00035386",
+  "invoice_number": "SYMI/2526/00027",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0160",
+  "supplier_id": "SUP_0118",
+  "buyer_id": "COMP_0160",
+  "expected_fields": {
+    "invoice_number": "SYMI/2526/00027",
+    "invoice_date": "2025-12-20",
+    "printed_date": "20-Dec-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Mithrabrook Pouches Pvt Ltd",
+    "vendor_gstin": "27NNECF0326Y2Z3",
+    "buyer": "Dhararidge Consumer Goods Pvt Ltd",
+    "buyer_gstin": "19XOQCH4152X3Z6",
+    "place_of_supply": "West Bengal (19)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000857:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LLDPE pouch 500 g - LLDPE (10.0 g/pc)",
+        "material": "LLDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 430495,
+        "unit": "pcs",
+        "printed_quantity": "4,30,495",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 10.0,
+        "normalized_quantity_kg": 4304.95,
+        "normalization_requires_master": false,
+        "rate": 1.87,
+        "printed_rate": "1.87",
+        "amount": 805025.65,
+        "printed_amount": "8,05,025.65",
+        "gst_rate": 18,
+        "gst_amount": 144904.62,
+        "printed_description_lines": [
+          "LLDPE pouch 500 g - LLDPE (10.0 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 805025.65,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 144904.62,
+    "gst": 144904.62,
+    "invoice_total": 949930.27,
+    "printed_total": "9,49,930.27",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    4304.95
+  ],
+  "linked_transaction_ids": [
+    "TXN_00162183"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 17341832717416923241,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "011e6c4e1d0460a0ab19f6ffe5c8133b1fc8cc2f823ef826f933ab51b7e7cb55"
+}

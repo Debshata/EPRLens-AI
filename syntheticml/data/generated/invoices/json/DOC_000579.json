@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000579",
+  "invoice_id": "INV_00028971",
+  "invoice_number": "SYEXP-00046",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0102",
+  "supplier_id": "SUP_0010",
+  "buyer_id": "COMP_0102",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00046",
+    "invoice_date": "2025-02-19",
+    "printed_date": "19/02/2025",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Jalavista Converters Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Novadale Drinks Pvt Ltd",
+    "buyer_gstin": "29LFYCB5749W2Z7",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000579:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 1 L - HDPE",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 32.25,
+        "unit": "MT",
+        "printed_quantity": "32.250",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 32250.0,
+        "normalization_requires_master": false,
+        "rate": 2358.38,
+        "printed_rate": "2,358.38",
+        "amount": 76057.76,
+        "printed_amount": "76,057.76",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "HDPE bottle for 1 L - HDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 76057.76,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 76057.76,
+    "printed_total": "76,057.76",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    32250000.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00147576"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000013"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 13933569769746325423,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "f5e5f7124dc26ecc9b1de0983ad8aea0ece5e478ba89495b65a9505a806f0bee"
+}

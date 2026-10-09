@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000939",
+  "invoice_id": "INV_00003771",
+  "invoice_number": "SYSU/2526/00066",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0043",
+  "supplier_id": "COMP_0043",
+  "buyer_id": "BUY_0084",
+  "expected_fields": {
+    "invoice_number": "SYSU/2526/00066",
+    "invoice_date": "2026-03-12",
+    "printed_date": "12-Mar-2026",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Suvarnapath Home Care LLP",
+    "vendor_gstin": "06TJECD9621G2ZZ",
+    "buyer": "Nilapath E-Store LLP",
+    "buyer_gstin": "24CRFCF8943L1ZK",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000939:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Bodhihaven Toilet Cleaner 500 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 118940,
+        "unit": "bottles",
+        "printed_quantity": "1,18,940",
+        "printed_unit": "bottles",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 6636.852,
+        "normalization_requires_master": true,
+        "rate": 67.32,
+        "printed_rate": "67.32",
+        "amount": 8007040.8,
+        "printed_amount": "80,07,040.80",
+        "gst_rate": 18,
+        "gst_amount": 1441267.34,
+        "printed_description_lines": [
+          "Bodhihaven Toilet Cleaner 500 ml"
+        ]
+      },
+      {
+        "line_reference": "DOC_000939:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Arunbloom Dishwash Liquid Refill 1 L",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 188437,
+        "unit": "pcs",
+        "printed_quantity": "1,88,437",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2204.713,
+        "normalization_requires_master": true,
+        "rate": 165.42,
+        "printed_rate": "165.42",
+        "amount": 31171248.54,
+        "printed_amount": "3,11,71,248.54",
+        "gst_rate": 18,
+        "gst_amount": 5610824.74,
+        "printed_description_lines": [
+          "Arunbloom Dishwash Liquid Refill 1 L"
+        ]
+      }
+    ],
+    "total_taxable_value": 39178289.34,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 7052092.08,
+    "gst": 7052092.08,
+    "invoice_total": 46230381.42,
+    "printed_total": "4,62,30,381.42",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    6636.852,
+    22.047
+  ],
+  "linked_transaction_ids": [
+    "TXN_00027999",
+    "TXN_00028031"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN02"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000501"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN02",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 7510853474785136005,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "22bd6bb27a1e67428ab3b84033d3fdc3e620af522d37fd54f117d87becfd7e26"
+}

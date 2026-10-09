@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000473",
+  "invoice_id": "INV_00040354",
+  "invoice_number": "SYRN/2425/00004",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0044",
+  "supplier_id": "BUY_0085",
+  "buyer_id": "COMP_0044",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00004",
+    "invoice_date": "2024-10-26",
+    "printed_date": "26/10/2024",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Kirawave Manufacturing",
+    "vendor_gstin": "37MWWFC4981W1ZG",
+    "buyer": "Hiramint Foods Pvt Ltd",
+    "buyer_gstin": "03YMWCF2574Z3Z9",
+    "place_of_supply": "Punjab (03)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYHI/2425/00012",
+    "lines": [
+      {
+        "line_reference": "DOC_000473:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Udayacrest Mustard Oil 1 L",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "1905",
+        "quantity": 1002,
+        "unit": "bottles",
+        "printed_quantity": "1,002",
+        "printed_unit": "Btl",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 54.91,
+        "normalization_requires_master": true,
+        "rate": 10.4,
+        "printed_rate": "10.40",
+        "amount": 10420.8,
+        "printed_amount": "10,420.80",
+        "gst_rate": 12,
+        "gst_amount": 1250.5,
+        "printed_description_lines": [
+          "Goods returned: Udayacrest Mustard Oil 1 L"
+        ]
+      }
+    ],
+    "total_taxable_value": 10420.8,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1250.5,
+    "gst": 1250.5,
+    "invoice_total": 11671.3,
+    "printed_total": "11,671.30",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    54.91
+  ],
+  "linked_transaction_ids": [
+    "TXN_00120052"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "return_applied",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 16863166193424674614,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "749e32636ea26c29d5bb359e661aab7d5bf2391a5d10e5f0bfce90ae64757129"
+}

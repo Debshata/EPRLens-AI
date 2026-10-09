@@ -1,0 +1,54 @@
+{
+  "model_version": "forecast-v1",
+  "feature_order": [
+    "log_packaging_kg",
+    "r_lag1",
+    "r_lag2",
+    "r_lag3",
+    "r_lag6",
+    "r_lag11",
+    "r_lag12",
+    "r_rm3",
+    "r_rm6",
+    "seasonal_shift",
+    "season_ratio",
+    "sales_growth",
+    "log_weight_g",
+    "weight_change",
+    "target_month_sin",
+    "target_month_cos",
+    "history_months",
+    "industry_Appliances",
+    "industry_Automotive",
+    "industry_Beverages",
+    "industry_Cosmetics",
+    "industry_E-commerce",
+    "industry_Electronics",
+    "industry_FMCG",
+    "industry_Food",
+    "industry_Household Products",
+    "industry_Industrial Goods",
+    "industry_Personal Care",
+    "industry_Pharmaceuticals",
+    "industry_Retail"
+  ],
+  "n_features": 30,
+  "input_dtype": "float32 (ONNX) / float64 (joblib)",
+  "request": {
+    "company_id": "string",
+    "product_id": "string",
+    "industry": "one of ['Appliances', 'Automotive', 'Beverages', 'Cosmetics', 'E-commerce', 'Electronics', 'FMCG', 'Food', 'Household Products', 'Industrial Goods', 'Personal Care', 'Pharmaceuticals', 'Retail']",
+    "history": "list of {month: 'YYYY-MM', packaging_kg: number>=0, units_sold: int (optional), weight_per_unit_g: number (optional)}; ascending; last entry = latest month (packaging_kg > 0); up to 13 months are used"
+  },
+  "response": {
+    "forecast_kg": "number",
+    "target_month": "YYYY-MM",
+    "model_version": "forecast-v1",
+    "model_name": "xgboost",
+    "status": "success | error"
+  },
+  "notes": [
+    "No confidence interval is returned: none is statistically supported by this model.",
+    "Features are built by features.py (shipped in this folder) — do not reimplement them."
+  ]
+}

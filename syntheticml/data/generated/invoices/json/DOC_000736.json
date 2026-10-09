@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000736",
+  "invoice_id": "INV_00007401",
+  "invoice_number": "SYDH/2526/00011",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0083",
+  "supplier_id": "COMP_0083",
+  "buyer_id": "BUY_0148",
+  "expected_fields": {
+    "invoice_number": "SYDH/2526/00011",
+    "invoice_date": "2025-07-10",
+    "printed_date": "10-Jul-2025",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Dhararidge Digital Commerce Pvt Ltd",
+    "vendor_gstin": "09SDICO2224M2ZT",
+    "buyer": "Tararidge General Stores",
+    "buyer_gstin": null,
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000736:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Purestone Boxed Shipment Large",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "9965",
+        "quantity": 4542,
+        "unit": "pcs",
+        "printed_quantity": "4,542",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1815.437,
+        "normalization_requires_master": true,
+        "rate": 732.65,
+        "printed_rate": "732.65",
+        "amount": 3327696.3,
+        "printed_amount": "3,327,696.30",
+        "gst_rate": 18,
+        "gst_amount": 598985.33,
+        "printed_description_lines": [
+          "Purestone Boxed Shipment Large"
+        ]
+      }
+    ],
+    "total_taxable_value": 3327696.3,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 598985.33,
+    "gst": 598985.33,
+    "invoice_total": 3926681.63,
+    "printed_total": "3,926,681.63",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1815.437
+  ],
+  "linked_transaction_ids": [
+    "TXN_00051018"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "unregistered_buyer",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 10449118391014761822,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "9d2141436dca0ce29b1b9ccff2b753bfe7535cd69ec39a8238ef31ee86b9e10e"
+}

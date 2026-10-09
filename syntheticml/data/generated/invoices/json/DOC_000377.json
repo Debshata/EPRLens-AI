@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000377",
+  "invoice_id": "INV_00020502",
+  "invoice_number": "SYSA/2425/00008",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0030",
+  "supplier_id": "SUP_0119",
+  "buyer_id": "COMP_0030",
+  "expected_fields": {
+    "invoice_number": "SYSA/2425/00008",
+    "invoice_date": "2024-06-14",
+    "printed_date": "14-06-2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Saffrawell Label Prints Pvt Ltd",
+    "vendor_gstin": "23BTMCN7581K2ZC",
+    "buyer": "Indrahaven Hygiene Products LLP",
+    "buyer_gstin": "19UTBCV6160N2Z8",
+    "place_of_supply": "West Bengal (19)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000377:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Label 340 ml - PP (12.0 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 493903,
+        "unit": "pcs",
+        "printed_quantity": "4,93,903",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 12.0,
+        "normalized_quantity_kg": 5926.836,
+        "normalization_requires_master": false,
+        "rate": 0.2,
+        "printed_rate": "0.20",
+        "amount": 98780.6,
+        "printed_amount": "98,780.60",
+        "gst_rate": 18,
+        "gst_amount": 17780.51,
+        "printed_description_lines": [
+          "Label 340 ml - PP (12.0 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 98780.6,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 17780.51,
+    "gst": 17780.51,
+    "invoice_total": 116561.11,
+    "printed_total": "1,16,561.11",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    493.903
+  ],
+  "linked_transaction_ids": [
+    "TXN_00128273"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN10"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001568"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN10",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 12072095723068409187,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "4f71e0e0fb7e92fc30fb222533278b597056f2a2b3f2a53e1dfc9f7ac245eaf4"
+}

@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000705",
+  "invoice_id": "INV_00032573",
+  "invoice_number": "SYEXP-00016",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0137",
+  "supplier_id": "SUP_0039",
+  "buyer_id": "COMP_0137",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00016",
+    "invoice_date": "2025-05-28",
+    "printed_date": "2025-05-28",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Rituvista Packaging Components Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Zararoot Beverages Ltd",
+    "buyer_gstin": "37UVTCV0553F3ZH",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000705:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 500 ml - PP (1.7 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 37618,
+        "unit": "pcs",
+        "printed_quantity": "37,618",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 1.7,
+        "normalized_quantity_kg": 63.951,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 376.18,
+        "printed_amount": "376.18",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Cap 500 ml - PP (1.7 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000705:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Cap 500 ml - PP (1.7 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 48845,
+        "unit": "pcs",
+        "printed_quantity": "48,845",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 1.7,
+        "normalized_quantity_kg": 83.037,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 488.45,
+        "printed_amount": "488.45",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Cap 500 ml - PP (1.7 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 864.63,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 864.63,
+    "printed_total": "864.63",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    63.951,
+    99.486
+  ],
+  "linked_transaction_ids": [
+    "TXN_00155893",
+    "TXN_00155894"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN07"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000627"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN07",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 410943523357311715,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "3be131e1bddf4bb77a8b3a2475dfe5cfe1050a06c24840d3ead9cac42be630ca"
+}

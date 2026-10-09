@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000594",
+  "invoice_id": "INV_00041787",
+  "invoice_number": "SYRN/2425/00006",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0179",
+  "supplier_id": "BUY_0057",
+  "buyer_id": "COMP_0179",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00006",
+    "invoice_date": "2025-03-10",
+    "printed_date": "10/03/2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Pureshore Industries Pvt Ltd",
+    "vendor_gstin": "29CJRFX0805R3ZK",
+    "buyer": "Vanastone Appliances Pvt Ltd",
+    "buyer_gstin": "29USCCM6416B3Z5",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYVA/2425/00021",
+    "lines": [
+      {
+        "line_reference": "DOC_000594:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Pranabrook Wall Fan 400 mm",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "8509",
+        "quantity": 64,
+        "unit": "pcs",
+        "printed_quantity": "64",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 45.056,
+        "normalization_requires_master": true,
+        "rate": 2840.37,
+        "printed_rate": "2,840.37",
+        "amount": 181783.68,
+        "printed_amount": "1,81,783.68",
+        "gst_rate": 18,
+        "gst_amount": 32721.06,
+        "printed_description_lines": [
+          "Goods returned: Pranabrook Wall Fan 400 mm"
+        ]
+      }
+    ],
+    "total_taxable_value": 181783.68,
+    "cgst": 16360.53,
+    "sgst": 16360.53,
+    "igst": 0.0,
+    "gst": 32721.06,
+    "invoice_total": 214504.74,
+    "printed_total": "2,14,504.74",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN16"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002240"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN16",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 15312026157784967784,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "748a04ad11dde6a3d097c7d6c0a17939cc089e8a404f315e78c61e608164bfb2"
+}

@@ -1,0 +1,122 @@
+{
+  "document_id": "DOC_000273",
+  "invoice_id": "INV_00043713",
+  "invoice_number": "SYSU/2324/00017",
+  "invoice_type": "RECYCLER_PROCESSING",
+  "invoice_type_code": "IT03",
+  "company_id": "COMP_0001",
+  "supplier_id": "REC_0002",
+  "buyer_id": "COMP_0001",
+  "expected_fields": {
+    "invoice_number": "SYSU/2324/00017",
+    "invoice_date": "2024-03-22",
+    "printed_date": "22/03/2024",
+    "invoice_type": "RECYCLER_PROCESSING",
+    "title": "TAX INVOICE - PROCESSING SERVICES",
+    "status": "issued",
+    "vendor": "Suvarnaline Waste Solutions Pvt Ltd",
+    "vendor_gstin": "19TALCY2571B3ZM",
+    "buyer": "EcoFizz Beverages Pvt Ltd",
+    "buyer_gstin": "07OLWCZ2975K3ZF",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000273:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Processing of post-consumer CAT_II plastic waste 2024-02 (received 1855.63 kg)",
+        "material": null,
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 2699.2,
+        "unit": "kg",
+        "printed_quantity": "2,699.20",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2699.2,
+        "normalization_requires_master": false,
+        "rate": 6.28,
+        "printed_rate": "6.28",
+        "amount": 16950.98,
+        "printed_amount": "16,950.98",
+        "gst_rate": 18,
+        "gst_amount": 3051.18,
+        "printed_description_lines": [
+          "Processing of post-consumer CAT_II plastic waste 2024-02",
+          "(received 1855.63 kg)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000273:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Processing of post-consumer CAT_II plastic waste 2024-03 (received 1245.89 kg)",
+        "material": null,
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 1170.51,
+        "unit": "kg",
+        "printed_quantity": "1,170.51",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1170.51,
+        "normalization_requires_master": false,
+        "rate": 6.28,
+        "printed_rate": "6.28",
+        "amount": 7350.8,
+        "printed_amount": "7,350.80",
+        "gst_rate": 18,
+        "gst_amount": 1323.14,
+        "printed_description_lines": [
+          "Processing of post-consumer CAT_II plastic waste 2024-03",
+          "(received 1245.89 kg)"
+        ]
+      }
+    ],
+    "total_taxable_value": 24301.78,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 4374.32,
+    "gst": 4374.32,
+    "invoice_total": 28676.1,
+    "printed_total": "28,676.10",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2699.199,
+    1170.513
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [
+    "RCY_0000041",
+    "RCY_0000042"
+  ],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN11"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002373"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN11",
+  "paired_document_id": null,
+  "template_id": "L10",
+  "template_name": "Recycler service",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 8454324467763890779,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c2d9eba34cdc4bab1259a5b8ddb1336b61458dfc3e1b4f06924cf83fbdc655d0"
+}

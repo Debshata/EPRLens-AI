@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000651",
+  "invoice_id": "INV_00022643",
+  "invoice_number": "SYYU/2526/00001",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0048",
+  "supplier_id": "SUP_0001",
+  "buyer_id": "COMP_0048",
+  "expected_fields": {
+    "invoice_number": "SYYU/2526/00001",
+    "invoice_date": "2025-04-01",
+    "printed_date": "01-04-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Yuvawave PET Bottles Pvt Ltd",
+    "vendor_gstin": "24ZWNCQ0245Y2ZZ",
+    "buyer": "Aquadale Foods Ltd",
+    "buyer_gstin": "24NODCK1858I1ZK",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000651:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET jar 1 L - PET (43.4 g/pc)",
+        "material": "PET",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 10563322,
+        "unit": "pcs",
+        "printed_quantity": "1,05,63,322",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 43.4,
+        "normalized_quantity_kg": 458448.175,
+        "normalization_requires_master": false,
+        "rate": 8.94,
+        "printed_rate": "8.94",
+        "amount": 94436098.68,
+        "printed_amount": "9,44,36,098.68",
+        "gst_rate": 18,
+        "gst_amount": 16998497.76,
+        "printed_description_lines": [
+          "PET jar 1 L - PET (43.4 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 94436098.68,
+    "cgst": 8499248.88,
+    "sgst": 8499248.88,
+    "igst": 0.0,
+    "gst": 16998497.76,
+    "invoice_total": 111434596.44,
+    "printed_total": "11,14,34,596.44",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    458448.175
+  ],
+  "linked_transaction_ids": [
+    "TXN_00133418"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 3367200133901679857,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "55c5fd59ff367b75f2bfa6a3b523246b50d6e297934e9f34a9b448ae266790bc"
+}

@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000147",
+  "invoice_id": "INV_00026950",
+  "invoice_number": "SYBO/2324/00022",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0083",
+  "supplier_id": "SUP_0098",
+  "buyer_id": "COMP_0083",
+  "expected_fields": {
+    "invoice_number": "SYBO/2324/00022",
+    "invoice_date": "2023-10-09",
+    "printed_date": "09/10/2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Bodhivista Flexi Pack Pvt Ltd",
+    "vendor_gstin": "29CADCC0659C2ZZ",
+    "buyer": "Dhararidge Digital Commerce Pvt Ltd",
+    "buyer_gstin": "09SDICO2224M2ZT",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000147:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Compostable mailer for Pack Medium - COMPOSTABLE",
+        "material": "COMPOSTABLE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 3.6,
+        "unit": "MT",
+        "printed_quantity": "3.600",
+        "printed_unit": "Tonne",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 3600.0,
+        "normalization_requires_master": false,
+        "rate": 323283.02,
+        "printed_rate": "3,23,283.02",
+        "amount": 1163818.87,
+        "printed_amount": "11,63,818.87",
+        "gst_rate": 18,
+        "gst_amount": 209487.4,
+        "printed_description_lines": [
+          "Compostable mailer for Pack Medium - COMPOSTABLE"
+        ]
+      }
+    ],
+    "total_taxable_value": 1163818.87,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 209487.4,
+    "gst": 209487.4,
+    "invoice_total": 1373306.27,
+    "printed_total": "13,73,306.27",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    3600000.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00142754"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000037"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L06",
+  "template_name": "QR placeholder",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 5986187860497403969,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "4b18e050bff78f42bc8d487a4dfec4c969d804d80aacf50b2a607723e0da0069"
+}

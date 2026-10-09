@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000843",
+  "invoice_id": "INV_00040317",
+  "invoice_number": "SYRN/2526/00008",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0041",
+  "supplier_id": "BUY_0044",
+  "buyer_id": "COMP_0041",
+  "expected_fields": {
+    "invoice_number": "SYRN/2526/00008",
+    "invoice_date": "2025-12-01",
+    "printed_date": "01/12/2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Ritumint General Stores",
+    "vendor_gstin": "24FYHFC0710Y1ZW",
+    "buyer": "Vanaline Home Care LLP",
+    "buyer_gstin": "24MBFCD4294S1ZA",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYVA/2526/00008",
+    "lines": [
+      {
+        "line_reference": "DOC_000843:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Rituwell Dishwash Liquid Refill 500 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 2981,
+        "unit": "pcs",
+        "printed_quantity": "2,981",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 25.04,
+        "normalization_requires_master": true,
+        "rate": 85.7,
+        "printed_rate": "85.70",
+        "amount": 255471.7,
+        "printed_amount": "255,471.70",
+        "gst_rate": 18,
+        "gst_amount": 45984.91,
+        "printed_description_lines": [
+          "Goods returned: Rituwell Dishwash Liquid Refill 500 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 255471.7,
+    "cgst": 22992.46,
+    "sgst": 22992.45,
+    "igst": 0.0,
+    "gst": 45984.91,
+    "invoice_total": 301456.61,
+    "printed_total": "301,456.61",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    25.04
+  ],
+  "linked_transaction_ids": [
+    "TXN_00120015"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "return_applied",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 8133314568123482911,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "6103659d018ef97f7177df4e5d871fc61156b6ce4166692a47a84649a5f035cc"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000566",
+  "invoice_id": "INV_00013705",
+  "invoice_number": "SYEC/2425/00035",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0154",
+  "supplier_id": "COMP_0154",
+  "buyer_id": "BUY_0143",
+  "expected_fields": {
+    "invoice_number": "SYEC/2425/00035",
+    "invoice_date": "2025-02-11",
+    "printed_date": "11-Feb-2025",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ecoroot Drinks Pvt Ltd",
+    "vendor_gstin": "30PEMCA1726Y2ZN",
+    "buyer": "Kesarroot Supermarket",
+    "buyer_gstin": "09VVMFH6434L1ZZ",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000566:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Nilastone Pomegranate Juice 1 L",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "2202",
+        "quantity": 216104,
+        "unit": "bottles",
+        "printed_quantity": "2,16,104",
+        "printed_unit": "Btl",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 14673.461,
+        "normalization_requires_master": true,
+        "rate": 30.57,
+        "printed_rate": "30.57",
+        "amount": 6606299.28,
+        "printed_amount": "66,06,299.28",
+        "gst_rate": 18,
+        "gst_amount": 1189133.87,
+        "printed_description_lines": [
+          "Nilastone Pomegranate Juice 1 L"
+        ]
+      }
+    ],
+    "total_taxable_value": 6606299.28,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1189133.87,
+    "gst": 1189133.87,
+    "invoice_total": 7795433.15,
+    "printed_total": "77,95,433.15",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    14673.461
+  ],
+  "linked_transaction_ids": [
+    "TXN_00090458"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 9219877577192688717,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "f2e9d699e1b16b723ce92605382631eaf462bde80d77522def0a43ac79780637"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000574",
+  "invoice_id": "INV_00027209",
+  "invoice_number": "SYSU/2425/00072",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0086",
+  "supplier_id": "SUP_0024",
+  "buyer_id": "COMP_0086",
+  "expected_fields": {
+    "invoice_number": "SYSU/2425/00072",
+    "invoice_date": "2025-02-15",
+    "printed_date": "15-02-2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Suvarnawing Cap Works Pvt Ltd",
+    "vendor_gstin": "32KIOCT1164C3ZK",
+    "buyer": "Tarasprout Hygiene Products LLP",
+    "buyer_gstin": "08ADRCC8034P1ZI",
+    "place_of_supply": "Rajasthan (08)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000574:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Pump closure 400 ml - PP (8.0 g/pc)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 7281,
+        "unit": "pcs",
+        "printed_quantity": "7,281",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 8.0,
+        "normalized_quantity_kg": 58.248,
+        "normalization_requires_master": false,
+        "rate": 1.47,
+        "printed_rate": "1.47",
+        "amount": 10703.07,
+        "printed_amount": "10,703.07",
+        "gst_rate": 12,
+        "gst_amount": 1284.37,
+        "printed_description_lines": [
+          "Pump closure 400 ml - PP (8.0 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 10703.07,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1284.37,
+    "gst": 1284.37,
+    "invoice_total": 11987.44,
+    "printed_total": "11,987.44",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    58.248
+  ],
+  "linked_transaction_ids": [
+    "TXN_00143513"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 11377174142093638932,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "7c3acfa833c828b0dd62aee1db1a0f138656df4ba9b9a425b14146a3a3512e29"
+}

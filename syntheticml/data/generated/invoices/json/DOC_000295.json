@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000295",
+  "invoice_id": "INV_00042348",
+  "invoice_number": "SYCN/2324/00003",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0198",
+  "supplier_id": "SUP_0115",
+  "buyer_id": "COMP_0198",
+  "expected_fields": {
+    "invoice_number": "SYCN/2324/00003",
+    "invoice_date": "2024-03-26",
+    "printed_date": "26-Mar-2024",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Chandrawave Cartons Pvt Ltd",
+    "vendor_gstin": "24HHVCN9605J1Z1",
+    "buyer": "Vananest Food Products LLP",
+    "buyer_gstin": "07DVCCO4587J3Z9",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYCH/2324/00115",
+    "lines": [
+      {
+        "line_reference": "DOC_000295:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2024-03-07",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 50345.85,
+        "printed_rate": "50,345.85",
+        "amount": 50345.85,
+        "printed_amount": "50,345.85",
+        "gst_rate": 12,
+        "gst_amount": 6041.5,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2024-03-07"
+        ]
+      }
+    ],
+    "total_taxable_value": 50345.85,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 6041.5,
+    "gst": 6041.5,
+    "invoice_total": 56387.35,
+    "printed_total": "56,387.35",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [
+    "TXN_00173122"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 10279435046168697862,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ab37d48f1dc26380af7d30440f533de4a8f44b36b26d7e4d98f59397118c7621"
+}

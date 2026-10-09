@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000529",
+  "invoice_id": "INV_00040972",
+  "invoice_number": "SYRN/2425/00008",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0101",
+  "supplier_id": "BUY_0087",
+  "buyer_id": "COMP_0101",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00008",
+    "invoice_date": "2025-01-02",
+    "printed_date": "02-Jan-2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Rituglow Retail Mart",
+    "vendor_gstin": "09WZOFK3526F2ZO",
+    "buyer": "Pranaglow Devices Pvt Ltd",
+    "buyer_gstin": "07BTHCX0502F3Z4",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYPR/2425/00017",
+    "lines": [
+      {
+        "line_reference": "DOC_000529:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Ritudale USB-C Cable 1 m",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "8504",
+        "quantity": 26,
+        "unit": "pcs",
+        "printed_quantity": "26",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 0.954,
+        "normalization_requires_master": true,
+        "rate": 4370.62,
+        "printed_rate": "4,370.62",
+        "amount": 113636.12,
+        "printed_amount": "1,13,636.12",
+        "gst_rate": 18,
+        "gst_amount": 20454.5,
+        "printed_description_lines": [
+          "Goods returned: Ritudale USB-C Cable 1 m"
+        ]
+      }
+    ],
+    "total_taxable_value": 113636.12,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 20454.5,
+    "gst": 20454.5,
+    "invoice_total": 134090.62,
+    "printed_total": "1,34,090.62",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    0.954
+  ],
+  "linked_transaction_ids": [
+    "TXN_00120670"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "return_applied",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 14206004103804153060,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "6274a089706a857aa572a61ecabedcc8b30c79469d0fe76b5e86900d7ebae6d8"
+}

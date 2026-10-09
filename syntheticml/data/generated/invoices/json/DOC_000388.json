@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000388",
+  "invoice_id": "INV_00030768",
+  "invoice_number": "SYCH/2425/00028",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0116",
+  "supplier_id": "SUP_0115",
+  "buyer_id": "COMP_0116",
+  "expected_fields": {
+    "invoice_number": "SYCH/2425/00028",
+    "invoice_date": "2024-06-28",
+    "printed_date": "28-06-2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Chandrawave Cartons Pvt Ltd",
+    "vendor_gstin": "24HHVCN9605J1Z1",
+    "buyer": "Lumifizz Consumer Products Ltd",
+    "buyer_gstin": "33RATCD9426O3Z4",
+    "place_of_supply": "Tamil Nadu (33)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000388:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Mono carton 150 g - CARDBOARD (9.4 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 420001,
+        "unit": "pcs",
+        "printed_quantity": "420001",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 9.4,
+        "normalized_quantity_kg": 3948.009,
+        "normalization_requires_master": false,
+        "rate": 0.59,
+        "printed_rate": "0.59",
+        "amount": 247800.59,
+        "printed_amount": "247800.59",
+        "gst_rate": 12,
+        "gst_amount": 29736.07,
+        "printed_description_lines": [
+          "Mono carton 150 g - CARDBOARD (9.4 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 247800.59,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 29736.07,
+    "gst": 29736.07,
+    "invoice_total": 277536.66,
+    "printed_total": "277536.66",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    3948.009
+  ],
+  "linked_transaction_ids": [
+    "TXN_00151551"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "g_and_pcs_units",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "plain",
+    "currency_mark": "Rs."
+  },
+  "seed": 10721016083124425533,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "3c3fb022420b8e38874f8896f2caf4cf7d92fee2b668afea136ed2a07b5add82"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000183",
+  "invoice_id": "INV_00025392",
+  "invoice_number": "SYEC/2324/00015",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0065",
+  "supplier_id": "SUP_0084",
+  "buyer_id": "COMP_0065",
+  "expected_fields": {
+    "invoice_number": "SYEC/2324/00015",
+    "invoice_date": "2023-11-15",
+    "printed_date": "15/11/2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ecofizz Preforms & Bottles Pvt Ltd",
+    "vendor_gstin": "18VXKCP8784Z1Z6",
+    "buyer": "Mithramint Life Sciences Pvt Ltd",
+    "buyer_gstin": "07TPGCM2819E3ZJ",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000183:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET bottle 100 ml - PET (22.8 g/pc)",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 273328,
+        "unit": "pcs",
+        "printed_quantity": "273,328",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 22.8,
+        "normalized_quantity_kg": 6231.878,
+        "normalization_requires_master": false,
+        "rate": 3.45,
+        "printed_rate": "3.45",
+        "amount": 942981.6,
+        "printed_amount": "942,981.60",
+        "gst_rate": 18,
+        "gst_amount": 169736.69,
+        "printed_description_lines": [
+          "PET bottle 100 ml - PET (22.8 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 942981.6,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 169736.69,
+    "gst": 169736.69,
+    "invoice_total": 1112718.29,
+    "printed_total": "1,112,718.29",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    6231.878
+  ],
+  "linked_transaction_ids": [
+    "TXN_00139261"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 13233218895819349701,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "f9fdfe633a704f3828ab5ee8aa3a5956ff0cf19127a424aa5f43a60c92a067b6"
+}

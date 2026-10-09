@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000838",
+  "invoice_id": "INV_00041919",
+  "invoice_number": "SYRN/2526/00004",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0193",
+  "supplier_id": "BUY_0106",
+  "buyer_id": "COMP_0193",
+  "expected_fields": {
+    "invoice_number": "SYRN/2526/00004",
+    "invoice_date": "2025-11-24",
+    "printed_date": "24-Nov-2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Zarafizz Retail Mart",
+    "vendor_gstin": "29RDNFN4691W3Z0",
+    "buyer": "Gangawick Life Sciences Ltd",
+    "buyer_gstin": "24MRCCB0970X3ZJ",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYGA/2526/00026",
+    "lines": [
+      {
+        "line_reference": "DOC_000838:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Dharapact Multivitamin Capsules (synthetic SKU) 60 caps",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3004",
+        "quantity": 1685,
+        "unit": "bottles",
+        "printed_quantity": "1,685",
+        "printed_unit": "Btl",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 36.564,
+        "normalization_requires_master": true,
+        "rate": 92.48,
+        "printed_rate": "92.48",
+        "amount": 155828.8,
+        "printed_amount": "1,55,828.80",
+        "gst_rate": 12,
+        "gst_amount": 18699.46,
+        "printed_description_lines": [
+          "Goods returned: Dharapact Multivitamin Capsules (synthetic SKU) 60 caps"
+        ]
+      }
+    ],
+    "total_taxable_value": 155828.8,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 18699.46,
+    "gst": 18699.46,
+    "invoice_total": 174528.26,
+    "printed_total": "1,74,528.26",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN16"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002287"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN16",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 8140782309973070558,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "fc9d004573e4c95f252ea2d8156c467e47c0f68f39c6a51c661f05be024dc4fc"
+}

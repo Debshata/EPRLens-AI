@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000421",
+  "invoice_id": "INV_00018149",
+  "invoice_number": "SYEXP-00005",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0008",
+  "supplier_id": "SUP_0035",
+  "buyer_id": "COMP_0008",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00005",
+    "invoice_date": "2024-08-12",
+    "printed_date": "12-Aug-2024",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Dhararay Preforms & Bottles Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Vanastone Healthcare Pvt Ltd",
+    "buyer_gstin": "29UPBCV0145Z1ZQ",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000421:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET bottle 100 ml - PET (14.8 g/pc) (lot 1/2)",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 159968,
+        "unit": "pcs",
+        "printed_quantity": "1,59,968",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 14.8,
+        "normalized_quantity_kg": 2367.526,
+        "normalization_requires_master": false,
+        "rate": 0.03,
+        "printed_rate": "0.03",
+        "amount": 4799.04,
+        "printed_amount": "4,799.04",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "PET bottle 100 ml - PET (14.8 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000421:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "PET bottle 100 ml - PET (14.8 g/pc) (lot 2/2)",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 181196,
+        "unit": "pcs",
+        "printed_quantity": "1,81,196",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 14.8,
+        "normalized_quantity_kg": 2681.701,
+        "normalization_requires_master": false,
+        "rate": 0.03,
+        "printed_rate": "0.03",
+        "amount": 5435.88,
+        "printed_amount": "5,435.88",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "PET bottle 100 ml - PET (14.8 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 10234.92,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 10234.92,
+    "printed_total": "10,234.92",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2367.526,
+    1305.925
+  ],
+  "linked_transaction_ids": [
+    "TXN_00123026",
+    "TXN_00123027"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN07"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000603"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN07",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 3184321845334713009,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ba5f55508bec217e30bc93eb9e2eda10967596b234aaa914196f3e518af87329"
+}

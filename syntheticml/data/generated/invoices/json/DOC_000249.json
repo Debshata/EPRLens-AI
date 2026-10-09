@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000249",
+  "invoice_id": "INV_00038534",
+  "invoice_number": "SYGA/2324/00111",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0185",
+  "supplier_id": "SUP_0054",
+  "buyer_id": "COMP_0185",
+  "expected_fields": {
+    "invoice_number": "SYGA/2324/00111",
+    "invoice_date": "2024-02-26",
+    "printed_date": "26-02-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Gangaroot Converters Pvt Ltd",
+    "vendor_gstin": "09SUZCZ1417Q2ZO",
+    "buyer": "Ecoroot Consumer Products Pvt Ltd",
+    "buyer_gstin": "09JOKCH2447M3ZF",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000249:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminated tube for 150 g - MLP",
+        "material": "MLP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 5.04,
+        "unit": "MT",
+        "printed_quantity": "5.040",
+        "printed_unit": "M.T.",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 5040.0,
+        "normalization_requires_master": false,
+        "rate": 306691.07,
+        "printed_rate": "3,06,691.07",
+        "amount": 1545722.99,
+        "printed_amount": "15,45,722.99",
+        "gst_rate": 18,
+        "gst_amount": 278230.14,
+        "printed_description_lines": [
+          "Laminated tube for 150 g - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 1545722.99,
+    "cgst": 139115.07,
+    "sgst": 139115.07,
+    "igst": 0.0,
+    "gst": 278230.14,
+    "invoice_total": 1823953.13,
+    "printed_total": "18,23,953.13",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    5040.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00169857"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 15784301604677366871,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "13b13066ae0e20c9a93dac4ed181d76fe0c34df60b6f9c781041fce0bb2ee03e"
+}

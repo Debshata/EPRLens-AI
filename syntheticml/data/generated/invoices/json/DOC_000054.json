@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000054",
+  "invoice_id": "INV_00038559",
+  "invoice_number": "SYZA/2324/00008",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0185",
+  "supplier_id": "SUP_0102",
+  "buyer_id": "COMP_0185",
+  "expected_fields": {
+    "invoice_number": "SYZA/2324/00008",
+    "invoice_date": "2023-06-01",
+    "printed_date": "2023-06-01",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Zararay Flexi Pack Pvt Ltd",
+    "vendor_gstin": "33TGECE5607D3Z5",
+    "buyer": "Ecoroot Consumer Products Pvt Ltd",
+    "buyer_gstin": "09JOKCH2447M3ZF",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000054:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LLDPE pouch for 1 kg - LLDPE",
+        "material": "LLDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 5.06,
+        "unit": "MT",
+        "printed_quantity": "5.060",
+        "printed_unit": "M.T.",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 5060.0,
+        "normalization_requires_master": false,
+        "rate": 152228.03,
+        "printed_rate": "1,52,228.03",
+        "amount": 770273.83,
+        "printed_amount": "7,70,273.83",
+        "gst_rate": 18,
+        "gst_amount": 138649.29,
+        "printed_description_lines": [
+          "LLDPE pouch for 1 kg - LLDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 770273.83,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 138649.29,
+    "gst": 138649.29,
+    "invoice_total": 908923.12,
+    "printed_total": "9,08,923.12",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    5060.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00169736"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 14372776711250882989,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "2cf1faec01736eb843e2d1baf62600d0ee57f9a418ff5651e5c63cca48727e4e"
+}

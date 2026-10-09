@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000412",
+  "invoice_id": "INV_00035813",
+  "invoice_number": "SYDH/2425/00009",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0163",
+  "supplier_id": "SUP_0114",
+  "buyer_id": "COMP_0163",
+  "expected_fields": {
+    "invoice_number": "SYDH/2425/00009",
+    "invoice_date": "2024-07-27",
+    "printed_date": "27/07/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Dharawing Preforms & Bottles Pvt Ltd",
+    "vendor_gstin": "27HXFCF3126Z2ZC",
+    "buyer": "Saffravale Food Products Pvt Ltd",
+    "buyer_gstin": "27XUVCN2267X1ZW",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000412:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET jar 2 L - PET (50.4 g/pc)",
+        "material": "PET",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 145699,
+        "unit": "pcs",
+        "printed_quantity": "1,45,699",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 50.4,
+        "normalized_quantity_kg": 7343.23,
+        "normalization_requires_master": false,
+        "rate": 9.38,
+        "printed_rate": "9.38",
+        "amount": 1366656.62,
+        "printed_amount": "13,66,656.62",
+        "gst_rate": 18,
+        "gst_amount": 245998.19,
+        "printed_description_lines": [
+          "PET jar 2 L - PET (50.4 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 1366656.62,
+    "cgst": 122999.1,
+    "sgst": 122999.09,
+    "igst": 0.0,
+    "gst": 245998.19,
+    "invoice_total": 1612654.81,
+    "printed_total": "16,12,654.81",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    7343.23
+  ],
+  "linked_transaction_ids": [
+    "TXN_00163375"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 15632418896977764255,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ae1df90f0e2a0bfeefcc571dd18f63ed6ebcd9d53bb2f963e976f99e722af1fe"
+}

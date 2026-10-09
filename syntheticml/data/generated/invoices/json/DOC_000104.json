@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000104",
+  "invoice_id": "INV_00028660",
+  "invoice_number": "SYRI/2324/00022",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0098",
+  "supplier_id": "SUP_0076",
+  "buyer_id": "COMP_0098",
+  "expected_fields": {
+    "invoice_number": "SYRI/2324/00022",
+    "invoice_date": "2023-08-16",
+    "printed_date": "16/08/2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ritumint Packaging Components Pvt Ltd",
+    "vendor_gstin": "27TGICB5857F1ZZ",
+    "buyer": "Novaridge Appliances Pvt Ltd",
+    "buyer_gstin": "33JKUCV6413Y3ZD",
+    "place_of_supply": "Tamil Nadu (33)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000104:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "EPS blocks 750 W - PS (2871.6 g/pc)",
+        "material": "PS",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 509,
+        "unit": "pcs",
+        "printed_quantity": "509",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 2871.6,
+        "normalized_quantity_kg": 1461.644,
+        "normalization_requires_master": false,
+        "rate": 41.21,
+        "printed_rate": "41.21",
+        "amount": 20975.89,
+        "printed_amount": "20,975.89",
+        "gst_rate": 18,
+        "gst_amount": 3775.66,
+        "printed_description_lines": [
+          "EPS blocks 750 W - PS (2871.6 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 20975.89,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 3775.66,
+    "gst": 3775.66,
+    "invoice_total": 24751.55,
+    "printed_total": "24,751.55",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    104.396
+  ],
+  "linked_transaction_ids": [
+    "TXN_00146653"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN10"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001559"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN10",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 14066237266290243522,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ac83256e2e02d4749ec8009e7c1324f30a45ee77e0e54d1524679eac73687387"
+}

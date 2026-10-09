@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000625",
+  "invoice_id": "INV_00025729",
+  "invoice_number": "SYEXP-00004",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0069",
+  "supplier_id": "SUP_0104",
+  "buyer_id": "COMP_0069",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00004",
+    "invoice_date": "2025-03-24",
+    "printed_date": "24/03/2025",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Hiraloom Pouches Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Vanahaven Consumer Products LLP",
+    "buyer_gstin": "21EXZCC2370V3Z7",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000625:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminate sachet 6 ml - MLP (0.6 g/pc)",
+        "material": "MLP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 553533,
+        "unit": "pcs",
+        "printed_quantity": "5,53,533",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 0.6,
+        "normalized_quantity_kg": 332.12,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 5535.33,
+        "printed_amount": "5,535.33",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Laminate sachet 6 ml - MLP (0.6 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 5535.33,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 5535.33,
+    "printed_total": "5,535.33",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    359.015
+  ],
+  "linked_transaction_ids": [
+    "TXN_00139902"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN07"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000661"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN07",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 14744335785307762666,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "9e47fb8908906b088c52b3197d07e37e6bba1530277df21a9b1edca42b24138a"
+}

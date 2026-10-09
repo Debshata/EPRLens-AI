@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000495",
+  "invoice_id": "INV_00025325",
+  "invoice_number": "SYVR/2425/00082",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0065",
+  "supplier_id": "SUP_0008",
+  "buyer_id": "COMP_0065",
+  "expected_fields": {
+    "invoice_number": "SYVR/2425/00082",
+    "invoice_date": "2024-11-20",
+    "printed_date": "20-Nov-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshbloom Packaging Solutions Pvt Ltd",
+    "vendor_gstin": "27JOVCI0213D2ZV",
+    "buyer": "Mithramint Life Sciences Pvt Ltd",
+    "buyer_gstin": "07TPGCM2819E3ZJ",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000495:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PVC blister for 10 tabs - PVC",
+        "material": "PVC",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 219,
+        "unit": "kg",
+        "printed_quantity": "219.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 219.0,
+        "normalization_requires_master": false,
+        "rate": 140.8,
+        "printed_rate": "140.80",
+        "amount": 30835.2,
+        "printed_amount": "30,835.20",
+        "gst_rate": 18,
+        "gst_amount": 5550.34,
+        "printed_description_lines": [
+          "PVC blister for 10 tabs - PVC"
+        ]
+      }
+    ],
+    "total_taxable_value": 30835.2,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 5550.34,
+    "gst": 5550.34,
+    "invoice_total": 36385.54,
+    "printed_total": "36,385.54",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    219.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00139400"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 1354729394991675636,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "33e5c30d4a7291a7d3d20176784b82eaece3b43dda2fa697c48360283cea7c9e"
+}

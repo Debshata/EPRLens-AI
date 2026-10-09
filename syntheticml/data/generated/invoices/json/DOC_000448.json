@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000448",
+  "invoice_id": "INV_00038381",
+  "invoice_number": "SYVR/2425/00059",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0183",
+  "supplier_id": "SUP_0008",
+  "buyer_id": "COMP_0183",
+  "expected_fields": {
+    "invoice_number": "SYVR/2425/00059",
+    "invoice_date": "2024-09-18",
+    "printed_date": "2024-09-18",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshbloom Packaging Solutions Pvt Ltd",
+    "vendor_gstin": "27JOVCI0213D2ZV",
+    "buyer": "Lumiwing Household Products Pvt Ltd",
+    "buyer_gstin": "07LBNCB1789Q2ZU",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000448:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 500 ml - HDPE",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 2.64,
+        "unit": "MT",
+        "printed_quantity": "2.640",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2640.0,
+        "normalization_requires_master": false,
+        "rate": 190331.75,
+        "printed_rate": "190,331.75",
+        "amount": 502475.82,
+        "printed_amount": "502,475.82",
+        "gst_rate": 12,
+        "gst_amount": 60297.1,
+        "printed_description_lines": [
+          "HDPE bottle for 500 ml - HDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 502475.82,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 60297.1,
+    "gst": 60297.1,
+    "invoice_total": 562772.92,
+    "printed_total": "562,772.92",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2640.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00169549"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 14484585271850943122,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "f227619c3d3aefeb9a48da017b8de97eff4b0b18395eebaab4550d8e1f93e192"
+}

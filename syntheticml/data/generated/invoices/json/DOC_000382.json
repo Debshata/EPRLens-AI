@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000382",
+  "invoice_id": "INV_00026903",
+  "invoice_number": "SYVR/2425/00011",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0083",
+  "supplier_id": "SUP_0052",
+  "buyer_id": "COMP_0083",
+  "expected_fields": {
+    "invoice_number": "SYVR/2425/00011",
+    "invoice_date": "2024-06-22",
+    "printed_date": "22/06/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshmint Flexibles Pvt Ltd",
+    "vendor_gstin": "09NOACJ2756U1ZT",
+    "buyer": "Dhararidge Digital Commerce Pvt Ltd",
+    "buyer_gstin": "09SDICO2224M2ZT",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000382:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Courier mailer for Pack Small - LDPE (lot 1/2)",
+        "material": "LDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 2019,
+        "unit": null,
+        "printed_quantity": "2,019",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 211.04,
+        "printed_rate": "211.04",
+        "amount": 426089.76,
+        "printed_amount": "4,26,089.76",
+        "gst_rate": 12,
+        "gst_amount": 51130.77,
+        "printed_description_lines": [
+          "Courier mailer for Pack Small - LDPE (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000382:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Courier mailer for Pack Small - LDPE (lot 2/2)",
+        "material": "LDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 1860,
+        "unit": "kg",
+        "printed_quantity": "1,860.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1860.0,
+        "normalization_requires_master": false,
+        "rate": 211.04,
+        "printed_rate": "211.04",
+        "amount": 392534.4,
+        "printed_amount": "3,92,534.40",
+        "gst_rate": 12,
+        "gst_amount": 47104.13,
+        "printed_description_lines": [
+          "Courier mailer for Pack Small - LDPE (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 818624.16,
+    "cgst": 49117.45,
+    "sgst": 49117.45,
+    "igst": 0.0,
+    "gst": 98234.9,
+    "invoice_total": 916859.06,
+    "printed_total": "9,16,859.06",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2019.0,
+    1860.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00142672",
+    "TXN_00142673"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN06"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001684"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN06",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 857056900492663320,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "5ce73ba91c81a61401b217440ab64fe312be3ab11d27faa4a5bbf44e4e063e6f"
+}

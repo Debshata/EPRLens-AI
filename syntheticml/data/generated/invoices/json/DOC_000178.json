@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000178",
+  "invoice_id": "INV_00036213",
+  "invoice_number": "SYDH/2324/00063",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0166",
+  "supplier_id": "SUP_0042",
+  "buyer_id": "COMP_0166",
+  "expected_fields": {
+    "invoice_number": "SYDH/2324/00063",
+    "invoice_date": "2023-11-10",
+    "printed_date": "10/11/2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Dharaglow Converters Pvt Ltd",
+    "vendor_gstin": "37FTECY6624B2ZJ",
+    "buyer": "Ecobrook Cosmetics Pvt Ltd",
+    "buyer_gstin": "06DNNCN1211E1ZK",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000178:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PP jar for 50 g - PP (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 5340,
+        "unit": "kg",
+        "printed_quantity": "5,340.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 5340.0,
+        "normalization_requires_master": false,
+        "rate": 161.5,
+        "printed_rate": "161.50",
+        "amount": 862410.0,
+        "printed_amount": "8,62,410.00",
+        "gst_rate": 18,
+        "gst_amount": 155233.8,
+        "printed_description_lines": [
+          "PP jar for 50 g - PP (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000178:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "PP jar for 50 g - PP (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 5974,
+        "unit": "kg",
+        "printed_quantity": "5,974.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 5974.0,
+        "normalization_requires_master": false,
+        "rate": 161.5,
+        "printed_rate": "161.50",
+        "amount": 964801.0,
+        "printed_amount": "9,64,801.00",
+        "gst_rate": 18,
+        "gst_amount": 173664.18,
+        "printed_description_lines": [
+          "PP jar for 50 g - PP (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 1827211.0,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 328897.98,
+    "gst": 328897.98,
+    "invoice_total": 2156108.98,
+    "printed_total": "21,56,108.98",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    5340.0,
+    5974.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00164669",
+    "TXN_00164670"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001407"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 15796463009103624239,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "9d6286827dcc32763e4c82de8e168782709d98fd8c2633b598dd05990211ad54"
+}

@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000671",
+  "invoice_id": "INV_00020187",
+  "invoice_number": "SYAR/2526/00003",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0028",
+  "supplier_id": "SUP_0099",
+  "buyer_id": "COMP_0028",
+  "expected_fields": {
+    "invoice_number": "SYAR/2526/00003",
+    "invoice_date": "2025-04-28",
+    "printed_date": "28/04/2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Arunloom Flexibles Pvt Ltd",
+    "vendor_gstin": "24MTOCU2593B3ZA",
+    "buyer": "Zarahaven Electronics LLP",
+    "buyer_gstin": "27ENWCS7561Q2ZO",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000671:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Protective bag for 10 W - LDPE (lot 1/2)",
+        "material": "LDPE",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 7,
+        "unit": "kg",
+        "printed_quantity": "7.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 7.0,
+        "normalization_requires_master": false,
+        "rate": 191.81,
+        "printed_rate": "191.81",
+        "amount": 1342.67,
+        "printed_amount": "1342.67",
+        "gst_rate": 18,
+        "gst_amount": 241.68,
+        "printed_description_lines": [
+          "Protective bag for 10 W - LDPE (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000671:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Protective bag for 10 W - LDPE (lot 2/2)",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 6,
+        "unit": "kg",
+        "printed_quantity": "6.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 6.0,
+        "normalization_requires_master": false,
+        "rate": 191.81,
+        "printed_rate": "191.81",
+        "amount": 1150.86,
+        "printed_amount": "1150.86",
+        "gst_rate": 18,
+        "gst_amount": 207.15,
+        "printed_description_lines": [
+          "Protective bag for 10 W - LDPE (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 2493.53,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 448.83,
+    "gst": 448.83,
+    "invoice_total": 2942.36,
+    "printed_total": "2942.36",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    7.0,
+    6.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00127668",
+    "TXN_00127669"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001538"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "plain",
+    "currency_mark": "Rs."
+  },
+  "seed": 4925429378308060756,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "b562d4921169a15cf35038187331262d946526004dfa9a122290e65f23046c20"
+}

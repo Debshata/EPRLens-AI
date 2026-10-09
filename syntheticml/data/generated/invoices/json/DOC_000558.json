@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000558",
+  "invoice_id": "INV_00041107",
+  "invoice_number": "SYRN/2425/00008",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0113",
+  "supplier_id": "BUY_0034",
+  "buyer_id": "COMP_0113",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00008",
+    "invoice_date": "2025-02-03",
+    "printed_date": "03-Feb-2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Taravista Distribution Pvt Ltd",
+    "vendor_gstin": "24RCQFU5436V1ZN",
+    "buyer": "Vrikshmint Consumer Goods Pvt Ltd",
+    "buyer_gstin": "29XHQCT4468A1ZB",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYVR/2425/00019",
+    "lines": [
+      {
+        "line_reference": "DOC_000558:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Pranawing Anti-dandruff Sachet 6 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 52274,
+        "unit": "pcs",
+        "printed_quantity": "52,274",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 26.137,
+        "normalization_requires_master": true,
+        "rate": 10.4,
+        "printed_rate": "10.40",
+        "amount": 543649.6,
+        "printed_amount": "5,43,649.60",
+        "gst_rate": 18,
+        "gst_amount": 97856.93,
+        "printed_description_lines": [
+          "Goods returned: Pranawing Anti-dandruff Sachet 6 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 543649.6,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 97856.93,
+    "gst": 97856.93,
+    "invoice_total": 641506.53,
+    "printed_total": "6,41,506.53",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN16"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002246"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN16",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 1857001130251579882,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "4a4e950dcd5e70b566f21d809e5289340006f1fb1802bde701d47b15fe57f81d"
+}

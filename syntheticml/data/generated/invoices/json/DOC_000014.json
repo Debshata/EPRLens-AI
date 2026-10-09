@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000014",
+  "invoice_id": "INV_00001229",
+  "invoice_number": "SYSA/2324/00001",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0016",
+  "supplier_id": "COMP_0016",
+  "buyer_id": "BUY_0042",
+  "expected_fields": {
+    "invoice_number": "SYSA/2324/00001",
+    "invoice_date": "2023-04-13",
+    "printed_date": "13/04/2023",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Samawell Stores Pvt Ltd",
+    "vendor_gstin": "27XWJCT5786F3ZZ",
+    "buyer": "Dharasprout Distribution",
+    "buyer_gstin": "27MDICT2401G2Z4",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000014:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Vedamint Sugar 1 kg",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "1006",
+        "quantity": null,
+        "unit": "pcs",
+        "printed_quantity": "",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": true,
+        "rate": 50.02,
+        "printed_rate": "50.02",
+        "amount": 53871.54,
+        "printed_amount": "53871.54",
+        "gst_rate": 5,
+        "gst_amount": 2693.58,
+        "printed_description_lines": [
+          "Vedamint Sugar 1 kg"
+        ]
+      },
+      {
+        "line_reference": "DOC_000014:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Vedamint Store Carry Bag Large",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "1006",
+        "quantity": 2071,
+        "unit": "bags",
+        "printed_quantity": "2071",
+        "printed_unit": "Bags",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 26.509,
+        "normalization_requires_master": true,
+        "rate": 137.09,
+        "printed_rate": "137.09",
+        "amount": 283913.39,
+        "printed_amount": "283913.39",
+        "gst_rate": 5,
+        "gst_amount": 14195.67,
+        "printed_description_lines": [
+          "Vedamint Store Carry Bag Large"
+        ]
+      },
+      {
+        "line_reference": "DOC_000014:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Vedamint Compostable Carry Bag Medium",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "1006",
+        "quantity": 569,
+        "unit": "bags",
+        "printed_quantity": "569",
+        "printed_unit": "Bags",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 5.804,
+        "normalization_requires_master": true,
+        "rate": 129.07,
+        "printed_rate": "129.07",
+        "amount": 73440.83,
+        "printed_amount": "73440.83",
+        "gst_rate": 5,
+        "gst_amount": 3672.04,
+        "printed_description_lines": [
+          "Vedamint Compostable Carry Bag Medium"
+        ]
+      }
+    ],
+    "total_taxable_value": 411225.76,
+    "cgst": 10280.65,
+    "sgst": 10280.64,
+    "igst": 0.0,
+    "gst": 20561.29,
+    "invoice_total": 431787.05,
+    "printed_total": "431787.05",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    28.325,
+    26.509,
+    5.804
+  ],
+  "linked_transaction_ids": [
+    "TXN_00007210",
+    "TXN_00007212",
+    "TXN_00007214"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN06"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001644"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN06",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "plain",
+    "currency_mark": "INR"
+  },
+  "seed": 13481309094422873014,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "6c848f3c66c7ef7990da133bf4e689cd05cb325b2e012696f5a8ed2dcc2ca32f"
+}

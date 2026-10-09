@@ -1,0 +1,150 @@
+{
+  "document_id": "DOC_000116",
+  "invoice_id": "INV_00019420",
+  "invoice_number": "SYUD/2324/00027",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0022",
+  "supplier_id": "SUP_0027",
+  "buyer_id": "COMP_0022",
+  "expected_fields": {
+    "invoice_number": "SYUD/2324/00027",
+    "invoice_date": "2023-08-28",
+    "printed_date": "28-Aug-2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Udayakart Packaging Components Pvt Ltd",
+    "vendor_gstin": "09KISCB8311M3Z8",
+    "buyer": "Hirasprout Household Products Pvt Ltd",
+    "buyer_gstin": "24VIYCI9956I1Z8",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000116:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Actuator cap 220 ml - PP (6.1 g/pc)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 106326,
+        "unit": "pcs",
+        "printed_quantity": "106326",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 6.1,
+        "normalized_quantity_kg": 648.589,
+        "normalization_requires_master": false,
+        "rate": 1.11,
+        "printed_rate": "1.11",
+        "amount": 118021.86,
+        "printed_amount": "118021.86",
+        "gst_rate": 18,
+        "gst_amount": 21243.93,
+        "printed_description_lines": [
+          "Actuator cap 220 ml - PP (6.1 g/pc)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000116:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Aluminium can 220 ml - METAL (35.0 g/pc) (lot 1/2)",
+        "material": "METAL",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 1882,
+        "unit": "pcs",
+        "printed_quantity": "1882",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 35.0,
+        "normalized_quantity_kg": 65.87,
+        "normalization_requires_master": false,
+        "rate": 19.9,
+        "printed_rate": "19.90",
+        "amount": 37451.8,
+        "printed_amount": "37451.80",
+        "gst_rate": 18,
+        "gst_amount": 6741.32,
+        "printed_description_lines": [
+          "Aluminium can 220 ml - METAL (35.0 g/pc) (lot",
+          "1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000116:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Aluminium can 220 ml - METAL (35.0 g/pc) (lot 2/2)",
+        "material": "METAL",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 2499,
+        "unit": "pcs",
+        "printed_quantity": "2499",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 35.0,
+        "normalized_quantity_kg": 87.465,
+        "normalization_requires_master": false,
+        "rate": 19.9,
+        "printed_rate": "19.90",
+        "amount": 49730.1,
+        "printed_amount": "49730.10",
+        "gst_rate": 18,
+        "gst_amount": 8951.42,
+        "printed_description_lines": [
+          "Aluminium can 220 ml - METAL (35.0 g/pc) (lot",
+          "2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 205203.76,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 36936.67,
+    "gst": 36936.67,
+    "invoice_total": 242140.43,
+    "printed_total": "242140.43",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    714.459,
+    null,
+    87.465
+  ],
+  "linked_transaction_ids": [
+    "TXN_00125883",
+    "TXN_00125929",
+    "TXN_00125930"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN19"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000880"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN19",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "plain",
+    "currency_mark": "INR"
+  },
+  "seed": 17872234447719320750,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "dfce88de9bbd7ddd473ff644cf918d2e2f4b6d98274a2cfcb061327defd10631"
+}

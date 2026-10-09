@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000323",
+  "invoice_id": "INV_00040722",
+  "invoice_number": "SYRN/2425/00002",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0082",
+  "supplier_id": "BUY_0115",
+  "buyer_id": "COMP_0082",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00002",
+    "invoice_date": "2024-04-18",
+    "printed_date": "18/04/2024",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Kirabloom Supermarket LLP",
+    "vendor_gstin": "08KFHFH3572T1ZG",
+    "buyer": "Purehaven Beauty Pvt Ltd",
+    "buyer_gstin": "07CGNCM8312X3Z4",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYPU/2324/00026",
+    "lines": [
+      {
+        "line_reference": "DOC_000323:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Hiravista Day Cream 50 g",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3304",
+        "quantity": 81,
+        "unit": "pcs",
+        "printed_quantity": "81",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2.228,
+        "normalization_requires_master": true,
+        "rate": 412.55,
+        "printed_rate": "412.55",
+        "amount": 33416.55,
+        "printed_amount": "33,416.55",
+        "gst_rate": 18,
+        "gst_amount": 6014.98,
+        "printed_description_lines": [
+          "Goods returned: Hiravista Day Cream 50 g"
+        ]
+      }
+    ],
+    "total_taxable_value": 33416.55,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 6014.98,
+    "gst": 6014.98,
+    "invoice_total": 39431.53,
+    "printed_total": "39,431.53",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2.228
+  ],
+  "linked_transaction_ids": [
+    "TXN_00120420"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "return_applied",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 7437144757663847705,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "4146537e792ad4c54f2646d180a3be9051050bab81ea2e32146bc75a3b83351d"
+}

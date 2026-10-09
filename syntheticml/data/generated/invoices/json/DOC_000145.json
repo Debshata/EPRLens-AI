@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000145",
+  "invoice_id": "INV_00039026",
+  "invoice_number": "SYDH/2324/00015",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0191",
+  "supplier_id": "SUP_0035",
+  "buyer_id": "COMP_0191",
+  "expected_fields": {
+    "invoice_number": "SYDH/2324/00015",
+    "invoice_date": "2023-10-06",
+    "printed_date": "06-10-2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Dhararay Preforms & Bottles Pvt Ltd",
+    "vendor_gstin": "27FHTCE5303H2ZU",
+    "buyer": "Ecoline Beverages LLP",
+    "buyer_gstin": "27JGQCE2325N3ZG",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000145:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET bottle 500 ml - HDPE (19.8 g/pc) (lot 1/2)",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 19463,
+        "unit": "pcs",
+        "printed_quantity": "19,463",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 19.8,
+        "normalized_quantity_kg": 385.367,
+        "normalization_requires_master": false,
+        "rate": 3.37,
+        "printed_rate": "3.37",
+        "amount": 65590.31,
+        "printed_amount": "65,590.31",
+        "gst_rate": 18,
+        "gst_amount": 11806.26,
+        "printed_description_lines": [
+          "PET bottle 500 ml - HDPE (19.8 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000145:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "PET bottle 500 ml - PET (19.8 g/pc) (lot 2/2)",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 26808,
+        "unit": "pcs",
+        "printed_quantity": "26,808",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 19.8,
+        "normalized_quantity_kg": 530.798,
+        "normalization_requires_master": false,
+        "rate": 3.37,
+        "printed_rate": "3.37",
+        "amount": 90342.96,
+        "printed_amount": "90,342.96",
+        "gst_rate": 18,
+        "gst_amount": 16261.73,
+        "printed_description_lines": [
+          "PET bottle 500 ml - PET (19.8 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 155933.27,
+    "cgst": 14034.0,
+    "sgst": 14033.99,
+    "igst": 0.0,
+    "gst": 28067.99,
+    "invoice_total": 184001.26,
+    "printed_total": "1,84,001.26",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    385.367,
+    530.798
+  ],
+  "linked_transaction_ids": [
+    "TXN_00170852",
+    "TXN_00170853"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN03"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001335"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN03",
+  "paired_document_id": null,
+  "template_id": "L02",
+  "template_name": "Modern corporate",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 12236372872170922711,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "30a26c7fbd0d388176b1fd3071c63118aa6c94cf6f6bb37406dbca03010459da"
+}

@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000219",
+  "invoice_id": "INV_00042465",
+  "invoice_number": "SYPU/2324/00039",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0149",
+  "supplier_id": "SUP_0064",
+  "buyer_id": "COMP_0149",
+  "expected_fields": {
+    "invoice_number": "SYPU/2324/00039",
+    "invoice_date": "2024-01-08",
+    "printed_date": "08-Jan-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "cancelled",
+    "vendor": "Puresprout Flexi Pack Pvt Ltd",
+    "vendor_gstin": "19BCSCV7632T2Z4",
+    "buyer": "Rituwave Retail Pvt Ltd",
+    "buyer_gstin": "08INWCN2131K1Z6",
+    "place_of_supply": "Rajasthan (08)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000219:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Carry bag for Bag Large - LDPE",
+        "material": "LDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 169,
+        "unit": "kg",
+        "printed_quantity": "169.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 169.0,
+        "normalization_requires_master": false,
+        "rate": 130.14,
+        "printed_rate": "130.14",
+        "amount": 21993.66,
+        "printed_amount": "21,993.66",
+        "gst_rate": 18,
+        "gst_amount": 3958.86,
+        "printed_description_lines": [
+          "Carry bag for Bag Large - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 21993.66,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 3958.86,
+    "gst": 3958.86,
+    "invoice_total": 25952.52,
+    "printed_total": "25,952.52",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    169.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00173740"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN14"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002111"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN14",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 3244997717012008987,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c1caf9290e5ad89263a77f8985f71c7e56b39593595e52dd016aec4a46384669"
+}

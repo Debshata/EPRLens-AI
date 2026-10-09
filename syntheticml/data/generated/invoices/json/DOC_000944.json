@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000944",
+  "invoice_id": "INV_00039418",
+  "invoice_number": "SYEXP-00060",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0196",
+  "supplier_id": "SUP_0042",
+  "buyer_id": "COMP_0196",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00060",
+    "invoice_date": "2026-03-16",
+    "printed_date": "16-03-2026",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Dharaglow Converters Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Yuvawave Hygiene Products Pvt Ltd",
+    "buyer_gstin": "09JXXCZ8478S3ZE",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000944:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 180 ml - HDPE",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 23,
+        "unit": "kg",
+        "printed_quantity": "23.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 23.0,
+        "normalization_requires_master": false,
+        "rate": 2.31,
+        "printed_rate": "2.31",
+        "amount": 53.13,
+        "printed_amount": "53.13",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "HDPE bottle for 180 ml - HDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 53.13,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 53.13,
+    "printed_total": "53.13",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    23.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00171763"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 17923332067521066713,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "7bc8fd74a48b4c7136355ab32b7019ae6f3f1f15d15bc5efdb59bc6370fd71d4"
+}

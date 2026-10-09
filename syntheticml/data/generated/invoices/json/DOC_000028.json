@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000028",
+  "invoice_id": "INV_00039001",
+  "invoice_number": "SYSA/2324/00001",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0191",
+  "supplier_id": "SUP_0007",
+  "buyer_id": "COMP_0191",
+  "expected_fields": {
+    "invoice_number": "SYSA/2324/00001",
+    "invoice_date": "2023-04-27",
+    "printed_date": "27-04-2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Samabrook Polyfilms Pvt Ltd",
+    "vendor_gstin": "32FCMCZ3765T2Z1",
+    "buyer": "Ecoline Beverages LLP",
+    "buyer_gstin": "27JGQCE2325N3ZG",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000028:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Shrink wrap (per-unit share) for 500 ml - LDPE",
+        "material": "LDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3920",
+        "quantity": 0.36,
+        "unit": "MT",
+        "printed_quantity": "0.360",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 360.0,
+        "normalization_requires_master": false,
+        "rate": 215510.19,
+        "printed_rate": "2,15,510.19",
+        "amount": 77583.67,
+        "printed_amount": "77,583.67",
+        "gst_rate": 18,
+        "gst_amount": 13965.06,
+        "printed_description_lines": [
+          "Shrink wrap (per-unit share) for 500 ml - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 77583.67,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 13965.06,
+    "gst": 13965.06,
+    "invoice_total": 91548.73,
+    "printed_total": "91,548.73",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    360.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00170817"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L06",
+  "template_name": "QR placeholder",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 18394973386142864958,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "90bfa1d6f9cce12775e934bed8fbc717ab29ac5b5d27fd3ec483171b7009cd53"
+}

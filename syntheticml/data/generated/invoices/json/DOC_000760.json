@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000760",
+  "invoice_id": "INV_00037515",
+  "invoice_number": "SYZA/2526/00049",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0177",
+  "supplier_id": "SUP_0066",
+  "buyer_id": "COMP_0177",
+  "expected_fields": {
+    "invoice_number": "SYZA/2526/00049",
+    "invoice_date": "2025-08-07",
+    "printed_date": "07-Aug-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Zarabloom Converters Pvt Ltd",
+    "vendor_gstin": "33AWNCT4053A2ZN",
+    "buyer": "Samaloom Hygiene Products Pvt Ltd",
+    "buyer_gstin": "27ZXWCM1787K3ZK",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000760:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 180 ml - HDPE",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 5.65,
+        "unit": "MT",
+        "printed_quantity": "5.650",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 5650.0,
+        "normalization_requires_master": false,
+        "rate": 197171.17,
+        "printed_rate": "1,97,171.17",
+        "amount": 1114017.11,
+        "printed_amount": "11,14,017.11",
+        "gst_rate": 18,
+        "gst_amount": 200523.08,
+        "printed_description_lines": [
+          "HDPE bottle for 180 ml - HDPE"
+        ]
+      },
+      {
+        "line_reference": "DOC_000760:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "HDPE bottle for 200 ml - HDPE",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 5.19,
+        "unit": "MT",
+        "printed_quantity": "5.190",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 5190.0,
+        "normalization_requires_master": false,
+        "rate": 197171.17,
+        "printed_rate": "1,97,171.17",
+        "amount": 1023318.37,
+        "printed_amount": "10,23,318.37",
+        "gst_rate": 18,
+        "gst_amount": 184197.31,
+        "printed_description_lines": [
+          "HDPE bottle for 200 ml - HDPE"
+        ]
+      },
+      {
+        "line_reference": "DOC_000760:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "HDPE bottle for 340 ml - HDPE",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 2715,
+        "unit": "kg",
+        "printed_quantity": "2,715.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2715.0,
+        "normalization_requires_master": false,
+        "rate": 197.17,
+        "printed_rate": "197.17",
+        "amount": 535316.55,
+        "printed_amount": "5,35,316.55",
+        "gst_rate": 18,
+        "gst_amount": 96356.98,
+        "printed_description_lines": [
+          "HDPE bottle for 340 ml - HDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 2672652.03,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 481077.37,
+    "gst": 481077.37,
+    "invoice_total": 3153729.4,
+    "printed_total": "31,53,729.40",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    5650.0,
+    5190000.0,
+    2715.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00167290",
+    "TXN_00167457",
+    "TXN_00167491"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000025"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 17528805051996641859,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "1759de899f514622d13a587af21e815d7d251577c6d4246a2c76babd3867b40a"
+}

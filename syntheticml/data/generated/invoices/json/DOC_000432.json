@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000432",
+  "invoice_id": "INV_00020070",
+  "invoice_number": "SYUD/2425/00034",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0028",
+  "supplier_id": "SUP_0027",
+  "buyer_id": "COMP_0028",
+  "expected_fields": {
+    "invoice_number": "SYUD/2425/00034",
+    "invoice_date": "2024-08-27",
+    "printed_date": "27-08-2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Udayakart Packaging Components Pvt Ltd",
+    "vendor_gstin": "09KISCB8311M3Z8",
+    "buyer": "Zarahaven Electronics LLP",
+    "buyer_gstin": "27ENWCS7561Q2ZO",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000432:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "EPS insert 10 W - PS (46.6 g/pc) (lot 1/2)",
+        "material": "PS",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 769,
+        "unit": "pcs",
+        "printed_quantity": "769",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 46.6,
+        "normalized_quantity_kg": 35.835,
+        "normalization_requires_master": false,
+        "rate": 11.12,
+        "printed_rate": "11.12",
+        "amount": 8551.28,
+        "printed_amount": "8,551.28",
+        "gst_rate": 12,
+        "gst_amount": 1026.15,
+        "printed_description_lines": [
+          "EPS insert 10 W - PS (46.6 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000432:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "EPS insert 10 W - PS (46.6 g/pc) (lot 2/2)",
+        "material": "PS",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 781,
+        "unit": "pcs",
+        "printed_quantity": "781",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 46.6,
+        "normalized_quantity_kg": 36.395,
+        "normalization_requires_master": false,
+        "rate": 11.12,
+        "printed_rate": "11.12",
+        "amount": 8684.72,
+        "printed_amount": "8,684.72",
+        "gst_rate": 12,
+        "gst_amount": 1042.17,
+        "printed_description_lines": [
+          "EPS insert 10 W - PS (46.6 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 17236.0,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 2068.32,
+    "gst": 2068.32,
+    "invoice_total": 19304.32,
+    "printed_total": "19,304.32",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    35.835,
+    48.873
+  ],
+  "linked_transaction_ids": [
+    "TXN_00127601",
+    "TXN_00127602"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN07"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000654"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN07",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 8116590729376885607,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "4ac1c73604e6b85743f1e101c5bec9bd7cb4e974b3a08e8a77168b8cce121561"
+}

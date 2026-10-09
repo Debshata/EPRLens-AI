@@ -1,0 +1,149 @@
+{
+  "document_id": "DOC_000932",
+  "invoice_id": "INV_00021427",
+  "invoice_number": "SYVR/2526/00055",
+  "invoice_type": "MULTI_MATERIAL",
+  "invoice_type_code": "IT09",
+  "company_id": "COMP_0038",
+  "supplier_id": "SUP_0052",
+  "buyer_id": "COMP_0038",
+  "expected_fields": {
+    "invoice_number": "SYVR/2526/00055",
+    "invoice_date": "2026-03-04",
+    "printed_date": "04/03/2026",
+    "invoice_type": "MULTI_MATERIAL",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshmint Flexibles Pvt Ltd",
+    "vendor_gstin": "09NOACJ2756U1ZT",
+    "buyer": "Nilawing Online Retail Pvt Ltd",
+    "buyer_gstin": "36XGQCH7825I2Z1",
+    "place_of_supply": "Telangana (36)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000932:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Compostable mailer for Pack Medium - COMPOSTABLE",
+        "material": "COMPOSTABLE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 70,
+        "unit": "kg",
+        "printed_quantity": "70.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 70.0,
+        "normalization_requires_master": false,
+        "rate": 411.76,
+        "printed_rate": "411.76",
+        "amount": 28823.2,
+        "printed_amount": "28,823.20",
+        "gst_rate": 18,
+        "gst_amount": 5188.18,
+        "printed_description_lines": [
+          "Compostable mailer for Pack Medium -",
+          "COMPOSTABLE"
+        ]
+      },
+      {
+        "line_reference": "DOC_000932:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Courier mailer for Pack Small - LDPE (lot 1/2)",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 2,
+        "unit": "kg",
+        "printed_quantity": "2.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2.0,
+        "normalization_requires_master": false,
+        "rate": 211.04,
+        "printed_rate": "211.04",
+        "amount": 422.08,
+        "printed_amount": "422.08",
+        "gst_rate": 12,
+        "gst_amount": 50.65,
+        "printed_description_lines": [
+          "Courier mailer for Pack Small - LDPE (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000932:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Courier mailer for Pack Small - LDPE (lot 2/2)",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 2,
+        "unit": "kg",
+        "printed_quantity": "2.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2.0,
+        "normalization_requires_master": false,
+        "rate": 211.04,
+        "printed_rate": "211.04",
+        "amount": 422.08,
+        "printed_amount": "422.08",
+        "gst_rate": 12,
+        "gst_amount": 50.65,
+        "printed_description_lines": [
+          "Courier mailer for Pack Small - LDPE (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 29667.36,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 5289.48,
+    "gst": 5289.48,
+    "invoice_total": 34956.84,
+    "printed_total": "34,956.84",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    70.0,
+    2.0,
+    2.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00130377",
+    "TXN_00130379",
+    "TXN_00130380"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001536"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L02",
+  "template_name": "Modern corporate",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 5315988107721325619,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "2447464a60f0ba7fb142ce09badddb96371ede1e5a63b469daff2a12d03e8259"
+}

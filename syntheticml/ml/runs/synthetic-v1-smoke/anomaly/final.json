@@ -1,0 +1,508 @@
+{
+  "chosen_system": "rules_plus_iforest",
+  "chosen_on": "validation",
+  "params": {
+    "n_estimators": 500,
+    "max_samples": 256,
+    "max_features": 0.5,
+    "fit_on": "all",
+    "bootstrap": true
+  },
+  "rules_tolerance": {
+    "qty_tolerance_kg": 0.01,
+    "qty_tolerance_rel": 0.0005
+  },
+  "thresholds": {
+    "combined": 0.5217409020485381,
+    "iforest": 0.4928337158016748
+  },
+  "experiment_id": "ANOM-005",
+  "systems": {
+    "rules_only": {
+      "train": {
+        "precision": 1.0,
+        "recall": 0.808926780341023,
+        "f1": 0.8943720543387857,
+        "specificity": 1.0,
+        "fpr": 0.0,
+        "tp": 1613,
+        "fp": 0,
+        "tn": 33563,
+        "fn": 381,
+        "n": 35557,
+        "positives": 1994
+      },
+      "validation": {
+        "precision": 1.0,
+        "recall": 0.808695652173913,
+        "f1": 0.8942307692307693,
+        "specificity": 1.0,
+        "fpr": 0.0,
+        "tp": 558,
+        "fp": 0,
+        "tn": 11283,
+        "fn": 132,
+        "n": 11973,
+        "positives": 690
+      },
+      "test": {
+        "precision": 1.0,
+        "recall": 0.8308702791461412,
+        "f1": 0.9076233183856501,
+        "specificity": 1.0,
+        "fpr": 0.0,
+        "tp": 506,
+        "fp": 0,
+        "tn": 11096,
+        "fn": 103,
+        "n": 11705,
+        "positives": 609
+      }
+    },
+    "iforest_only": {
+      "train": {
+        "precision": 0.43796711509715996,
+        "recall": 0.2938816449348044,
+        "f1": 0.3517406962785114,
+        "specificity": 0.977594374757918,
+        "fpr": 0.022405625242082006,
+        "tp": 586,
+        "fp": 752,
+        "tn": 32811,
+        "fn": 1408,
+        "n": 35557,
+        "positives": 1994
+      },
+      "validation": {
+        "precision": 0.5841836734693877,
+        "recall": 0.3318840579710145,
+        "f1": 0.42329020332717193,
+        "specificity": 0.985553487547638,
+        "fpr": 0.014446512452361948,
+        "tp": 229,
+        "fp": 163,
+        "tn": 11120,
+        "fn": 461,
+        "n": 11973,
+        "positives": 690
+      },
+      "test": {
+        "precision": 0.4180790960451977,
+        "recall": 0.24302134646962234,
+        "f1": 0.3073727933541018,
+        "specificity": 0.981434751261716,
+        "fpr": 0.018565248738284024,
+        "tp": 148,
+        "fp": 206,
+        "tn": 10890,
+        "fn": 461,
+        "n": 11705,
+        "positives": 609
+      }
+    },
+    "rules_plus_iforest": {
+      "train": {
+        "precision": 0.9040511727078892,
+        "recall": 0.8505516549648947,
+        "f1": 0.876485788113695,
+        "specificity": 0.9946369514048208,
+        "fpr": 0.005363048595179221,
+        "tp": 1696,
+        "fp": 180,
+        "tn": 33383,
+        "fn": 298,
+        "n": 35557,
+        "positives": 1994
+      },
+      "validation": {
+        "precision": 0.954983922829582,
+        "recall": 0.8608695652173913,
+        "f1": 0.9054878048780488,
+        "specificity": 0.9975183904989807,
+        "fpr": 0.0024816095010192774,
+        "tp": 594,
+        "fp": 28,
+        "tn": 11255,
+        "fn": 96,
+        "n": 11973,
+        "positives": 690
+      },
+      "test": {
+        "precision": 0.912739965095986,
+        "recall": 0.8587848932676518,
+        "f1": 0.8849407783417935,
+        "specificity": 0.995493871665465,
+        "fpr": 0.004506128334535009,
+        "tp": 523,
+        "fp": 50,
+        "tn": 11046,
+        "fn": 86,
+        "n": 11705,
+        "positives": 609
+      }
+    }
+  },
+  "detail_test": {
+    "rules_only": {
+      "by_anomaly_type": {
+        "AN01": {
+          "n": 38,
+          "detected": 38,
+          "recall": 1.0
+        },
+        "AN02": {
+          "n": 30,
+          "detected": 30,
+          "recall": 1.0
+        },
+        "AN03": {
+          "n": 24,
+          "detected": 24,
+          "recall": 1.0
+        },
+        "AN04": {
+          "n": 32,
+          "detected": 32,
+          "recall": 1.0
+        },
+        "AN05": {
+          "n": 22,
+          "detected": 22,
+          "recall": 1.0
+        },
+        "AN06": {
+          "n": 55,
+          "detected": 55,
+          "recall": 1.0
+        },
+        "AN07": {
+          "n": 41,
+          "detected": 41,
+          "recall": 1.0
+        },
+        "AN08": {
+          "n": 27,
+          "detected": 27,
+          "recall": 1.0
+        },
+        "AN09": {
+          "n": 103,
+          "detected": 0,
+          "recall": 0.0
+        },
+        "AN10": {
+          "n": 14,
+          "detected": 14,
+          "recall": 1.0
+        },
+        "AN11": {
+          "n": 60,
+          "detected": 60,
+          "recall": 1.0
+        },
+        "AN12": {
+          "n": 48,
+          "detected": 48,
+          "recall": 1.0
+        },
+        "AN13": {
+          "n": 28,
+          "detected": 28,
+          "recall": 1.0
+        },
+        "AN14": {
+          "n": 11,
+          "detected": 11,
+          "recall": 1.0
+        },
+        "AN15": {
+          "n": 16,
+          "detected": 16,
+          "recall": 1.0
+        },
+        "AN16": {
+          "n": 16,
+          "detected": 16,
+          "recall": 1.0
+        },
+        "AN18": {
+          "n": 12,
+          "detected": 12,
+          "recall": 1.0
+        },
+        "AN19": {
+          "n": 19,
+          "detected": 19,
+          "recall": 1.0
+        },
+        "AN20": {
+          "n": 13,
+          "detected": 13,
+          "recall": 1.0
+        }
+      },
+      "by_normal_group": {
+        "legit_special_document": {
+          "n": 410,
+          "false_positives": 0,
+          "fpr": 0.0
+        },
+        "routine_normal": {
+          "n": 10540,
+          "false_positives": 0,
+          "fpr": 0.0
+        },
+        "tricky_AN17_shared_number": {
+          "n": 146,
+          "false_positives": 0,
+          "fpr": 0.0
+        }
+      }
+    },
+    "iforest_only": {
+      "by_anomaly_type": {
+        "AN01": {
+          "n": 38,
+          "detected": 37,
+          "recall": 0.9736842105263158
+        },
+        "AN02": {
+          "n": 30,
+          "detected": 8,
+          "recall": 0.26666666666666666
+        },
+        "AN03": {
+          "n": 24,
+          "detected": 0,
+          "recall": 0.0
+        },
+        "AN04": {
+          "n": 32,
+          "detected": 0,
+          "recall": 0.0
+        },
+        "AN05": {
+          "n": 22,
+          "detected": 1,
+          "recall": 0.045454545454545456
+        },
+        "AN06": {
+          "n": 55,
+          "detected": 0,
+          "recall": 0.0
+        },
+        "AN07": {
+          "n": 41,
+          "detected": 2,
+          "recall": 0.04878048780487805
+        },
+        "AN08": {
+          "n": 27,
+          "detected": 22,
+          "recall": 0.8148148148148148
+        },
+        "AN09": {
+          "n": 103,
+          "detected": 56,
+          "recall": 0.5436893203883495
+        },
+        "AN10": {
+          "n": 14,
+          "detected": 14,
+          "recall": 1.0
+        },
+        "AN11": {
+          "n": 60,
+          "detected": 0,
+          "recall": 0.0
+        },
+        "AN12": {
+          "n": 48,
+          "detected": 0,
+          "recall": 0.0
+        },
+        "AN13": {
+          "n": 28,
+          "detected": 0,
+          "recall": 0.0
+        },
+        "AN14": {
+          "n": 11,
+          "detected": 0,
+          "recall": 0.0
+        },
+        "AN15": {
+          "n": 16,
+          "detected": 3,
+          "recall": 0.1875
+        },
+        "AN16": {
+          "n": 16,
+          "detected": 1,
+          "recall": 0.0625
+        },
+        "AN18": {
+          "n": 12,
+          "detected": 0,
+          "recall": 0.0
+        },
+        "AN19": {
+          "n": 19,
+          "detected": 4,
+          "recall": 0.21052631578947367
+        },
+        "AN20": {
+          "n": 13,
+          "detected": 0,
+          "recall": 0.0
+        }
+      },
+      "by_normal_group": {
+        "legit_special_document": {
+          "n": 410,
+          "false_positives": 27,
+          "fpr": 0.06585365853658537
+        },
+        "routine_normal": {
+          "n": 10540,
+          "false_positives": 178,
+          "fpr": 0.016888045540796964
+        },
+        "tricky_AN17_shared_number": {
+          "n": 146,
+          "false_positives": 1,
+          "fpr": 0.00684931506849315
+        }
+      }
+    },
+    "rules_plus_iforest": {
+      "by_anomaly_type": {
+        "AN01": {
+          "n": 38,
+          "detected": 38,
+          "recall": 1.0
+        },
+        "AN02": {
+          "n": 30,
+          "detected": 30,
+          "recall": 1.0
+        },
+        "AN03": {
+          "n": 24,
+          "detected": 24,
+          "recall": 1.0
+        },
+        "AN04": {
+          "n": 32,
+          "detected": 32,
+          "recall": 1.0
+        },
+        "AN05": {
+          "n": 22,
+          "detected": 22,
+          "recall": 1.0
+        },
+        "AN06": {
+          "n": 55,
+          "detected": 55,
+          "recall": 1.0
+        },
+        "AN07": {
+          "n": 41,
+          "detected": 41,
+          "recall": 1.0
+        },
+        "AN08": {
+          "n": 27,
+          "detected": 27,
+          "recall": 1.0
+        },
+        "AN09": {
+          "n": 103,
+          "detected": 17,
+          "recall": 0.1650485436893204
+        },
+        "AN10": {
+          "n": 14,
+          "detected": 14,
+          "recall": 1.0
+        },
+        "AN11": {
+          "n": 60,
+          "detected": 60,
+          "recall": 1.0
+        },
+        "AN12": {
+          "n": 48,
+          "detected": 48,
+          "recall": 1.0
+        },
+        "AN13": {
+          "n": 28,
+          "detected": 28,
+          "recall": 1.0
+        },
+        "AN14": {
+          "n": 11,
+          "detected": 11,
+          "recall": 1.0
+        },
+        "AN15": {
+          "n": 16,
+          "detected": 16,
+          "recall": 1.0
+        },
+        "AN16": {
+          "n": 16,
+          "detected": 16,
+          "recall": 1.0
+        },
+        "AN18": {
+          "n": 12,
+          "detected": 12,
+          "recall": 1.0
+        },
+        "AN19": {
+          "n": 19,
+          "detected": 19,
+          "recall": 1.0
+        },
+        "AN20": {
+          "n": 13,
+          "detected": 13,
+          "recall": 1.0
+        }
+      },
+      "by_normal_group": {
+        "legit_special_document": {
+          "n": 410,
+          "false_positives": 5,
+          "fpr": 0.012195121951219513
+        },
+        "routine_normal": {
+          "n": 10540,
+          "false_positives": 45,
+          "fpr": 0.004269449715370019
+        },
+        "tricky_AN17_shared_number": {
+          "n": 146,
+          "false_positives": 0,
+          "fpr": 0.0
+        }
+      }
+    }
+  },
+  "target_f1": 0.8,
+  "max_fpr": 0.1,
+  "target_met": true,
+  "experiments": 5,
+  "units": {
+    "invoice_records": 44586,
+    "recycling_records": 14649,
+    "by_split": {
+      "train": 35557,
+      "validation": 11973,
+      "test": 11705
+    }
+  }
+}

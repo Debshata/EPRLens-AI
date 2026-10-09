@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000925",
+  "invoice_id": "INV_00027782",
+  "invoice_number": "SYCH/2526/00105",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0091",
+  "supplier_id": "SUP_0002",
+  "buyer_id": "COMP_0091",
+  "expected_fields": {
+    "invoice_number": "SYCH/2526/00105",
+    "invoice_date": "2026-02-26",
+    "printed_date": "2026-02-26",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Chandraleaf Caps Pvt Ltd",
+    "vendor_gstin": "29PHMCO5664A2Z4",
+    "buyer": "Vedawell Pharma LLP",
+    "buyer_gstin": "02HDICI2528X2ZF",
+    "place_of_supply": "Himachal Pradesh (02)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000925:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 30 caps - PP (3.3 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 274593,
+        "unit": "pcs",
+        "printed_quantity": "2,74,593",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 3.3,
+        "normalized_quantity_kg": 906.157,
+        "normalization_requires_master": false,
+        "rate": 0.76,
+        "printed_rate": "0.76",
+        "amount": 208690.68,
+        "printed_amount": "2,08,690.68",
+        "gst_rate": 18,
+        "gst_amount": 37564.32,
+        "printed_description_lines": [
+          "Cap 30 caps - PP (3.3 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000925:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Cap 30 caps - PP (3.3 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 311681,
+        "unit": "pcs",
+        "printed_quantity": "3,11,681",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 3.3,
+        "normalized_quantity_kg": 1028.547,
+        "normalization_requires_master": false,
+        "rate": 0.76,
+        "printed_rate": "0.76",
+        "amount": 236877.56,
+        "printed_amount": "2,36,877.56",
+        "gst_rate": 18,
+        "gst_amount": 42637.96,
+        "printed_description_lines": [
+          "Cap 30 caps - PP (3.3 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 445568.24,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 80202.28,
+    "gst": 80202.28,
+    "invoice_total": 525770.52,
+    "printed_total": "5,25,770.52",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    90615.7,
+    1028.547
+  ],
+  "linked_transaction_ids": [
+    "TXN_00145092",
+    "TXN_00145093"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN01"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000382"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN01",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 12918203432530632991,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "bb4a11a4c5c98079166b1204906956fc78c440cc208d5077ed0b03531dfa2061"
+}

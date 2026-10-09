@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000779",
+  "invoice_id": "INV_00041092",
+  "invoice_number": "SYRN/2526/00001",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0112",
+  "supplier_id": "BUY_0050",
+  "buyer_id": "COMP_0112",
+  "expected_fields": {
+    "invoice_number": "SYRN/2526/00001",
+    "invoice_date": "2025-09-02",
+    "printed_date": "02/09/2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Kesarbloom Wholesalers LLP",
+    "vendor_gstin": "36WIUCD5425X1ZE",
+    "buyer": "Kirawave Industrial Products Pvt Ltd",
+    "buyer_gstin": "36HBCCT9134L1ZC",
+    "place_of_supply": "Telangana (36)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYKI/2526/00009",
+    "lines": [
+      {
+        "line_reference": "DOC_000779:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Hirabloom Floor Coating 10 L",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3506",
+        "quantity": 940,
+        "unit": "pcs",
+        "printed_quantity": "940",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 635.816,
+        "normalization_requires_master": true,
+        "rate": 14027.62,
+        "printed_rate": "14,027.62",
+        "amount": 13185962.8,
+        "printed_amount": "1,31,85,962.80",
+        "gst_rate": 18,
+        "gst_amount": 2373473.3,
+        "printed_description_lines": [
+          "Goods returned: Hirabloom Floor Coating 10 L"
+        ]
+      }
+    ],
+    "total_taxable_value": 13185962.8,
+    "cgst": 1186736.65,
+    "sgst": 1186736.65,
+    "igst": 0.0,
+    "gst": 2373473.3,
+    "invoice_total": 15559436.1,
+    "printed_total": "1,55,59,436.10",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    635.816
+  ],
+  "linked_transaction_ids": [
+    "TXN_00120790"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "return_applied",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 9071618378357929885,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "3db4792c550b83f7f557e8c8c6975c75a81557d2c94e3f9863d165fe31f08527"
+}

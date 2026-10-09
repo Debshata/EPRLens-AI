@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000833",
+  "invoice_id": "INV_00032601",
+  "invoice_number": "SYSU/2526/00068",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0137",
+  "supplier_id": "SUP_0085",
+  "buyer_id": "COMP_0137",
+  "expected_fields": {
+    "invoice_number": "SYSU/2526/00068",
+    "invoice_date": "2025-11-17",
+    "printed_date": "17-Nov-2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Suvarnaline Caps Pvt Ltd",
+    "vendor_gstin": "06LDKCI6541W3ZS",
+    "buyer": "Zararoot Beverages Ltd",
+    "buyer_gstin": "37UVTCV0553F3ZH",
+    "place_of_supply": "Andhra Pradesh (37)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000833:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 200 ml - PP (2.2 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 172099,
+        "unit": "pcs",
+        "printed_quantity": "1,72,099",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 2.2,
+        "normalized_quantity_kg": 378.618,
+        "normalization_requires_master": false,
+        "rate": 0.36,
+        "printed_rate": "0.36",
+        "amount": 61955.64,
+        "printed_amount": "61,955.64",
+        "gst_rate": 18,
+        "gst_amount": 11152.02,
+        "printed_description_lines": [
+          "Cap 200 ml - PP (2.2 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 61955.64,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 11152.02,
+    "gst": 11152.02,
+    "invoice_total": 73107.66,
+    "printed_total": "73,107.66",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    378.618
+  ],
+  "linked_transaction_ids": [
+    "TXN_00155934"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 11421323277962024822,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "2ec7a21a34fb79a06f0410c551dff29028cd224ec91bd9f98b740e5f6c3be62e"
+}

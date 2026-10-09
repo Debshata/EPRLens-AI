@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000892",
+  "invoice_id": "INV_00030406",
+  "invoice_number": "SYBO/2526/00126",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0115",
+  "supplier_id": "SUP_0018",
+  "buyer_id": "COMP_0115",
+  "expected_fields": {
+    "invoice_number": "SYBO/2526/00126",
+    "invoice_date": "2026-01-21",
+    "printed_date": "21-Jan-2026",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Bodhiridge Converters Pvt Ltd",
+    "vendor_gstin": "27IBICS1654G1ZJ",
+    "buyer": "Vrikshray Consumer Goods Pvt Ltd",
+    "buyer_gstin": "24TNRCR9273W3ZT",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000892:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminated tube for 100 g - MLP",
+        "material": "MLP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 1870,
+        "unit": "kg",
+        "printed_quantity": "1,870.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1870.0,
+        "normalization_requires_master": false,
+        "rate": 325.91,
+        "printed_rate": "325.91",
+        "amount": 609451.7,
+        "printed_amount": "6,09,451.70",
+        "gst_rate": 18,
+        "gst_amount": 109701.31,
+        "printed_description_lines": [
+          "Laminated tube for 100 g - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 609451.7,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 109701.31,
+    "gst": 109701.31,
+    "invoice_total": 719153.01,
+    "printed_total": "7,19,153.01",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1870.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00151074"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 10810071399550297541,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "bfb73d8e69830fb5688929b5ae74fb8d1e0d6f4d180360667cb991f4b9483946"
+}

@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000909",
+  "invoice_id": "INV_00006729",
+  "invoice_number": "SYYU/2526/00046",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0075",
+  "supplier_id": "COMP_0075",
+  "buyer_id": "BUY_0102",
+  "expected_fields": {
+    "invoice_number": "SYYU/2526/00046",
+    "invoice_date": "2026-02-11",
+    "printed_date": "11-02-2026",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Yuvavale Auto Components Pvt Ltd",
+    "vendor_gstin": "06KWHCD8733D3ZG",
+    "buyer": "Bodhigrove Wholesale Traders Pvt Ltd",
+    "buyer_gstin": "09QIDFH9423Y2ZY",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000909:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Bodhiloom Brake Pad Set Rear",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "8708",
+        "quantity": 230,
+        "unit": "pcs",
+        "printed_quantity": "230",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 21.114,
+        "normalization_requires_master": true,
+        "rate": 4542.77,
+        "printed_rate": "4,542.77",
+        "amount": 1044837.1,
+        "printed_amount": "10,44,837.10",
+        "gst_rate": 18,
+        "gst_amount": 188070.68,
+        "printed_description_lines": [
+          "Bodhiloom Brake Pad Set Rear"
+        ]
+      },
+      {
+        "line_reference": "DOC_000909:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Saffraroot Brake Pad Set Rear",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "8708",
+        "quantity": 2764,
+        "unit": "pcs",
+        "printed_quantity": "2,764",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 325.599,
+        "normalization_requires_master": true,
+        "rate": 334.99,
+        "printed_rate": "334.99",
+        "amount": 925912.36,
+        "printed_amount": "9,25,912.36",
+        "gst_rate": 18,
+        "gst_amount": 166664.22,
+        "printed_description_lines": [
+          "Saffraroot Brake Pad Set Rear"
+        ]
+      },
+      {
+        "line_reference": "DOC_000909:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Saffraroot Oil Filter Type B",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "8708",
+        "quantity": 875,
+        "unit": "pcs",
+        "printed_quantity": "875",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 45.325,
+        "normalization_requires_master": true,
+        "rate": 296.48,
+        "printed_rate": "296.48",
+        "amount": 259420.0,
+        "printed_amount": "2,59,420.00",
+        "gst_rate": 18,
+        "gst_amount": 46695.6,
+        "printed_description_lines": [
+          "Saffraroot Oil Filter Type B"
+        ]
+      }
+    ],
+    "total_taxable_value": 2230169.46,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 401430.5,
+    "gst": 401430.5,
+    "invoice_total": 2631599.96,
+    "printed_total": "26,31,599.96",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    211.14,
+    325.599,
+    45.325
+  ],
+  "linked_transaction_ids": [
+    "TXN_00046962",
+    "TXN_00046975",
+    "TXN_00046986"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN01"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000343"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN01",
+  "paired_document_id": null,
+  "template_id": "L06",
+  "template_name": "QR placeholder",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 9658437102512291246,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "7c3bc2e399e57c28f85a1502b3561fc3d06e33f11ac1242bc2cada8e5586789b"
+}

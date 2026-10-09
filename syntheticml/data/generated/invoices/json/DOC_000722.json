@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000722",
+  "invoice_id": "INV_00029249",
+  "invoice_number": "SYLU/2526/00007",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0105",
+  "supplier_id": "SUP_0028",
+  "buyer_id": "COMP_0105",
+  "expected_fields": {
+    "invoice_number": "SYLU/2526/00007",
+    "invoice_date": "2025-06-21",
+    "printed_date": "21-Jun-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Lumiwing Flexibles Pvt Ltd",
+    "vendor_gstin": "06FRVCV0816D2ZM",
+    "buyer": "Zaranest Home Care LLP",
+    "buyer_gstin": "36LAPCT5378A1ZS",
+    "place_of_supply": "Telangana (36)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000722:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LLDPE refill pouch for 1 L - LLDPE",
+        "material": "LLDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 1487,
+        "unit": "kg",
+        "printed_quantity": "1,487.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1487.0,
+        "normalization_requires_master": false,
+        "rate": 159.1,
+        "printed_rate": "159.10",
+        "amount": 236581.7,
+        "printed_amount": "2,36,581.70",
+        "gst_rate": 18,
+        "gst_amount": 42584.71,
+        "printed_description_lines": [
+          "LLDPE refill pouch for 1 L - LLDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 236581.7,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 42584.71,
+    "gst": 42584.71,
+    "invoice_total": 279166.41,
+    "printed_total": "2,79,166.41",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1487.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00148047"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L02",
+  "template_name": "Modern corporate",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 15705210882980932999,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "320bc83591006f3654a982575bcdc65731f1c05e3e2fca2393b19f6acb329c5e"
+}

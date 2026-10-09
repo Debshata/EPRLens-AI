@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000094",
+  "invoice_id": "INV_00037956",
+  "invoice_number": "SYSU/2324/00024",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0181",
+  "supplier_id": "SUP_0082",
+  "buyer_id": "COMP_0181",
+  "expected_fields": {
+    "invoice_number": "SYSU/2324/00024",
+    "invoice_date": "2023-07-28",
+    "printed_date": "28/07/2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Suvarnaline Pack Components Pvt Ltd",
+    "vendor_gstin": "24LMNCW7251H2ZJ",
+    "buyer": "Suvarnawick Engineering Goods Ltd",
+    "buyer_gstin": "33SHICD1769W1ZE",
+    "place_of_supply": "Tamil Nadu (33)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000094:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE drum 20 kg - HDPE (1532.1 g/pc)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 302,
+        "unit": "pcs",
+        "printed_quantity": "302",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 1532.1,
+        "normalized_quantity_kg": 462.694,
+        "normalization_requires_master": false,
+        "rate": 267.97,
+        "printed_rate": "267.97",
+        "amount": 80926.94,
+        "printed_amount": "80,926.94",
+        "gst_rate": 18,
+        "gst_amount": 14566.85,
+        "printed_description_lines": [
+          "HDPE drum 20 kg - HDPE (1532.1 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 80926.94,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 14566.85,
+    "gst": 14566.85,
+    "invoice_total": 95493.79,
+    "printed_total": "95,493.79",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    462.694
+  ],
+  "linked_transaction_ids": [
+    "TXN_00168232"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 10138762829720213364,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "2c613a9f02cf65f0d018c1f89bc467265beab93cf169dfe1d7d50b7749a90425"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000074",
+  "invoice_id": "INV_00039160",
+  "invoice_number": "SYRI/2324/00030",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0192",
+  "supplier_id": "SUP_0112",
+  "buyer_id": "COMP_0192",
+  "expected_fields": {
+    "invoice_number": "SYRI/2324/00030",
+    "invoice_date": "2023-07-03",
+    "printed_date": "03-07-2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ritushore Corrugators Pvt Ltd",
+    "vendor_gstin": "06ITCCX1027W3ZS",
+    "buyer": "Hiraridge Food Products Pvt Ltd",
+    "buyer_gstin": "06FAECI5657H3ZU",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000074:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Outer carton (per-unit share) 1 L - CARDBOARD (11.9 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 363107,
+        "unit": "pcs",
+        "printed_quantity": "3,63,107",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 11.9,
+        "normalized_quantity_kg": 4320.973,
+        "normalization_requires_master": false,
+        "rate": 0.74,
+        "printed_rate": "0.74",
+        "amount": 268699.18,
+        "printed_amount": "2,68,699.18",
+        "gst_rate": 18,
+        "gst_amount": 48365.85,
+        "printed_description_lines": [
+          "Outer carton (per-unit share) 1 L - CARDBOARD (11.9 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 268699.18,
+    "cgst": 24182.92,
+    "sgst": 24182.93,
+    "igst": 0.0,
+    "gst": 48365.85,
+    "invoice_total": 317065.03,
+    "printed_total": "3,17,065.03",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    4320.973
+  ],
+  "linked_transaction_ids": [
+    "TXN_00170957"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 4783156038531574663,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "56cddf0b8c72f5af14b3ae7b60403a98f82383caa3be75170b0029273f65abd7"
+}

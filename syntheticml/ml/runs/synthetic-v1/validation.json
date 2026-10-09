@@ -1,0 +1,38 @@
+{
+  "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+  "files_verified": 2016,
+  "anomaly_company_split": {
+    "train": 120,
+    "test": 40,
+    "validation": 40
+  },
+  "forecast_holdout_companies": 40,
+  "forecast_rows": 52931,
+  "forecast_time_split": {
+    "train": 32371,
+    "test": 10542,
+    "validation": 10018
+  },
+  "counts": {
+    "companies": 200,
+    "products": 1775,
+    "packaging_components": 4522,
+    "transactions": 174224,
+    "transactions_clean": 173778,
+    "material_events": 718353,
+    "invoices": 46501,
+    "invoice_lines": 179616,
+    "recycling": 14649,
+    "anomaly_ground_truth": 3703,
+    "anomaly_instances": 3010,
+    "hard_negative_labels": 693,
+    "scenarios": 600,
+    "scenario_results": 600,
+    "business_descriptions": 150,
+    "forecast_panel_rows": 52931,
+    "invoice_pdfs": 1000,
+    "invoice_json": 1000
+  },
+  "generator_version": "1.0.0",
+  "seed": 20261009
+}

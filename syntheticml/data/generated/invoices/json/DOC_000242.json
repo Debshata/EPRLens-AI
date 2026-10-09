@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000242",
+  "invoice_id": "INV_00028494",
+  "invoice_number": "SYDH/2324/00026",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0096",
+  "supplier_id": "SUP_0064",
+  "buyer_id": "COMP_0096",
+  "expected_fields": {
+    "invoice_number": "SYDH/2324/00026",
+    "invoice_date": "2024-02-09",
+    "printed_date": "09/02/2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Puresprout Flexi Pack Pvt Ltd",
+    "vendor_gstin": "19BCSCV7632T2Z4",
+    "buyer": "Yuvawing Consumer Goods Pvt Ltd",
+    "buyer_gstin": "10FFZCN9871T1ZG",
+    "place_of_supply": "Bihar (10)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000242:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Flip cap 150 g - PP (2.3 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 598703,
+        "unit": "pcs",
+        "printed_quantity": "5,98,703",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 2.3,
+        "normalized_quantity_kg": 1377.017,
+        "normalization_requires_master": false,
+        "rate": 0.29,
+        "printed_rate": "0.29",
+        "amount": 173623.87,
+        "printed_amount": "1,73,623.87",
+        "gst_rate": 18,
+        "gst_amount": 31252.3,
+        "printed_description_lines": [
+          "Flip cap 150 g - PP (2.3 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000242:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Flip cap 150 g - PP (2.3 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 834268,
+        "unit": "pcs",
+        "printed_quantity": "8,34,268",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 2.3,
+        "normalized_quantity_kg": 1918.816,
+        "normalization_requires_master": false,
+        "rate": 0.29,
+        "printed_rate": "0.29",
+        "amount": 241937.72,
+        "printed_amount": "2,41,937.72",
+        "gst_rate": 18,
+        "gst_amount": 43548.79,
+        "printed_description_lines": [
+          "Flip cap 150 g - PP (2.3 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 415561.59,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 74801.09,
+    "gst": 74801.09,
+    "invoice_total": 490362.68,
+    "printed_total": "4,90,362.68",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1377.017,
+    1918.816
+  ],
+  "linked_transaction_ids": [
+    "TXN_00146144",
+    "TXN_00146145"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN20"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001897"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN20",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 18054663477582088874,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "57fa34e2eed73f9269a772cea5d9b4c8f1e5661af1bc5eb555602251b5648893"
+}

@@ -1,0 +1,118 @@
+{
+  "document_id": "DOC_000433",
+  "invoice_id": "INV_00003305",
+  "invoice_number": "SYNI/2425/00020",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0038",
+  "supplier_id": "COMP_0038",
+  "buyer_id": "BUY_0072",
+  "expected_fields": {
+    "invoice_number": "SYNI/2425/00020",
+    "invoice_date": "2024-09-02",
+    "printed_date": "2024-09-02",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Nilawing Online Retail Pvt Ltd",
+    "vendor_gstin": "36XGQCH7825I2Z1",
+    "buyer": "Ojashaven Institutional Supplies Pvt Ltd",
+    "buyer_gstin": "33KJIFD2875Y2ZF",
+    "place_of_supply": "Tamil Nadu (33)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000433:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Vrikshshore Eco Mailer Pack Medium",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "9965",
+        "quantity": 1955,
+        "unit": "pcs",
+        "printed_quantity": "1,955",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 47.898,
+        "normalization_requires_master": true,
+        "rate": 314.75,
+        "printed_rate": "314.75",
+        "amount": 615336.25,
+        "printed_amount": "615,336.25",
+        "gst_rate": 18,
+        "gst_amount": 110760.52,
+        "printed_description_lines": [
+          "Vrikshshore Eco Mailer Pack Medium"
+        ]
+      },
+      {
+        "line_reference": "DOC_000433:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Kesarkart Boxed Shipment Medium",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "9965",
+        "quantity": 1104,
+        "unit": "pcs",
+        "printed_quantity": "1,104",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 409.363,
+        "normalization_requires_master": true,
+        "rate": 585.52,
+        "printed_rate": "585.52",
+        "amount": 646414.08,
+        "printed_amount": "646,414.08",
+        "gst_rate": 18,
+        "gst_amount": 116354.53,
+        "printed_description_lines": [
+          "Kesarkart Boxed Shipment Medium"
+        ]
+      }
+    ],
+    "total_taxable_value": 1261750.33,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 227115.05,
+    "gst": 227115.05,
+    "invoice_total": 1488865.38,
+    "printed_total": "1,488,865.38",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    47.898,
+    409.363
+  ],
+  "linked_transaction_ids": [
+    "TXN_00023656",
+    "TXN_00023662"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [
+    "ANM_0003115"
+  ],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "AN17_shared_number",
+  "paired_document_id": null,
+  "template_id": "L06",
+  "template_name": "QR placeholder",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 14494142124539087691,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "cc97b51ad091fa665898ca233db60ed8951eb213b3cbca492b2f996a6ea48a54"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000493",
+  "invoice_id": "INV_00037725",
+  "invoice_number": "SYBO/2425/00029",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0178",
+  "supplier_id": "SUP_0096",
+  "buyer_id": "COMP_0178",
+  "expected_fields": {
+    "invoice_number": "SYBO/2425/00029",
+    "invoice_date": "2024-11-18",
+    "printed_date": "18/11/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Bodhinest Flexibles Pvt Ltd",
+    "vendor_gstin": "24IENCV6498Q2ZZ",
+    "buyer": "Purewing Online Retail Pvt Ltd",
+    "buyer_gstin": "27ZBRCQ8511D2Z8",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000493:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Compostable mailer for Pack Medium - COMPOSTABLE",
+        "material": "COMPOSTABLE",
+        "plastic_category": "CAT_IV",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 403,
+        "unit": "kg",
+        "printed_quantity": "403.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 403.0,
+        "normalization_requires_master": false,
+        "rate": 504.4,
+        "printed_rate": "504.40",
+        "amount": 203273.2,
+        "printed_amount": "2,03,273.20",
+        "gst_rate": 18,
+        "gst_amount": 36589.18,
+        "printed_description_lines": [
+          "Compostable mailer for Pack Medium - COMPOSTABLE"
+        ]
+      }
+    ],
+    "total_taxable_value": 203273.2,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 36589.18,
+    "gst": 36589.18,
+    "invoice_total": 239862.38,
+    "printed_total": "2,39,862.38",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    403.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00167932"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 1164375624330765860,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "cfa0f58306505722148a59e3e6b72bc3758eb7c075e89ad042ed89b1e9eaf149"
+}

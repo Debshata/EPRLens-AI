@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000241",
+  "invoice_id": "INV_00038940",
+  "invoice_number": "SYEXP-00011",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0190",
+  "supplier_id": "SUP_0036",
+  "buyer_id": "COMP_0190",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00011",
+    "invoice_date": "2024-02-07",
+    "printed_date": "07/02/2024",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Gangawave Caps Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Zarastone Life Sciences Pvt Ltd",
+    "buyer_gstin": "09DNVCG9338H3ZH",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000241:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 200 ml - HDPE (2.0 g/pc) (lot 1/2)",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 1222201,
+        "unit": "pcs",
+        "printed_quantity": "12,22,201",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 2.0,
+        "normalized_quantity_kg": 2444.402,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 12222.01,
+        "printed_amount": "12,222.01",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Cap 200 ml - HDPE (2.0 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000241:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Cap 200 ml - PP (2.0 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 1196367,
+        "unit": "pcs",
+        "printed_quantity": "11,96,367",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 2.0,
+        "normalized_quantity_kg": 2392.734,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 11963.67,
+        "printed_amount": "11,963.67",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Cap 200 ml - PP (2.0 g/pc) (lot 2/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000241:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Cap 60 caps - PP (4.6 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 2556519,
+        "unit": "pcs",
+        "printed_quantity": "25,56,519",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 4.6,
+        "normalized_quantity_kg": 11759.987,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 25565.19,
+        "printed_amount": "25,565.19",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Cap 60 caps - PP (4.6 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 49750.87,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 49750.87,
+    "printed_total": "49,750.87",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2444.402,
+    2392.734,
+    11759.987
+  ],
+  "linked_transaction_ids": [
+    "TXN_00170672",
+    "TXN_00170673",
+    "TXN_00170712"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN03"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001351"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN03",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 2465774781119130370,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "0f098d0af431dd92e576ccdfce34993b78e952d5ffe2a8b4d5577b0b65e5fb06"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000403",
+  "invoice_id": "INV_00034523",
+  "invoice_number": "SYEXP-00011",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0154",
+  "supplier_id": "SUP_0005",
+  "buyer_id": "COMP_0154",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00011",
+    "invoice_date": "2024-07-15",
+    "printed_date": "2024-07-15",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Lumiwell Packaging Components Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Ecoroot Drinks Pvt Ltd",
+    "buyer_gstin": "30PEMCA1726Y2ZN",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000403:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Glass bottle 300 ml - GLASS (192.2 g/pc)",
+        "material": "GLASS",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "7010",
+        "quantity": 419829,
+        "unit": "pcs",
+        "printed_quantity": "4,19,829",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 192.2,
+        "normalized_quantity_kg": 80691.134,
+        "normalization_requires_master": false,
+        "rate": 0.08,
+        "printed_rate": "0.08",
+        "amount": 33586.32,
+        "printed_amount": "33,586.32",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Glass bottle 300 ml - GLASS (192.2 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 33586.32,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 33586.32,
+    "printed_total": "33,586.32",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    80691.134
+  ],
+  "linked_transaction_ids": [
+    "TXN_00160663"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 6751280835201277364,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "8524664038aa1863cdecf089345c20c4faeb7c4efd3540dd09be657a5bc17005"
+}

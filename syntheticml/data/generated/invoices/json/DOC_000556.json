@@ -1,0 +1,89 @@
+{
+  "document_id": "DOC_000556",
+  "invoice_id": "INV_00040691",
+  "invoice_number": "SYRN/2425/00007",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0077",
+  "supplier_id": "BUY_0045",
+  "buyer_id": "COMP_0077",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00007",
+    "invoice_date": "2025-02-01",
+    "printed_date": "01/02/2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Saffrabrook Manufacturing LLP",
+    "vendor_gstin": "36CBJCA3188H2ZR",
+    "buyer": "Mithrawave Pharma Pvt Ltd",
+    "buyer_gstin": "06XFNCT9400I3ZA",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYMI/2425/00020",
+    "lines": [
+      {
+        "line_reference": "DOC_000556:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Udayaridge Multivitamin Capsules (synthetic SKU) 60 caps",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3004",
+        "quantity": 3347,
+        "unit": "bottles",
+        "printed_quantity": "3,347",
+        "printed_unit": "bottles",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 52.548,
+        "normalization_requires_master": true,
+        "rate": 43.43,
+        "printed_rate": "43.43",
+        "amount": 145360.21,
+        "printed_amount": "1,45,360.21",
+        "gst_rate": 12,
+        "gst_amount": 17443.23,
+        "printed_description_lines": [
+          "Goods returned: Udayaridge Multivitamin Capsules (synthetic",
+          "SKU) 60 caps"
+        ]
+      }
+    ],
+    "total_taxable_value": 145360.21,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 17443.23,
+    "gst": 17443.23,
+    "invoice_total": 162803.44,
+    "printed_total": "1,62,803.44",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    52.548
+  ],
+  "linked_transaction_ids": [
+    "TXN_00120389"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "return_applied",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 17083844451900238968,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "19892addf75989373c5211c57f10faa1e7c09f1412845462e1a1e95c6e8b0eea"
+}

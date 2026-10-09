@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000555",
+  "invoice_id": "INV_00042273",
+  "invoice_number": "SYCN/2425/00003",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0162",
+  "supplier_id": "SUP_0074",
+  "buyer_id": "COMP_0162",
+  "expected_fields": {
+    "invoice_number": "SYCN/2425/00003",
+    "invoice_date": "2025-01-30",
+    "printed_date": "30-01-2025",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Vrikshdale Closures Pvt Ltd",
+    "vendor_gstin": "18UAVCK2044O1Z6",
+    "buyer": "Hiraleaf Hygiene Products LLP",
+    "buyer_gstin": "23RDICU4747X2ZC",
+    "place_of_supply": "Madhya Pradesh (23)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYVR/2425/00026",
+    "lines": [
+      {
+        "line_reference": "DOC_000555:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2025-01-24",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 1632.53,
+        "printed_rate": "1,632.53",
+        "amount": 1632.53,
+        "printed_amount": "1,632.53",
+        "gst_rate": 18,
+        "gst_amount": 293.86,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2025-01-24"
+        ]
+      }
+    ],
+    "total_taxable_value": 1632.53,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 293.86,
+    "gst": 293.86,
+    "invoice_total": 1926.39,
+    "printed_total": "1,926.39",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [
+    "TXN_00173047"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 5342334983232233477,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "46f413dc18c1b0d5d47c6fbf3b55e4394e6c69d5626696057879c3d48fb6abb5"
+}

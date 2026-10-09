@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000526",
+  "invoice_id": "INV_00032461",
+  "invoice_number": "SYVR/2425/00034",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0135",
+  "supplier_id": "SUP_0120",
+  "buyer_id": "COMP_0135",
+  "expected_fields": {
+    "invoice_number": "SYVR/2425/00034",
+    "invoice_date": "2024-12-27",
+    "printed_date": "27-Dec-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshpact Pouch Pack Pvt Ltd",
+    "vendor_gstin": "09FGDCY5898U2ZD",
+    "buyer": "Arungrove Beverages Pvt Ltd",
+    "buyer_gstin": "27KCLCD8576V2Z4",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000526:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Spouted laminate pouch 160 ml - MLP (4.3 g/pc) (lot 1/2)",
+        "material": "MLP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 742108,
+        "unit": "pcs",
+        "printed_quantity": "7,42,108",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 4.3,
+        "normalized_quantity_kg": 3191.064,
+        "normalization_requires_master": false,
+        "rate": 2.14,
+        "printed_rate": "2.14",
+        "amount": 1588111.12,
+        "printed_amount": "15,88,111.12",
+        "gst_rate": 18,
+        "gst_amount": 285860.0,
+        "printed_description_lines": [
+          "Spouted laminate pouch 160 ml - MLP (4.3 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000526:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Spouted laminate pouch 160 ml - MLP (4.3 g/pc) (lot 2/2)",
+        "material": "MLP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 723296,
+        "unit": "pcs",
+        "printed_quantity": "7,23,296",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 4.3,
+        "normalized_quantity_kg": 3110.173,
+        "normalization_requires_master": false,
+        "rate": 2.14,
+        "printed_rate": "2.14",
+        "amount": 1547853.44,
+        "printed_amount": "15,47,853.44",
+        "gst_rate": 18,
+        "gst_amount": 278613.62,
+        "printed_description_lines": [
+          "Spouted laminate pouch 160 ml - MLP (4.3 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 3135964.56,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 564473.62,
+    "gst": 564473.62,
+    "invoice_total": 3700438.18,
+    "printed_total": "37,00,438.18",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    3191.064,
+    3110.173
+  ],
+  "linked_transaction_ids": [
+    "TXN_00155635",
+    "TXN_00155636"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN06"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001769"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN06",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 8525017062113953551,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "7a3b76acfdb01d6e3af9098c9aea626ad81852079f7c3fe5adcd376bb1ce058b"
+}

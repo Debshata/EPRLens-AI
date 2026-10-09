@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000757",
+  "invoice_id": "INV_00028616",
+  "invoice_number": "SYJA/2526/00057",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0098",
+  "supplier_id": "SUP_0010",
+  "buyer_id": "COMP_0098",
+  "expected_fields": {
+    "invoice_number": "SYJA/2526/00057",
+    "invoice_date": "2025-08-06",
+    "printed_date": "06-08-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Jalavista Converters Pvt Ltd",
+    "vendor_gstin": "27OSJCQ7156S3Z1",
+    "buyer": "Novaridge Appliances Pvt Ltd",
+    "buyer_gstin": "33JKUCV6413Y3ZD",
+    "place_of_supply": "Tamil Nadu (33)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000757:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "EPS blocks for 400 mm - PS",
+        "material": "PS",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 0.39,
+        "unit": "MT",
+        "printed_quantity": "0.390",
+        "printed_unit": "M.T.",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 390.0,
+        "normalization_requires_master": false,
+        "rate": 247540.08,
+        "printed_rate": "2,47,540.08",
+        "amount": 96540.63,
+        "printed_amount": "96,540.63",
+        "gst_rate": 18,
+        "gst_amount": 17377.31,
+        "printed_description_lines": [
+          "EPS blocks for 400 mm - PS"
+        ]
+      }
+    ],
+    "total_taxable_value": 96540.63,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 17377.31,
+    "gst": 17377.31,
+    "invoice_total": 113917.94,
+    "printed_total": "1,13,917.94",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    390.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00146612"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "small_mt",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 6508627400358658867,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "aa4463509fe3b1488f79c1242286bf9c29567215ad29650c2e6a5d4a64e9db30"
+}

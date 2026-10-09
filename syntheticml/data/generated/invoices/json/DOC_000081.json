@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000081",
+  "invoice_id": "INV_00025475",
+  "invoice_number": "SYOJ/2324/00038",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0067",
+  "supplier_id": "SUP_0075",
+  "buyer_id": "COMP_0067",
+  "expected_fields": {
+    "invoice_number": "SYOJ/2324/00038",
+    "invoice_date": "2023-07-15",
+    "printed_date": "2023-07-15",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ojasvale Converters Pvt Ltd",
+    "vendor_gstin": "27XMNCX7424K3ZS",
+    "buyer": "Pranaleaf Hygiene Products Ltd",
+    "buyer_gstin": "27OIGCO6707X2ZM",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000081:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 400 ml - HDPE",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 2.17,
+        "unit": "MT",
+        "printed_quantity": "2.170",
+        "printed_unit": "Tonne",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2170.0,
+        "normalization_requires_master": false,
+        "rate": 162630.73,
+        "printed_rate": "1,62,630.73",
+        "amount": 352908.68,
+        "printed_amount": "3,52,908.68",
+        "gst_rate": 18,
+        "gst_amount": 63523.56,
+        "printed_description_lines": [
+          "HDPE bottle for 400 ml - HDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 352908.68,
+    "cgst": 31761.78,
+    "sgst": 31761.78,
+    "igst": 0.0,
+    "gst": 63523.56,
+    "invoice_total": 416432.24,
+    "printed_total": "4,16,432.24",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2170.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00139508"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 12333832228977714613,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "2f0545ca9954b5d06446f65aa2e32b19dd4db602323fa0f33962538966e5ef9f"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000191",
+  "invoice_id": "INV_00042134",
+  "invoice_number": "SYCN/2324/00001",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0077",
+  "supplier_id": "SUP_0004",
+  "buyer_id": "COMP_0077",
+  "expected_fields": {
+    "invoice_number": "SYCN/2324/00001",
+    "invoice_date": "2023-11-27",
+    "printed_date": "27/11/2023",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Nilafizz Corrugators Pvt Ltd",
+    "vendor_gstin": "30FJTCE0299F1Z3",
+    "buyer": "Mithrawave Pharma Pvt Ltd",
+    "buyer_gstin": "06XFNCT9400I3ZA",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYNI/2324/00090",
+    "lines": [
+      {
+        "line_reference": "DOC_000191:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2023-11-14",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "4819",
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 22031.49,
+        "printed_rate": "22,031.49",
+        "amount": 22031.49,
+        "printed_amount": "22,031.49",
+        "gst_rate": 18,
+        "gst_amount": 3965.67,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2023-11-14"
+        ]
+      }
+    ],
+    "total_taxable_value": 22031.49,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 3965.67,
+    "gst": 3965.67,
+    "invoice_total": 25997.16,
+    "printed_total": "25,997.16",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [
+    "TXN_00172908"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 11435088010052606117,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "6ea1fbb57e3fd3f84ad9aa423c2ff93a4f6d6423d0a6eb356391ce950919eb0d"
+}

@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000259",
+  "invoice_id": "INV_00035941",
+  "invoice_number": "SYDH/2324/00038",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0164",
+  "supplier_id": "SUP_0077",
+  "buyer_id": "COMP_0164",
+  "expected_fields": {
+    "invoice_number": "SYDH/2324/00038",
+    "invoice_date": "2024-03-11",
+    "printed_date": "11/03/2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Dharawing Labels Pvt Ltd",
+    "vendor_gstin": "06BVUCO5172D3ZN",
+    "buyer": "Novahaven Drinks LLP",
+    "buyer_gstin": "29XUMCB7308Z1ZE",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000259:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Label 300 ml - HDPE (1.0 g/pc)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 293940,
+        "unit": "pcs",
+        "printed_quantity": "293,940",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 1.0,
+        "normalized_quantity_kg": 293.94,
+        "normalization_requires_master": false,
+        "rate": 0.15,
+        "printed_rate": "0.15",
+        "amount": 44091.0,
+        "printed_amount": "44,091.00",
+        "gst_rate": 18,
+        "gst_amount": 7936.38,
+        "printed_description_lines": [
+          "Label 300 ml - HDPE (1.0 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 44091.0,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 7936.38,
+    "gst": 7936.38,
+    "invoice_total": 52027.38,
+    "printed_total": "52,027.38",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    293.94
+  ],
+  "linked_transaction_ids": [
+    "TXN_00163435"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN03"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001375"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN03",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 5134127218422691586,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "100ea2e7f19f7846b53600c00a7fcbc972ba97a0c46108d8e8d26f2e37227196"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000210",
+  "invoice_id": "INV_00019842",
+  "invoice_number": "SYGA/2324/00094",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0027",
+  "supplier_id": "SUP_0054",
+  "buyer_id": "COMP_0027",
+  "expected_fields": {
+    "invoice_number": "SYGA/2324/00094",
+    "invoice_date": "2024-01-01",
+    "printed_date": "01-01-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Gangaroot Converters Pvt Ltd",
+    "vendor_gstin": "09SUZCZ1417Q2ZO",
+    "buyer": "Tarafizz Automotive Parts Pvt Ltd",
+    "buyer_gstin": "10FMKCS8418J1Z5",
+    "place_of_supply": "Bihar (10)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000210:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PP tray for Set Rear - PP",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 354,
+        "unit": "kg",
+        "printed_quantity": "354.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 354.0,
+        "normalization_requires_master": false,
+        "rate": 172.93,
+        "printed_rate": "172.93",
+        "amount": 61217.22,
+        "printed_amount": "61,217.22",
+        "gst_rate": 12,
+        "gst_amount": 7346.07,
+        "printed_description_lines": [
+          "PP tray for Set Rear - PP"
+        ]
+      }
+    ],
+    "total_taxable_value": 61217.22,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 7346.07,
+    "gst": 7346.07,
+    "invoice_total": 68563.29,
+    "printed_total": "68,563.29",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    354.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00126941"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 6232726176331122542,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "04d1ead13d1278527295ab6c8205075b534871f5821a0e3af83e1c3cf6d8e0d3"
+}

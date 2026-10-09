@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000214",
+  "invoice_id": "INV_00024711",
+  "invoice_number": "SYSA/2324/00061",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0062",
+  "supplier_id": "SUP_0060",
+  "buyer_id": "COMP_0062",
+  "expected_fields": {
+    "invoice_number": "SYSA/2324/00061",
+    "invoice_date": "2024-01-04",
+    "printed_date": "04/01/2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Samavale Cap Works Pvt Ltd",
+    "vendor_gstin": "24CSOCY1037M3ZC",
+    "buyer": "Jalasprout Personal Care Pvt Ltd",
+    "buyer_gstin": "27POMCQ0850Z2ZZ",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000214:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Flip cap 340 ml - PP (4.4 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 39065,
+        "unit": "pcs",
+        "printed_quantity": "39,065",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 4.4,
+        "normalized_quantity_kg": 171.886,
+        "normalization_requires_master": false,
+        "rate": 0.87,
+        "printed_rate": "0.87",
+        "amount": 33986.55,
+        "printed_amount": "33,986.55",
+        "gst_rate": 12,
+        "gst_amount": 4078.39,
+        "printed_description_lines": [
+          "Flip cap 340 ml - PP (4.4 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000214:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Flip cap 340 ml - PP (4.4 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 45823,
+        "unit": "pcs",
+        "printed_quantity": "45,823",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 4.4,
+        "normalized_quantity_kg": 201.621,
+        "normalization_requires_master": false,
+        "rate": 0.87,
+        "printed_rate": "0.87",
+        "amount": 39866.01,
+        "printed_amount": "39,866.01",
+        "gst_rate": 12,
+        "gst_amount": 4783.92,
+        "printed_description_lines": [
+          "Flip cap 340 ml - PP (4.4 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 73852.56,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 8862.31,
+    "gst": 8862.31,
+    "invoice_total": 82714.87,
+    "printed_total": "82,714.87",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    171.886,
+    2.016
+  ],
+  "linked_transaction_ids": [
+    "TXN_00137376",
+    "TXN_00137377"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN02"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000408"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN02",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 8358526735133184367,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "341b13db28f73d539aaf16f0fe350a04b997beff41f6df6ee8d3aecc852d5a1d"
+}

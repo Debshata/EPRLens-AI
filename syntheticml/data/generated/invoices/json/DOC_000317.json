@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000317",
+  "invoice_id": "INV_00025744",
+  "invoice_number": "SYCH/2425/00004",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0070",
+  "supplier_id": "SUP_0002",
+  "buyer_id": "COMP_0070",
+  "expected_fields": {
+    "invoice_number": "SYCH/2425/00004",
+    "invoice_date": "2024-04-06",
+    "printed_date": "06-04-2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Chandraleaf Caps Pvt Ltd",
+    "vendor_gstin": "29PHMCO5664A2Z4",
+    "buyer": "Novafizz Cosmetics Pvt Ltd",
+    "buyer_gstin": "33KCSCA5866P3ZA",
+    "place_of_supply": "Tamil Nadu (33)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000317:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Flip cap 100 ml - PP (2.1 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 75264,
+        "unit": "pcs",
+        "printed_quantity": "75264",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 2.1,
+        "normalized_quantity_kg": 158.054,
+        "normalization_requires_master": false,
+        "rate": 0.48,
+        "printed_rate": "0.48",
+        "amount": 36126.72,
+        "printed_amount": "36126.72",
+        "gst_rate": 18,
+        "gst_amount": 6502.81,
+        "printed_description_lines": [
+          "Flip cap 100 ml - PP (2.1 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 36126.72,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 6502.81,
+    "gst": 6502.81,
+    "invoice_total": 42629.53,
+    "printed_total": "42629.53",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    158.054
+  ],
+  "linked_transaction_ids": [
+    "TXN_00140173"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "plain",
+    "currency_mark": "Rs."
+  },
+  "seed": 12170724392182117749,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "678ae398dedd9b95f51933d60d34149be6bb81b33e0b820c42668459d5cb6f75"
+}

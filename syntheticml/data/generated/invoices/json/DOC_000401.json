@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000401",
+  "invoice_id": "INV_00023470",
+  "invoice_number": "SYVA/2425/00013",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0053",
+  "supplier_id": "SUP_0022",
+  "buyer_id": "COMP_0053",
+  "expected_fields": {
+    "invoice_number": "SYVA/2425/00013",
+    "invoice_date": "2024-07-15",
+    "printed_date": "15-Jul-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vanawing Polyfilms Pvt Ltd",
+    "vendor_gstin": "32DMDCH0957W2ZH",
+    "buyer": "Jalacrest Beverages Ltd",
+    "buyer_gstin": "06LVZCC1903M3ZC",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000401:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Shrink wrap (per-unit share) for 1 L - LDPE",
+        "material": "LDPE",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 2146,
+        "unit": "kg",
+        "printed_quantity": "2,146.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2146.0,
+        "normalization_requires_master": false,
+        "rate": 167.83,
+        "printed_rate": "167.83",
+        "amount": 360163.18,
+        "printed_amount": "3,60,163.18",
+        "gst_rate": 18,
+        "gst_amount": 64829.37,
+        "printed_description_lines": [
+          "Shrink wrap (per-unit share) for 1 L - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 360163.18,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 64829.37,
+    "gst": 64829.37,
+    "invoice_total": 424992.55,
+    "printed_total": "4,24,992.55",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2146.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00134776"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001423"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 182610742431631382,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "91b4b15203c030f08de4e9c8cbe17fa3aa4ced736f84741a38a1d1049d259cbc"
+}

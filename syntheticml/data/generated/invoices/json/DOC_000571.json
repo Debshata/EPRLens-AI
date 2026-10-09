@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000571",
+  "invoice_id": "INV_00029301",
+  "invoice_number": "SYOJ/2425/00126",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0105",
+  "supplier_id": "SUP_0075",
+  "buyer_id": "COMP_0105",
+  "expected_fields": {
+    "invoice_number": "SYOJ/2425/00126",
+    "invoice_date": "2025-02-13",
+    "printed_date": "2025-02-13",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ojasvale Converters Pvt Ltd",
+    "vendor_gstin": "27XMNCX7424K3ZS",
+    "buyer": "Zaranest Home Care LLP",
+    "buyer_gstin": "36LAPCT5378A1ZS",
+    "place_of_supply": "Telangana (36)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000571:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 500 ml - HDPE (lot 1/2)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 4478,
+        "unit": "kg",
+        "printed_quantity": "4,478.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 4478.0,
+        "normalization_requires_master": false,
+        "rate": 162.63,
+        "printed_rate": "162.63",
+        "amount": 728257.14,
+        "printed_amount": "728,257.14",
+        "gst_rate": 18,
+        "gst_amount": 131086.29,
+        "printed_description_lines": [
+          "HDPE bottle for 500 ml - HDPE (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000571:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "HDPE bottle for 500 ml - HDPE (lot 2/2)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 6640,
+        "unit": "kg",
+        "printed_quantity": "6,640.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 6640.0,
+        "normalization_requires_master": false,
+        "rate": 162.63,
+        "printed_rate": "162.63",
+        "amount": 1079863.2,
+        "printed_amount": "1,079,863.20",
+        "gst_rate": 18,
+        "gst_amount": 194375.38,
+        "printed_description_lines": [
+          "HDPE bottle for 500 ml - HDPE (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 1808120.34,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 325461.67,
+    "gst": 325461.67,
+    "invoice_total": 2133582.01,
+    "printed_total": "2,133,582.01",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    4.478,
+    6640.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00148094",
+    "TXN_00148095"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN02"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000509"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN02",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 10883238048460986713,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "996ca30aa0e75710a68657114cb117c72f2c57c19b99b3db57c6a3f38f4b8dcf"
+}

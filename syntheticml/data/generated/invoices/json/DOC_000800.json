@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000800",
+  "invoice_id": "INV_00042011",
+  "invoice_number": "SYCN/2526/00002",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0023",
+  "supplier_id": "SUP_0037",
+  "buyer_id": "COMP_0023",
+  "expected_fields": {
+    "invoice_number": "SYCN/2526/00002",
+    "invoice_date": "2025-09-25",
+    "printed_date": "25/09/2025",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Dharabrook Corrugators Pvt Ltd",
+    "vendor_gstin": "29GGGCW6034O3ZZ",
+    "buyer": "Hirawick Consumer Products Pvt Ltd",
+    "buyer_gstin": "29CTTCW1557B3ZX",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYDH/2526/00075",
+    "lines": [
+      {
+        "line_reference": "DOC_000800:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2025-09-15",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "4819",
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 74716.89,
+        "printed_rate": "74,716.89",
+        "amount": 74716.89,
+        "printed_amount": "74,716.89",
+        "gst_rate": 12,
+        "gst_amount": 8966.03,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2025-09-15"
+        ]
+      }
+    ],
+    "total_taxable_value": 74716.89,
+    "cgst": 4483.02,
+    "sgst": 4483.01,
+    "igst": 0.0,
+    "gst": 8966.03,
+    "invoice_total": 83682.92,
+    "printed_total": "83,682.92",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN15"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002217"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN15",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 12950422848562345540,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ff6376684f7f9eb40bf55f566dd7b3b020032224a3f6e20e92f5b3ab662da61e"
+}

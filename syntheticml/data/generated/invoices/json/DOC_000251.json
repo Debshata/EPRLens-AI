@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000251",
+  "invoice_id": "INV_00028445",
+  "invoice_number": "SYVR/2324/00114",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0096",
+  "supplier_id": "SUP_0030",
+  "buyer_id": "COMP_0096",
+  "expected_fields": {
+    "invoice_number": "SYVR/2324/00114",
+    "invoice_date": "2024-02-27",
+    "printed_date": "27/02/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshmint Converters Pvt Ltd",
+    "vendor_gstin": "02DUGCS0815C2ZV",
+    "buyer": "Yuvawing Consumer Goods Pvt Ltd",
+    "buyer_gstin": "10FFZCN9871T1ZG",
+    "place_of_supply": "Bihar (10)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000251:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminated tube for 100 g - MLP",
+        "material": "MLP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 4309,
+        "unit": "kg",
+        "printed_quantity": "4,309.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 4309.0,
+        "normalization_requires_master": false,
+        "rate": 367.26,
+        "printed_rate": "367.26",
+        "amount": 1582523.34,
+        "printed_amount": "15,82,523.34",
+        "gst_rate": 12,
+        "gst_amount": 189902.8,
+        "printed_description_lines": [
+          "Laminated tube for 100 g - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 1582523.34,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 189902.8,
+    "gst": 189902.8,
+    "invoice_total": 1772426.14,
+    "printed_total": "17,72,426.14",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    4309.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00146282"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L02",
+  "template_name": "Modern corporate",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 10156485412848541253,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "f0756f1bdfa5b3839afd963852bdcd85914d71f55c402658dc76c2d2b601aeed"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000164",
+  "invoice_id": "INV_00019993",
+  "invoice_number": "SYEC/2324/00019",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0028",
+  "supplier_id": "SUP_0009",
+  "buyer_id": "COMP_0028",
+  "expected_fields": {
+    "invoice_number": "SYEC/2324/00019",
+    "invoice_date": "2023-10-23",
+    "printed_date": "23/10/2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ecoroot Flexi Pack Pvt Ltd",
+    "vendor_gstin": "02PDRCY2053H3ZD",
+    "buyer": "Zarahaven Electronics LLP",
+    "buyer_gstin": "27ENWCS7561Q2ZO",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000164:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Protective bag for 5 W - LDPE",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 16,
+        "unit": "kg",
+        "printed_quantity": "16.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 16.0,
+        "normalization_requires_master": false,
+        "rate": 162.17,
+        "printed_rate": "162.17",
+        "amount": 2594.72,
+        "printed_amount": "2,594.72",
+        "gst_rate": 18,
+        "gst_amount": 467.05,
+        "printed_description_lines": [
+          "Protective bag for 5 W - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 2594.72,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 467.05,
+    "gst": 467.05,
+    "invoice_total": 3061.77,
+    "printed_total": "3,061.77",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    16.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00127379"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 7060023278434397674,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "63470051bdecfa8affb1f9f29f945b9e9cf312bafb2e500dc3a532707e1a74a6"
+}

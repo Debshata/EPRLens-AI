@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000208",
+  "invoice_id": "INV_00018382",
+  "invoice_number": "SYOJ/2324/00098",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0011",
+  "supplier_id": "SUP_0075",
+  "buyer_id": "COMP_0011",
+  "expected_fields": {
+    "invoice_number": "SYOJ/2324/00098",
+    "invoice_date": "2023-12-28",
+    "printed_date": "28-12-2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ojasvale Converters Pvt Ltd",
+    "vendor_gstin": "27XMNCX7424K3ZS",
+    "buyer": "Ecowing Consumer Goods Pvt Ltd",
+    "buyer_gstin": "24ZKQCQ5330J1ZE",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000208:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminated tube for 100 g - MLP (lot 1/2)",
+        "material": "MLP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 2378,
+        "unit": "kg",
+        "printed_quantity": "2,378.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2378.0,
+        "normalization_requires_master": false,
+        "rate": 404.88,
+        "printed_rate": "404.88",
+        "amount": 962804.64,
+        "printed_amount": "9,62,804.64",
+        "gst_rate": 18,
+        "gst_amount": 173304.84,
+        "printed_description_lines": [
+          "Laminated tube for 100 g - MLP (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000208:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Laminated tube for 100 g - MLP (lot 2/2)",
+        "material": "MLP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 3442,
+        "unit": "kg",
+        "printed_quantity": "3,442.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 3442.0,
+        "normalization_requires_master": false,
+        "rate": 404.88,
+        "printed_rate": "404.88",
+        "amount": 1393596.96,
+        "printed_amount": "13,93,596.96",
+        "gst_rate": 18,
+        "gst_amount": 250847.45,
+        "printed_description_lines": [
+          "Laminated tube for 100 g - MLP (lot 2/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000208:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Laminated tube for 150 g - MLP",
+        "material": "MLP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 2853,
+        "unit": "kg",
+        "printed_quantity": "2,853.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2853.0,
+        "normalization_requires_master": false,
+        "rate": 404.88,
+        "printed_rate": "404.88",
+        "amount": 1155122.64,
+        "printed_amount": "11,55,122.64",
+        "gst_rate": 18,
+        "gst_amount": 207922.08,
+        "printed_description_lines": [
+          "Laminated tube for 150 g - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 3511524.24,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 632074.37,
+    "gst": 632074.37,
+    "invoice_total": 4143598.61,
+    "printed_total": "41,43,598.61",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2378.0,
+    3442.0,
+    2853.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00123454",
+    "TXN_00123455",
+    "TXN_00123539"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001395"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L02",
+  "template_name": "Modern corporate",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 16856031918391594028,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "a3d2a1bb771942802268ea795865f3928ea9a55e4ea519498d63796845c69c34"
+}

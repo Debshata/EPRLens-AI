@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000613",
+  "invoice_id": "INV_00042262",
+  "invoice_number": "SYCN/2425/00001",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0154",
+  "supplier_id": "SUP_0065",
+  "buyer_id": "COMP_0154",
+  "expected_fields": {
+    "invoice_number": "SYCN/2425/00001",
+    "invoice_date": "2025-03-21",
+    "printed_date": "21-Mar-2025",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Pranafield Labels Pvt Ltd",
+    "vendor_gstin": "29NGHCT1503H3ZG",
+    "buyer": "Ecoroot Drinks Pvt Ltd",
+    "buyer_gstin": "30PEMCA1726Y2ZN",
+    "place_of_supply": "Goa (30)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYPR/2425/00028",
+    "lines": [
+      {
+        "line_reference": "DOC_000613:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2025-03-08",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3919",
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 1357.49,
+        "printed_rate": "1,357.49",
+        "amount": 1357.49,
+        "printed_amount": "1,357.49",
+        "gst_rate": 18,
+        "gst_amount": 244.35,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2025-03-08"
+        ]
+      }
+    ],
+    "total_taxable_value": 1357.49,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 244.35,
+    "gst": 244.35,
+    "invoice_total": 1601.84,
+    "printed_total": "1,601.84",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [
+    "TXN_00173036"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 12748292500839235857,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "0a636364330f363b82992dcd61dc74c1f87ef44cca8f49d835ab93f586aa077b"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000488",
+  "invoice_id": "INV_00029640",
+  "invoice_number": "SYSA/2425/00023",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0109",
+  "supplier_id": "SUP_0007",
+  "buyer_id": "COMP_0109",
+  "expected_fields": {
+    "invoice_number": "SYSA/2425/00023",
+    "invoice_date": "2024-11-11",
+    "printed_date": "11-Nov-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Samabrook Polyfilms Pvt Ltd",
+    "vendor_gstin": "32FCMCZ3765T2Z1",
+    "buyer": "Suvarnabrook Online Retail Pvt Ltd",
+    "buyer_gstin": "07ADWCN9379C3ZI",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000488:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Air cushion film for Shipment Large - LDPE",
+        "material": "LDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 52,
+        "unit": "kg",
+        "printed_quantity": "52.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 52.0,
+        "normalization_requires_master": false,
+        "rate": 215.51,
+        "printed_rate": "215.51",
+        "amount": 11206.52,
+        "printed_amount": "11,206.52",
+        "gst_rate": 18,
+        "gst_amount": 2017.17,
+        "printed_description_lines": [
+          "Air cushion film for Shipment Large - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 11206.52,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 2017.17,
+    "gst": 2017.17,
+    "invoice_total": 13223.69,
+    "printed_total": "13,223.69",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    52.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00148964"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 6519120914544930393,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "bf4f35f39f13e49f5fa4a5ae36800d19e5ef2f3044926830859176c81d21b073"
+}

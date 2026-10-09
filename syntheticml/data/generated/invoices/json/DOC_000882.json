@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000882",
+  "invoice_id": "INV_00022358",
+  "invoice_number": "SYVR/2526/00027",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0045",
+  "supplier_id": "SUP_0086",
+  "buyer_id": "COMP_0045",
+  "expected_fields": {
+    "invoice_number": "SYVR/2526/00027",
+    "invoice_date": "2026-01-13",
+    "printed_date": "13-Jan-2026",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshleaf Pouches Pvt Ltd",
+    "vendor_gstin": "08VYKCM7314K1Z3",
+    "buyer": "Aquamint Home Care Pvt Ltd",
+    "buyer_gstin": "27OTUCA7139K1ZD",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000882:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LLDPE refill pouch 1 L - LLDPE (7.5 g/pc)",
+        "material": "LLDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 5350,
+        "unit": "pcs",
+        "printed_quantity": "5,350",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 7.5,
+        "normalized_quantity_kg": 40.125,
+        "normalization_requires_master": false,
+        "rate": 1.2,
+        "printed_rate": "1.20",
+        "amount": 6420.0,
+        "printed_amount": "6,420.00",
+        "gst_rate": 18,
+        "gst_amount": 1155.6,
+        "printed_description_lines": [
+          "LLDPE refill pouch 1 L - LLDPE (7.5 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 6420.0,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1155.6,
+    "gst": 1155.6,
+    "invoice_total": 7575.6,
+    "printed_total": "7,575.60",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    40.125
+  ],
+  "linked_transaction_ids": [
+    "TXN_00132400"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 9846702720651247825,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "95357e5231328f6a8835d87e7889acffd01e6e42a016ac9fc24dec51473f41b8"
+}

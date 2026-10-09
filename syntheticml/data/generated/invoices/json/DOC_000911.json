@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000911",
+  "invoice_id": "INV_00019291",
+  "invoice_number": "SYZA/2526/00049",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0019",
+  "supplier_id": "SUP_0062",
+  "buyer_id": "COMP_0019",
+  "expected_fields": {
+    "invoice_number": "SYZA/2526/00049",
+    "invoice_date": "2026-02-14",
+    "printed_date": "14/02/2026",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Zaravista Closure Systems Pvt Ltd",
+    "vendor_gstin": "21DAMCN5048H2ZR",
+    "buyer": "Novawick Household Products Pvt Ltd",
+    "buyer_gstin": "27BXVCT8014Z1ZI",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000911:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Actuator cap 220 ml - PP (8.8 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 209355,
+        "unit": "pcs",
+        "printed_quantity": "209,355",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 8.8,
+        "normalized_quantity_kg": 1842.324,
+        "normalization_requires_master": false,
+        "rate": 1.54,
+        "printed_rate": "1.54",
+        "amount": 322406.7,
+        "printed_amount": "322,406.70",
+        "gst_rate": 18,
+        "gst_amount": 58033.21,
+        "printed_description_lines": [
+          "Actuator cap 220 ml - PP (8.8 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 322406.7,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 58033.21,
+    "gst": 58033.21,
+    "invoice_total": 380439.91,
+    "printed_total": "380,439.91",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1842.324
+  ],
+  "linked_transaction_ids": [
+    "TXN_00125603"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "g_and_pcs_units",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 2739669018889221260,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "8c4bf9dd016264c9362d97b6fc5d89482c257ae3fc392ef284850ae11e06805c"
+}

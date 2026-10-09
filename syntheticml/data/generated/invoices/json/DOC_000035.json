@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000035",
+  "invoice_id": "INV_00042307",
+  "invoice_number": "SYCN/2324/00001",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0177",
+  "supplier_id": "SUP_0042",
+  "buyer_id": "COMP_0177",
+  "expected_fields": {
+    "invoice_number": "SYCN/2324/00001",
+    "invoice_date": "2023-05-08",
+    "printed_date": "08/05/2023",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Dharaglow Converters Pvt Ltd",
+    "vendor_gstin": "37FTECY6624B2ZJ",
+    "buyer": "Samaloom Hygiene Products Pvt Ltd",
+    "buyer_gstin": "27ZXWCM1787K3ZK",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYDH/2324/00003",
+    "lines": [
+      {
+        "line_reference": "DOC_000035:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2023-04-18",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 71724.14,
+        "printed_rate": "71,724.14",
+        "amount": 71724.14,
+        "printed_amount": "71,724.14",
+        "gst_rate": 18,
+        "gst_amount": 12910.35,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2023-04-18"
+        ]
+      }
+    ],
+    "total_taxable_value": 71724.14,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 12910.35,
+    "gst": 12910.35,
+    "invoice_total": 84634.49,
+    "printed_total": "84,634.49",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN15"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002228"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN15",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 10298481289426540206,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "4d97a947527521e72c6f0dcd194fe3bf051fa2928b35da385679852e795d10ae"
+}

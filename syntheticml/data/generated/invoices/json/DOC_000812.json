@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000812",
+  "invoice_id": "INV_00041412",
+  "invoice_number": "SYRN/2526/00005",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0145",
+  "supplier_id": "BUY_0062",
+  "buyer_id": "COMP_0145",
+  "expected_fields": {
+    "invoice_number": "SYRN/2526/00005",
+    "invoice_date": "2025-10-20",
+    "printed_date": "20-Oct-2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Ecoglow Distribution Pvt Ltd",
+    "vendor_gstin": "06LZACL1027A1ZN",
+    "buyer": "Samamint Consumer Goods Pvt Ltd",
+    "buyer_gstin": "07KGSCV0557V1Z4",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYSA/2526/00033",
+    "lines": [
+      {
+        "line_reference": "DOC_000812:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Samashore Detergent Powder 1 kg",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 1159,
+        "unit": "pcs",
+        "printed_quantity": "1,159",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 33.263,
+        "normalization_requires_master": true,
+        "rate": 92.98,
+        "printed_rate": "92.98",
+        "amount": 107763.82,
+        "printed_amount": "1,07,763.82",
+        "gst_rate": 18,
+        "gst_amount": 19397.49,
+        "printed_description_lines": [
+          "Goods returned: Samashore Detergent Powder 1 kg"
+        ]
+      }
+    ],
+    "total_taxable_value": 107763.82,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 19397.49,
+    "gst": 19397.49,
+    "invoice_total": 127161.31,
+    "printed_total": "1,27,161.31",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN16"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002309"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN16",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 8745193956922599432,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "be498dc66a0e6c437eb564f87f398b176c650e9467026089fe6ba65fbd8db078"
+}

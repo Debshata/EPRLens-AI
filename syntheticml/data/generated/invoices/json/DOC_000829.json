@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000829",
+  "invoice_id": "INV_00028033",
+  "invoice_number": "SYDH/2526/00078",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0093",
+  "supplier_id": "SUP_0042",
+  "buyer_id": "COMP_0093",
+  "expected_fields": {
+    "invoice_number": "SYDH/2526/00078",
+    "invoice_date": "2025-11-13",
+    "printed_date": "13-Nov-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Dharaglow Converters Pvt Ltd",
+    "vendor_gstin": "37FTECY6624B2ZJ",
+    "buyer": "Jalabloom Engineering Goods Ltd",
+    "buyer_gstin": "27LDVCE8584S3ZD",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000829:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE drum for 50 kg - HDPE",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 2201,
+        "unit": "kg",
+        "printed_quantity": "2,201.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2201.0,
+        "normalization_requires_master": false,
+        "rate": 191.55,
+        "printed_rate": "191.55",
+        "amount": 421601.55,
+        "printed_amount": "4,21,601.55",
+        "gst_rate": 18,
+        "gst_amount": 75888.28,
+        "printed_description_lines": [
+          "HDPE drum for 50 kg - HDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 421601.55,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 75888.28,
+    "gst": 75888.28,
+    "invoice_total": 497489.83,
+    "printed_total": "4,97,489.83",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2201.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00145394"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 13003428010812135632,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ec89b725221a6bcb99730247c35df2f4714bb1376a409b571c5ca96bd8d1380b"
+}

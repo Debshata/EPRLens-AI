@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000576",
+  "invoice_id": "INV_00026927",
+  "invoice_number": "SYPU/2425/00050",
+  "invoice_type": "MULTI_MATERIAL",
+  "invoice_type_code": "IT09",
+  "company_id": "COMP_0083",
+  "supplier_id": "SUP_0064",
+  "buyer_id": "COMP_0083",
+  "expected_fields": {
+    "invoice_number": "SYPU/2425/00050",
+    "invoice_date": "2025-02-17",
+    "printed_date": "17/02/2025",
+    "invoice_type": "MULTI_MATERIAL",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Puresprout Flexi Pack Pvt Ltd",
+    "vendor_gstin": "19BCSCV7632T2Z4",
+    "buyer": "Dhararidge Digital Commerce Pvt Ltd",
+    "buyer_gstin": "09SDICO2224M2ZT",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000576:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Compostable mailer for Pack Small - COMPOSTABLE",
+        "material": "COMPOSTABLE",
+        "plastic_category": "CAT_IV",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 57,
+        "unit": "kg",
+        "printed_quantity": "57.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 57.0,
+        "normalization_requires_master": false,
+        "rate": 616.01,
+        "printed_rate": "616.01",
+        "amount": 35112.57,
+        "printed_amount": "35,112.57",
+        "gst_rate": 18,
+        "gst_amount": 6320.26,
+        "printed_description_lines": [
+          "Compostable mailer for Pack Small - COMPOSTABLE"
+        ]
+      },
+      {
+        "line_reference": "DOC_000576:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Courier mailer for Pack Medium - LDPE (lot 1/2)",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 1910,
+        "unit": "kg",
+        "printed_quantity": "1,910.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1910.0,
+        "normalization_requires_master": false,
+        "rate": 130.14,
+        "printed_rate": "130.14",
+        "amount": 248567.4,
+        "printed_amount": "2,48,567.40",
+        "gst_rate": 18,
+        "gst_amount": 44742.13,
+        "printed_description_lines": [
+          "Courier mailer for Pack Medium - LDPE (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000576:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Courier mailer for Pack Medium - LDPE (lot 2/2)",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 2388,
+        "unit": "kg",
+        "printed_quantity": "2,388.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2388.0,
+        "normalization_requires_master": false,
+        "rate": 130.14,
+        "printed_rate": "130.14",
+        "amount": 310774.32,
+        "printed_amount": "3,10,774.32",
+        "gst_rate": 18,
+        "gst_amount": 55939.38,
+        "printed_description_lines": [
+          "Courier mailer for Pack Medium - LDPE (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 594454.29,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 107001.77,
+    "gst": 107001.77,
+    "invoice_total": 701456.06,
+    "printed_total": "7,01,456.06",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1967.0,
+    null,
+    2388.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00142746",
+    "TXN_00142771",
+    "TXN_00142772"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN19"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000926"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN19",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 10090303126706869809,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "5f55b84d3c6f5b49c5b1820eec531186c874b7b246a2ee85fb7048728699b332"
+}

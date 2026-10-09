@@ -1,0 +1,151 @@
+{
+  "document_id": "DOC_000841",
+  "invoice_id": "INV_00037659",
+  "invoice_number": "SYAR/2526/00032",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0178",
+  "supplier_id": "SUP_0040",
+  "buyer_id": "COMP_0178",
+  "expected_fields": {
+    "invoice_number": "SYAR/2526/00032",
+    "invoice_date": "2025-11-25",
+    "printed_date": "25-Nov-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Arunsprout Flexibles Pvt Ltd",
+    "vendor_gstin": "29YURCT5024H2Z2",
+    "buyer": "Purewing Online Retail Pvt Ltd",
+    "buyer_gstin": "27ZBRCQ8511D2Z8",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000841:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Compostable mailer for Pack Medium - COMPOSTABLE",
+        "material": "COMPOSTABLE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 37,
+        "unit": "kg",
+        "printed_quantity": "37.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 37.0,
+        "normalization_requires_master": false,
+        "rate": 366.91,
+        "printed_rate": "366.91",
+        "amount": 13575.67,
+        "printed_amount": "13,575.67",
+        "gst_rate": 12,
+        "gst_amount": 1629.08,
+        "printed_description_lines": [
+          "Compostable mailer for Pack Medium -",
+          "COMPOSTABLE"
+        ]
+      },
+      {
+        "line_reference": "DOC_000841:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Compostable mailer for Pack Small - COMPOSTABLE",
+        "material": "COMPOSTABLE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 348,
+        "unit": "kg",
+        "printed_quantity": "348.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 348.0,
+        "normalization_requires_master": false,
+        "rate": 366.91,
+        "printed_rate": "366.91",
+        "amount": 127684.68,
+        "printed_amount": "1,27,684.68",
+        "gst_rate": 12,
+        "gst_amount": 15322.16,
+        "printed_description_lines": [
+          "Compostable mailer for Pack Small -",
+          "COMPOSTABLE"
+        ]
+      },
+      {
+        "line_reference": "DOC_000841:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Compostable mailer for Pack Small - COMPOSTABLE",
+        "material": "COMPOSTABLE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 77,
+        "unit": "kg",
+        "printed_quantity": "77.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 77.0,
+        "normalization_requires_master": false,
+        "rate": 366.91,
+        "printed_rate": "366.91",
+        "amount": 28252.07,
+        "printed_amount": "28,252.07",
+        "gst_rate": 12,
+        "gst_amount": 3390.25,
+        "printed_description_lines": [
+          "Compostable mailer for Pack Small -",
+          "COMPOSTABLE"
+        ]
+      }
+    ],
+    "total_taxable_value": 169512.42,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 20341.49,
+    "gst": 20341.49,
+    "invoice_total": 189853.91,
+    "printed_total": "1,89,853.91",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    37000.0,
+    348.0,
+    77.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00167864",
+    "TXN_00167915",
+    "TXN_00168019"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000091"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 6398160845246376119,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "70743db6f1eef9b6b68fe46cb07a127871e6507960cf08528eed774c079c7715"
+}

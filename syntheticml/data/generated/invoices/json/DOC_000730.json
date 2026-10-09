@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000730",
+  "invoice_id": "INV_00028532",
+  "invoice_number": "SYEXP-00042",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0097",
+  "supplier_id": "SUP_0018",
+  "buyer_id": "COMP_0097",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00042",
+    "invoice_date": "2025-07-02",
+    "printed_date": "02-07-2025",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Bodhiridge Converters Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Purevale Beauty Pvt Ltd",
+    "buyer_gstin": "27REECX5412M3Z8",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000730:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PP jar for 50 g - PP",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 2.64,
+        "unit": "MT",
+        "printed_quantity": "2.640",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2640.0,
+        "normalization_requires_master": false,
+        "rate": 1592.88,
+        "printed_rate": "1592.88",
+        "amount": 4205.2,
+        "printed_amount": "4205.20",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "PP jar for 50 g - PP"
+        ]
+      },
+      {
+        "line_reference": "DOC_000730:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "PP jar for 100 g - PP",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 2.31,
+        "unit": "MT",
+        "printed_quantity": "2.310",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2310.0,
+        "normalization_requires_master": false,
+        "rate": 1592.88,
+        "printed_rate": "1592.88",
+        "amount": 3679.55,
+        "printed_amount": "3679.55",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "PP jar for 100 g - PP"
+        ]
+      }
+    ],
+    "total_taxable_value": 7884.75,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 7884.75,
+    "printed_total": "7884.75",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2640000.0,
+    2310.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00146543",
+    "TXN_00146562"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000006"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "plain",
+    "currency_mark": "USD"
+  },
+  "seed": 15597466241946039810,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "d5045ffff434f6ee85adcab63ad036facd22c9da8fa2ee1e82e6aa1a4f37dc51"
+}

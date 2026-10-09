@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000044",
+  "invoice_id": "INV_00032569",
+  "invoice_number": "SYEXP-00002",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0137",
+  "supplier_id": "SUP_0039",
+  "buyer_id": "COMP_0137",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00002",
+    "invoice_date": "2023-05-18",
+    "printed_date": "18-May-2023",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Rituvista Packaging Components Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Zararoot Beverages Ltd",
+    "buyer_gstin": "37UVTCV0553F3ZH",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000044:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 500 ml - PP (1.7 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 73846,
+        "unit": "pcs",
+        "printed_quantity": "73,846",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 1.7,
+        "normalized_quantity_kg": 125.538,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 738.46,
+        "printed_amount": "738.46",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Cap 500 ml - PP (1.7 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 738.46,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 738.46,
+    "printed_total": "738.46",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    125.538
+  ],
+  "linked_transaction_ids": [
+    "TXN_00155888"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 6256709372722636751,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c08c958f8392ad388b23a24c23cacf9ed00ac2cacf5e433c5e99f0c689ea66b6"
+}

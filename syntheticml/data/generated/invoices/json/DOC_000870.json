@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000870",
+  "invoice_id": "INV_00035530",
+  "invoice_number": "SYYU/2526/00052",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0161",
+  "supplier_id": "SUP_0078",
+  "buyer_id": "COMP_0161",
+  "expected_fields": {
+    "invoice_number": "SYYU/2526/00052",
+    "invoice_date": "2026-01-03",
+    "printed_date": "03-Jan-2026",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Yuvadale Cap Works Pvt Ltd",
+    "vendor_gstin": "29MGDCL9059M3ZX",
+    "buyer": "Aquastone Beverages LLP",
+    "buyer_gstin": "21QXNCE3252F3ZR",
+    "place_of_supply": "Odisha (21)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000870:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 500 ml - PP (2.1 g/pc)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 171488,
+        "unit": "pcs",
+        "printed_quantity": "1,71,488",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 2.1,
+        "normalized_quantity_kg": 360.125,
+        "normalization_requires_master": false,
+        "rate": 0.33,
+        "printed_rate": "0.33",
+        "amount": 56591.04,
+        "printed_amount": "56,591.04",
+        "gst_rate": 12,
+        "gst_amount": 6790.92,
+        "printed_description_lines": [
+          "Cap 500 ml - PP (2.1 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 56591.04,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 6790.92,
+    "gst": 6790.92,
+    "invoice_total": 63381.96,
+    "printed_total": "63,381.96",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    360.125
+  ],
+  "linked_transaction_ids": [
+    "TXN_00162502"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 12607225848098334513,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "aca7cbe314d96ca2b452f0da68ab1fcae3b9eb9467782844fd78738d40e0c592"
+}

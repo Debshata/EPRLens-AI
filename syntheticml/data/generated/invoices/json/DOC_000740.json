@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000740",
+  "invoice_id": "INV_00041411",
+  "invoice_number": "SYRN/2526/00003",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0145",
+  "supplier_id": "BUY_0062",
+  "buyer_id": "COMP_0145",
+  "expected_fields": {
+    "invoice_number": "SYRN/2526/00003",
+    "invoice_date": "2025-07-14",
+    "printed_date": "14-Jul-2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Ecoglow Distribution Pvt Ltd",
+    "vendor_gstin": "06LZACL1027A1ZN",
+    "buyer": "Samamint Consumer Goods Pvt Ltd",
+    "buyer_gstin": "07KGSCV0557V1Z4",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYSA/2526/00018",
+    "lines": [
+      {
+        "line_reference": "DOC_000740:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Samafield Washing Powder 500 g",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 2342,
+        "unit": "pcs",
+        "printed_quantity": "2,342",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 68.386,
+        "normalization_requires_master": true,
+        "rate": 97.04,
+        "printed_rate": "97.04",
+        "amount": 227267.68,
+        "printed_amount": "2,27,267.68",
+        "gst_rate": 18,
+        "gst_amount": 40908.18,
+        "printed_description_lines": [
+          "Goods returned: Samafield Washing Powder 500 g"
+        ]
+      }
+    ],
+    "total_taxable_value": 227267.68,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 40908.18,
+    "gst": 40908.18,
+    "invoice_total": 268175.86,
+    "printed_total": "2,68,175.86",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    68.386
+  ],
+  "linked_transaction_ids": [
+    "TXN_00121109"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 13090152312883479812,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "076a2c5a56a9028d4354ef520becb5ae43891c0dc956f36489d63a9d5c5b6442"
+}

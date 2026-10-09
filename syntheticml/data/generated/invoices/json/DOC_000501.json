@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000501",
+  "invoice_id": "INV_00025388",
+  "invoice_number": "SYOJ/2425/00095",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0065",
+  "supplier_id": "SUP_0075",
+  "buyer_id": "COMP_0065",
+  "expected_fields": {
+    "invoice_number": "SYOJ/2425/00095",
+    "invoice_date": "2024-11-28",
+    "printed_date": "28/11/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ojasvale Converters Pvt Ltd",
+    "vendor_gstin": "27XMNCX7424K3ZS",
+    "buyer": "Mithramint Life Sciences Pvt Ltd",
+    "buyer_gstin": "07TPGCM2819E3ZJ",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000501:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PVC blister for 15 tabs - PVC (lot 1/2)",
+        "material": "PVC",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 566,
+        "unit": "kg",
+        "printed_quantity": "566.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 566.0,
+        "normalization_requires_master": false,
+        "rate": 140.05,
+        "printed_rate": "140.05",
+        "amount": 79268.3,
+        "printed_amount": "79,268.30",
+        "gst_rate": 18,
+        "gst_amount": 14268.29,
+        "printed_description_lines": [
+          "PVC blister for 15 tabs - PVC (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000501:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "PVC blister for 15 tabs - PVC (lot 2/2)",
+        "material": "PVC",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3920",
+        "quantity": 686,
+        "unit": "kg",
+        "printed_quantity": "686.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 686.0,
+        "normalization_requires_master": false,
+        "rate": 140.05,
+        "printed_rate": "140.05",
+        "amount": 96074.3,
+        "printed_amount": "96,074.30",
+        "gst_rate": 18,
+        "gst_amount": 17293.37,
+        "printed_description_lines": [
+          "PVC blister for 15 tabs - PVC (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 175342.6,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 31561.66,
+    "gst": 31561.66,
+    "invoice_total": 206904.26,
+    "printed_total": "2,06,904.26",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    566.0,
+    686.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00139379",
+    "TXN_00139380"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN06"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001810"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN06",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 10747570847319585682,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "5967ef4a4b6e267df3ecd4c4b910fa4aeca038e6e23c54ddf5a6329af45b615a"
+}

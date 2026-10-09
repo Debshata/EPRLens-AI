@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000821",
+  "invoice_id": "INV_00025396",
+  "invoice_number": "SYEC/2526/00019",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0065",
+  "supplier_id": "SUP_0084",
+  "buyer_id": "COMP_0065",
+  "expected_fields": {
+    "invoice_number": "SYEC/2526/00019",
+    "invoice_date": "2025-11-01",
+    "printed_date": "01-11-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ecofizz Preforms & Bottles Pvt Ltd",
+    "vendor_gstin": "18VXKCP8784Z1Z6",
+    "buyer": "Mithramint Life Sciences Pvt Ltd",
+    "buyer_gstin": "07TPGCM2819E3ZJ",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000821:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET bottle 100 ml - PET (22.8 g/pc)",
+        "material": "PET",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 205270,
+        "unit": "pcs",
+        "printed_quantity": "2,05,270",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 22.8,
+        "normalized_quantity_kg": 4680.156,
+        "normalization_requires_master": false,
+        "rate": 3.45,
+        "printed_rate": "3.45",
+        "amount": 708181.5,
+        "printed_amount": "7,08,181.50",
+        "gst_rate": 18,
+        "gst_amount": 127472.67,
+        "printed_description_lines": [
+          "PET bottle 100 ml - PET (22.8 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 708181.5,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 127472.67,
+    "gst": 127472.67,
+    "invoice_total": 835654.17,
+    "printed_total": "8,35,654.17",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    4680.156
+  ],
+  "linked_transaction_ids": [
+    "TXN_00139266"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 7761927336992275998,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "3d51ca3999e5a2d9c04310562befb521b4443179a0bd825a054a63616943ea53"
+}

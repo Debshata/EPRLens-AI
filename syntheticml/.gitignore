@@ -1,0 +1,10 @@
+# Everything in the project is committed, including generated data, ML runs and logs (owner request 2026-10-09).
+# Excluded only: local Python environment, caches and secrets.
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example

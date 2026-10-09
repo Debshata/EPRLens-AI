@@ -1,0 +1,89 @@
+{
+  "document_id": "DOC_000669",
+  "invoice_id": "INV_00026667",
+  "invoice_number": "SYEXP-00043",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0079",
+  "supplier_id": "SUP_0037",
+  "buyer_id": "COMP_0079",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00043",
+    "invoice_date": "2025-04-24",
+    "printed_date": "24-Apr-2025",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Dharabrook Corrugators Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Kesarpact Food Products Pvt Ltd",
+    "buyer_gstin": "10YYACM4280P2ZY",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000669:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Outer carton (per-unit share) 150 g - CARDBOARD (12.2 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 306101,
+        "unit": "pcs",
+        "printed_quantity": "3,06,101",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 12.2,
+        "normalized_quantity_kg": 3734.432,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 3061.01,
+        "printed_amount": "3,061.01",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Outer carton (per-unit share) 150 g -",
+          "CARDBOARD (12.2 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 3061.01,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 3061.01,
+    "printed_total": "3,061.01",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    3734.432
+  ],
+  "linked_transaction_ids": [
+    "TXN_00142283"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 2832543519332950352,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "7a0705b412c663a3362e1e0806c9083696da909fafdcfd8986f01c092eea6198"
+}

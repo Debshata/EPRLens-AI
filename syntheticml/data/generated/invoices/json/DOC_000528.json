@@ -1,0 +1,122 @@
+{
+  "document_id": "DOC_000528",
+  "invoice_id": "INV_00019822",
+  "invoice_number": "SYEXP-00058",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0027",
+  "supplier_id": "SUP_0025",
+  "buyer_id": "COMP_0027",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00058",
+    "invoice_date": "2025-01-02",
+    "printed_date": "02-01-2025",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshwing Cartons Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Tarafizz Automotive Parts Pvt Ltd",
+    "buyer_gstin": "10FMKCS8418J1Z5",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000528:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Mono carton Set Rear - CARDBOARD (74.0 g/pc) (lot 1/2)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 234,
+        "unit": "pcs",
+        "printed_quantity": "234",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 74.0,
+        "normalized_quantity_kg": 17.316,
+        "normalization_requires_master": false,
+        "rate": 0.09,
+        "printed_rate": "0.09",
+        "amount": 21.06,
+        "printed_amount": "21.06",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Mono carton Set Rear - CARDBOARD (74.0 g/pc)",
+          "(lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000528:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Mono carton Set Rear - CARDBOARD (74.0 g/pc) (lot 2/2)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 186,
+        "unit": "pcs",
+        "printed_quantity": "186",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 74.0,
+        "normalized_quantity_kg": 13.764,
+        "normalization_requires_master": false,
+        "rate": 0.09,
+        "printed_rate": "0.09",
+        "amount": 16.74,
+        "printed_amount": "16.74",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Mono carton Set Rear - CARDBOARD (74.0 g/pc)",
+          "(lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 37.8,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 37.8,
+    "printed_total": "37.80",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    17.316,
+    137.64
+  ],
+  "linked_transaction_ids": [
+    "TXN_00127016",
+    "TXN_00127017"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN01"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000334"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN01",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 15546732634730598068,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "4d0cba50123833276ad4b107603079c1d3a4562b14c35f32a8a7c1f338e5836b"
+}

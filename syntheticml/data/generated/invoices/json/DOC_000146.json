@@ -1,0 +1,89 @@
+{
+  "document_id": "DOC_000146",
+  "invoice_id": "INV_00026735",
+  "invoice_number": "SYAQ/2324/00029",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0080",
+  "supplier_id": "SUP_0097",
+  "buyer_id": "COMP_0080",
+  "expected_fields": {
+    "invoice_number": "SYAQ/2324/00029",
+    "invoice_date": "2023-10-07",
+    "printed_date": "07-Oct-2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Aquafield Flexibles Pvt Ltd",
+    "vendor_gstin": "29MWFCU9588Y1Z5",
+    "buyer": "Yuvawick Retail Ltd",
+    "buyer_gstin": "06IRCCF8921G2ZW",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000146:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Compostable carry bag for Bag Medium - COMPOSTABLE",
+        "material": "COMPOSTABLE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 54,
+        "unit": "kg",
+        "printed_quantity": "54.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 54.0,
+        "normalization_requires_master": false,
+        "rate": 485.4,
+        "printed_rate": "485.40",
+        "amount": 26211.6,
+        "printed_amount": "26,211.60",
+        "gst_rate": 18,
+        "gst_amount": 4718.09,
+        "printed_description_lines": [
+          "Compostable carry bag for Bag Medium -",
+          "COMPOSTABLE"
+        ]
+      }
+    ],
+    "total_taxable_value": 26211.6,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 4718.09,
+    "gst": 4718.09,
+    "invoice_total": 30929.69,
+    "printed_total": "30,929.69",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    54.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00142288"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 1875008497503298482,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c50d88a5e9ac7c7fe89a5166a87259252812da7bb6e167e8511b2898935b2268"
+}

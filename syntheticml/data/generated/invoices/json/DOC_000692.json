@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000692",
+  "invoice_id": "INV_00024383",
+  "invoice_number": "SYEXP-00020",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0060",
+  "supplier_id": "SUP_0064",
+  "buyer_id": "COMP_0060",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00020",
+    "invoice_date": "2025-05-13",
+    "printed_date": "13-05-2025",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Puresprout Flexi Pack Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Jalavale Appliances Pvt Ltd",
+    "buyer_gstin": "07SAGCB4903I2ZM",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000692:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LDPE cover for 500 W - LDPE (lot 1/2)",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 25,
+        "unit": "kg",
+        "printed_quantity": "25.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 25.0,
+        "normalization_requires_master": false,
+        "rate": 1.57,
+        "printed_rate": "1.57",
+        "amount": 39.25,
+        "printed_amount": "39.25",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "LDPE cover for 500 W - LDPE (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000692:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "LDPE cover for 500 W - LDPE (lot 2/2)",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 32,
+        "unit": "kg",
+        "printed_quantity": "32.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 32.0,
+        "normalization_requires_master": false,
+        "rate": 1.57,
+        "printed_rate": "1.57",
+        "amount": 50.24,
+        "printed_amount": "50.24",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "LDPE cover for 500 W - LDPE (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 89.49,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 89.49,
+    "printed_total": "89.49",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    25.0,
+    0.032
+  ],
+  "linked_transaction_ids": [
+    "TXN_00136912",
+    "TXN_00136913"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000108"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 3314808259085250177,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "924296466ce95a578764cc896fc5348d27e547759cb08d07374b3db455e7ede0"
+}

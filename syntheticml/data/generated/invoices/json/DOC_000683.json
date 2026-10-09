@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000683",
+  "invoice_id": "INV_00009914",
+  "invoice_number": "SYTA/2526/00009",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0111",
+  "supplier_id": "COMP_0111",
+  "buyer_id": "BUY_0137",
+  "expected_fields": {
+    "invoice_number": "SYTA/2526/00009",
+    "invoice_date": "2025-05-08",
+    "printed_date": "08-May-2025",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Tarawave Drinks Pvt Ltd",
+    "vendor_gstin": "07GMVCK1879X1ZT",
+    "buyer": "Suvarnabloom Distribution",
+    "buyer_gstin": "27JWOFN9456H2ZY",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000683:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Lumipact Orange Burst 500 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "2202",
+        "quantity": 207438,
+        "unit": "bottles",
+        "printed_quantity": "2,07,438",
+        "printed_unit": "Btl",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 11305.371,
+        "normalization_requires_master": true,
+        "rate": 49.36,
+        "printed_rate": "49.36",
+        "amount": 10239139.68,
+        "printed_amount": "1,02,39,139.68",
+        "gst_rate": 18,
+        "gst_amount": 1843045.14,
+        "printed_description_lines": [
+          "Lumipact Orange Burst 500 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 10239139.68,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1843045.14,
+    "gst": 1843045.14,
+    "invoice_total": 12082184.82,
+    "printed_total": "1,20,82,184.82",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    11305.371
+  ],
+  "linked_transaction_ids": [
+    "TXN_00067539"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L06",
+  "template_name": "QR placeholder",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 4351838894626452885,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "5d5c842ee07bbf6401553bf3385f9d8b736e6df0917a9722e7b7f8f73e9d71d8"
+}

@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000687",
+  "invoice_id": "INV_00023081",
+  "invoice_number": "SYEXP-00012",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0049",
+  "supplier_id": "SUP_0051",
+  "buyer_id": "COMP_0049",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00012",
+    "invoice_date": "2025-05-09",
+    "printed_date": "09-05-2025",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Jalacrest Pack Components Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Prananest Devices Pvt Ltd",
+    "buyer_gstin": "33VFECC6925G1ZL",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000687:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PP inner tray 33 W - PP (11.2 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 1051,
+        "unit": "pcs",
+        "printed_quantity": "1,051",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 11.2,
+        "normalized_quantity_kg": 11.771,
+        "normalization_requires_master": false,
+        "rate": 0.02,
+        "printed_rate": "0.02",
+        "amount": 21.02,
+        "printed_amount": "21.02",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "PP inner tray 33 W - PP (11.2 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000687:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "PP inner tray 33 W - PP (11.2 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 1558,
+        "unit": "pcs",
+        "printed_quantity": "1,558",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 11.2,
+        "normalized_quantity_kg": 17.45,
+        "normalization_requires_master": false,
+        "rate": 0.02,
+        "printed_rate": "0.02",
+        "amount": 31.16,
+        "printed_amount": "31.16",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "PP inner tray 33 W - PP (11.2 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 52.18,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 52.18,
+    "printed_total": "52.18",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    16.77,
+    17.45
+  ],
+  "linked_transaction_ids": [
+    "TXN_00133926",
+    "TXN_00133927"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN07"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000645"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN07",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 5166275571960975357,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "db8f7a0e9f317beb36c6e11ef7c0a1f4566d5c8f65a238710fa17a388b2907e9"
+}

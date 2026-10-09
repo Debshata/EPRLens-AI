@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000863",
+  "invoice_id": "INV_00041825",
+  "invoice_number": "SYRN/2526/00008",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0182",
+  "supplier_id": "BUY_0042",
+  "buyer_id": "COMP_0182",
+  "expected_fields": {
+    "invoice_number": "SYRN/2526/00008",
+    "invoice_date": "2025-12-25",
+    "printed_date": "25-Dec-2025",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Dharasprout Distribution",
+    "vendor_gstin": "27MDICT2401G2Z4",
+    "buyer": "Pranacrest Automotive Parts Pvt Ltd",
+    "buyer_gstin": "32JYXCB9888S2ZA",
+    "place_of_supply": "Kerala (32)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYPR/2526/00039",
+    "lines": [
+      {
+        "line_reference": "DOC_000863:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Jalapact Brake Pad Set Rear",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "8708",
+        "quantity": 2783,
+        "unit": "pcs",
+        "printed_quantity": "2,783",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 247.409,
+        "normalization_requires_master": true,
+        "rate": 1014.86,
+        "printed_rate": "1,014.86",
+        "amount": 2824355.38,
+        "printed_amount": "28,24,355.38",
+        "gst_rate": 18,
+        "gst_amount": 508383.97,
+        "printed_description_lines": [
+          "Goods returned: Jalapact Brake Pad Set Rear"
+        ]
+      }
+    ],
+    "total_taxable_value": 2824355.38,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 508383.97,
+    "gst": 508383.97,
+    "invoice_total": 3332739.35,
+    "printed_total": "33,32,739.35",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    247.409
+  ],
+  "linked_transaction_ids": [
+    "TXN_00121523"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 1926953209795594783,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c5a36004ab773150b2fe57993316b9e8d8849a4e6ba8ca8ac6598ebf66ecf09c"
+}

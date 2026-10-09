@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000729",
+  "invoice_id": "INV_00032897",
+  "invoice_number": "SYVR/2526/00041",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0139",
+  "supplier_id": "SUP_0008",
+  "buyer_id": "COMP_0139",
+  "expected_fields": {
+    "invoice_number": "SYVR/2526/00041",
+    "invoice_date": "2025-06-26",
+    "printed_date": "26-Jun-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshbloom Packaging Solutions Pvt Ltd",
+    "vendor_gstin": "27JOVCI0213D2ZV",
+    "buyer": "Suvarnafizz Home Care Pvt Ltd",
+    "buyer_gstin": "02HJCCC0759P1Z0",
+    "place_of_supply": "Himachal Pradesh (02)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000729:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 1 L - HDPE",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 20770,
+        "unit": "kg",
+        "printed_quantity": "20,770.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 20770.0,
+        "normalization_requires_master": false,
+        "rate": 190.33,
+        "printed_rate": "190.33",
+        "amount": 3953154.1,
+        "printed_amount": "3,953,154.10",
+        "gst_rate": 12,
+        "gst_amount": 474378.49,
+        "printed_description_lines": [
+          "HDPE bottle for 1 L - HDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 3953154.1,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 474378.49,
+    "gst": 474378.49,
+    "invoice_total": 4427532.59,
+    "printed_total": "4,427,532.59",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    20770.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00156816"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 13477373834290683753,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "fdbbeb92a463e310332899c4c276ce2185287db1404257dbfdc247d878673202"
+}

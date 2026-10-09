@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000179",
+  "invoice_id": "INV_00024393",
+  "invoice_number": "SYEXP-00005",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0060",
+  "supplier_id": "SUP_0097",
+  "buyer_id": "COMP_0060",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00005",
+    "invoice_date": "2023-11-11",
+    "printed_date": "11/11/2023",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Aquafield Flexibles Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Jalavale Appliances Pvt Ltd",
+    "buyer_gstin": "07SAGCB4903I2ZM",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000179:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LDPE cover for 500 W - LDPE",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 66,
+        "unit": "kg",
+        "printed_quantity": "66.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 66.0,
+        "normalization_requires_master": false,
+        "rate": 2.0,
+        "printed_rate": "2.00",
+        "amount": 132.0,
+        "printed_amount": "132.00",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "LDPE cover for 500 W - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 132.0,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 132.0,
+    "printed_total": "132.00",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    0.066
+  ],
+  "linked_transaction_ids": [
+    "TXN_00136825"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000114"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 17244555353069637141,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "3719e0f35a631c2c235ffd5f27087032f1a76e52be7984e2052f9ae3b952ef6a"
+}

@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000203",
+  "invoice_id": "INV_00031375",
+  "invoice_number": "SYVR/2324/00087",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0125",
+  "supplier_id": "SUP_0030",
+  "buyer_id": "COMP_0125",
+  "expected_fields": {
+    "invoice_number": "SYVR/2324/00087",
+    "invoice_date": "2023-12-18",
+    "printed_date": "18-Dec-2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshmint Converters Pvt Ltd",
+    "vendor_gstin": "02DUGCS0815C2ZV",
+    "buyer": "Purewick Personal Care Pvt Ltd",
+    "buyer_gstin": "27PMMCO6513E2Z7",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000203:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 340 ml - HDPE",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 25772,
+        "unit": "kg",
+        "printed_quantity": "25772.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 25772.0,
+        "normalization_requires_master": false,
+        "rate": 164.95,
+        "printed_rate": "164.95",
+        "amount": 4251091.4,
+        "printed_amount": "4251091.40",
+        "gst_rate": 18,
+        "gst_amount": 765196.45,
+        "printed_description_lines": [
+          "HDPE bottle for 340 ml - HDPE"
+        ]
+      },
+      {
+        "line_reference": "DOC_000203:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "HDPE bottle for 180 ml - HDPE (lot 1/2)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 9144,
+        "unit": "kg",
+        "printed_quantity": "9144.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 9144.0,
+        "normalization_requires_master": false,
+        "rate": 164.95,
+        "printed_rate": "164.95",
+        "amount": 1508302.8,
+        "printed_amount": "1508302.80",
+        "gst_rate": 18,
+        "gst_amount": 271494.5,
+        "printed_description_lines": [
+          "HDPE bottle for 180 ml - HDPE (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000203:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "HDPE bottle for 180 ml - HDPE (lot 2/2)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 6414,
+        "unit": "kg",
+        "printed_quantity": "6414.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 6414.0,
+        "normalization_requires_master": false,
+        "rate": 164.95,
+        "printed_rate": "164.95",
+        "amount": 1057989.3,
+        "printed_amount": "1057989.30",
+        "gst_rate": 18,
+        "gst_amount": 190438.07,
+        "printed_description_lines": [
+          "HDPE bottle for 180 ml - HDPE (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 6817383.5,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1227129.02,
+    "gst": 1227129.02,
+    "invoice_total": 8044512.52,
+    "printed_total": "8044512.52",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    25772.0,
+    9144.0,
+    64.14
+  ],
+  "linked_transaction_ids": [
+    "TXN_00153042",
+    "TXN_00153414",
+    "TXN_00153415"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN02"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000524"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN02",
+  "paired_document_id": null,
+  "template_id": "L06",
+  "template_name": "QR placeholder",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "plain",
+    "currency_mark": "INR"
+  },
+  "seed": 14805456995899900902,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "6945c8fd38ab8d6b9905ff1116576f31fb60dca9bbc22c6c08efe72c523dfa98"
+}

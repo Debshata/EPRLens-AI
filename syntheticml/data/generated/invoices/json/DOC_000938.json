@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000938",
+  "invoice_id": "INV_00027360",
+  "invoice_number": "SYEXP-00001",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0088",
+  "supplier_id": "SUP_0034",
+  "buyer_id": "COMP_0088",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00001",
+    "invoice_date": "2026-03-10",
+    "printed_date": "10/03/2026",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Taramint Polyfilms Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Saffraroot Beverages Pvt Ltd",
+    "buyer_gstin": "27IPBCH3782E2ZU",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000938:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Shrink sleeve for 750 ml - PVC (lot 1/2)",
+        "material": "PVC",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 60,
+        "unit": "kg",
+        "printed_quantity": "60.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 60.0,
+        "normalization_requires_master": false,
+        "rate": 1.74,
+        "printed_rate": "1.74",
+        "amount": 104.4,
+        "printed_amount": "104.40",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Shrink sleeve for 750 ml - PVC (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000938:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Shrink sleeve for 750 ml - PVC (lot 2/2)",
+        "material": "PVC",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 51,
+        "unit": "kg",
+        "printed_quantity": "51.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 51.0,
+        "normalization_requires_master": false,
+        "rate": 1.74,
+        "printed_rate": "1.74",
+        "amount": 88.74,
+        "printed_amount": "88.74",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Shrink sleeve for 750 ml - PVC (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 193.14,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 193.14,
+    "printed_total": "193.14",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    0.06,
+    51.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00143833",
+    "TXN_00143834"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000115"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 8154200038468421958,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "44d2ecefc2dfcf0b34daf45e6bf8cef1369b94db1a4a0ae75152612c6f8924e8"
+}

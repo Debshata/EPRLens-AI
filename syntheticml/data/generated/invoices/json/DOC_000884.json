@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000884",
+  "invoice_id": "INV_00042112",
+  "invoice_number": "SYCN/2526/00003",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0064",
+  "supplier_id": "SUP_0005",
+  "buyer_id": "COMP_0064",
+  "expected_fields": {
+    "invoice_number": "SYCN/2526/00003",
+    "invoice_date": "2026-01-13",
+    "printed_date": "2026-01-13",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Lumiwell Packaging Components Pvt Ltd",
+    "vendor_gstin": "30FQYCU3815R3ZY",
+    "buyer": "Indraglow Automotive Parts LLP",
+    "buyer_gstin": "02GJGCB4192Q1Z3",
+    "place_of_supply": "Himachal Pradesh (02)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYLU/2526/00051",
+    "lines": [
+      {
+        "line_reference": "DOC_000884:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2025-12-25",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 22798.37,
+        "printed_rate": "22,798.37",
+        "amount": 22798.37,
+        "printed_amount": "22,798.37",
+        "gst_rate": 12,
+        "gst_amount": 2735.8,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2025-12-25"
+        ]
+      }
+    ],
+    "total_taxable_value": 22798.37,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 2735.8,
+    "gst": 2735.8,
+    "invoice_total": 25534.17,
+    "printed_total": "25,534.17",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [
+    "TXN_00172886"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 12606821558247392122,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c49635dd980b6d5e7b640bedf543822b925739aa6fda00a21a5733c7b9f400ae"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000355",
+  "invoice_id": "INV_00040297",
+  "invoice_number": "SYRN/2425/00001",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0039",
+  "supplier_id": "BUY_0026",
+  "buyer_id": "COMP_0039",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00001",
+    "invoice_date": "2024-05-17",
+    "printed_date": "17/05/2024",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Kiranest Hypermart",
+    "vendor_gstin": "27GGOCK0264O1ZN",
+    "buyer": "Hiragrove Drinks Ltd",
+    "buyer_gstin": "03NRTCY3105C1Z0",
+    "place_of_supply": "Punjab (03)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYHI/2425/00001",
+    "lines": [
+      {
+        "line_reference": "DOC_000355:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Vrikshsprout Mineral Water 2 L",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "2202",
+        "quantity": 1622,
+        "unit": "bottles",
+        "printed_quantity": "1,622",
+        "printed_unit": "bottles",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 58.392,
+        "normalization_requires_master": true,
+        "rate": 37.11,
+        "printed_rate": "37.11",
+        "amount": 60192.42,
+        "printed_amount": "60,192.42",
+        "gst_rate": 18,
+        "gst_amount": 10834.64,
+        "printed_description_lines": [
+          "Goods returned: Vrikshsprout Mineral Water 2 L"
+        ]
+      }
+    ],
+    "total_taxable_value": 60192.42,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 10834.64,
+    "gst": 10834.64,
+    "invoice_total": 71027.06,
+    "printed_total": "71,027.06",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    58.392
+  ],
+  "linked_transaction_ids": [
+    "TXN_00119995"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 7563310796719171483,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "70b02624da2e2bcfc9a1aa96236510575468b95cefa92735721e26bdf9bbcc1f"
+}

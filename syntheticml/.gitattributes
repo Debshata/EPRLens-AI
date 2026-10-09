@@ -1,0 +1,11 @@
+# Keep generated files byte-identical across OSes (manifest SHA-256 checks)
+*.csv text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.pdf binary
+*.png binary
+*.onnx binary
+*.joblib binary

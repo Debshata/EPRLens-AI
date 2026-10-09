@@ -1,0 +1,89 @@
+{
+  "document_id": "DOC_000156",
+  "invoice_id": "INV_00025938",
+  "invoice_number": "SYEXP-00016",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0071",
+  "supplier_id": "SUP_0115",
+  "buyer_id": "COMP_0071",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00016",
+    "invoice_date": "2023-10-14",
+    "printed_date": "14/10/2023",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Chandrawave Cartons Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Indraloom Devices Pvt Ltd",
+    "buyer_gstin": "24JYKCJ4750P3ZR",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000156:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Paper backing card 1 m - CARDBOARD (20.6 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 2610,
+        "unit": "pcs",
+        "printed_quantity": "2,610",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 20.6,
+        "normalized_quantity_kg": 53.766,
+        "normalization_requires_master": false,
+        "rate": 0.02,
+        "printed_rate": "0.02",
+        "amount": 52.2,
+        "printed_amount": "52.20",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Paper backing card 1 m - CARDBOARD (20.6",
+          "g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 52.2,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 52.2,
+    "printed_total": "52.20",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    53.766
+  ],
+  "linked_transaction_ids": [
+    "TXN_00140387"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 8648484357547535779,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "e7654621015b3f959e9e79f608611c2b45f8b9708aa7c17cec15dbe5aa3549b9"
+}

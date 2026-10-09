@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000540",
+  "invoice_id": "INV_00028597",
+  "invoice_number": "SYEXP-00013",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0097",
+  "supplier_id": "SUP_0116",
+  "buyer_id": "COMP_0097",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00013",
+    "invoice_date": "2025-01-18",
+    "printed_date": "18-01-2025",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Jalastone Caps Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Purevale Beauty Pvt Ltd",
+    "buyer_gstin": "27REECX5412M3Z8",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000540:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Lid 50 g - PP (5.6 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 53488,
+        "unit": "pcs",
+        "printed_quantity": "53,488",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 5.6,
+        "normalized_quantity_kg": 299.533,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 534.88,
+        "printed_amount": "534.88",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Lid 50 g - PP (5.6 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000540:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Lid 50 g - PP (5.6 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 38518,
+        "unit": "pcs",
+        "printed_quantity": "38,518",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 5.6,
+        "normalized_quantity_kg": 215.701,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 385.18,
+        "printed_amount": "385.18",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Lid 50 g - PP (5.6 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 920.06,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 920.06,
+    "printed_total": "920.06",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    53488.0,
+    215.701
+  ],
+  "linked_transaction_ids": [
+    "TXN_00146500",
+    "TXN_00146501"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000167"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 9323327715971859316,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "6e9a13199c6e9c7b8892f7d7df8525f0f6b1f6fa7096518da0da22d90a1e6126"
+}

@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000258",
+  "invoice_id": "INV_00019361",
+  "invoice_number": "SYLU/2324/00024",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0020",
+  "supplier_id": "SUP_0028",
+  "buyer_id": "COMP_0020",
+  "expected_fields": {
+    "invoice_number": "SYLU/2324/00024",
+    "invoice_date": "2024-03-11",
+    "printed_date": "11-03-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Lumiwing Flexibles Pvt Ltd",
+    "vendor_gstin": "06FRVCV0816D2ZM",
+    "buyer": "Dharasprout Digital Commerce Pvt Ltd",
+    "buyer_gstin": "27KLWCE5067Q2ZQ",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000258:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Courier mailer for Pack Large - LDPE",
+        "material": "LDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 986,
+        "unit": "kg",
+        "printed_quantity": "986.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 986.0,
+        "normalization_requires_master": false,
+        "rate": 169.32,
+        "printed_rate": "169.32",
+        "amount": 166949.52,
+        "printed_amount": "166,949.52",
+        "gst_rate": 18,
+        "gst_amount": 30050.91,
+        "printed_description_lines": [
+          "Courier mailer for Pack Large - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 166949.52,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 30050.91,
+    "gst": 30050.91,
+    "invoice_total": 197000.43,
+    "printed_total": "197,000.43",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1424.466
+  ],
+  "linked_transaction_ids": [
+    "TXN_00125778"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN07"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000681"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN07",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 8743415483061551148,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "b6ea192d82cadbd4a365bab3e32c768fa62c6a09ae35e8da4a8b7103567d10b9"
+}

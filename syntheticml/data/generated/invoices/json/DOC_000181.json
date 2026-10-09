@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000181",
+  "invoice_id": "INV_00037182",
+  "invoice_number": "SYEXP-00017",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0174",
+  "supplier_id": "SUP_0115",
+  "buyer_id": "COMP_0174",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00017",
+    "invoice_date": "2023-11-13",
+    "printed_date": "2023-11-13",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Chandrawave Cartons Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Ojasvista Pharma LLP",
+    "buyer_gstin": "08VPPCF5796A1ZD",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000181:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Mono carton 15 tabs - CARDBOARD (4.6 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 230410,
+        "unit": "pcs",
+        "printed_quantity": "2,30,410",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 4.6,
+        "normalized_quantity_kg": 1059.886,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 2304.1,
+        "printed_amount": "2,304.10",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Mono carton 15 tabs - CARDBOARD (4.6 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 2304.1,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 2304.1,
+    "printed_total": "2,304.10",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1059.886
+  ],
+  "linked_transaction_ids": [
+    "TXN_00166574"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 5091399463950931823,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "5b1cd10bea2e73f65c0a6d96106c7c94bb55c189138e51fb8e1636f6c6d10c21"
+}

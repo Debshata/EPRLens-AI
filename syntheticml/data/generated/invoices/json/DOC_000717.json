@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000717",
+  "invoice_id": "INV_00019083",
+  "invoice_number": "SYKE/2526/00014",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0017",
+  "supplier_id": "SUP_0093",
+  "buyer_id": "COMP_0017",
+  "expected_fields": {
+    "invoice_number": "SYKE/2526/00014",
+    "invoice_date": "2025-06-17",
+    "printed_date": "17-06-2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Kesarline Caps Pvt Ltd",
+    "vendor_gstin": "24OXECB0553D2ZY",
+    "buyer": "Taragrove Beauty Pvt Ltd",
+    "buyer_gstin": "06XJFCM8140M2ZD",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000717:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Lid 100 g - PP (5.7 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 40877,
+        "unit": "pcs",
+        "printed_quantity": "40,877",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 5.7,
+        "normalized_quantity_kg": 232.999,
+        "normalization_requires_master": false,
+        "rate": 1.28,
+        "printed_rate": "1.28",
+        "amount": 52322.56,
+        "printed_amount": "52,322.56",
+        "gst_rate": 18,
+        "gst_amount": 9418.06,
+        "printed_description_lines": [
+          "Lid 100 g - PP (5.7 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000717:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Lid 100 g - PP (5.7 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 60284,
+        "unit": "pcs",
+        "printed_quantity": "60,284",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 5.7,
+        "normalized_quantity_kg": 343.619,
+        "normalization_requires_master": false,
+        "rate": 1.28,
+        "printed_rate": "1.28",
+        "amount": 77163.52,
+        "printed_amount": "77,163.52",
+        "gst_rate": 18,
+        "gst_amount": 13889.43,
+        "printed_description_lines": [
+          "Lid 100 g - PP (5.7 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 129486.08,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 23307.49,
+    "gst": 23307.49,
+    "invoice_total": 152793.57,
+    "printed_total": "1,52,793.57",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    232.999,
+    154.592
+  ],
+  "linked_transaction_ids": [
+    "TXN_00124673",
+    "TXN_00124674"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN07"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000790"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN07",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 4180397808951182957,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "b1752c54fa9c8f0252aa381082d7924374acb48ec370d0d9265d3d0791db428f"
+}

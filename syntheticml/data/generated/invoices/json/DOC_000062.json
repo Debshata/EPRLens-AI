@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000062",
+  "invoice_id": "INV_00025926",
+  "invoice_number": "SYEXP-00008",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0071",
+  "supplier_id": "SUP_0110",
+  "buyer_id": "COMP_0071",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00008",
+    "invoice_date": "2023-06-08",
+    "printed_date": "08-Jun-2023",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Kirapeak Corrugators Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Indraloom Devices Pvt Ltd",
+    "buyer_gstin": "24JYKCJ4750P3ZR",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000062:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Product box 33 W - CARDBOARD (424.7 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 987,
+        "unit": "pcs",
+        "printed_quantity": "987",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 424.7,
+        "normalized_quantity_kg": 419.179,
+        "normalization_requires_master": false,
+        "rate": 0.06,
+        "printed_rate": "0.06",
+        "amount": 59.22,
+        "printed_amount": "59.22",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Product box 33 W - CARDBOARD (424.7 g/pc)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000062:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Product box 10 W - CARDBOARD (154.3 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 3228,
+        "unit": "pcs",
+        "printed_quantity": "3,228",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 154.3,
+        "normalized_quantity_kg": 498.08,
+        "normalization_requires_master": false,
+        "rate": 0.22,
+        "printed_rate": "0.22",
+        "amount": 710.16,
+        "printed_amount": "710.16",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Product box 10 W - CARDBOARD (154.3 g/pc)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000062:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Product box 20 W - CARDBOARD (59.3 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 2272,
+        "unit": "pcs",
+        "printed_quantity": "2,272",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 59.3,
+        "normalized_quantity_kg": 134.73,
+        "normalization_requires_master": false,
+        "rate": 0.09,
+        "printed_rate": "0.09",
+        "amount": 204.48,
+        "printed_amount": "204.48",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Product box 20 W - CARDBOARD (59.3 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 973.86,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 973.86,
+    "printed_total": "973.86",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    41.849,
+    498.08,
+    134.73
+  ],
+  "linked_transaction_ids": [
+    "TXN_00140260",
+    "TXN_00140296",
+    "TXN_00140503"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN10"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001549"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN10",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 10321017487684802690,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "9a543589377d535a5339e346afeea83b7bd34b8229be4adb68413fc586e6ab3d"
+}

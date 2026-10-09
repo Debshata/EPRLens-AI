@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000520",
+  "invoice_id": "INV_00024907",
+  "invoice_number": "SYGA/2425/00102",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0063",
+  "supplier_id": "SUP_0054",
+  "buyer_id": "COMP_0063",
+  "expected_fields": {
+    "invoice_number": "SYGA/2425/00102",
+    "invoice_date": "2024-12-23",
+    "printed_date": "23-12-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Gangaroot Converters Pvt Ltd",
+    "vendor_gstin": "09SUZCZ1417Q2ZO",
+    "buyer": "Arunvale Consumer Goods Pvt Ltd",
+    "buyer_gstin": "19DZZCD5387N2ZX",
+    "place_of_supply": "West Bengal (19)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000520:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminated tube for 150 g - MLP",
+        "material": "MLP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 641,
+        "unit": "kg",
+        "printed_quantity": "641.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 641.0,
+        "normalization_requires_master": false,
+        "rate": 306.69,
+        "printed_rate": "306.69",
+        "amount": 196588.29,
+        "printed_amount": "1,96,588.29",
+        "gst_rate": 18,
+        "gst_amount": 35385.89,
+        "printed_description_lines": [
+          "Laminated tube for 150 g - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 196588.29,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 35385.89,
+    "gst": 35385.89,
+    "invoice_total": 231974.18,
+    "printed_total": "2,31,974.18",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    641.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00138198"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 17418403254031138186,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "2677af3962541fb0ac8115c7a5469747d4d1639b6e3eebe6141732872ab38257"
+}

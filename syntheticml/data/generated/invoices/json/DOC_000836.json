@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000836",
+  "invoice_id": "INV_00041991",
+  "invoice_number": "SYCN/2526/00001",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0013",
+  "supplier_id": "SUP_0051",
+  "buyer_id": "COMP_0013",
+  "expected_fields": {
+    "invoice_number": "SYCN/2526/00001",
+    "invoice_date": "2025-11-23",
+    "printed_date": "23/11/2025",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Jalacrest Pack Components Pvt Ltd",
+    "vendor_gstin": "37TMGCE4199T2Z6",
+    "buyer": "Rituwick Healthcare LLP",
+    "buyer_gstin": "29TOCCY9858S3ZJ",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYJA/2526/00031",
+    "lines": [
+      {
+        "line_reference": "DOC_000836:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2025-11-05",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 323.96,
+        "printed_rate": "323.96",
+        "amount": 323.96,
+        "printed_amount": "323.96",
+        "gst_rate": 18,
+        "gst_amount": 58.31,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2025-11-05"
+        ]
+      }
+    ],
+    "total_taxable_value": 323.96,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 58.31,
+    "gst": 58.31,
+    "invoice_total": 382.27,
+    "printed_total": "382.27",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [
+    "TXN_00172765"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 11977133297995510087,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "d434ac050908f66cfa9ecaafb98a388fc7638ef5e2d1b89abcc0833145e93217"
+}

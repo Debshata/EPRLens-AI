@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000023",
+  "invoice_id": "INV_00036456",
+  "invoice_number": "SYGA/2324/00009",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0167",
+  "supplier_id": "SUP_0054",
+  "buyer_id": "COMP_0167",
+  "expected_fields": {
+    "invoice_number": "SYGA/2324/00009",
+    "invoice_date": "2023-04-19",
+    "printed_date": "19-Apr-2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Gangaroot Converters Pvt Ltd",
+    "vendor_gstin": "09SUZCZ1417Q2ZO",
+    "buyer": "Tarastone Consumer Products Pvt Ltd",
+    "buyer_gstin": "29YGPCQ6608G1ZV",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000023:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminated tube for 100 g - MLP",
+        "material": "MLP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 19983,
+        "unit": "kg",
+        "printed_quantity": "19,983.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 19983.0,
+        "normalization_requires_master": false,
+        "rate": 306.69,
+        "printed_rate": "306.69",
+        "amount": 6128586.27,
+        "printed_amount": "61,28,586.27",
+        "gst_rate": 18,
+        "gst_amount": 1103145.53,
+        "printed_description_lines": [
+          "Laminated tube for 100 g - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 6128586.27,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1103145.53,
+    "gst": 1103145.53,
+    "invoice_total": 7231731.8,
+    "printed_total": "72,31,731.80",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    19983.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00165178"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 17430830960065782597,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "21133dbed7cbaafea9b4844803945771b1239656b9389a2438d11b772e6c409b"
+}

@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000560",
+  "invoice_id": "INV_00033454",
+  "invoice_number": "SYRI/2425/00049",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0144",
+  "supplier_id": "SUP_0039",
+  "buyer_id": "COMP_0144",
+  "expected_fields": {
+    "invoice_number": "SYRI/2425/00049",
+    "invoice_date": "2025-02-06",
+    "printed_date": "06/02/2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Rituvista Packaging Components Pvt Ltd",
+    "vendor_gstin": "23IQKCC6220C3Z8",
+    "buyer": "Vanashore Beverages Pvt Ltd",
+    "buyer_gstin": "10YYZCX0393G2ZH",
+    "place_of_supply": "Bihar (10)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000560:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Crown cap 300 ml - METAL (2.2 g/pc)",
+        "material": "METAL",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 505948,
+        "unit": "pcs",
+        "printed_quantity": "5,05,948",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 2.2,
+        "normalized_quantity_kg": 1113.086,
+        "normalization_requires_master": false,
+        "rate": 1.12,
+        "printed_rate": "1.12",
+        "amount": 566661.76,
+        "printed_amount": "5,66,661.76",
+        "gst_rate": 18,
+        "gst_amount": 101999.12,
+        "printed_description_lines": [
+          "Crown cap 300 ml - METAL (2.2 g/pc)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000560:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Cap 300 ml - PP (2.4 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 645884,
+        "unit": "pcs",
+        "printed_quantity": "6,45,884",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 2.4,
+        "normalized_quantity_kg": 1550.122,
+        "normalization_requires_master": false,
+        "rate": 0.53,
+        "printed_rate": "0.53",
+        "amount": 342318.52,
+        "printed_amount": "3,42,318.52",
+        "gst_rate": 18,
+        "gst_amount": 61617.33,
+        "printed_description_lines": [
+          "Cap 300 ml - PP (2.4 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000560:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Cap 300 ml - PP (2.4 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 494964,
+        "unit": "pcs",
+        "printed_quantity": "4,94,964",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 2.4,
+        "normalized_quantity_kg": 1187.914,
+        "normalization_requires_master": false,
+        "rate": 0.53,
+        "printed_rate": "0.53",
+        "amount": 262330.92,
+        "printed_amount": "2,62,330.92",
+        "gst_rate": 18,
+        "gst_amount": 47219.57,
+        "printed_description_lines": [
+          "Cap 300 ml - PP (2.4 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 1171311.2,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 210836.02,
+    "gst": 210836.02,
+    "invoice_total": 1382147.22,
+    "printed_total": "13,82,147.22",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2663.208,
+    null,
+    1187.914
+  ],
+  "linked_transaction_ids": [
+    "TXN_00158267",
+    "TXN_00158324",
+    "TXN_00158325"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN19"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000894"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN19",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 7698109168334959349,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "a6da1db8dfc4cb2dfc8dcb41bb225d05ae8f167f10fe10f769cbd175e8575134"
+}

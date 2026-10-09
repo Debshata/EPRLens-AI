@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000693",
+  "invoice_id": "INV_00040495",
+  "invoice_number": "SYRN/2526/00001",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0058",
+  "supplier_id": "BUY_0099",
+  "buyer_id": "COMP_0058",
+  "expected_fields": {
+    "invoice_number": "SYRN/2526/00001",
+    "invoice_date": "2025-05-14",
+    "printed_date": "2025-05-14",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Jalastone Retail Mart",
+    "vendor_gstin": "09JOHFS8492C1ZX",
+    "buyer": "Purenest Drinks Pvt Ltd",
+    "buyer_gstin": "09QUPCB1191M3ZG",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYPU/2526/00002",
+    "lines": [
+      {
+        "line_reference": "DOC_000693:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Saffraray Ginger Ale 200 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "2202",
+        "quantity": 2982,
+        "unit": "bottles",
+        "printed_quantity": "2,982",
+        "printed_unit": "bottles",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 800.667,
+        "normalization_requires_master": true,
+        "rate": 45.79,
+        "printed_rate": "45.79",
+        "amount": 136545.78,
+        "printed_amount": "1,36,545.78",
+        "gst_rate": 18,
+        "gst_amount": 24578.24,
+        "printed_description_lines": [
+          "Goods returned: Saffraray Ginger Ale 200 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 136545.78,
+    "cgst": 12289.12,
+    "sgst": 12289.12,
+    "igst": 0.0,
+    "gst": 24578.24,
+    "invoice_total": 161124.02,
+    "printed_total": "1,61,124.02",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    800.667
+  ],
+  "linked_transaction_ids": [
+    "TXN_00120193"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "return_applied",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 3007580151749402133,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "40d15031879cb9384ebd683bcc109d396e857419772a7bafb9b3b4706b2c4957"
+}

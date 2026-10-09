@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000069",
+  "invoice_id": "INV_00029283",
+  "invoice_number": "SYSA/2324/00017",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0105",
+  "supplier_id": "SUP_0060",
+  "buyer_id": "COMP_0105",
+  "expected_fields": {
+    "invoice_number": "SYSA/2324/00017",
+    "invoice_date": "2023-06-21",
+    "printed_date": "21/06/2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Samavale Cap Works Pvt Ltd",
+    "vendor_gstin": "24CSOCY1037M3ZC",
+    "buyer": "Zaranest Home Care LLP",
+    "buyer_gstin": "36LAPCT5378A1ZS",
+    "place_of_supply": "Telangana (36)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000069:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Cap 500 ml - HDPE (5.3 g/pc) (lot 1/2)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 105903,
+        "unit": "pcs",
+        "printed_quantity": "1,05,903",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 5.3,
+        "normalized_quantity_kg": 561.286,
+        "normalization_requires_master": false,
+        "rate": 1.05,
+        "printed_rate": "1.05",
+        "amount": 111198.15,
+        "printed_amount": "1,11,198.15",
+        "gst_rate": 12,
+        "gst_amount": 13343.78,
+        "printed_description_lines": [
+          "Cap 500 ml - HDPE (5.3 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000069:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Cap 500 ml - PP (5.3 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 123248,
+        "unit": "pcs",
+        "printed_quantity": "1,23,248",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 5.3,
+        "normalized_quantity_kg": 653.214,
+        "normalization_requires_master": false,
+        "rate": 1.05,
+        "printed_rate": "1.05",
+        "amount": 129410.4,
+        "printed_amount": "1,29,410.40",
+        "gst_rate": 12,
+        "gst_amount": 15529.25,
+        "printed_description_lines": [
+          "Cap 500 ml - PP (5.3 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 240608.55,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 28873.03,
+    "gst": 28873.03,
+    "invoice_total": 269481.58,
+    "printed_total": "2,69,481.58",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    561.286,
+    653.214
+  ],
+  "linked_transaction_ids": [
+    "TXN_00148072",
+    "TXN_00148073"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN03"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001274"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN03",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 15350307525358794915,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "31dec479503e6aea5ce0684213a80bf3fc63dd111046880190514e042db41b24"
+}

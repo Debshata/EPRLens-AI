@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000672",
+  "invoice_id": "INV_00036020",
+  "invoice_number": "SYTA/2526/00003",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0165",
+  "supplier_id": "SUP_0034",
+  "buyer_id": "COMP_0165",
+  "expected_fields": {
+    "invoice_number": "SYTA/2526/00003",
+    "invoice_date": "2025-05-01",
+    "printed_date": "01-May-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Taramint Polyfilms Pvt Ltd",
+    "vendor_gstin": "27WDXCW6762E2ZK",
+    "buyer": "Jalavale Online Retail Ltd",
+    "buyer_gstin": "24TATCV0115G2ZX",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000672:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Air cushion film for Shipment Large - LDPE",
+        "material": "LDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 0.76,
+        "unit": "MT",
+        "printed_quantity": "0.760",
+        "printed_unit": "Tonne",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 760.0,
+        "normalization_requires_master": false,
+        "rate": 147645.71,
+        "printed_rate": "147645.71",
+        "amount": 112210.74,
+        "printed_amount": "112210.74",
+        "gst_rate": 18,
+        "gst_amount": 20197.93,
+        "printed_description_lines": [
+          "Air cushion film for Shipment Large - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 112210.74,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 20197.93,
+    "gst": 20197.93,
+    "invoice_total": 132408.67,
+    "printed_total": "132408.67",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    760.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00163993"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "small_mt",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "plain",
+    "currency_mark": "INR"
+  },
+  "seed": 8778068887273357382,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "6f7c1beb16863cc90b85204a3097dadf93b52a651e29e407358906e902737924"
+}

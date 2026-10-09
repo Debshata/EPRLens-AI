@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000160",
+  "invoice_id": "INV_00028398",
+  "invoice_number": "SYVR/2324/00021",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0095",
+  "supplier_id": "SUP_0120",
+  "buyer_id": "COMP_0095",
+  "expected_fields": {
+    "invoice_number": "SYVR/2324/00021",
+    "invoice_date": "2023-10-16",
+    "printed_date": "16-Oct-2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshpact Pouch Pack Pvt Ltd",
+    "vendor_gstin": "09FGDCY5898U2ZD",
+    "buyer": "Pranaray Home Care Ltd",
+    "buyer_gstin": "27XUNCS9952M3ZR",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000160:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LLDPE refill pouch 500 ml - LLDPE (8.0 g/pc)",
+        "material": "LLDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 117230,
+        "unit": "pcs",
+        "printed_quantity": "117230",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 8.0,
+        "normalized_quantity_kg": 937.84,
+        "normalization_requires_master": false,
+        "rate": 1.5,
+        "printed_rate": "1.50",
+        "amount": 175845.0,
+        "printed_amount": "175845.00",
+        "gst_rate": 18,
+        "gst_amount": 31652.1,
+        "printed_description_lines": [
+          "LLDPE refill pouch 500 ml - LLDPE (8.0 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 175845.0,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 31652.1,
+    "gst": 31652.1,
+    "invoice_total": 207497.1,
+    "printed_total": "207497.10",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    937.84
+  ],
+  "linked_transaction_ids": [
+    "TXN_00146020"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "plain",
+    "currency_mark": "INR"
+  },
+  "seed": 6397272360404353974,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "f03158080c8a70916d95a760955eaef2ac62f82fc421407fe09abd071443580d"
+}

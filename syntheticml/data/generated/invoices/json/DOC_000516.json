@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000516",
+  "invoice_id": "INV_00030148",
+  "invoice_number": "SYEXP-00008",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0112",
+  "supplier_id": "SUP_0007",
+  "buyer_id": "COMP_0112",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00008",
+    "invoice_date": "2024-12-19",
+    "printed_date": "19-12-2024",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Samabrook Polyfilms Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Kirawave Industrial Products Pvt Ltd",
+    "buyer_gstin": "36HBCCT9134L1ZC",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000516:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Stretch wrap (per-unit share) for 10 L - LLDPE",
+        "material": "LLDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 0.47,
+        "unit": "MT",
+        "printed_quantity": "0.470",
+        "printed_unit": "M.T.",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 470.0,
+        "normalization_requires_master": false,
+        "rate": 1885.24,
+        "printed_rate": "1,885.24",
+        "amount": 886.06,
+        "printed_amount": "886.06",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Stretch wrap (per-unit share) for 10 L - LLDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 886.06,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 886.06,
+    "printed_total": "886.06",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    470000.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00150526"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000008"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 11665946331856632253,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "a455a4cec610daeae20fa22a6ebf29721e7b836a697d398af45712c6c8f00010"
+}

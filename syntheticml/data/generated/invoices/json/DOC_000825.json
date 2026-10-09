@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000825",
+  "invoice_id": "INV_00032590",
+  "invoice_number": "SYVR/2526/00044",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0137",
+  "supplier_id": "SUP_0063",
+  "buyer_id": "COMP_0137",
+  "expected_fields": {
+    "invoice_number": "SYVR/2526/00044",
+    "invoice_date": "2025-11-04",
+    "printed_date": "04/11/2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshkart Pack Components Pvt Ltd",
+    "vendor_gstin": "07ZBDCR3506M3ZE",
+    "buyer": "Zararoot Beverages Ltd",
+    "buyer_gstin": "37UVTCV0553F3ZH",
+    "place_of_supply": "Andhra Pradesh (37)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000825:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Glass bottle 300 ml - GLASS (2430.9 g/pc)",
+        "material": "GLASS",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 196147,
+        "unit": "pcs",
+        "printed_quantity": "1,96,147",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 2430.9,
+        "normalized_quantity_kg": 476813.742,
+        "normalization_requires_master": false,
+        "rate": 6.47,
+        "printed_rate": "6.47",
+        "amount": 1269071.09,
+        "printed_amount": "12,69,071.09",
+        "gst_rate": 18,
+        "gst_amount": 228432.8,
+        "printed_description_lines": [
+          "Glass bottle 300 ml - GLASS (2430.9 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 1269071.09,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 228432.8,
+    "gst": 228432.8,
+    "invoice_total": 1497503.89,
+    "printed_total": "14,97,503.89",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    34168.807
+  ],
+  "linked_transaction_ids": [
+    "TXN_00155991"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN10"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001557"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN10",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 9504281178554637382,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "dd6bbc1b6edd80fdf33a5ef301326a321270c2079b3eff99a3b64733e1b931db"
+}

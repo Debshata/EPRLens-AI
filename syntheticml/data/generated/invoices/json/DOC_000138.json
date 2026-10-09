@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000138",
+  "invoice_id": "INV_00046224",
+  "invoice_number": "SYAR/2324/00023",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0063",
+  "supplier_id": "COMP_0063",
+  "buyer_id": "BUY_0038",
+  "expected_fields": {
+    "invoice_number": "SYAR/2324/00023",
+    "invoice_date": "2023-09-27",
+    "printed_date": "2023-09-27",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Arunvale Consumer Goods Pvt Ltd",
+    "vendor_gstin": "19DZZCD5387N2ZX",
+    "buyer": "Aquawick Hospitality Services LLP",
+    "buyer_gstin": "27UVECO2584W1ZJ",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000138:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Jalapath Clove Gel 150 g",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 6567,
+        "unit": "pcs",
+        "printed_quantity": "6,567",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 149.727,
+        "normalization_requires_master": true,
+        "rate": 11.02,
+        "printed_rate": "11.02",
+        "amount": 72368.34,
+        "printed_amount": "72,368.34",
+        "gst_rate": 18,
+        "gst_amount": 13026.3,
+        "printed_description_lines": [
+          "Jalapath Clove Gel 150 g"
+        ]
+      },
+      {
+        "line_reference": "DOC_000138:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Jalapath Clove Gel 100 g",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 10674,
+        "unit": "pcs",
+        "printed_quantity": "10,674",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 243.367,
+        "normalization_requires_master": true,
+        "rate": 81.61,
+        "printed_rate": "81.61",
+        "amount": 871105.14,
+        "printed_amount": "8,71,105.14",
+        "gst_rate": 18,
+        "gst_amount": 156798.93,
+        "printed_description_lines": [
+          "Jalapath Clove Gel 100 g"
+        ]
+      }
+    ],
+    "total_taxable_value": 943473.48,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 169825.23,
+    "gst": 169825.23,
+    "invoice_total": 1113298.71,
+    "printed_total": "11,13,298.71",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    149.727,
+    243.367
+  ],
+  "linked_transaction_ids": [
+    "TXN_00173881",
+    "TXN_00173882"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN05"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001943"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN05",
+  "paired_document_id": "DOC_000137",
+  "template_id": "L06",
+  "template_name": "QR placeholder",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 16773061869270795309,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "d4e02bbfa16a9d5a83921593711893b9d76ebaf9f4ebe72c9d4e2a6a54b5bf5b"
+}

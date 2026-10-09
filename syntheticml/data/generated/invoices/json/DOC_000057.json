@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000057",
+  "invoice_id": "INV_00028474",
+  "invoice_number": "SYPU/2324/00007",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0096",
+  "supplier_id": "SUP_0068",
+  "buyer_id": "COMP_0096",
+  "expected_fields": {
+    "invoice_number": "SYPU/2324/00007",
+    "invoice_date": "2023-06-02",
+    "printed_date": "2023-06-02",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Purefizz Pouches Pvt Ltd",
+    "vendor_gstin": "37WCUCA6310P3ZL",
+    "buyer": "Yuvawing Consumer Goods Pvt Ltd",
+    "buyer_gstin": "10FFZCN9871T1ZG",
+    "place_of_supply": "Bihar (10)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000057:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LLDPE pouch 1 kg - LLDPE (7.3 g/pc) (lot 1/2)",
+        "material": "LLDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 108330,
+        "unit": "pcs",
+        "printed_quantity": "1,08,330",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 7.3,
+        "normalized_quantity_kg": 790.809,
+        "normalization_requires_master": false,
+        "rate": 1.25,
+        "printed_rate": "1.25",
+        "amount": 135412.5,
+        "printed_amount": "1,35,412.50",
+        "gst_rate": 18,
+        "gst_amount": 24374.25,
+        "printed_description_lines": [
+          "LLDPE pouch 1 kg - LLDPE (7.3 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000057:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "LLDPE pouch 1 kg - LLDPE (7.3 g/pc) (lot 2/2)",
+        "material": "LLDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 78829,
+        "unit": "pcs",
+        "printed_quantity": "78,829",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 7.3,
+        "normalized_quantity_kg": 575.452,
+        "normalization_requires_master": false,
+        "rate": 1.25,
+        "printed_rate": "1.25",
+        "amount": 98536.25,
+        "printed_amount": "98,536.25",
+        "gst_rate": 18,
+        "gst_amount": 17736.53,
+        "printed_description_lines": [
+          "LLDPE pouch 1 kg - LLDPE (7.3 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 233948.75,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 42110.78,
+    "gst": 42110.78,
+    "invoice_total": 276059.53,
+    "printed_total": "2,76,059.53",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    790.809,
+    665.549
+  ],
+  "linked_transaction_ids": [
+    "TXN_00146384",
+    "TXN_00146385"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN07"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000682"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN07",
+  "paired_document_id": null,
+  "template_id": "L06",
+  "template_name": "QR placeholder",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 7915241752467536464,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "04dcf6e2eb28574dd0ca707060365e760d7be11e2f759c9ee180236562d6e60b"
+}

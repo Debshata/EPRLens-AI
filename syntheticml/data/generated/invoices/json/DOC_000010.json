@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000010",
+  "invoice_id": "INV_00013751",
+  "invoice_number": "SYSU/2324/00002",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0155",
+  "supplier_id": "COMP_0155",
+  "buyer_id": "BUY_0030",
+  "expected_fields": {
+    "invoice_number": "SYSU/2324/00002",
+    "invoice_date": "2023-04-06",
+    "printed_date": "06-Apr-2023",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Suvarnabloom Consumer Products Ltd",
+    "vendor_gstin": "05MUBCA7248U2Z6",
+    "buyer": "Rituvale Online Sellers LLP",
+    "buyer_gstin": "27NPFCK7310Y2ZU",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000010:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Vanamint Anti-dandruff Sachet 6 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 25597,
+        "unit": "pcs",
+        "printed_quantity": "25,597",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 15.358,
+        "normalization_requires_master": true,
+        "rate": 39.73,
+        "printed_rate": "39.73",
+        "amount": 1016968.81,
+        "printed_amount": "10,16,968.81",
+        "gst_rate": 18,
+        "gst_amount": 183054.39,
+        "printed_description_lines": [
+          "Vanamint Anti-dandruff Sachet 6 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 1016968.81,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 183054.39,
+    "gst": 183054.39,
+    "invoice_total": 1200023.2,
+    "printed_total": "12,00,023.20",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    15.358
+  ],
+  "linked_transaction_ids": [
+    "TXN_00091003"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L02",
+  "template_name": "Modern corporate",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 1551694576357296000,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "5d86c012b17a60824ec09eca10b3fd3c8bdeda989117d3946bf1eba29e59a33d"
+}

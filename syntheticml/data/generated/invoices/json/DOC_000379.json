@@ -1,0 +1,122 @@
+{
+  "document_id": "DOC_000379",
+  "invoice_id": "INV_00022710",
+  "invoice_number": "SYUD/2425/00027",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0048",
+  "supplier_id": "SUP_0013",
+  "buyer_id": "COMP_0048",
+  "expected_fields": {
+    "invoice_number": "SYUD/2425/00027",
+    "invoice_date": "2024-06-17",
+    "printed_date": "17/06/2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Udayacrest Corrugators Pvt Ltd",
+    "vendor_gstin": "29ESWCM6163W3ZH",
+    "buyer": "Aquadale Foods Ltd",
+    "buyer_gstin": "24NODCK1858I1ZK",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000379:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Outer carton (per-unit share) 2 L - CARDBOARD (22.1 g/pc) (lot 1/2)",
+        "material": "CARDBOARD",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 622204,
+        "unit": "pcs",
+        "printed_quantity": "6,22,204",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 22.1,
+        "normalized_quantity_kg": 13750.708,
+        "normalization_requires_master": false,
+        "rate": 1.91,
+        "printed_rate": "1.91",
+        "amount": 1188409.64,
+        "printed_amount": "11,88,409.64",
+        "gst_rate": 18,
+        "gst_amount": 213913.74,
+        "printed_description_lines": [
+          "Outer carton (per-unit share) 2 L - CARDBOARD",
+          "(22.1 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000379:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Outer carton (per-unit share) 2 L - CARDBOARD (22.1 g/pc) (lot 2/2)",
+        "material": "CARDBOARD",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 572855,
+        "unit": "pcs",
+        "printed_quantity": "5,72,855",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 22.1,
+        "normalized_quantity_kg": 12660.095,
+        "normalization_requires_master": false,
+        "rate": 1.91,
+        "printed_rate": "1.91",
+        "amount": 1094153.05,
+        "printed_amount": "10,94,153.05",
+        "gst_rate": 18,
+        "gst_amount": 196947.55,
+        "printed_description_lines": [
+          "Outer carton (per-unit share) 2 L - CARDBOARD",
+          "(22.1 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 2282562.69,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 410861.29,
+    "gst": 410861.29,
+    "invoice_total": 2693423.98,
+    "printed_total": "26,93,423.98",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1375070.8,
+    12660.095
+  ],
+  "linked_transaction_ids": [
+    "TXN_00133468",
+    "TXN_00133469"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN01"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000390"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN01",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 11025523485175678903,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "1dbeb5d272010c2eebd47e47e4b16c0e561a7b107da78a08cd42b04dfbb81fc3"
+}

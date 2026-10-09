@@ -1,0 +1,70 @@
+2026-10-09 19:54:39 INFO === EPRLens overnight ML run 'synthetic-v1-smoke' — 10 stages ===
+2026-10-09 19:54:39 INFO [start] validate
+2026-10-09 19:54:43 INFO dataset verified: 2016 files, sha 0c8f6d5ad65954a9
+2026-10-09 19:54:43 INFO [done] validate in 4.0s {'dataset_sha256': '0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8'}
+2026-10-09 19:54:43 INFO [start] features
+2026-10-09 19:55:31 INFO forecast rows 52931 ({'train': 25985, 'test': 10542, 'unused_holdout_window': 8347, 'validation': 8057}); anomaly records 59235
+2026-10-09 19:55:31 INFO [done] features in 48.1s {'forecast_rows': 52931, 'anomaly_records': 59235}
+2026-10-09 19:55:31 INFO [start] forecast_baselines
+2026-10-09 19:55:32 INFO F0 last-value validation: MAE 419.5 kg RMSE 2219.9 R2 0.9656
+2026-10-09 19:55:32 INFO [done] forecast_baselines in 0.4s {}
+2026-10-09 19:55:32 INFO [start] forecast_search
+2026-10-09 19:55:32 INFO   [FORE-003] linear_regression_raw val MAE 433.7 kg RMSE 2098.8 R2 0.9693 (0.08s)
+2026-10-09 19:55:32 INFO   [FORE-004] linear_regression_logratio val MAE 308.7 kg RMSE 1480.7 R2 0.9847 (0.04s)
+2026-10-09 19:55:47 INFO   [FORE-005] random_forest val MAE 265.7 kg RMSE 1182.2 R2 0.9902 (14.96s)
+2026-10-09 19:55:48 INFO   [FORE-006] xgboost val MAE 290.9 kg RMSE 1501.9 R2 0.9843 (0.89s)
+2026-10-09 19:55:53 INFO   [FORE-007] xgboost val MAE 262.1 kg RMSE 1169.6 R2 0.9905 (4.81s)
+2026-10-09 19:55:54 INFO   [FORE-008] xgboost val MAE 262.6 kg RMSE 1112.9 R2 0.9914 (0.98s)
+2026-10-09 19:55:54 INFO forecast search: budget of 6 configurations reached
+2026-10-09 19:55:54 INFO [done] forecast_search in 22.3s {'trials': 6}
+2026-10-09 19:55:54 INFO [start] forecast_final
+2026-10-09 19:55:55 INFO final F2 Linear Regression: test MAE 476.6 RMSE 3225.6 R2 0.9811
+2026-10-09 19:56:09 INFO final F3 Random Forest: test MAE 400.8 RMSE 2648.6 R2 0.9872
+2026-10-09 19:56:14 INFO final F4 XGBoost: test MAE 401.7 RMSE 2712.8 R2 0.9866
+2026-10-09 19:56:16 INFO FORECAST WINNER F4 XGBoost — test R2 0.9866 (TARGET MET)
+2026-10-09 19:56:16 INFO [done] forecast_final in 21.8s {'winner': 'xgboost'}
+2026-10-09 19:56:16 INFO [start] anomaly_search
+2026-10-09 19:56:27 INFO   rules tol={'qty_tolerance_kg': 0.5, 'qty_tolerance_rel': 0.005}: val P 1.000 R 0.804 F1 0.892 FPR 0.0000
+2026-10-09 19:56:28 INFO   rules tol={'qty_tolerance_kg': 0.1, 'qty_tolerance_rel': 0.001}: val P 1.000 R 0.807 F1 0.893 FPR 0.0000
+2026-10-09 19:56:29 INFO   rules tol={'qty_tolerance_kg': 0.01, 'qty_tolerance_rel': 0.0005}: val P 1.000 R 0.809 F1 0.894 FPR 0.0000
+2026-10-09 19:56:31 INFO   [ANOM-004] IF {'n_estimators': 300, 'max_samples': 2048, 'max_features': 0.5, 'fit_on': 'all', 'bootstrap': False} val combined F1 0.8942 FPR 0.0000 | IF-only F1 0.3904
+2026-10-09 19:56:33 INFO   [ANOM-005] IF {'n_estimators': 500, 'max_samples': 256, 'max_features': 0.5, 'fit_on': 'all', 'bootstrap': True} val combined F1 0.9055 FPR 0.0025 | IF-only F1 0.4233
+2026-10-09 19:56:33 INFO [done] anomaly_search in 16.8s {'trials': 2}
+2026-10-09 19:56:33 INFO [start] anomaly_final
+2026-10-09 19:56:44 INFO   rules tol={'qty_tolerance_kg': 0.5, 'qty_tolerance_rel': 0.005}: val P 1.000 R 0.804 F1 0.892 FPR 0.0000
+2026-10-09 19:56:45 INFO   rules tol={'qty_tolerance_kg': 0.1, 'qty_tolerance_rel': 0.001}: val P 1.000 R 0.807 F1 0.893 FPR 0.0000
+2026-10-09 19:56:46 INFO   rules tol={'qty_tolerance_kg': 0.01, 'qty_tolerance_rel': 0.0005}: val P 1.000 R 0.809 F1 0.894 FPR 0.0000
+2026-10-09 19:56:49 INFO ANOMALY SYSTEM rules_plus_iforest — test P 0.913 R 0.859 F1 0.885 FPR 0.0045 (TARGET MET)
+2026-10-09 19:56:49 INFO [done] anomaly_final in 16.2s {'chosen': 'rules_plus_iforest'}
+2026-10-09 19:56:49 INFO [start] plots
+2026-10-09 19:56:54 INFO [done] plots in 4.7s 
+2026-10-09 19:56:54 INFO [start] export
+2026-10-09 19:56:59 INFO ONNX parity: max |Δ log-ratio| 1.09e-02, max relative kg difference 1.08e-02
+2026-10-09 19:56:59 WARNING ONNX predictions differ by more than 0.1 % — falling back to joblib
+2026-10-09 19:57:10 WARNING IsolationForest ONNX conversion skipped (RuntimeError('Converter for IsolationForest does not support the case when _max_features=9 != number of given features 19.'))
+2026-10-09 19:57:11 ERROR [failed] export: AssertionError(({'company_id': 'COMP_0001', 'product_id': 'PROD_000001', 'target_month': '2026-03', 'forecast_kg': 612.727, 'model_version': 'forecast-v1', 'model_name': 'xgboost', 'status': 'success'}, {'status': 'error', 'error': 'RuntimeError: feature order in preprocessor does not match features.py', 'model_version': 'anomaly-v1'}))
+Traceback (most recent call last):
+  File "D:\EPRLens AI\syntheticml\ml\run_overnight.py", line 473, in main
+    info = getattr(run, stage)() or {}
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\EPRLens AI\syntheticml\ml\run_overnight.py", line 330, in export
+    assert fout["status"] == "success" and aout["status"] == "success", (fout, aout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ({'company_id': 'COMP_0001', 'product_id': 'PROD_000001', 'target_month': '2026-03', 'forecast_kg': 612.727, 'model_version': 'forecast-v1', 'model_name': 'xgboost', 'status': 'success'}, {'status': 'error', 'error': 'RuntimeError: feature order in preprocessor does not match features.py', 'model_version': 'anomaly-v1'})
+2026-10-09 19:58:03 INFO === EPRLens overnight ML run 'synthetic-v1-smoke' — 10 stages ===
+2026-10-09 19:58:03 INFO [skip] validate (completed 2026-10-09T14:24:43+00:00)
+2026-10-09 19:58:03 INFO [skip] features (completed 2026-10-09T14:25:31+00:00)
+2026-10-09 19:58:03 INFO [skip] forecast_baselines (completed 2026-10-09T14:25:32+00:00)
+2026-10-09 19:58:03 INFO [skip] forecast_search (completed 2026-10-09T14:25:54+00:00)
+2026-10-09 19:58:03 INFO [skip] forecast_final (completed 2026-10-09T14:26:16+00:00)
+2026-10-09 19:58:03 INFO [skip] anomaly_search (completed 2026-10-09T14:26:33+00:00)
+2026-10-09 19:58:03 INFO [skip] anomaly_final (completed 2026-10-09T14:26:49+00:00)
+2026-10-09 19:58:03 INFO [skip] plots (completed 2026-10-09T14:26:54+00:00)
+2026-10-09 19:58:03 INFO [start] export
+2026-10-09 19:58:08 INFO ONNX parity: max |Δ log-ratio| 5.96e-07, max relative kg difference 7.15e-07
+2026-10-09 19:58:19 INFO IsolationForest ONNX export skipped: skl2onnx supports it only with max_features=1.0 (joblib is used)
+2026-10-09 19:58:20 INFO [done] export in 16.3s {'forecast_dir': 'ml\\runs\\synthetic-v1-smoke\\artifacts\\forecast\\v1', 'anomaly_dir': 'ml\\runs\\synthetic-v1-smoke\\artifacts\\anomaly\\v1'}
+2026-10-09 19:58:20 INFO [start] aws_check
+2026-10-09 19:58:26 INFO AWS check: forecast model 5.138 MB, anomaly model 4.497 MB; local load {'forecast': 1782.8, 'anomaly': 1583.8}
+2026-10-09 19:58:26 INFO [done] aws_check in 6.5s {'forecast_model_mb': 5.138, 'anomaly_model_mb': 4.497}
+2026-10-09 19:58:26 INFO === run finished in 22.8s — status D:\EPRLens AI\syntheticml\ml\runs\synthetic-v1-smoke\status.json ===

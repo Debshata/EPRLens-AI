@@ -1,0 +1,89 @@
+{
+  "document_id": "DOC_000585",
+  "invoice_id": "INV_00018782",
+  "invoice_number": "SYGA/2425/00141",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0015",
+  "supplier_id": "SUP_0061",
+  "buyer_id": "COMP_0015",
+  "expected_fields": {
+    "invoice_number": "SYGA/2425/00141",
+    "invoice_date": "2025-02-25",
+    "printed_date": "25-Feb-2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Gangaleaf Corrugators Pvt Ltd",
+    "vendor_gstin": "10BBOCF4682I3Z8",
+    "buyer": "Ritupath Devices Pvt Ltd",
+    "buyer_gstin": "33ZHVCQ0095Q1ZX",
+    "place_of_supply": "Tamil Nadu (33)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000585:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Product box 20000 mAh - CARDBOARD (67.8 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 12832,
+        "unit": "pcs",
+        "printed_quantity": "12,832",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 67.8,
+        "normalized_quantity_kg": 870.01,
+        "normalization_requires_master": false,
+        "rate": 3.84,
+        "printed_rate": "3.84",
+        "amount": 49274.88,
+        "printed_amount": "49,274.88",
+        "gst_rate": 18,
+        "gst_amount": 8869.48,
+        "printed_description_lines": [
+          "Product box 20000 mAh - CARDBOARD (67.8",
+          "g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 49274.88,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 8869.48,
+    "gst": 8869.48,
+    "invoice_total": 58144.36,
+    "printed_total": "58,144.36",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    870.01
+  ],
+  "linked_transaction_ids": [
+    "TXN_00124563"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 7300479617977516040,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "8b2063bc8a40179b108b490330b080675497b180df6b5009d551ae1cf62482d1"
+}

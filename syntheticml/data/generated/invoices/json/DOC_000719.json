@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000719",
+  "invoice_id": "INV_00042447",
+  "invoice_number": "SYVR/2526/00010",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0043",
+  "supplier_id": "SUP_0120",
+  "buyer_id": "COMP_0043",
+  "expected_fields": {
+    "invoice_number": "SYVR/2526/00010",
+    "invoice_date": "2025-06-18",
+    "printed_date": "18/06/2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "cancelled",
+    "vendor": "Vrikshpact Pouch Pack Pvt Ltd",
+    "vendor_gstin": "09FGDCY5898U2ZD",
+    "buyer": "Suvarnapath Home Care LLP",
+    "buyer_gstin": "06TJECD9621G2ZZ",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000719:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "LLDPE refill pouch 500 ml - LLDPE (11.4 g/pc)",
+        "material": "LLDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 1522932,
+        "unit": "pcs",
+        "printed_quantity": "15,22,932",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 11.4,
+        "normalized_quantity_kg": 17361.425,
+        "normalization_requires_master": false,
+        "rate": 2.14,
+        "printed_rate": "2.14",
+        "amount": 3259074.48,
+        "printed_amount": "32,59,074.48",
+        "gst_rate": 18,
+        "gst_amount": 586633.41,
+        "printed_description_lines": [
+          "LLDPE refill pouch 500 ml - LLDPE (11.4 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 3259074.48,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 586633.41,
+    "gst": 586633.41,
+    "invoice_total": 3845707.89,
+    "printed_total": "38,45,707.89",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    17361.425
+  ],
+  "linked_transaction_ids": [
+    "TXN_00173701"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN14"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002138"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN14",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 3893093326833266550,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "e45ead75e02058a6e24ea8eac847ec0f094d729d089487791b4a0fc0ba220a52"
+}

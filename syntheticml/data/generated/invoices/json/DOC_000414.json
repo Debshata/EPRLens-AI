@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000414",
+  "invoice_id": "INV_00031796",
+  "invoice_number": "SYBO/2425/00054",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0127",
+  "supplier_id": "SUP_0018",
+  "buyer_id": "COMP_0127",
+  "expected_fields": {
+    "invoice_number": "SYBO/2425/00054",
+    "invoice_date": "2024-08-05",
+    "printed_date": "05/08/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Bodhiridge Converters Pvt Ltd",
+    "vendor_gstin": "27IBICS1654G1ZJ",
+    "buyer": "Vedastone Devices Ltd",
+    "buyer_gstin": "37DWVCI7868H1ZS",
+    "place_of_supply": "Andhra Pradesh (37)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000414:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "EPS insert for 10 W - PS",
+        "material": "PS",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3921",
+        "quantity": 235,
+        "unit": "kg",
+        "printed_quantity": "235.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 235.0,
+        "normalization_requires_master": false,
+        "rate": 286.89,
+        "printed_rate": "286.89",
+        "amount": 67419.15,
+        "printed_amount": "67,419.15",
+        "gst_rate": 18,
+        "gst_amount": 12135.45,
+        "printed_description_lines": [
+          "EPS insert for 10 W - PS"
+        ]
+      }
+    ],
+    "total_taxable_value": 67419.15,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 12135.45,
+    "gst": 12135.45,
+    "invoice_total": 79554.6,
+    "printed_total": "79,554.60",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    235.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00154331"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 7174586551615959265,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "a1acbf632af52160a9d16e959ca9e3fb767477d18a4ff022c342814a3fb463ff"
+}

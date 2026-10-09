@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000368",
+  "invoice_id": "INV_00020473",
+  "invoice_number": "SYOJ/2425/00028",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0030",
+  "supplier_id": "SUP_0112",
+  "buyer_id": "COMP_0030",
+  "expected_fields": {
+    "invoice_number": "SYOJ/2425/00028",
+    "invoice_date": "2024-06-04",
+    "printed_date": "04-06-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ritushore Corrugators Pvt Ltd",
+    "vendor_gstin": "06ITCCX1027W3ZS",
+    "buyer": "Indrahaven Hygiene Products LLP",
+    "buyer_gstin": "19UTBCV6160N2Z8",
+    "place_of_supply": "West Bengal (19)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000368:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 400 ml - HDPE (lot 1/2)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 320,
+        "unit": "kg",
+        "printed_quantity": "320.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 320.0,
+        "normalization_requires_master": false,
+        "rate": 162.63,
+        "printed_rate": "162.63",
+        "amount": 52041.6,
+        "printed_amount": "52,041.60",
+        "gst_rate": 18,
+        "gst_amount": 9367.49,
+        "printed_description_lines": [
+          "HDPE bottle for 400 ml - HDPE (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000368:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "HDPE bottle for 400 ml - HDPE (lot 2/2)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 304,
+        "unit": "kg",
+        "printed_quantity": "304.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 304.0,
+        "normalization_requires_master": false,
+        "rate": 162.63,
+        "printed_rate": "162.63",
+        "amount": 49439.52,
+        "printed_amount": "49,439.52",
+        "gst_rate": 18,
+        "gst_amount": 8899.11,
+        "printed_description_lines": [
+          "HDPE bottle for 400 ml - HDPE (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 101481.12,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 18266.6,
+    "gst": 18266.6,
+    "invoice_total": 119747.72,
+    "printed_total": "119,747.72",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    320.0,
+    304.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00128057",
+    "TXN_00128058"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN20"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001870"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN20",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 5897354627008674202,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "528badb4faf23f16790ae3afbebf04c9ecd12ea3471114233242a07efc61dd08"
+}

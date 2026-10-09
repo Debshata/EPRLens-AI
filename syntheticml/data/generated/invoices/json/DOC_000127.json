@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000127",
+  "invoice_id": "INV_00010277",
+  "invoice_number": "SYLU/2324/00019",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0116",
+  "supplier_id": "COMP_0116",
+  "buyer_id": "BUY_0085",
+  "expected_fields": {
+    "invoice_number": "SYLU/2324/00019",
+    "invoice_date": "2023-09-12",
+    "printed_date": "12/09/2023",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Lumifizz Consumer Products Ltd",
+    "vendor_gstin": "33RATCD9426O3Z4",
+    "buyer": "Kirawave Manufacturing",
+    "buyer_gstin": "37MWWFC4981W1ZG",
+    "place_of_supply": "Andhra Pradesh (37)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000127:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Udayaloom Herbal Toothpaste 100 g",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 356828,
+        "unit": "pcs",
+        "printed_quantity": "3,56,828",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 7707.484,
+        "normalization_requires_master": true,
+        "rate": 29.47,
+        "printed_rate": "29.47",
+        "amount": 10515721.16,
+        "printed_amount": "1,05,15,721.16",
+        "gst_rate": 18,
+        "gst_amount": 1892829.81,
+        "printed_description_lines": [
+          "Udayaloom Herbal Toothpaste 100 g"
+        ]
+      }
+    ],
+    "total_taxable_value": 10515721.16,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1892829.81,
+    "gst": 1892829.81,
+    "invoice_total": 12408550.97,
+    "printed_total": "1,24,08,550.97",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    7707.484
+  ],
+  "linked_transaction_ids": [
+    "TXN_00069809"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [
+    "ANM_0003415"
+  ],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "AN17_shared_number",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 1241730164909523263,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "f17202e36989329a1c6ed9f75fe2a5e897fc017dd0c5feb1a7142b3f2b88c823"
+}

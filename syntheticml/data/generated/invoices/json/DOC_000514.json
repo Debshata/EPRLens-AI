@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000514",
+  "invoice_id": "INV_00025107",
+  "invoice_number": "SYTA/2425/00024",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0064",
+  "supplier_id": "SUP_0034",
+  "buyer_id": "COMP_0064",
+  "expected_fields": {
+    "invoice_number": "SYTA/2425/00024",
+    "invoice_date": "2024-12-16",
+    "printed_date": "16/12/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Taramint Polyfilms Pvt Ltd",
+    "vendor_gstin": "27WDXCW6762E2ZK",
+    "buyer": "Indraglow Automotive Parts LLP",
+    "buyer_gstin": "02GJGCB4192Q1Z3",
+    "place_of_supply": "Himachal Pradesh (02)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000514:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Stretch wrap (per-unit share) for Set Front - LLDPE",
+        "material": "LLDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 335,
+        "unit": "kg",
+        "printed_quantity": "335.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 335.0,
+        "normalization_requires_master": false,
+        "rate": 182.29,
+        "printed_rate": "182.29",
+        "amount": 61067.15,
+        "printed_amount": "61,067.15",
+        "gst_rate": 18,
+        "gst_amount": 10992.09,
+        "printed_description_lines": [
+          "Stretch wrap (per-unit share) for Set Front - LLDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 61067.15,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 10992.09,
+    "gst": 10992.09,
+    "invoice_total": 72059.24,
+    "printed_total": "72,059.24",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    335.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00139003"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 16574976642086526494,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "82331f65ae9c0552824f92a72d541b1f010c6f334f27ea053305942d9819623a"
+}

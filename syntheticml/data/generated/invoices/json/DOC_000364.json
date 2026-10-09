@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000364",
+  "invoice_id": "INV_00032577",
+  "invoice_number": "SYEXP-00027",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0137",
+  "supplier_id": "SUP_0054",
+  "buyer_id": "COMP_0137",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00027",
+    "invoice_date": "2024-05-28",
+    "printed_date": "2024-05-28",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Gangaroot Converters Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Zararoot Beverages Ltd",
+    "buyer_gstin": "37UVTCV0553F3ZH",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000364:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET bottle for 500 ml - PET",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 1582,
+        "unit": "kg",
+        "printed_quantity": "1,582.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1582.0,
+        "normalization_requires_master": false,
+        "rate": 2.53,
+        "printed_rate": "2.53",
+        "amount": 4002.46,
+        "printed_amount": "4,002.46",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "PET bottle for 500 ml - PET"
+        ]
+      },
+      {
+        "line_reference": "DOC_000364:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "HDPE bottle for 200 ml - HDPE",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 4.65,
+        "unit": "MT",
+        "printed_quantity": "4.650",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 4650.0,
+        "normalization_requires_master": false,
+        "rate": 2416.74,
+        "printed_rate": "2,416.74",
+        "amount": 11237.84,
+        "printed_amount": "11,237.84",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "HDPE bottle for 200 ml - HDPE"
+        ]
+      },
+      {
+        "line_reference": "DOC_000364:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "PET bottle for 2 L - PET",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 3.24,
+        "unit": "MT",
+        "printed_quantity": "3.240",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 3240.0,
+        "normalization_requires_master": false,
+        "rate": 2533.82,
+        "printed_rate": "2,533.82",
+        "amount": 8209.58,
+        "printed_amount": "8,209.58",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "PET bottle for 2 L - PET"
+        ]
+      }
+    ],
+    "total_taxable_value": 23449.88,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 23449.88,
+    "printed_total": "23,449.88",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    15820.0,
+    4650.0,
+    3240.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00155911",
+    "TXN_00155938",
+    "TXN_00155976"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN01"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000290"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN01",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 16730729326902555846,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "7dc4a4125a060d1672d8f9e85e05e06d38417887a221a1809a58f41177e73f0d"
+}

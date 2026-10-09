@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000497",
+  "invoice_id": "INV_00034480",
+  "invoice_number": "SYEXP-00011",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0154",
+  "supplier_id": "SUP_0001",
+  "buyer_id": "COMP_0154",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00011",
+    "invoice_date": "2024-11-22",
+    "printed_date": "22/11/2024",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Yuvawave PET Bottles Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Ecoroot Drinks Pvt Ltd",
+    "buyer_gstin": "30PEMCA1726Y2ZN",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000497:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET bottle 500 ml - PET (20.0 g/pc) (lot 1/2)",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 232973,
+        "unit": "pcs",
+        "printed_quantity": "2,32,973",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 20.0,
+        "normalized_quantity_kg": 4659.46,
+        "normalization_requires_master": false,
+        "rate": 0.05,
+        "printed_rate": "0.05",
+        "amount": 11648.65,
+        "printed_amount": "11,648.65",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "PET bottle 500 ml - PET (20.0 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000497:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "PET bottle 500 ml - PET (20.0 g/pc) (lot 2/2)",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 194024,
+        "unit": "pcs",
+        "printed_quantity": "1,94,024",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 20.0,
+        "normalized_quantity_kg": 3880.48,
+        "normalization_requires_master": false,
+        "rate": 0.05,
+        "printed_rate": "0.05",
+        "amount": 9701.2,
+        "printed_amount": "9,701.20",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "PET bottle 500 ml - PET (20.0 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 21349.85,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 21349.85,
+    "printed_total": "21,349.85",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    4659.46,
+    5578.435
+  ],
+  "linked_transaction_ids": [
+    "TXN_00160398",
+    "TXN_00160399"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN07"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000711"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN07",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 10458273704422183609,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "26d8ea3abe5edf35f6af2e15eb23e0b3e8453d7117e438be1fccee0abe5e59b9"
+}

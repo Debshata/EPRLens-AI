@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000088",
+  "invoice_id": "INV_00025592",
+  "invoice_number": "SYEXP-00003",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0069",
+  "supplier_id": "SUP_0012",
+  "buyer_id": "COMP_0069",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00003",
+    "invoice_date": "2023-07-24",
+    "printed_date": "2023-07-24",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshvista Caps Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Vanahaven Consumer Products LLP",
+    "buyer_gstin": "21EXZCC2370V3Z7",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000088:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Flip cap 100 g - PP (3.5 g/pc)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 402575,
+        "unit": "pcs",
+        "printed_quantity": "4,02,575",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 3.5,
+        "normalized_quantity_kg": 1409.013,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 4025.75,
+        "printed_amount": "4,025.75",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Flip cap 100 g - PP (3.5 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 4025.75,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 4025.75,
+    "printed_total": "4,025.75",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1409.013
+  ],
+  "linked_transaction_ids": [
+    "TXN_00139909"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 17414370150105706600,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "7a6d10128cd87532bc94d71a9458d183db64e22a1c9e6bb6f7626826f365f59c"
+}

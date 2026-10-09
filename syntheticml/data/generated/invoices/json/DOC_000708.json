@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000708",
+  "invoice_id": "INV_00033152",
+  "invoice_number": "SYHI/2526/00006",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0141",
+  "supplier_id": "SUP_0117",
+  "buyer_id": "COMP_0141",
+  "expected_fields": {
+    "invoice_number": "SYHI/2526/00006",
+    "invoice_date": "2025-06-05",
+    "printed_date": "05-Jun-2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Hirabloom Pouch Pack Pvt Ltd",
+    "vendor_gstin": "07OXMCU3405C2ZL",
+    "buyer": "Dharastone Consumer Goods Pvt Ltd",
+    "buyer_gstin": "05ARJCN4157P2Z4",
+    "place_of_supply": "Uttarakhand (05)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000708:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminate sachet 6 ml - MLP (0.7 g/pc)",
+        "material": "MLP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 103710,
+        "unit": "pcs",
+        "printed_quantity": "1,03,710",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 0.7,
+        "normalized_quantity_kg": 72.597,
+        "normalization_requires_master": false,
+        "rate": 0.3,
+        "printed_rate": "0.30",
+        "amount": 31113.0,
+        "printed_amount": "31,113.00",
+        "gst_rate": 18,
+        "gst_amount": 5600.34,
+        "printed_description_lines": [
+          "Laminate sachet 6 ml - MLP (0.7 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 31113.0,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 5600.34,
+    "gst": 5600.34,
+    "invoice_total": 36713.34,
+    "printed_total": "36,713.34",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    72.597
+  ],
+  "linked_transaction_ids": [
+    "TXN_00157212"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001473"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 10089103514774827004,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c2b9250d4a3e623b6629fe2247f74bc80c12cc3f32325e73ac1034d779e278dd"
+}

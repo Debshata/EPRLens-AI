@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000903",
+  "invoice_id": "INV_00017741",
+  "invoice_number": "SYEXP-00069",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0002",
+  "supplier_id": "SUP_0010",
+  "buyer_id": "COMP_0002",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00069",
+    "invoice_date": "2026-02-02",
+    "printed_date": "02/02/2026",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Jalavista Converters Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Purekart Food Products LLP",
+    "buyer_gstin": "10XSTCL8593I2ZC",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000903:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET jar for 2 L - PET",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 42.65,
+        "unit": "MT",
+        "printed_quantity": "42.650",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 42650.0,
+        "normalization_requires_master": false,
+        "rate": 2061.31,
+        "printed_rate": "2,061.31",
+        "amount": 87914.87,
+        "printed_amount": "87,914.87",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "PET jar for 2 L - PET"
+        ]
+      }
+    ],
+    "total_taxable_value": 87914.87,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 87914.87,
+    "printed_total": "87,914.87",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    42650000.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00122065"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000021"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 11964203521732704646,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "4e5fe08bed870347088d178c5b9f56e099166520c65d3d4cd49704c02cb2254d"
+}

@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000308",
+  "invoice_id": "INV_00023456",
+  "invoice_number": "SYSA/2324/00040",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0053",
+  "supplier_id": "SUP_0017",
+  "buyer_id": "COMP_0053",
+  "expected_fields": {
+    "invoice_number": "SYSA/2324/00040",
+    "invoice_date": "2024-03-28",
+    "printed_date": "28/03/2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Samacrest Labels Pvt Ltd",
+    "vendor_gstin": "36QUICZ2386N2Z5",
+    "buyer": "Jalacrest Beverages Ltd",
+    "buyer_gstin": "06LVZCC1903M3ZC",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000308:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Label 750 ml - PP (0.8 g/pc)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3919",
+        "quantity": 514486,
+        "unit": "pcs",
+        "printed_quantity": "5,14,486",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 0.8,
+        "normalized_quantity_kg": 411.589,
+        "normalization_requires_master": false,
+        "rate": 0.15,
+        "printed_rate": "0.15",
+        "amount": 77172.9,
+        "printed_amount": "77,172.90",
+        "gst_rate": 18,
+        "gst_amount": 13891.12,
+        "printed_description_lines": [
+          "Label 750 ml - PP (0.8 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 77172.9,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 13891.12,
+    "gst": 13891.12,
+    "invoice_total": 91064.02,
+    "printed_total": "91,064.02",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    4.116
+  ],
+  "linked_transaction_ids": [
+    "TXN_00135392"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN02"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000413"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN02",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 13745023742186028955,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "f936110aab581bdd6b6656eb1878ee19580316e2cc3a5bf74798b5725da7cf77"
+}

@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000334",
+  "invoice_id": "INV_00023523",
+  "invoice_number": "SYVR/2425/00010",
+  "invoice_type": "MULTI_MATERIAL",
+  "invoice_type_code": "IT09",
+  "company_id": "COMP_0053",
+  "supplier_id": "SUP_0026",
+  "buyer_id": "COMP_0053",
+  "expected_fields": {
+    "invoice_number": "SYVR/2425/00010",
+    "invoice_date": "2024-05-03",
+    "printed_date": "03-May-2024",
+    "invoice_type": "MULTI_MATERIAL",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Hiranest Closure Systems Pvt Ltd",
+    "vendor_gstin": "05NQHCT7188B1ZI",
+    "buyer": "Jalacrest Beverages Ltd",
+    "buyer_gstin": "06LVZCC1903M3ZC",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000334:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET bottle for 1 L - PET (lot 1/2)",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 6334,
+        "unit": "kg",
+        "printed_quantity": "6,334.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 6334.0,
+        "normalization_requires_master": false,
+        "rate": 142.81,
+        "printed_rate": "142.81",
+        "amount": 904558.54,
+        "printed_amount": "9,04,558.54",
+        "gst_rate": 18,
+        "gst_amount": 162820.54,
+        "printed_description_lines": [
+          "PET bottle for 1 L - PET (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000334:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "PET bottle for 1 L - PET (lot 2/2)",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 7920,
+        "unit": "kg",
+        "printed_quantity": "7,920.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 7920.0,
+        "normalization_requires_master": false,
+        "rate": 142.81,
+        "printed_rate": "142.81",
+        "amount": 1131055.2,
+        "printed_amount": "11,31,055.20",
+        "gst_rate": 18,
+        "gst_amount": 203589.94,
+        "printed_description_lines": [
+          "PET bottle for 1 L - PET (lot 2/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000334:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Spouted laminate pouch for 160 ml - MLP",
+        "material": "MLP",
+        "plastic_category": "CAT_III",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 2.04,
+        "unit": "MT",
+        "printed_quantity": "2.040",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2040.0,
+        "normalization_requires_master": false,
+        "rate": 367260.59,
+        "printed_rate": "3,67,260.59",
+        "amount": 749211.6,
+        "printed_amount": "7,49,211.60",
+        "gst_rate": 12,
+        "gst_amount": 89905.39,
+        "printed_description_lines": [
+          "Spouted laminate pouch for 160 ml - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 2784825.34,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 456315.87,
+    "gst": 456315.87,
+    "invoice_total": 3241141.21,
+    "printed_total": "32,41,141.21",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    6334.0,
+    7920.0,
+    2040.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00134758",
+    "TXN_00134759",
+    "TXN_00134827"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN20"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001913"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN20",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 7669120097918947583,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "8dab4009e5dc1c74c201846bc79821b1ab80a144d958db7bd3be4679764ddde4"
+}

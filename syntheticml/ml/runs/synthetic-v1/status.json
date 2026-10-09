@@ -1,0 +1,110 @@
+{
+  "stages": {
+    "validate": {
+      "status": "completed",
+      "at": "2026-10-09T14:28:40+00:00",
+      "seconds": 2.3,
+      "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8"
+    },
+    "features": {
+      "status": "completed",
+      "at": "2026-10-09T14:29:27+00:00",
+      "seconds": 47.5,
+      "forecast_rows": 52931,
+      "anomaly_records": 59235
+    },
+    "forecast_baselines": {
+      "status": "completed",
+      "at": "2026-10-09T14:29:28+00:00",
+      "seconds": 0.4
+    },
+    "forecast_search": {
+      "status": "completed",
+      "at": "2026-10-09T14:31:57+00:00",
+      "seconds": 149.2,
+      "trials": 40
+    },
+    "forecast_final": {
+      "status": "completed",
+      "at": "2026-10-09T14:32:17+00:00",
+      "seconds": 20.2,
+      "winner": "xgboost"
+    },
+    "anomaly_search": {
+      "status": "completed",
+      "at": "2026-10-09T14:33:01+00:00",
+      "seconds": 43.7,
+      "trials": 25
+    },
+    "anomaly_final": {
+      "status": "completed",
+      "at": "2026-10-09T14:33:15+00:00",
+      "seconds": 14.8,
+      "chosen": "rules_plus_iforest"
+    },
+    "plots": {
+      "status": "completed",
+      "at": "2026-10-09T14:33:20+00:00",
+      "seconds": 4.3,
+      "forecast_plots": [
+        "actual_vs_predicted.png",
+        "residual_distribution.png",
+        "residual_vs_prediction.png",
+        "forecast_timeline.png",
+        "error_by_industry.png",
+        "error_by_company_size.png",
+        "feature_importance.png",
+        "xgboost_feature_importance.png",
+        "model_comparison.png"
+      ],
+      "anomaly_plots": [
+        "confusion_matrix.png",
+        "precision_recall_curve.png",
+        "anomaly_score_distribution.png",
+        "f1_by_anomaly_type.png",
+        "false_positive_breakdown.png",
+        "rules_vs_iforest.png",
+        "threshold_vs_f1.png"
+      ]
+    },
+    "export": {
+      "status": "completed",
+      "at": "2026-10-09T14:33:38+00:00",
+      "seconds": 18.1,
+      "forecast_dir": "ml\\artifacts\\forecast\\v1",
+      "anomaly_dir": "ml\\artifacts\\anomaly\\v1"
+    },
+    "aws_check": {
+      "status": "completed",
+      "at": "2026-10-09T14:33:43+00:00",
+      "seconds": 5.6,
+      "forecast_model_mb": 7.101,
+      "anomaly_model_mb": 1.006
+    },
+    "reports": {
+      "status": "completed",
+      "at": "2026-10-09T14:38:51+00:00",
+      "seconds": 0.1
+    },
+    "notebook": {
+      "status": "completed",
+      "at": "2026-10-09T14:36:02+00:00",
+      "seconds": 50.6,
+      "notebook": "ml\\notebooks\\EPRLens_Synthetic_ML_Training.ipynb"
+    },
+    "pdf_guide": {
+      "status": "completed",
+      "at": "2026-10-09T14:38:25+00:00",
+      "seconds": 0.6,
+      "pdf": "docs\\EPRLens_ML_to_AWS_Engineer_Guide.pdf"
+    },
+    "tests": {
+      "status": "completed",
+      "at": "2026-10-09T14:36:31+00:00",
+      "seconds": 7.1,
+      "summary": "37 passed in 6.43s"
+    }
+  },
+  "created_at": "2026-10-09T14:28:37+00:00",
+  "updated_at": "2026-10-09T14:38:51+00:00"
+}

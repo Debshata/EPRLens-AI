@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000518",
+  "invoice_id": "INV_00036506",
+  "invoice_number": "SYBO/2425/00034",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0167",
+  "supplier_id": "SUP_0098",
+  "buyer_id": "COMP_0167",
+  "expected_fields": {
+    "invoice_number": "SYBO/2425/00034",
+    "invoice_date": "2024-12-20",
+    "printed_date": "2024-12-20",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Bodhivista Flexi Pack Pvt Ltd",
+    "vendor_gstin": "29CADCC0659C2ZZ",
+    "buyer": "Tarastone Consumer Products Pvt Ltd",
+    "buyer_gstin": "29YGPCQ6608G1ZV",
+    "place_of_supply": "Karnataka (29)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000518:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminate sachet for 6 ml - MLP",
+        "material": "MLP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 1321,
+        "unit": "kg",
+        "printed_quantity": "1,321.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1321.0,
+        "normalization_requires_master": false,
+        "rate": 388.24,
+        "printed_rate": "388.24",
+        "amount": 512865.04,
+        "printed_amount": "5,12,865.04",
+        "gst_rate": 18,
+        "gst_amount": 92315.71,
+        "printed_description_lines": [
+          "Laminate sachet for 6 ml - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 512865.04,
+    "cgst": 46157.86,
+    "sgst": 46157.85,
+    "igst": 0.0,
+    "gst": 92315.71,
+    "invoice_total": 605180.75,
+    "printed_total": "6,05,180.75",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1321.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00165160"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 10978436926768525588,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "c94be96bc7a1f76d0e14e5f7f8fb1d8556753f6dc1c6d5d08707ba96b71d2f03"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000336",
+  "invoice_id": "INV_00032137",
+  "invoice_number": "SYTA/2425/00003",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0131",
+  "supplier_id": "SUP_0034",
+  "buyer_id": "COMP_0131",
+  "expected_fields": {
+    "invoice_number": "SYTA/2425/00003",
+    "invoice_date": "2024-05-06",
+    "printed_date": "06/05/2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Taramint Polyfilms Pvt Ltd",
+    "vendor_gstin": "27WDXCW6762E2ZK",
+    "buyer": "Rituloom Drinks Ltd",
+    "buyer_gstin": "06WGICP6325R3ZJ",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000336:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Shrink sleeve for 750 ml - PVC",
+        "material": "PVC",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 182,
+        "unit": "kg",
+        "printed_quantity": "182.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 182.0,
+        "normalization_requires_master": false,
+        "rate": 144.73,
+        "printed_rate": "144.73",
+        "amount": 26340.86,
+        "printed_amount": "26,340.86",
+        "gst_rate": 12,
+        "gst_amount": 3160.9,
+        "printed_description_lines": [
+          "Shrink sleeve for 750 ml - PVC"
+        ]
+      }
+    ],
+    "total_taxable_value": 26340.86,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 3160.9,
+    "gst": 3160.9,
+    "invoice_total": 29501.76,
+    "printed_total": "29,501.76",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    182.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00155165"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L02",
+  "template_name": "Modern corporate",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 2906900274699428373,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "1d1e0825b8fc3c7d4915cc2a929ab52f7999fcbaed11cd1aca8dccd8f6b08148"
+}

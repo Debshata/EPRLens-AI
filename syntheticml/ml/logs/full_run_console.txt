@@ -1,0 +1,107 @@
+2026-10-09 19:58:37 INFO === EPRLens overnight ML run 'synthetic-v1' — 14 stages ===
+2026-10-09 19:58:37 INFO [start] validate
+2026-10-09 19:58:40 INFO dataset verified: 2016 files, sha 0c8f6d5ad65954a9
+2026-10-09 19:58:40 INFO [done] validate in 2.3s {'dataset_sha256': '0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8'}
+2026-10-09 19:58:40 INFO [start] features
+2026-10-09 19:59:27 INFO forecast rows 52931 ({'train': 25985, 'test': 10542, 'unused_holdout_window': 8347, 'validation': 8057}); anomaly records 59235
+2026-10-09 19:59:27 INFO [done] features in 47.5s {'forecast_rows': 52931, 'anomaly_records': 59235}
+2026-10-09 19:59:27 INFO [start] forecast_baselines
+2026-10-09 19:59:28 INFO F0 last-value validation: MAE 419.5 kg RMSE 2219.9 R2 0.9656
+2026-10-09 19:59:28 INFO [done] forecast_baselines in 0.4s {}
+2026-10-09 19:59:28 INFO [start] forecast_search
+2026-10-09 19:59:28 INFO   [FORE-003] linear_regression_raw val MAE 433.7 kg RMSE 2098.8 R2 0.9693 (0.03s)
+2026-10-09 19:59:28 INFO   [FORE-004] linear_regression_logratio val MAE 308.7 kg RMSE 1480.7 R2 0.9847 (0.03s)
+2026-10-09 19:59:33 INFO   [FORE-005] random_forest val MAE 278.9 kg RMSE 1396.7 R2 0.9864 (4.69s)
+2026-10-09 19:59:43 INFO   [FORE-006] random_forest val MAE 265.7 kg RMSE 1140.1 R2 0.9909 (10.54s)
+2026-10-09 19:59:47 INFO   [FORE-007] random_forest val MAE 277.9 kg RMSE 1321.9 R2 0.9878 (3.37s)
+2026-10-09 19:59:49 INFO   [FORE-008] random_forest val MAE 285.2 kg RMSE 1447.2 R2 0.9854 (2.01s)
+2026-10-09 19:59:57 INFO   [FORE-009] random_forest val MAE 271.5 kg RMSE 1232.3 R2 0.9894 (8.57s)
+2026-10-09 20:00:00 INFO   [FORE-010] random_forest val MAE 275.8 kg RMSE 1287.7 R2 0.9884 (2.75s)
+2026-10-09 20:00:05 INFO   [FORE-011] random_forest val MAE 275.2 kg RMSE 1427.4 R2 0.9858 (4.74s)
+2026-10-09 20:00:10 INFO   [FORE-012] random_forest val MAE 289.8 kg RMSE 1397.8 R2 0.9864 (5.47s)
+2026-10-09 20:00:11 INFO   [FORE-013] xgboost val MAE 290.9 kg RMSE 1501.9 R2 0.9843 (0.83s)
+2026-10-09 20:00:16 INFO   [FORE-014] xgboost val MAE 262.1 kg RMSE 1169.6 R2 0.9905 (5.32s)
+2026-10-09 20:00:17 INFO   [FORE-015] xgboost val MAE 262.6 kg RMSE 1112.9 R2 0.9914 (0.93s)
+2026-10-09 20:00:24 INFO   [FORE-016] xgboost val MAE 273.1 kg RMSE 1224.8 R2 0.9895 (6.46s)
+2026-10-09 20:00:25 INFO   [FORE-017] xgboost val MAE 276.0 kg RMSE 1328.4 R2 0.9877 (0.77s)
+2026-10-09 20:00:30 INFO   [FORE-018] xgboost val MAE 265.7 kg RMSE 1176.4 R2 0.9903 (4.95s)
+2026-10-09 20:00:31 INFO   [FORE-019] xgboost val MAE 270.1 kg RMSE 1228.3 R2 0.9895 (0.95s)
+2026-10-09 20:00:37 INFO   [FORE-020] xgboost val MAE 272.5 kg RMSE 1293.2 R2 0.9883 (6.2s)
+2026-10-09 20:00:37 INFO   [FORE-021] xgboost val MAE 293.9 kg RMSE 1465.9 R2 0.9850 (0.45s)
+2026-10-09 20:00:44 INFO   [FORE-022] xgboost val MAE 258.1 kg RMSE 1105.0 R2 0.9915 (6.43s)
+2026-10-09 20:00:55 INFO   [FORE-023] xgboost val MAE 260.3 kg RMSE 1139.1 R2 0.9909 (11.78s)
+2026-10-09 20:01:00 INFO   [FORE-024] xgboost val MAE 274.5 kg RMSE 1312.3 R2 0.9880 (4.67s)
+2026-10-09 20:01:06 INFO   [FORE-025] xgboost val MAE 258.8 kg RMSE 1109.8 R2 0.9914 (5.68s)
+2026-10-09 20:01:07 INFO   [FORE-026] xgboost val MAE 271.9 kg RMSE 1293.4 R2 0.9883 (1.66s)
+2026-10-09 20:01:10 INFO   [FORE-027] xgboost val MAE 286.2 kg RMSE 1509.9 R2 0.9841 (2.16s)
+2026-10-09 20:01:17 INFO   [FORE-028] xgboost val MAE 273.9 kg RMSE 1271.2 R2 0.9887 (7.39s)
+2026-10-09 20:01:18 INFO   [FORE-029] xgboost val MAE 281.4 kg RMSE 1469.6 R2 0.9849 (1.25s)
+2026-10-09 20:01:21 INFO   [FORE-030] xgboost val MAE 269.8 kg RMSE 1263.6 R2 0.9889 (2.47s)
+2026-10-09 20:01:23 INFO   [FORE-031] xgboost val MAE 258.3 kg RMSE 1103.1 R2 0.9915 (2.66s)
+2026-10-09 20:01:33 INFO   [FORE-032] xgboost val MAE 263.8 kg RMSE 1175.1 R2 0.9904 (9.75s)
+2026-10-09 20:01:39 INFO   [FORE-033] xgboost val MAE 277.8 kg RMSE 1422.5 R2 0.9859 (5.99s)
+2026-10-09 20:01:43 INFO   [FORE-034] xgboost val MAE 261.2 kg RMSE 1149.8 R2 0.9908 (3.81s)
+2026-10-09 20:01:45 INFO   [FORE-035] xgboost val MAE 286.4 kg RMSE 1528.5 R2 0.9837 (1.72s)
+2026-10-09 20:01:46 INFO   [FORE-036] xgboost val MAE 271.9 kg RMSE 1293.9 R2 0.9883 (1.1s)
+2026-10-09 20:01:47 INFO   [FORE-037] xgboost val MAE 274.2 kg RMSE 1252.7 R2 0.9891 (1.4s)
+2026-10-09 20:01:49 INFO   [FORE-038] xgboost val MAE 277.5 kg RMSE 1291.1 R2 0.9884 (1.84s)
+2026-10-09 20:01:50 INFO   [FORE-039] xgboost val MAE 287.5 kg RMSE 1408.9 R2 0.9861 (1.19s)
+2026-10-09 20:01:52 INFO   [FORE-040] xgboost val MAE 283.8 kg RMSE 1354.8 R2 0.9872 (1.2s)
+2026-10-09 20:01:54 INFO   [FORE-041] xgboost val MAE 269.9 kg RMSE 1219.8 R2 0.9896 (2.91s)
+2026-10-09 20:01:57 INFO   [FORE-042] xgboost val MAE 263.5 kg RMSE 1168.6 R2 0.9905 (2.2s)
+2026-10-09 20:01:57 INFO forecast search: 20 consecutive XGBoost trials without >0.1% validation-MAE gain — stopping
+2026-10-09 20:01:57 INFO [done] forecast_search in 149.2s {'trials': 40}
+2026-10-09 20:01:57 INFO [start] forecast_final
+2026-10-09 20:01:57 INFO final F2 Linear Regression: test MAE 476.6 RMSE 3225.6 R2 0.9811
+2026-10-09 20:02:08 INFO final F3 Random Forest: test MAE 400.1 RMSE 2595.5 R2 0.9878
+2026-10-09 20:02:15 INFO final F4 XGBoost: test MAE 401.6 RMSE 2749.5 R2 0.9863
+2026-10-09 20:02:17 INFO FORECAST WINNER F4 XGBoost — test R2 0.9863 (TARGET MET)
+2026-10-09 20:02:17 INFO [done] forecast_final in 20.2s {'winner': 'xgboost'}
+2026-10-09 20:02:17 INFO [start] anomaly_search
+2026-10-09 20:02:30 INFO   rules tol={'qty_tolerance_kg': 0.5, 'qty_tolerance_rel': 0.005}: val P 1.000 R 0.804 F1 0.892 FPR 0.0000
+2026-10-09 20:02:31 INFO   rules tol={'qty_tolerance_kg': 0.1, 'qty_tolerance_rel': 0.001}: val P 1.000 R 0.807 F1 0.893 FPR 0.0000
+2026-10-09 20:02:32 INFO   rules tol={'qty_tolerance_kg': 0.01, 'qty_tolerance_rel': 0.0005}: val P 1.000 R 0.809 F1 0.894 FPR 0.0000
+2026-10-09 20:02:34 INFO   [ANOM-004] IF {'n_estimators': 300, 'max_samples': 1024, 'max_features': 0.5, 'fit_on': 'rules_clean', 'bootstrap': False} val combined F1 0.9003 FPR 0.0034 | IF-only F1 0.3435
+2026-10-09 20:02:35 INFO   [ANOM-005] IF {'n_estimators': 300, 'max_samples': 512, 'max_features': 0.5, 'fit_on': 'rules_clean', 'bootstrap': False} val combined F1 0.9039 FPR 0.0015 | IF-only F1 0.3699
+2026-10-09 20:02:35 INFO   [ANOM-006] IF {'n_estimators': 100, 'max_samples': 1024, 'max_features': 1.0, 'fit_on': 'all', 'bootstrap': False} val combined F1 0.8942 FPR 0.0000 | IF-only F1 0.3649
+2026-10-09 20:02:38 INFO   [ANOM-007] IF {'n_estimators': 500, 'max_samples': 'auto', 'max_features': 0.85, 'fit_on': 'rules_clean', 'bootstrap': True} val combined F1 0.9059 FPR 0.0022 | IF-only F1 0.3452
+2026-10-09 20:02:38 INFO   [ANOM-008] IF {'n_estimators': 100, 'max_samples': 'auto', 'max_features': 0.7, 'fit_on': 'rules_clean', 'bootstrap': False} val combined F1 0.9218 FPR 0.0036 | IF-only F1 0.3830
+2026-10-09 20:02:39 INFO   [ANOM-009] IF {'n_estimators': 300, 'max_samples': 512, 'max_features': 1.0, 'fit_on': 'rules_clean', 'bootstrap': True} val combined F1 0.9033 FPR 0.0017 | IF-only F1 0.3796
+2026-10-09 20:02:40 INFO   [ANOM-010] IF {'n_estimators': 100, 'max_samples': 512, 'max_features': 0.85, 'fit_on': 'all', 'bootstrap': True} val combined F1 0.8942 FPR 0.0000 | IF-only F1 0.3362
+2026-10-09 20:02:42 INFO   [ANOM-011] IF {'n_estimators': 500, 'max_samples': 'auto', 'max_features': 0.85, 'fit_on': 'all', 'bootstrap': True} val combined F1 0.8942 FPR 0.0000 | IF-only F1 0.3605
+2026-10-09 20:02:43 INFO   [ANOM-012] IF {'n_estimators': 200, 'max_samples': 1024, 'max_features': 1.0, 'fit_on': 'rules_clean', 'bootstrap': False} val combined F1 0.8928 FPR 0.0002 | IF-only F1 0.3400
+2026-10-09 20:02:45 INFO   [ANOM-013] IF {'n_estimators': 500, 'max_samples': 512, 'max_features': 0.5, 'fit_on': 'rules_clean', 'bootstrap': False} val combined F1 0.9059 FPR 0.0027 | IF-only F1 0.3777
+2026-10-09 20:02:46 INFO   [ANOM-014] IF {'n_estimators': 300, 'max_samples': 512, 'max_features': 0.85, 'fit_on': 'all', 'bootstrap': True} val combined F1 0.8942 FPR 0.0000 | IF-only F1 0.3487
+2026-10-09 20:02:47 INFO   [ANOM-015] IF {'n_estimators': 200, 'max_samples': 'auto', 'max_features': 0.85, 'fit_on': 'rules_clean', 'bootstrap': True} val combined F1 0.9204 FPR 0.0032 | IF-only F1 0.3670
+2026-10-09 20:02:48 INFO   [ANOM-016] IF {'n_estimators': 100, 'max_samples': 1024, 'max_features': 0.7, 'fit_on': 'rules_clean', 'bootstrap': False} val combined F1 0.8914 FPR 0.0004 | IF-only F1 0.2901
+2026-10-09 20:02:48 INFO   [ANOM-017] IF {'n_estimators': 100, 'max_samples': 512, 'max_features': 0.85, 'fit_on': 'all', 'bootstrap': False} val combined F1 0.8942 FPR 0.0000 | IF-only F1 0.3284
+2026-10-09 20:02:49 INFO   [ANOM-018] IF {'n_estimators': 200, 'max_samples': 2048, 'max_features': 0.7, 'fit_on': 'all', 'bootstrap': True} val combined F1 0.8942 FPR 0.0000 | IF-only F1 0.3663
+2026-10-09 20:02:50 INFO   [ANOM-019] IF {'n_estimators': 200, 'max_samples': 1024, 'max_features': 0.5, 'fit_on': 'all', 'bootstrap': True} val combined F1 0.8957 FPR 0.0008 | IF-only F1 0.3963
+2026-10-09 20:02:52 INFO   [ANOM-020] IF {'n_estimators': 500, 'max_samples': 'auto', 'max_features': 0.5, 'fit_on': 'rules_clean', 'bootstrap': True} val combined F1 0.9118 FPR 0.0028 | IF-only F1 0.3552
+2026-10-09 20:02:54 INFO   [ANOM-021] IF {'n_estimators': 300, 'max_samples': 2048, 'max_features': 0.7, 'fit_on': 'rules_clean', 'bootstrap': True} val combined F1 0.8935 FPR 0.0001 | IF-only F1 0.3019
+2026-10-09 20:02:56 INFO   [ANOM-022] IF {'n_estimators': 300, 'max_samples': 2048, 'max_features': 0.5, 'fit_on': 'rules_clean', 'bootstrap': False} val combined F1 0.8947 FPR 0.0012 | IF-only F1 0.3135
+2026-10-09 20:02:57 INFO   [ANOM-023] IF {'n_estimators': 300, 'max_samples': 'auto', 'max_features': 0.5, 'fit_on': 'all', 'bootstrap': True} val combined F1 0.9101 FPR 0.0027 | IF-only F1 0.4325
+2026-10-09 20:02:58 INFO   [ANOM-024] IF {'n_estimators': 200, 'max_samples': 2048, 'max_features': 0.85, 'fit_on': 'all', 'bootstrap': False} val combined F1 0.8942 FPR 0.0000 | IF-only F1 0.3171
+2026-10-09 20:02:58 INFO   [ANOM-025] IF {'n_estimators': 200, 'max_samples': 'auto', 'max_features': 1.0, 'fit_on': 'all', 'bootstrap': True} val combined F1 0.8942 FPR 0.0000 | IF-only F1 0.3768
+2026-10-09 20:02:59 INFO   [ANOM-026] IF {'n_estimators': 100, 'max_samples': 256, 'max_features': 0.7, 'fit_on': 'rules_clean', 'bootstrap': True} val combined F1 0.9080 FPR 0.0014 | IF-only F1 0.3732
+2026-10-09 20:02:59 INFO   [ANOM-027] IF {'n_estimators': 100, 'max_samples': 1024, 'max_features': 0.5, 'fit_on': 'all', 'bootstrap': True} val combined F1 0.8942 FPR 0.0000 | IF-only F1 0.3809
+2026-10-09 20:03:00 INFO   [ANOM-028] IF {'n_estimators': 200, 'max_samples': 1024, 'max_features': 0.85, 'fit_on': 'all', 'bootstrap': False} val combined F1 0.8942 FPR 0.0000 | IF-only F1 0.3426
+2026-10-09 20:03:00 INFO anomaly search: 20 consecutive configurations without validation-F1 gain — stopping
+2026-10-09 20:03:01 INFO [done] anomaly_search in 43.7s {'trials': 25}
+2026-10-09 20:03:01 INFO [start] anomaly_final
+2026-10-09 20:03:12 INFO   rules tol={'qty_tolerance_kg': 0.5, 'qty_tolerance_rel': 0.005}: val P 1.000 R 0.804 F1 0.892 FPR 0.0000
+2026-10-09 20:03:13 INFO   rules tol={'qty_tolerance_kg': 0.1, 'qty_tolerance_rel': 0.001}: val P 1.000 R 0.807 F1 0.893 FPR 0.0000
+2026-10-09 20:03:14 INFO   rules tol={'qty_tolerance_kg': 0.01, 'qty_tolerance_rel': 0.0005}: val P 1.000 R 0.809 F1 0.894 FPR 0.0000
+2026-10-09 20:03:14 INFO anomaly search: 20 consecutive configurations without validation-F1 gain — stopping
+2026-10-09 20:03:15 INFO ANOMALY SYSTEM rules_plus_iforest — test P 0.929 R 0.897 F1 0.912 FPR 0.0038 (TARGET MET)
+2026-10-09 20:03:15 INFO [done] anomaly_final in 14.8s {'chosen': 'rules_plus_iforest'}
+2026-10-09 20:03:15 INFO [start] plots
+2026-10-09 20:03:20 INFO [done] plots in 4.3s 
+2026-10-09 20:03:20 INFO [start] export
+2026-10-09 20:03:27 INFO ONNX parity: max |Δ log-ratio| 6.56e-07, max relative kg difference 7.15e-07
+2026-10-09 20:03:37 INFO IsolationForest ONNX export skipped: skl2onnx supports it only with max_features=1.0 (joblib is used)
+2026-10-09 20:03:38 INFO [done] export in 18.1s {'forecast_dir': 'ml\\artifacts\\forecast\\v1', 'anomaly_dir': 'ml\\artifacts\\anomaly\\v1'}
+2026-10-09 20:03:38 INFO [start] aws_check
+2026-10-09 20:03:43 INFO AWS check: forecast model 7.101 MB, anomaly model 1.006 MB; local load {'forecast': 1981.9, 'anomaly': 1619.9}
+2026-10-09 20:03:43 INFO [done] aws_check in 5.6s {'forecast_model_mb': 7.101, 'anomaly_model_mb': 1.006}
+2026-10-09 20:03:43 INFO === run finished in 306.0s — status D:\EPRLens AI\syntheticml\ml\runs\synthetic-v1\status.json ===

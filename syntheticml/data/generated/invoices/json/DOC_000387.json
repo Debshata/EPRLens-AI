@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000387",
+  "invoice_id": "INV_00022067",
+  "invoice_number": "SYOJ/2425/00034",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0043",
+  "supplier_id": "SUP_0075",
+  "buyer_id": "COMP_0043",
+  "expected_fields": {
+    "invoice_number": "SYOJ/2425/00034",
+    "invoice_date": "2024-06-24",
+    "printed_date": "24-06-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ojasvale Converters Pvt Ltd",
+    "vendor_gstin": "27XMNCX7424K3ZS",
+    "buyer": "Suvarnapath Home Care LLP",
+    "buyer_gstin": "06TJECD9621G2ZZ",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000387:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 500 ml - HDPE",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 29237,
+        "unit": "kg",
+        "printed_quantity": "29,237.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 29237.0,
+        "normalization_requires_master": false,
+        "rate": 162.63,
+        "printed_rate": "162.63",
+        "amount": 4754813.31,
+        "printed_amount": "47,54,813.31",
+        "gst_rate": 18,
+        "gst_amount": 855866.4,
+        "printed_description_lines": [
+          "HDPE bottle for 500 ml - HDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 4754813.31,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 855866.4,
+    "gst": 855866.4,
+    "invoice_total": 5610679.71,
+    "printed_total": "56,10,679.71",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    29237.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00131561"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 13775572420153286815,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "fbf117e0391f39341a4ee65b008a31f05d9ef24a5049e6a47bedf23d89af1f03"
+}

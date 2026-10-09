@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000548",
+  "invoice_id": "INV_00042371",
+  "invoice_number": "SYSA/2425/00038",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0056",
+  "supplier_id": "COMP_0056",
+  "buyer_id": "BUY_0021",
+  "expected_fields": {
+    "invoice_number": "SYSA/2425/00038",
+    "invoice_date": "2025-01-23",
+    "printed_date": "23/01/2025",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "cancelled",
+    "vendor": "Samastone Personal Care Ltd",
+    "vendor_gstin": "06KSTCV9265D1ZS",
+    "buyer": "Aquapeak Distribution LLP",
+    "buyer_gstin": "09DCGFB9520G2ZT",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000548:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Chandrawave Shampoo 340 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 1744,
+        "unit": "bottles",
+        "printed_quantity": "1,744",
+        "printed_unit": "Btl",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 66.272,
+        "normalization_requires_master": true,
+        "rate": 175.81,
+        "printed_rate": "175.81",
+        "amount": 306612.64,
+        "printed_amount": "3,06,612.64",
+        "gst_rate": 18,
+        "gst_amount": 55190.28,
+        "printed_description_lines": [
+          "Chandrawave Shampoo 340 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 306612.64,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 55190.28,
+    "gst": 55190.28,
+    "invoice_total": 361802.92,
+    "printed_total": "3,61,802.92",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    66.272
+  ],
+  "linked_transaction_ids": [
+    "TXN_00173217"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN14"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002125"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN14",
+  "paired_document_id": null,
+  "template_id": "L02",
+  "template_name": "Modern corporate",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 2241457079602937168,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "9c70ebcf20e563fdde42ea724154d148e106b0d4d18f9b0ffefb90fed186c493"
+}

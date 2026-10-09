@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000761",
+  "invoice_id": "INV_00032082",
+  "invoice_number": "SYTA/2526/00014",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0130",
+  "supplier_id": "SUP_0107",
+  "buyer_id": "COMP_0130",
+  "expected_fields": {
+    "invoice_number": "SYTA/2526/00014",
+    "invoice_date": "2025-08-09",
+    "printed_date": "09/08/2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Tarapeak Polyfilms Pvt Ltd",
+    "vendor_gstin": "23WPMCW9877G1ZE",
+    "buyer": "Aquaridge Foods Pvt Ltd",
+    "buyer_gstin": "08OIVCT3675D2Z1",
+    "place_of_supply": "Rajasthan (08)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000761:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "BOPP wrapper for 100 g - PP",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 2875,
+        "unit": "kg",
+        "printed_quantity": "2,875.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 2875.0,
+        "normalization_requires_master": false,
+        "rate": 166.87,
+        "printed_rate": "166.87",
+        "amount": 479751.25,
+        "printed_amount": "4,79,751.25",
+        "gst_rate": 18,
+        "gst_amount": 86355.23,
+        "printed_description_lines": [
+          "BOPP wrapper for 100 g - PP"
+        ]
+      }
+    ],
+    "total_taxable_value": 479751.25,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 86355.23,
+    "gst": 86355.23,
+    "invoice_total": 566106.48,
+    "printed_total": "5,66,106.48",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    2875.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00154874"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 14683605112454577948,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "1b8a7b525857715a7bef8d70afe374b9d5c6ba24d1c3d82086fa6217757a5a52"
+}

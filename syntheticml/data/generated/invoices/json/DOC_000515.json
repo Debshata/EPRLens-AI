@@ -1,0 +1,90 @@
+{
+  "document_id": "DOC_000515",
+  "invoice_id": "INV_00040178",
+  "invoice_number": "SYRN/2425/00003",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0029",
+  "supplier_id": "BUY_0090",
+  "buyer_id": "COMP_0029",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00003",
+    "invoice_date": "2024-12-17",
+    "printed_date": "17-12-2024",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Yuvadale General Stores",
+    "vendor_gstin": null,
+    "buyer": "Ritunest Home Care LLP",
+    "buyer_gstin": "37BGHCI9390X3ZG",
+    "place_of_supply": "Andhra Pradesh (37)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYRI/2425/00033",
+    "lines": [
+      {
+        "line_reference": "DOC_000515:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Saffrabloom Dishwash Liquid Refill 500 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 3516,
+        "unit": "pcs",
+        "printed_quantity": "3,516",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 29.534,
+        "normalization_requires_master": true,
+        "rate": 100.33,
+        "printed_rate": "100.33",
+        "amount": 352760.28,
+        "printed_amount": "3,52,760.28",
+        "gst_rate": 18,
+        "gst_amount": 63496.85,
+        "printed_description_lines": [
+          "Goods returned: Saffrabloom Dishwash Liquid Refill 500 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 352760.28,
+    "cgst": 31748.42,
+    "sgst": 31748.43,
+    "igst": 0.0,
+    "gst": 63496.85,
+    "invoice_total": 416257.13,
+    "printed_total": "4,16,257.13",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN16"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002238"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN16",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 10303849581792727884,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "391234a58e82b73898978312506b99265fd1e6d62d7dfbca2b1a95f23bfb0b4f"
+}

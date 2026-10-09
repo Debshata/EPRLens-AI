@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000572",
+  "invoice_id": "INV_00004876",
+  "invoice_number": "SYSA/2425/00041",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0056",
+  "supplier_id": "COMP_0056",
+  "buyer_id": "BUY_0021",
+  "expected_fields": {
+    "invoice_number": "SYSA/2425/00041",
+    "invoice_date": "2025-02-15",
+    "printed_date": "15/02/2025",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Samastone Personal Care Ltd",
+    "vendor_gstin": null,
+    "buyer": "Aquapeak Distribution LLP",
+    "buyer_gstin": "09DCGFB9520G2ZT",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000572:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Lumivale Conditioner 180 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3305",
+        "quantity": 602,
+        "unit": "bottles",
+        "printed_quantity": "602",
+        "printed_unit": "Btl",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 20.708,
+        "normalization_requires_master": true,
+        "rate": 112.53,
+        "printed_rate": "112.53",
+        "amount": 67743.06,
+        "printed_amount": "67,743.06",
+        "gst_rate": 18,
+        "gst_amount": 12193.75,
+        "printed_description_lines": [
+          "Lumivale Conditioner 180 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 67743.06,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 12193.75,
+    "gst": 12193.75,
+    "invoice_total": 79936.81,
+    "printed_total": "79,936.81",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    20.708
+  ],
+  "linked_transaction_ids": [
+    "TXN_00035616"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN06"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001789"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN06",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 12490528049394000426,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "195b6f6c5a64c04b620130ffdec8d9d9f92e4589c48d23d152660be61a652169"
+}

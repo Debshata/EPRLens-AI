@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000697",
+  "invoice_id": "INV_00000214",
+  "invoice_number": "SYTA/2526/00004",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0003",
+  "supplier_id": "COMP_0003",
+  "buyer_id": "BUY_0010",
+  "expected_fields": {
+    "invoice_number": "SYTA/2526/00004",
+    "invoice_date": "2025-05-19",
+    "printed_date": "2025-05-19",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Tarapath Hygiene Products Ltd",
+    "vendor_gstin": "23CLTCJ1977Z3ZN",
+    "buyer": "Nilapeak Wholesale Traders LLP",
+    "buyer_gstin": "06YUEFM8629B3Z3",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000697:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Lumipeak Shampoo 180 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3305",
+        "quantity": 1327,
+        "unit": "bottles",
+        "printed_quantity": "1,327",
+        "printed_unit": "Btl",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 36.227,
+        "normalization_requires_master": true,
+        "rate": 69.53,
+        "printed_rate": "69.53",
+        "amount": 92266.31,
+        "printed_amount": "92,266.31",
+        "gst_rate": 18,
+        "gst_amount": 16607.94,
+        "printed_description_lines": [
+          "Lumipeak Shampoo 180 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 92266.31,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 16607.94,
+    "gst": 16607.94,
+    "invoice_total": 108874.25,
+    "printed_total": "1,08,874.25",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    36.227
+  ],
+  "linked_transaction_ids": [
+    "TXN_00000822"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "igst_ship_to",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "iso",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 5563494526868974294,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "9d3db85df0902ebc7531359d06b687dac5d9d4760454e739a9a46a6bac6e9ad6"
+}

@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000050",
+  "invoice_id": "INV_00026567",
+  "invoice_number": "SYDH/2324/00011",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0078",
+  "supplier_id": "SUP_0042",
+  "buyer_id": "COMP_0078",
+  "expected_fields": {
+    "invoice_number": "SYDH/2324/00011",
+    "invoice_date": "2023-05-22",
+    "printed_date": "22-May-2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Dharaglow Converters Pvt Ltd",
+    "vendor_gstin": "37FTECY6624B2ZJ",
+    "buyer": "Novadale Healthcare Pvt Ltd",
+    "buyer_gstin": "03GKACY4411D2ZM",
+    "place_of_supply": "Punjab (03)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000050:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PVC blister for 10 tabs - PVC",
+        "material": "PVC",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 1291,
+        "unit": "kg",
+        "printed_quantity": "1291.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1291.0,
+        "normalization_requires_master": false,
+        "rate": 152.96,
+        "printed_rate": "152.96",
+        "amount": 197471.36,
+        "printed_amount": "197471.36",
+        "gst_rate": 12,
+        "gst_amount": 23696.56,
+        "printed_description_lines": [
+          "PVC blister for 10 tabs - PVC"
+        ]
+      }
+    ],
+    "total_taxable_value": 197471.36,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 23696.56,
+    "gst": 23696.56,
+    "invoice_total": 221167.92,
+    "printed_total": "221167.92",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    1291.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00141862"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001500"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "plain",
+    "currency_mark": "INR"
+  },
+  "seed": 8196177482940774461,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "1ef1112ee207376a590536eedc5a025ee8e958c69dcc6ee16de2ed880f4bc69f"
+}

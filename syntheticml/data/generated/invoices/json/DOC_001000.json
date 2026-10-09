@@ -1,0 +1,93 @@
+{
+  "document_id": "DOC_001000",
+  "invoice_id": "INV_00046434",
+  "invoice_number": "SYYU/2526/00006",
+  "invoice_type": "RECYCLER_PROCESSING",
+  "invoice_type_code": "IT03",
+  "company_id": "COMP_0109",
+  "supplier_id": "REC_0007",
+  "buyer_id": "COMP_0109",
+  "expected_fields": {
+    "invoice_number": "SYYU/2526/00006",
+    "invoice_date": "2026-03-28",
+    "printed_date": "28-03-2026",
+    "invoice_type": "RECYCLER_PROCESSING",
+    "title": "TAX INVOICE - PROCESSING SERVICES",
+    "status": "issued",
+    "vendor": "Yuvawick Reprocessors Pvt Ltd",
+    "vendor_gstin": "37LDVCT7372V3ZT",
+    "buyer": "Suvarnabrook Online Retail Pvt Ltd",
+    "buyer_gstin": "07ADWCN9379C3ZI",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_001000:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Processing of post-consumer CAT_II plastic waste 2025-11 (received 111.50 kg)",
+        "material": null,
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 107.24,
+        "unit": "kg",
+        "printed_quantity": "107.24",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 107.24,
+        "normalization_requires_master": false,
+        "rate": 11.66,
+        "printed_rate": "11.66",
+        "amount": 1250.42,
+        "printed_amount": "1,250.42",
+        "gst_rate": 18,
+        "gst_amount": 225.08,
+        "printed_description_lines": [
+          "Processing of post-consumer CAT_II plastic waste 2025-11",
+          "(received 111.50 kg)"
+        ]
+      }
+    ],
+    "total_taxable_value": 1250.42,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 225.08,
+    "gst": 225.08,
+    "invoice_total": 1475.5,
+    "printed_total": "1,475.50",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    107.24
+  ],
+  "linked_transaction_ids": [],
+  "linked_recycling_record_ids": [
+    "RCY_0007759"
+  ],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN13"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0002943"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN13",
+  "paired_document_id": null,
+  "template_id": "L10",
+  "template_name": "Recycler service",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 3667569488863843724,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "8af14492fb24048d7f47bd35c880d1bc1af66c0043f13723054fdd9f9ea9dd1c"
+}

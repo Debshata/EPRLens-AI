@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000001",
+  "invoice_id": "INV_00025103",
+  "invoice_number": "SYTA/2425/00001",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0064",
+  "supplier_id": "SUP_0034",
+  "buyer_id": "COMP_0064",
+  "expected_fields": {
+    "invoice_number": "SYTA/2425/00001",
+    "invoice_date": null,
+    "printed_date": "",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Taramint Polyfilms Pvt Ltd",
+    "vendor_gstin": "27WDXCW6762E2ZK",
+    "buyer": "Indraglow Automotive Parts LLP",
+    "buyer_gstin": "02GJGCB4192Q1Z3",
+    "place_of_supply": "Himachal Pradesh (02)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000001:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Stretch wrap (per-unit share) for Set Front - LLDPE",
+        "material": "LLDPE",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3920",
+        "quantity": 324,
+        "unit": "kg",
+        "printed_quantity": "324.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 324.0,
+        "normalization_requires_master": false,
+        "rate": 182.29,
+        "printed_rate": "182.29",
+        "amount": 59061.96,
+        "printed_amount": "59,061.96",
+        "gst_rate": 18,
+        "gst_amount": 10631.15,
+        "printed_description_lines": [
+          "Stretch wrap (per-unit share) for Set Front - LLDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 59061.96,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 10631.15,
+    "gst": 10631.15,
+    "invoice_total": 69693.11,
+    "printed_total": "69,693.11",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    324.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00138997"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN06"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001716"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN06",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 5171658981455168121,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "d8290571f4c9833005fb11fd9a8b932a237c7ee9ffc36b434d71180e1c61b32d"
+}

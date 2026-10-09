@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000149",
+  "invoice_id": "INV_00025049",
+  "invoice_number": "SYVA/2324/00014",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0064",
+  "supplier_id": "SUP_0022",
+  "buyer_id": "COMP_0064",
+  "expected_fields": {
+    "invoice_number": "SYVA/2324/00014",
+    "invoice_date": "2023-10-11",
+    "printed_date": "11/10/2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vanawing Polyfilms Pvt Ltd",
+    "vendor_gstin": "32DMDCH0957W2ZH",
+    "buyer": "Indraglow Automotive Parts LLP",
+    "buyer_gstin": "02GJGCB4192Q1Z3",
+    "place_of_supply": "Himachal Pradesh (02)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000149:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Stretch wrap (per-unit share) for Set Rear - PP",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 0.44,
+        "unit": "MT",
+        "printed_quantity": "0.440",
+        "printed_unit": "MT",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 440.0,
+        "normalization_requires_master": false,
+        "rate": 159566.4,
+        "printed_rate": "1,59,566.40",
+        "amount": 70209.22,
+        "printed_amount": "70,209.22",
+        "gst_rate": 12,
+        "gst_amount": 8425.11,
+        "printed_description_lines": [
+          "Stretch wrap (per-unit share) for Set Rear - PP"
+        ]
+      }
+    ],
+    "total_taxable_value": 70209.22,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 8425.11,
+    "gst": 8425.11,
+    "invoice_total": 78634.33,
+    "printed_total": "78,634.33",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    440.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00138860"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN03"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001336"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN03",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 12603389407162999818,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "989183e0b837de11668091d8056000d0074eaa491f138a26d819972524bdc574"
+}

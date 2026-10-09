@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000163",
+  "invoice_id": "INV_00026923",
+  "invoice_number": "SYPU/2324/00028",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0083",
+  "supplier_id": "SUP_0064",
+  "buyer_id": "COMP_0083",
+  "expected_fields": {
+    "invoice_number": "SYPU/2324/00028",
+    "invoice_date": "2023-10-21",
+    "printed_date": "21-10-2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Puresprout Flexi Pack Pvt Ltd",
+    "vendor_gstin": "19BCSCV7632T2Z4",
+    "buyer": "Dhararidge Digital Commerce Pvt Ltd",
+    "buyer_gstin": "09SDICO2224M2ZT",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000163:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Courier mailer for Pack Medium - LDPE",
+        "material": "LDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 5.24,
+        "unit": "MT",
+        "printed_quantity": "5.240",
+        "printed_unit": "M.T.",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 5240.0,
+        "normalization_requires_master": false,
+        "rate": 130144.99,
+        "printed_rate": "1,30,144.99",
+        "amount": 681959.75,
+        "printed_amount": "6,81,959.75",
+        "gst_rate": 18,
+        "gst_amount": 122752.76,
+        "printed_description_lines": [
+          "Courier mailer for Pack Medium - LDPE"
+        ]
+      }
+    ],
+    "total_taxable_value": 681959.75,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 122752.76,
+    "gst": 122752.76,
+    "invoice_total": 804712.51,
+    "printed_total": "8,04,712.51",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    5240.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00142765"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 17103167281688439043,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "66948016e272f098b0fd3b9087b4ef1ce13f6907c0ca90ee3d89ceec639cf4cc"
+}

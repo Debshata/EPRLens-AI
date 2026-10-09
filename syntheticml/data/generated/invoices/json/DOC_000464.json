@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000464",
+  "invoice_id": "INV_00040510",
+  "invoice_number": "SYRN/2425/00003",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0061",
+  "supplier_id": "BUY_0101",
+  "buyer_id": "COMP_0061",
+  "expected_fields": {
+    "invoice_number": "SYRN/2425/00003",
+    "invoice_date": "2024-10-11",
+    "printed_date": "11/10/2024",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Kesarbloom Retail Mart",
+    "vendor_gstin": null,
+    "buyer": "Kesarstone Automotive Parts LLP",
+    "buyer_gstin": "07YQSCL2993N3ZM",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYKE/2425/00022",
+    "lines": [
+      {
+        "line_reference": "DOC_000464:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Hiraloom Brake Pad Set Front",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "8708",
+        "quantity": 430,
+        "unit": "pcs",
+        "printed_quantity": "430",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 41.925,
+        "normalization_requires_master": true,
+        "rate": 328.02,
+        "printed_rate": "328.02",
+        "amount": 141048.6,
+        "printed_amount": "1,41,048.60",
+        "gst_rate": 18,
+        "gst_amount": 25388.75,
+        "printed_description_lines": [
+          "Goods returned: Hiraloom Brake Pad Set Front"
+        ]
+      }
+    ],
+    "total_taxable_value": 141048.6,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 25388.75,
+    "gst": 25388.75,
+    "invoice_total": 166437.35,
+    "printed_total": "1,66,437.35",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    41.925
+  ],
+  "linked_transaction_ids": [
+    "TXN_00120208"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "return_applied",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 15501271871143268051,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "f0421b71b3a51b68c2587f50561e9be1f1da388225a79e95c16b7eeefec88f61"
+}

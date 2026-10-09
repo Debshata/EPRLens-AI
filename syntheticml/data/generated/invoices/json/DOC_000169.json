@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000169",
+  "invoice_id": "INV_00020943",
+  "invoice_number": "SYEXP-00003",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0035",
+  "supplier_id": "SUP_0113",
+  "buyer_id": "COMP_0035",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00003",
+    "invoice_date": "2023-10-27",
+    "printed_date": "27/10/2023",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Ritufizz Labels Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Samaroot Drinks Pvt Ltd",
+    "buyer_gstin": "08OSBCS7500I2ZD",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000169:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Label 2 L - PP (0.8 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3919",
+        "quantity": 323853,
+        "unit": "pcs",
+        "printed_quantity": "3,23,853",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 0.8,
+        "normalized_quantity_kg": 259.082,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 3238.53,
+        "printed_amount": "3,238.53",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Label 2 L - PP (0.8 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000169:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Label 2 L - PP (0.8 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3919",
+        "quantity": 307680,
+        "unit": "pcs",
+        "printed_quantity": "3,07,680",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 0.8,
+        "normalized_quantity_kg": 246.144,
+        "normalization_requires_master": false,
+        "rate": 0.01,
+        "printed_rate": "0.01",
+        "amount": 3076.8,
+        "printed_amount": "3,076.80",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Label 2 L - PP (0.8 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 6315.33,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 6315.33,
+    "printed_total": "6,315.33",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    259.082,
+    2.461
+  ],
+  "linked_transaction_ids": [
+    "TXN_00129207",
+    "TXN_00129208"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN02"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000530"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN02",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "USD"
+  },
+  "seed": 3948596555854973358,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "ab3b43ca5764a1028cbc5c93016bb9ea8d038ab133671699efadf2fbdd68768c"
+}

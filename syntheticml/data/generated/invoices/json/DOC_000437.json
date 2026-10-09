@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000437",
+  "invoice_id": "INV_00030081",
+  "invoice_number": "SYSU/2425/00034",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0111",
+  "supplier_id": "SUP_0088",
+  "buyer_id": "COMP_0111",
+  "expected_fields": {
+    "invoice_number": "SYSU/2425/00034",
+    "invoice_date": "2024-09-04",
+    "printed_date": "04-09-2024",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Suvarnamint Packaging Components Pvt Ltd",
+    "vendor_gstin": "23BGNCN2841P1Z1",
+    "buyer": "Tarawave Drinks Pvt Ltd",
+    "buyer_gstin": "07GMVCK1879X1ZT",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000437:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Glass bottle 200 ml - GLASS (225.9 g/pc)",
+        "material": "GLASS",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 634567,
+        "unit": "pcs",
+        "printed_quantity": "634,567",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 225.9,
+        "normalized_quantity_kg": 143348.685,
+        "normalization_requires_master": false,
+        "rate": 10.34,
+        "printed_rate": "10.34",
+        "amount": 6561422.78,
+        "printed_amount": "6,561,422.78",
+        "gst_rate": 18,
+        "gst_amount": 1181056.1,
+        "printed_description_lines": [
+          "Glass bottle 200 ml - GLASS (225.9 g/pc)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000437:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Cap 500 ml - PP (2.5 g/pc) (lot 1/2)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 569051,
+        "unit": "pcs",
+        "printed_quantity": "569,051",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 2.5,
+        "normalized_quantity_kg": 1422.628,
+        "normalization_requires_master": false,
+        "rate": 0.41,
+        "printed_rate": "0.41",
+        "amount": 233310.91,
+        "printed_amount": "233,310.91",
+        "gst_rate": 12,
+        "gst_amount": 27997.31,
+        "printed_description_lines": [
+          "Cap 500 ml - PP (2.5 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000437:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Cap 500 ml - PP (2.5 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": null,
+        "quantity": 429070,
+        "unit": "pcs",
+        "printed_quantity": "429,070",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 2.5,
+        "normalized_quantity_kg": 1072.675,
+        "normalization_requires_master": false,
+        "rate": 0.41,
+        "printed_rate": "0.41",
+        "amount": 175918.7,
+        "printed_amount": "175,918.70",
+        "gst_rate": 12,
+        "gst_amount": 21110.24,
+        "printed_description_lines": [
+          "Cap 500 ml - PP (2.5 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 6970652.39,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 1230163.65,
+    "gst": 1230163.65,
+    "invoice_total": 8200816.04,
+    "printed_total": "8,200,816.04",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    143348.685,
+    1422.628,
+    1072.675
+  ],
+  "linked_transaction_ids": [
+    "TXN_00149373",
+    "TXN_00149724",
+    "TXN_00149725"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN06"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001753"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN06",
+  "paired_document_id": null,
+  "template_id": "L09",
+  "template_name": "Tax summary",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 7495792614895800093,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "7257c021ebb2d187c76737b5ce6c111ae762f8cb5adf42843a7c73dfc2e191dc"
+}

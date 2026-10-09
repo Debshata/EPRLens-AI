@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000534",
+  "invoice_id": "INV_00023563",
+  "invoice_number": "SYDH/2425/00117",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0053",
+  "supplier_id": "SUP_0037",
+  "buyer_id": "COMP_0053",
+  "expected_fields": {
+    "invoice_number": "SYDH/2425/00117",
+    "invoice_date": "2025-01-10",
+    "printed_date": "10-Jan-2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Dharabrook Corrugators Pvt Ltd",
+    "vendor_gstin": "29GGGCW6034O3ZZ",
+    "buyer": "Jalacrest Beverages Ltd",
+    "buyer_gstin": "06LVZCC1903M3ZC",
+    "place_of_supply": "Haryana (06)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000534:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Outer carton (per-unit share) 160 ml - CARDBOARD (20.2 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 191336,
+        "unit": "pcs",
+        "printed_quantity": "1,91,336",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 20.2,
+        "normalized_quantity_kg": 3864.987,
+        "normalization_requires_master": false,
+        "rate": 1.85,
+        "printed_rate": "1.85",
+        "amount": 353971.6,
+        "printed_amount": "3,53,971.60",
+        "gst_rate": 12,
+        "gst_amount": 42476.59,
+        "printed_description_lines": [
+          "Outer carton (per-unit share) 160 ml - CARDBOARD (20.2 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 353971.6,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 42476.59,
+    "gst": 42476.59,
+    "invoice_total": 396448.19,
+    "printed_total": "3,96,448.19",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    3864.987
+  ],
+  "linked_transaction_ids": [
+    "TXN_00134805"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L03",
+  "template_name": "Dense table",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 8110710901274053256,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "10947e5d06128affa384aec9a75335ab29e703e96d904db360b19c9f2487adab"
+}

@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000341",
+  "invoice_id": "INV_00026829",
+  "invoice_number": "SYVR/2425/00014",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0082",
+  "supplier_id": "SUP_0030",
+  "buyer_id": "COMP_0082",
+  "expected_fields": {
+    "invoice_number": "SYVR/2425/00014",
+    "invoice_date": "2024-05-08",
+    "printed_date": "08-05-2024",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshmint Converters Pvt Ltd",
+    "vendor_gstin": "02DUGCS0815C2ZV",
+    "buyer": "Purehaven Beauty Pvt Ltd",
+    "buyer_gstin": "07CGNCM8312X3Z4",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000341:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminated tube for 100 ml - MLP",
+        "material": "MLP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 568,
+        "unit": "kg",
+        "printed_quantity": "568.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 568.0,
+        "normalization_requires_master": false,
+        "rate": 367.26,
+        "printed_rate": "367.26",
+        "amount": 208603.68,
+        "printed_amount": "2,08,603.68",
+        "gst_rate": 12,
+        "gst_amount": 25032.44,
+        "printed_description_lines": [
+          "Laminated tube for 100 ml - MLP"
+        ]
+      }
+    ],
+    "total_taxable_value": 208603.68,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 25032.44,
+    "gst": 25032.44,
+    "invoice_total": 233636.12,
+    "printed_total": "2,33,636.12",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    568.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00142567"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 13927476351945261407,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "33faa078162c0438b9665e98132bc414927392b9c56cd3df8bfd0fc29f38a26c"
+}

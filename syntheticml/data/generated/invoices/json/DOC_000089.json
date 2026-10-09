@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000089",
+  "invoice_id": "INV_00039963",
+  "invoice_number": "SYRN/2324/00001",
+  "invoice_type": "RETURN",
+  "invoice_type_code": "IT06",
+  "company_id": "COMP_0011",
+  "supplier_id": "BUY_0044",
+  "buyer_id": "COMP_0011",
+  "expected_fields": {
+    "invoice_number": "SYRN/2324/00001",
+    "invoice_date": "2023-07-25",
+    "printed_date": "25/07/2023",
+    "invoice_type": "RETURN",
+    "title": "DEBIT NOTE - GOODS RETURNED",
+    "status": "issued",
+    "vendor": "Ritumint General Stores",
+    "vendor_gstin": "24FYHFC0710Y1ZW",
+    "buyer": "Ecowing Consumer Goods Pvt Ltd",
+    "buyer_gstin": "24ZKQCQ5330J1ZE",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYEC/2324/00011",
+    "lines": [
+      {
+        "line_reference": "DOC_000089:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Goods returned: Jalaglow Clove Gel 100 g",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3402",
+        "quantity": 46900,
+        "unit": "pcs",
+        "printed_quantity": "46,900",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 975.52,
+        "normalization_requires_master": true,
+        "rate": 123.17,
+        "printed_rate": "123.17",
+        "amount": 5776673.0,
+        "printed_amount": "5,776,673.00",
+        "gst_rate": 18,
+        "gst_amount": 1039801.14,
+        "printed_description_lines": [
+          "Goods returned: Jalaglow Clove Gel 100 g"
+        ]
+      }
+    ],
+    "total_taxable_value": 5776673.0,
+    "cgst": 519900.57,
+    "sgst": 519900.57,
+    "igst": 0.0,
+    "gst": 1039801.14,
+    "invoice_total": 6816474.14,
+    "printed_total": "6,816,474.14",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    975.52
+  ],
+  "linked_transaction_ids": [
+    "TXN_00119661"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 2664997602688907777,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "9950b8c4be621a4a44510509f0bc72ce2a5f784e7b37f030dded80cb955808b0"
+}

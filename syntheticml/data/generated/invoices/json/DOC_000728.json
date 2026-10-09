@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000728",
+  "invoice_id": "INV_00042021",
+  "invoice_number": "SYCN/2526/00001",
+  "invoice_type": "CREDIT_NOTE",
+  "invoice_type_code": "IT05",
+  "company_id": "COMP_0028",
+  "supplier_id": "SUP_0039",
+  "buyer_id": "COMP_0028",
+  "expected_fields": {
+    "invoice_number": "SYCN/2526/00001",
+    "invoice_date": "2025-06-25",
+    "printed_date": "25-Jun-2025",
+    "invoice_type": "CREDIT_NOTE",
+    "title": "CREDIT NOTE",
+    "status": "issued",
+    "vendor": "Rituvista Packaging Components Pvt Ltd",
+    "vendor_gstin": "23IQKCC6220C3Z8",
+    "buyer": "Zarahaven Electronics LLP",
+    "buyer_gstin": "27ENWCS7561Q2ZO",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": "SYRI/2526/00013",
+    "lines": [
+      {
+        "line_reference": "DOC_000728:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Rate difference credit against invoice dated 2025-06-14",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": null,
+        "unit": null,
+        "printed_quantity": "",
+        "printed_unit": "",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": null,
+        "normalization_requires_master": false,
+        "rate": 73.03,
+        "printed_rate": "73.03",
+        "amount": 73.03,
+        "printed_amount": "73.03",
+        "gst_rate": 18,
+        "gst_amount": 13.15,
+        "printed_description_lines": [
+          "Rate difference credit against invoice dated 2025-06-14"
+        ]
+      }
+    ],
+    "total_taxable_value": 73.03,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 13.15,
+    "gst": 13.15,
+    "invoice_total": 86.18,
+    "printed_total": "86.18",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    null
+  ],
+  "linked_transaction_ids": [
+    "TXN_00172795"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "credit_note_applied",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 6004123187729180346,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "dacb2a44f03692e0819513c1222c48751f948d3affb6558eb7642e5559b11ef7"
+}

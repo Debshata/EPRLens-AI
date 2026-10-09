@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000855",
+  "invoice_id": "INV_00030893",
+  "invoice_number": "SYRI/2526/00047",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0119",
+  "supplier_id": "SUP_0076",
+  "buyer_id": "COMP_0119",
+  "expected_fields": {
+    "invoice_number": "SYRI/2526/00047",
+    "invoice_date": "2025-12-15",
+    "printed_date": "15/12/2025",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ritumint Packaging Components Pvt Ltd",
+    "vendor_gstin": "27TGICB5857F1ZZ",
+    "buyer": "Indrawing Beauty LLP",
+    "buyer_gstin": "03FVQCD0236L3ZR",
+    "place_of_supply": "Punjab (03)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000855:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Lid 100 g - HDPE (4.8 g/pc) (lot 1/2)",
+        "material": "HDPE",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 2908,
+        "unit": "pcs",
+        "printed_quantity": "2,908",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 4.8,
+        "normalized_quantity_kg": 13.958,
+        "normalization_requires_master": false,
+        "rate": 0.82,
+        "printed_rate": "0.82",
+        "amount": 2384.56,
+        "printed_amount": "2,384.56",
+        "gst_rate": 18,
+        "gst_amount": 429.22,
+        "printed_description_lines": [
+          "Lid 100 g - HDPE (4.8 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000855:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Lid 100 g - PP (4.8 g/pc) (lot 2/2)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 2221,
+        "unit": "pcs",
+        "printed_quantity": "2,221",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 4.8,
+        "normalized_quantity_kg": 10.661,
+        "normalization_requires_master": false,
+        "rate": 0.82,
+        "printed_rate": "0.82",
+        "amount": 1821.22,
+        "printed_amount": "1,821.22",
+        "gst_rate": 18,
+        "gst_amount": 327.82,
+        "printed_description_lines": [
+          "Lid 100 g - PP (4.8 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 4205.78,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 757.04,
+    "gst": 757.04,
+    "invoice_total": 4962.82,
+    "printed_total": "4,962.82",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    13.958,
+    10.661
+  ],
+  "linked_transaction_ids": [
+    "TXN_00152112",
+    "TXN_00152113"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN03"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001302"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN03",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 438651833926203569,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "0a7d2145c37fa6a42f64631d209ef994350e6da74727931b5425b76bf084f6ee"
+}

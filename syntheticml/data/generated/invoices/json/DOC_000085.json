@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000085",
+  "invoice_id": "INV_00026152",
+  "invoice_number": "SYVR/2324/00015",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0074",
+  "supplier_id": "SUP_0120",
+  "buyer_id": "COMP_0074",
+  "expected_fields": {
+    "invoice_number": "SYVR/2324/00015",
+    "invoice_date": "2023-07-18",
+    "printed_date": "18-07-2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshpact Pouch Pack Pvt Ltd",
+    "vendor_gstin": "09FGDCY5898U2ZD",
+    "buyer": "Gangacrest Food Products LLP",
+    "buyer_gstin": "03VTYCT5748M1ZC",
+    "place_of_supply": "Punjab (03)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000085:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Laminate snack pouch 75 g - MLP (3.6 g/pc)",
+        "material": "MLP",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 152147,
+        "unit": "pcs",
+        "printed_quantity": "152147",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 3.6,
+        "normalized_quantity_kg": 547.729,
+        "normalization_requires_master": false,
+        "rate": 1.79,
+        "printed_rate": "1.79",
+        "amount": 272343.13,
+        "printed_amount": "272343.13",
+        "gst_rate": 18,
+        "gst_amount": 49021.76,
+        "printed_description_lines": [
+          "Laminate snack pouch 75 g - MLP (3.6 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 272343.13,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 49021.76,
+    "gst": 49021.76,
+    "invoice_total": 321364.89,
+    "printed_total": "321364.89",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    547.729
+  ],
+  "linked_transaction_ids": [
+    "TXN_00140813"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001528"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "plain",
+    "currency_mark": "INR"
+  },
+  "seed": 584618996173359031,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "d17e7fd64b1a35f52c9fba70eaea11c05695b12ec5067cfa3e7f567f281f49e7"
+}

@@ -1,0 +1,6 @@
+{
+  "rules_tolerance": {
+    "qty_tolerance_kg": 0.01,
+    "qty_tolerance_rel": 0.0005
+  }
+}

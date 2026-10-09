@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000926",
+  "invoice_id": "INV_00020043",
+  "invoice_number": "SYBO/2526/00141",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0028",
+  "supplier_id": "SUP_0018",
+  "buyer_id": "COMP_0028",
+  "expected_fields": {
+    "invoice_number": "SYBO/2526/00141",
+    "invoice_date": "2026-02-27",
+    "printed_date": "27-Feb-2026",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Bodhiridge Converters Pvt Ltd",
+    "vendor_gstin": "27IBICS1654G1ZJ",
+    "buyer": "Zarahaven Electronics LLP",
+    "buyer_gstin": "27ENWCS7561Q2ZO",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000926:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET blister clamshell for Earphones Standard - PET",
+        "material": "PET",
+        "plastic_category": "CAT_II",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 33,
+        "unit": "kg",
+        "printed_quantity": "33.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 33.0,
+        "normalization_requires_master": false,
+        "rate": 215.77,
+        "printed_rate": "215.77",
+        "amount": 7120.41,
+        "printed_amount": "7,120.41",
+        "gst_rate": 18,
+        "gst_amount": 1281.67,
+        "printed_description_lines": [
+          "PET blister clamshell for Earphones Standard - PET"
+        ]
+      }
+    ],
+    "total_taxable_value": 7120.41,
+    "cgst": 640.84,
+    "sgst": 640.83,
+    "igst": 0.0,
+    "gst": 1281.67,
+    "invoice_total": 8402.08,
+    "printed_total": "8,402.08",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    33.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00127518"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN04"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001408"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN04",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 7259651317743802629,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "e564b80c2d4106f6f3fa35da7db0536b9504c3e6114a586d948d1d61d2c87ea2"
+}

@@ -1,0 +1,122 @@
+{
+  "document_id": "DOC_000458",
+  "invoice_id": "INV_00033577",
+  "invoice_number": "SYEXP-00045",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0145",
+  "supplier_id": "SUP_0004",
+  "buyer_id": "COMP_0145",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00045",
+    "invoice_date": "2024-10-04",
+    "printed_date": "04-10-2024",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Nilafizz Corrugators Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Samamint Consumer Goods Pvt Ltd",
+    "buyer_gstin": "07KGSCV0557V1Z4",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000458:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Outer carton (per-unit share) 1 kg - CARDBOARD (21.1 g/pc) (lot 1/2)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 8091,
+        "unit": "pcs",
+        "printed_quantity": "8,091",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 21.1,
+        "normalized_quantity_kg": 170.72,
+        "normalization_requires_master": false,
+        "rate": 0.03,
+        "printed_rate": "0.03",
+        "amount": 242.73,
+        "printed_amount": "242.73",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Outer carton (per-unit share) 1 kg - CARDBOARD",
+          "(21.1 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000458:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Outer carton (per-unit share) 1 kg - CARDBOARD (21.1 g/pc) (lot 2/2)",
+        "material": "CARDBOARD",
+        "plastic_category": "NA",
+        "plastic_category_printed": true,
+        "hsn_code": "4819",
+        "quantity": 8808,
+        "unit": "pcs",
+        "printed_quantity": "8,808",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": 21.1,
+        "normalized_quantity_kg": 185.849,
+        "normalization_requires_master": false,
+        "rate": 0.03,
+        "printed_rate": "0.03",
+        "amount": 264.24,
+        "printed_amount": "264.24",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Outer carton (per-unit share) 1 kg - CARDBOARD",
+          "(21.1 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 506.97,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 506.97,
+    "printed_total": "506.97",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    170.72,
+    18.585
+  ],
+  "linked_transaction_ids": [
+    "TXN_00158969",
+    "TXN_00158970"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN02"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000532"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN02",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "western",
+    "currency_mark": "USD"
+  },
+  "seed": 11466103039483368928,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "11fa697735c99155ebd6ce3e469eff05b1344004c8791e01bea5017ce04a3cb5"
+}
