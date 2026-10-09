@@ -3,7 +3,7 @@
   "$id": "https://eprlens.example/schemas/invoice_document.schema.json",
   "title": "Invoice PDF ground truth",
   "description": "SYNTHETIC — EPRLens Demo. One JSON per PDF; values must equal what is printed.",
-  "x-schema-version": "0.2.0",
+  "x-schema-version": "0.3.0",
   "type": "object",
   "required": [
     "document_id",

@@ -3,15 +3,13 @@
   "$id": "https://eprlens.example/schemas/material_events.schema.json",
   "title": "Material-flow ledger events",
   "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
-  "x-schema-version": "0.2.0",
+  "x-schema-version": "0.3.0",
   "x-primary-key": "event_id",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "event_id",
     "company_id",
-    "component_id",
-    "material",
     "synthetic_category",
     "event_type",
     "date",
@@ -40,20 +38,26 @@
         "string",
         "null"
       ],
-      "description": "Product",
+      "description": "Product (null for recycling-proxy events)",
       "pattern": "^PROD_(\\d{6}|TEST_\\d{3})$",
       "x-provenance": "M",
       "x-foreign-key": "products.product_id"
     },
     "component_id": {
-      "type": "string",
-      "description": "Component",
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Component (null for recycling-proxy events)",
       "pattern": "^PKGCOMP_\\d{6}$",
       "x-provenance": "M",
       "x-foreign-key": "packaging_components.component_id"
     },
     "material": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Material",
       "enum": [
         "PET",
@@ -70,7 +74,8 @@
         "GLASS",
         "METAL",
         "BATTERY",
-        "OTHER"
+        "OTHER",
+        null
       ],
       "x-provenance": "E"
     },
@@ -122,13 +127,13 @@
     },
     "kg": {
       "type": "number",
-      "description": "Mass (≥0)",
+      "description": "Mass (>=0)",
       "minimum": 0,
       "x-provenance": "E"
     },
     "direction": {
       "type": "string",
-      "description": "in | out | memo",
+      "description": "in | out | memo (memo = not part of packaging inventory)",
       "enum": [
         "in",
         "out",
@@ -141,7 +146,7 @@
         "string",
         "null"
       ],
-      "description": "Evidence",
+      "description": "Evidence (invoice / recycling record)",
       "x-provenance": "M"
     },
     "source_line_id": {

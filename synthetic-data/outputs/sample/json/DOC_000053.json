@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000053",
+  "invoice_id": "INV_00017956",
+  "invoice_number": "SYBO/2324/00021",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0007",
+  "supplier_id": "SUP_0018",
+  "buyer_id": "COMP_0007",
+  "expected_fields": {
+    "invoice_number": "SYBO/2324/00021",
+    "invoice_date": "2023-05-26",
+    "printed_date": "26/05/2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Bodhiridge Converters Pvt Ltd",
+    "vendor_gstin": "27IBICS1654G1ZJ",
+    "buyer": "Suvarnaray Foods Pvt Ltd",
+    "buyer_gstin": "09QAVCK4487C1Z2",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000053:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET jar for 1 L - PET",
+        "material": "PET",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3923",
+        "quantity": 14391,
+        "unit": "kg",
+        "printed_quantity": "14,391.00",
+        "printed_unit": "kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 14391.0,
+        "normalization_requires_master": false,
+        "rate": 215.77,
+        "printed_rate": "215.77",
+        "amount": 3105146.07,
+        "printed_amount": "31,05,146.07",
+        "gst_rate": 18,
+        "gst_amount": 558926.29,
+        "printed_description_lines": [
+          "PET jar for 1 L - PET"
+        ]
+      }
+    ],
+    "total_taxable_value": 3105146.07,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 558926.29,
+    "gst": 558926.29,
+    "invoice_total": 3664072.36,
+    "printed_total": "36,64,072.36",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    14391.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00122609"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L04",
+  "template_name": "Two-column header",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 18067252852100018221,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "a0fad9755d41457a0a8de6d275653bac61d3d6f22d654a760f4b91f643302dca"
+}

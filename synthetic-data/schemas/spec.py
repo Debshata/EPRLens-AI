@@ -121,6 +121,8 @@ TABLES = {
             f("states_operated", "array", True, "States where the company sells", prov="H", items="string"),
             f("headquarters_state", "string", True, "HQ state", prov="E"),
             f("hq_address_id", "string", True, "HQ address", prov="M", pattern=ID["address"], fk="addresses.address_id"),
+            f("fake_gstin", "string", True, "GSTIN-like, deliberately invalid checksum (printed on sales invoices)", prov="P",
+              pattern=GSTIN_FORMAT),
             f("epr_registered", "boolean", True, "Declared EPR registration status (synthetic)", prov="H"),
             f("registration_status", "string", True, "Declared registration status", prov="H",
               enum=["registered", "application_pending", "not_registered", "unknown"]),
@@ -516,3 +518,121 @@ INVOICE_DOCUMENT = {
         "synthetic_flag",
     ],
 }
+
+
+# ---------------------------------------------------------------------------
+# Activity-table definitions finalised for the full dataset (2026-10-09).
+# These replace the earlier proposals above; all values are synthetic.
+# ---------------------------------------------------------------------------
+SCHEMA_VERSION = "0.3.0"
+
+TABLES["material_events"]["fields"] = [
+    f("event_id", "string", True, "Id", prov="M", pattern=ID["event"]),
+    f("company_id", "string", True, "Company", prov="M", pattern=ID["company"], fk="companies.company_id"),
+    f("product_id", "string", False, "Product (null for recycling-proxy events)", prov="M", nullable=True,
+      pattern=ID["product"], fk="products.product_id"),
+    f("component_id", "string", False, "Component (null for recycling-proxy events)", prov="M", nullable=True,
+      pattern=ID["component"], fk="packaging_components.component_id"),
+    f("material", "string", False, "Material", prov="E", nullable=True, enum=MATERIALS),
+    f("synthetic_category", "string", True, "Synthetic category convention", prov="E", enum=CATEGORIES),
+    f("event_type", "string", True, "Event type", prov="E", enum=EVENT_TYPES),
+    f("date", "date", True, "Date", prov="M"),
+    f("period", "month", True, "YYYY-MM", prov="M"),
+    f("kg", "number", True, "Mass (>=0)", prov="E", minimum=0),
+    f("direction", "string", True, "in | out | memo (memo = not part of packaging inventory)", prov="E",
+      enum=["in", "out", "memo"]),
+    f("source_document_id", "string", False, "Evidence (invoice / recycling record)", prov="M", nullable=True),
+    f("source_line_id", "string", False, "Evidence line", prov="M", nullable=True),
+    f("counterparty_id", "string", False, "Counterparty", prov="M", nullable=True, pattern=PARTY),
+    f("status", "string", True, "Evidence status", prov="E",
+      enum=["document_supported", "estimated", "declared", "unknown", "cancelled"]),
+    f("supersedes_event_id", "string", False, "Correction chain", prov="M", nullable=True),
+    SYN,
+]
+
+_INV_EXTRA = [
+    f("supplier_gstin", "string", False, "Issuer GSTIN-like value as printed (null for imports / AN06)", prov="P", nullable=True),
+    f("buyer_gstin", "string", False, "Recipient GSTIN-like value as printed", prov="P", nullable=True),
+    f("fx_rate", "number", False, "Illustrative INR per USD for import invoices", prov="P", nullable=True),
+    f("cgst", "number", True, "CGST in invoice currency", prov="P"),
+    f("sgst", "number", True, "SGST in invoice currency", prov="P"),
+    f("igst", "number", True, "IGST in invoice currency", prov="P"),
+]
+_inv = TABLES["invoices"]["fields"]
+_inv = [x if x[0] != "invoice_date" else f("invoice_date", "date", False, "Date (null only for AN06)", prov="P",
+                                             nullable=True) for x in _inv]
+_pos = [x[0] for x in _inv].index("total_taxable_value")
+TABLES["invoices"]["fields"] = _inv[:_pos] + _INV_EXTRA + _inv[_pos:]
+TABLES["invoices"]["title"] = "Invoice headers (amounts in invoice currency)"
+
+_il = TABLES["invoice_lines"]["fields"]
+_pos = [x[0] for x in _il].index("synthetic_flag")
+TABLES["invoice_lines"]["fields"] = _il[:_pos] + [
+    f("source_record_id", "string", False, "Recycling record behind a recycler invoice line", prov="M", nullable=True,
+      pattern=ID["recycling"]),
+] + _il[_pos:]
+
+_gt = TABLES["anomaly_ground_truth"]["fields"]
+_pos = [x[0] for x in _gt].index("field")
+TABLES["anomaly_ground_truth"]["fields"] = _gt[:_pos] + [
+    f("company_id", "string", True, "Company", prov="GT", pattern=ID["company"], fk="companies.company_id"),
+    f("invoice_id", "string", False, "Invoice whose document/record is affected", prov="GT", nullable=True,
+      pattern=ID["invoice"]),
+] + _gt[_pos:-1] + [f("note", "string", False, "Sub-type / detail", prov="GT", nullable=True), SYN]
+
+_sc = TABLES["scenarios"]["fields"]
+_pos = [x[0] for x in _sc].index("baseline_weight_g")
+TABLES["scenarios"]["fields"] = _sc[:_pos] + [
+    f("component_id", "string", True, "Component whose weight changes", prov="M", pattern=ID["component"],
+      fk="packaging_components.component_id"),
+    f("reduction_pct", "number", True, "Weight reduction %", prov="E", minimum=0, maximum=90),
+] + _sc[_pos:]
+
+TABLES["recycling"]["fields"] = [x if x[0] != "plastic_category" else
+                                 f("synthetic_category", "string", True, "Synthetic category", prov="E", enum=CATEGORIES)
+                                 for x in TABLES["recycling"]["fields"]]
+
+TABLES["splits"] = {
+    "title": "Company-level evaluation splits (DS-08)",
+    "primary_key": "company_id",
+    "fields": [
+        f("company_id", "string", True, "Company", prov="M", pattern=ID["company"], fk="companies.company_id"),
+        f("anomaly_split", "string", True, "Anomaly split by company", prov="M", enum=["train", "validation", "test"]),
+        f("forecast_holdout", "boolean", True, "Company held out entirely from forecast training", prov="M"),
+        SYN,
+    ],
+}
+
+TABLES["forecast_panel"] = {
+    "title": "Product-month forecasting panel built from the CLEAN world (DS-06)",
+    "primary_key": "product_id",
+    "fields": [
+        f("company_id", "string", True, "", prov="M", pattern=ID["company"]),
+        f("product_id", "string", True, "", prov="M", pattern=ID["product"]),
+        f("industry", "string", True, "", prov="E", enum=INDUSTRIES),
+        f("month", "month", True, "Forecast origin month", prov="M"),
+        f("month_num", "integer", True, "1-12", prov="M", minimum=1, maximum=12),
+        f("t_index", "integer", True, "0-35", prov="M", minimum=0),
+        f("units_sold", "integer", True, "Units in origin month", prov="E", minimum=0),
+        f("weight_per_unit_g", "number", True, "Total packaging g/unit in force", prov="E", minimum=0),
+        f("packaging_kg", "number", True, "Packaging kg in origin month", prov="E", minimum=0),
+        f("lag_1", "number", False, "", prov="E", nullable=True),
+        f("lag_2", "number", False, "", prov="E", nullable=True),
+        f("lag_3", "number", False, "", prov="E", nullable=True),
+        f("lag_6", "number", False, "", prov="E", nullable=True),
+        f("lag_12", "number", False, "", prov="E", nullable=True),
+        f("rolling_mean_3", "number", False, "Mean of months t-2..t", prov="E", nullable=True),
+        f("rolling_mean_6", "number", False, "Mean of months t-5..t", prov="E", nullable=True),
+        f("sales_growth", "number", False, "units_t / units_t-1 - 1", prov="E", nullable=True),
+        f("seasonality_index", "number", False, "Industry x month index from TRAIN months only", prov="E", nullable=True),
+        f("target_month", "month", True, "", prov="M"),
+        f("next_month_packaging_kg", "number", True, "Target", prov="E", minimum=0),
+        f("time_split", "string", True, "By target month: 24 train / 6 validation / 6 test", prov="M",
+          enum=["train", "validation", "test"]),
+        f("company_holdout", "boolean", True, "", prov="M"),
+        SYN,
+    ],
+}
+
+TABLES["invoices_flat"]["fields"] = [x if x[0] != "invoice_date" else f("invoice_date", "date", False, "", prov="P", nullable=True)
+                                     for x in TABLES["invoices_flat"]["fields"]]

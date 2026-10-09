@@ -1,0 +1,159 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "source_of_truth": "synthetic-data/masters + data/generated (regenerate with synthetic-data/generate.py)",
+    "seed": 20261009,
+    "generator_version": "1.0.0",
+    "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+    "note": "History only. Forecasts are produced in the ML phase (D027 pending)."
+  },
+  "company_id": "COMP_0001",
+  "history": [
+    {
+      "month": "2023-04",
+      "packaging_kg": 173473.5
+    },
+    {
+      "month": "2023-05",
+      "packaging_kg": 174024.8
+    },
+    {
+      "month": "2023-06",
+      "packaging_kg": 153741.3
+    },
+    {
+      "month": "2023-07",
+      "packaging_kg": 108614.3
+    },
+    {
+      "month": "2023-08",
+      "packaging_kg": 110570.3
+    },
+    {
+      "month": "2023-09",
+      "packaging_kg": 152192.0
+    },
+    {
+      "month": "2023-10",
+      "packaging_kg": 155570.1
+    },
+    {
+      "month": "2023-11",
+      "packaging_kg": 160222.6
+    },
+    {
+      "month": "2023-12",
+      "packaging_kg": 173087.4
+    },
+    {
+      "month": "2024-01",
+      "packaging_kg": 186432.1
+    },
+    {
+      "month": "2024-02",
+      "packaging_kg": 257317.4
+    },
+    {
+      "month": "2024-03",
+      "packaging_kg": 256127.3
+    },
+    {
+      "month": "2024-04",
+      "packaging_kg": 321206.0
+    },
+    {
+      "month": "2024-05",
+      "packaging_kg": 319744.2
+    },
+    {
+      "month": "2024-06",
+      "packaging_kg": 311193.5
+    },
+    {
+      "month": "2024-07",
+      "packaging_kg": 213880.8
+    },
+    {
+      "month": "2024-08",
+      "packaging_kg": 236581.7
+    },
+    {
+      "month": "2024-09",
+      "packaging_kg": 225768.6
+    },
+    {
+      "month": "2024-10",
+      "packaging_kg": 244396.4
+    },
+    {
+      "month": "2024-11",
+      "packaging_kg": 224742.4
+    },
+    {
+      "month": "2024-12",
+      "packaging_kg": 211008.1
+    },
+    {
+      "month": "2025-01",
+      "packaging_kg": 231845.4
+    },
+    {
+      "month": "2025-02",
+      "packaging_kg": 249565.0
+    },
+    {
+      "month": "2025-03",
+      "packaging_kg": 328771.7
+    },
+    {
+      "month": "2025-04",
+      "packaging_kg": 332193.1
+    },
+    {
+      "month": "2025-05",
+      "packaging_kg": 342697.4
+    },
+    {
+      "month": "2025-06",
+      "packaging_kg": 319599.1
+    },
+    {
+      "month": "2025-07",
+      "packaging_kg": 221600.0
+    },
+    {
+      "month": "2025-08",
+      "packaging_kg": 237051.3
+    },
+    {
+      "month": "2025-09",
+      "packaging_kg": 269954.4
+    },
+    {
+      "month": "2025-10",
+      "packaging_kg": 257948.3
+    },
+    {
+      "month": "2025-11",
+      "packaging_kg": 235801.3
+    },
+    {
+      "month": "2025-12",
+      "packaging_kg": 237318.1
+    },
+    {
+      "month": "2026-01",
+      "packaging_kg": 242855.2
+    },
+    {
+      "month": "2026-02",
+      "packaging_kg": 244181.9
+    },
+    {
+      "month": "2026-03",
+      "packaging_kg": 327810.6
+    }
+  ],
+  "forecast": null
+}

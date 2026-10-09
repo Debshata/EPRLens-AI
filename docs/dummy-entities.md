@@ -10,7 +10,7 @@ Every part of EPRLens (synthetic CSVs, PDF invoices, ground-truth JSON, ML datas
 
 | Master file | Entity | Count |
 |---|---|---|
-| companies.csv | Client companies COMP_0001–COMP_0200 | 200 |
+| companies.csv | Client companies COMP_0001–COMP_0200 (incl. fake GSTIN-like value, added 2026-10-09) | 200 |
 | products.csv | Products, 3–15 per company (mean 8.9) | 1,774 + PROD_TEST_001 |
 | packaging_components.csv | Components, one row per effective-dated spec version | 4,522 (213 are v2 light-weighting rows) |
 | suppliers.csv | SUP_0001–SUP_0120 + SUP_TEST_001/002 | 122 |

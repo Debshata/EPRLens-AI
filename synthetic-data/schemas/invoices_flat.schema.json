@@ -3,7 +3,7 @@
   "$id": "https://eprlens.example/schemas/invoices_flat.schema.json",
   "title": "Flattened invoice view with exactly the brief's columns (one row per line, derived)",
   "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
-  "x-schema-version": "0.2.0",
+  "x-schema-version": "0.3.0",
   "x-primary-key": "invoice_line_id",
   "type": "object",
   "additionalProperties": false,
@@ -15,7 +15,6 @@
     "company_id",
     "supplier_id",
     "buyer_id",
-    "invoice_date",
     "rate",
     "amount",
     "gst",
@@ -72,7 +71,10 @@
       "x-provenance": "M"
     },
     "invoice_date": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "format": "date",
       "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
       "description": "",

@@ -3,7 +3,7 @@
 # Changing any value and re-running generate_entities.py regenerates every master deterministically.
 
 seed: 20261009
-generator_version: "0.2.0-entities"
+generator_version: "0.2.1-entities"
 window: {start: "2023-04-01", end: "2026-03-31"}        # DS-01 B
 
 # The "core" pack is generated identically in both modes, so its IDs are stable

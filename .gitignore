@@ -1,5 +1,5 @@
 # Generated full datasets and PDFs stay out of Git history (S3 / release assets instead)
-data/generated/
+data/
 synthetic-data/outputs/*
 !synthetic-data/outputs/sample/
 # Models and evaluation artefacts produced by runs

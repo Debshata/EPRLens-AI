@@ -114,3 +114,19 @@ Template sentences with paraphrase slots: industry, products, packaging, roles, 
 ## 11. What is *not* modelled
 
 Customs duty, freight, discounts beyond a flat %, payment terms, FG inventory (DS-03 A), real EPR targets, certificate prices, ULB transfers, SIMP raw-material obligations, other regimes.
+
+## 12. Implementation notes — generator 1.0.0 (2026-10-09)
+
+Mechanical choices made while implementing the approved design; none changes an approved decision.
+
+| Topic | Implementation |
+|---|---|
+| Randomness | Python `random` streams seeded by SHA-256 of (seed, stage, entity key) instead of NumPy PCG64; reproducible across 3.12/3.14. |
+| Company GSTIN | Added `fake_gstin` to companies (separate random stream; no other master value changed) so sales invoices issued by companies carry a GSTIN-like value. |
+| Sales rows | Each month a company invoices ~50 % of its buyers; a product-month splits across 1–3 of those buyers (weights 0.15 / 0.35 / 0.50). Ship-to state = buyer state if the company sells there, else a fixed company state. 25 % of companies export 2–15 % of units. |
+| Purchases | Order cycle by size (large 2, medium 4, small/micro 6 months); covers the next cycle plus 10–30 % safety stock; 60 % of deliveries arrive in two lots (two records, two invoice lines). kg suppliers sometimes invoice in MT (≥ 2,000 kg: 40 %; 300–1,000 kg: 15 % → legitimate small-MT cases). |
+| Invoices | Sales: one per company × buyer × month (≤ 12 lines). Purchases: one per company × supplier × month × domestic/import. Recycler processing and scrap-sale invoices: one per company × recycler × FY (chunked at 12 lines). Service invoices for 50 % of company–recycler–FY pairs. Credit notes: 2 % of purchase invoices, price-only. Cancelled twins: 0.5 % of sales/purchase invoices. |
+| Types | `MULTI_MATERIAL` = a purchase invoice whose lines span ≥ 2 plastic categories; `PKG_COMPONENT` = cap/closure/label/carton/component suppliers. |
+| GST / HSN | Illustrative per industry for sales (config `sales_gst_by_industry`, `sales_hsn_by_industry`); purchases 18 % (15 % of supplier–material pairs at 12 %). Not verified tax treatment. |
+| Anomalies | Injected without overlap (each record has at most one label). AN09 also scales the matching invoice lines (distributional, not a mismatch). AN13 moves the recycling line onto a new invoice from the unregistered recycler. The demo AN08 instance (EcoFizz, SUP_TEST_001, Nov 2025: 0.5 MT printed, 500 MT recorded) is always present. |
+| PDFs | ReportLab 5.0.1, `invariant=1`; 12 layouts; 1–3 pages (L05 and L11 paginate); built-in fonts so ₹ prints as "Rs."/"INR". |

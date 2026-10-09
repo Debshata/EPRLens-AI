@@ -9,7 +9,8 @@
 | Reference pack (`../docs/`) | DS-01…DS-25 approved 2026-10-09 (`../docs/DECISIONS-REQUIRED.md`) |
 | Schemas (`schemas/`) | v0.2.0 (entity tables final for this phase; activity tables still proposals) |
 | Entity master — full: 200 companies, 120+2 suppliers, 150+1 buyers, 50+1 recyclers (`masters/`) | generated 2026-10-09, verified on Python 3.12.14 |
-| Transactions, invoices, recycling, scenarios, 1,000 PDFs (`generate.py`) | not built — after `APPROVED — GENERATE FULL SYNTHETIC DATASET` |
+| Full dataset: 174k transactions, 46.5k invoices, 1,000 PDFs + 1,000 JSON (`generate.py`) | generated 2026-10-09 (`MANIFEST.json`); output in `data/generated/` (git-ignored) |
+| ML training (`ml/scripts/`) | not started — next phase |
 
 ## Requirements
 
@@ -43,10 +44,15 @@ python synthetic-data/generate_entities.py
 pytest
 ```
 
-After approval (not yet implemented):
+Full dataset (~4 minutes; about 200 MB of CSV and 1,000 PDFs):
 ```bash
 python synthetic-data/generate.py --config synthetic-data/config.yaml --out data/generated
 ```
+Quick pilot (5 companies, ~20 PDFs, a few seconds):
+```bash
+python synthetic-data/generate.py --out data/pilot --companies 5 --pdfs 20
+```
+ML phase (not yet implemented):
 ```bash
 python ml/scripts/train_forecast.py --data data/generated
 ```

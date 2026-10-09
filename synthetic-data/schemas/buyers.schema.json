@@ -3,7 +3,7 @@
   "$id": "https://eprlens.example/schemas/buyers.schema.json",
   "title": "Customer / buyer master",
   "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
-  "x-schema-version": "0.2.0",
+  "x-schema-version": "0.3.0",
   "x-primary-key": "buyer_id",
   "type": "object",
   "additionalProperties": false,

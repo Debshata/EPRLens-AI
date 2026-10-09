@@ -1,0 +1,148 @@
+{
+  "document_id": "DOC_000046",
+  "invoice_id": "INV_00027562",
+  "invoice_number": "SYGA/2324/00023",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0089",
+  "supplier_id": "SUP_0061",
+  "buyer_id": "COMP_0089",
+  "expected_fields": {
+    "invoice_number": "SYGA/2324/00023",
+    "invoice_date": "2023-05-20",
+    "printed_date": "20/05/2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Gangaleaf Corrugators Pvt Ltd",
+    "vendor_gstin": "10BBOCF4682I3Z8",
+    "buyer": "Rituvista Electronics Pvt Ltd",
+    "buyer_gstin": "10BURCT3190V3ZQ",
+    "place_of_supply": "Bihar (10)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000046:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Product box 20 W - CARDBOARD (45.9 g/pc)",
+        "material": "CARDBOARD",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "4819",
+        "quantity": 2261,
+        "unit": "pcs",
+        "printed_quantity": "2,261",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 45.9,
+        "normalized_quantity_kg": 103.78,
+        "normalization_requires_master": false,
+        "rate": 2.6,
+        "printed_rate": "2.60",
+        "amount": 5878.6,
+        "printed_amount": "5,878.60",
+        "gst_rate": 18,
+        "gst_amount": 1058.15,
+        "printed_description_lines": [
+          "Product box 20 W - CARDBOARD (45.9 g/pc)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000046:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Product box 10 W - CARDBOARD (149.6 g/pc) (lot 1/2)",
+        "material": "CARDBOARD",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "4819",
+        "quantity": 5558,
+        "unit": "pcs",
+        "printed_quantity": "5,558",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 149.6,
+        "normalized_quantity_kg": 831.477,
+        "normalization_requires_master": false,
+        "rate": 8.48,
+        "printed_rate": "8.48",
+        "amount": 47131.84,
+        "printed_amount": "47,131.84",
+        "gst_rate": 18,
+        "gst_amount": 8483.73,
+        "printed_description_lines": [
+          "Product box 10 W - CARDBOARD (149.6 g/pc) (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000046:p1:l3",
+        "page_number": 1,
+        "line_no": 3,
+        "item_description": "Product box 10 W - CARDBOARD (149.6 g/pc) (lot 2/2)",
+        "material": "CARDBOARD",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "4819",
+        "quantity": 6238,
+        "unit": "pcs",
+        "printed_quantity": "6,238",
+        "printed_unit": "Nos",
+        "weight_per_unit_g": 149.6,
+        "normalized_quantity_kg": 933.205,
+        "normalization_requires_master": false,
+        "rate": 8.48,
+        "printed_rate": "8.48",
+        "amount": 52898.24,
+        "printed_amount": "52,898.24",
+        "gst_rate": 18,
+        "gst_amount": 9521.68,
+        "printed_description_lines": [
+          "Product box 10 W - CARDBOARD (149.6 g/pc) (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 105908.68,
+    "cgst": 9531.78,
+    "sgst": 9531.78,
+    "igst": 0.0,
+    "gst": 19063.56,
+    "invoice_total": 124972.24,
+    "printed_total": "124,972.24",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    103.78,
+    831.477,
+    431.489
+  ],
+  "linked_transaction_ids": [
+    "TXN_00143900",
+    "TXN_00143989",
+    "TXN_00143990"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN07"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000715"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN07",
+  "paired_document_id": null,
+  "template_id": "L01",
+  "template_name": "Simple GST invoice",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 12754472684603801997,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "cd7ce1b5bd415c35e6aab4c7d4a1328de569aed7a864c32c674bad3817996bac"
+}

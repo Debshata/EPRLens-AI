@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000005",
+  "invoice_id": "INV_00020280",
+  "invoice_number": "SYRI/2324/00001",
+  "invoice_type": "PKG_COMPONENT",
+  "invoice_type_code": "IT08",
+  "company_id": "COMP_0029",
+  "supplier_id": "SUP_0076",
+  "buyer_id": "COMP_0029",
+  "expected_fields": {
+    "invoice_number": "SYRI/2324/00001",
+    "invoice_date": "2023-04-03",
+    "printed_date": "03/04/2023",
+    "invoice_type": "PKG_COMPONENT",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ritumint Packaging Components Pvt Ltd",
+    "vendor_gstin": "27TGICB5857F1ZZ",
+    "buyer": "Ritunest Home Care LLP",
+    "buyer_gstin": "37BGHCI9390X3ZG",
+    "place_of_supply": "Andhra Pradesh (37)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000005:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Actuator cap 220 ml - PP (5.0 g/pc)",
+        "material": "PP",
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": null,
+        "quantity": 163424,
+        "unit": "pcs",
+        "printed_quantity": "163,424",
+        "printed_unit": "PCS",
+        "weight_per_unit_g": 5.0,
+        "normalized_quantity_kg": 817.12,
+        "normalization_requires_master": false,
+        "rate": 0.86,
+        "printed_rate": "0.86",
+        "amount": 140544.64,
+        "printed_amount": "140,544.64",
+        "gst_rate": 18,
+        "gst_amount": 25298.04,
+        "printed_description_lines": [
+          "Actuator cap 220 ml - PP (5.0 g/pc)"
+        ]
+      }
+    ],
+    "total_taxable_value": 140544.64,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 25298.04,
+    "gst": 25298.04,
+    "invoice_total": 165842.68,
+    "printed_total": "165,842.68",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    817.12
+  ],
+  "linked_transaction_ids": [
+    "TXN_00127727"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L07",
+  "template_name": "Bank-details block",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "Rs."
+  },
+  "seed": 15246027494555774880,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "32d55ad7689218dc2c0f903e7bdc80b239f53ee582d88662b3a3e74ae6de613f"
+}

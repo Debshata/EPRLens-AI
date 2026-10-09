@@ -3,7 +3,7 @@
     "synthetic": true,
     "watermark": "SYNTHETIC — EPRLens Demo",
     "seed": 20261009,
-    "generator_version": "0.2.0-entities",
+    "generator_version": "0.2.1-entities",
     "entity_pack": "full",
     "source_of_truth": "synthetic-data/masters/*.csv",
     "note": "Same IDs as synthetic-data/masters. Do not invent frontend-only entities."
@@ -27,6 +27,7 @@
     ],
     "headquarters_state": "Delhi",
     "hq_address_id": "ADDR_000001",
+    "fake_gstin": "07OLWCZ2975K3ZF",
     "epr_registered": true,
     "registration_status": "registered",
     "waste_stream": "plastic_packaging",

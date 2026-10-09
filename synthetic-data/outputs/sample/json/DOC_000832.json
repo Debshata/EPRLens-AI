@@ -1,0 +1,92 @@
+{
+  "document_id": "DOC_000832",
+  "invoice_id": "INV_00017685",
+  "invoice_number": "SYEC/2526/00004",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0001",
+  "supplier_id": "SUP_TEST_001",
+  "buyer_id": "COMP_0001",
+  "expected_fields": {
+    "invoice_number": "SYEC/2526/00004",
+    "invoice_date": "2025-11-17",
+    "printed_date": "17/11/2025",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Ecoglow PET Bottles Pvt Ltd",
+    "vendor_gstin": "06ODQCM2783K1Z4",
+    "buyer": "EcoFizz Beverages Pvt Ltd",
+    "buyer_gstin": "07OLWCZ2975K3ZF",
+    "place_of_supply": "Delhi (07)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000832:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "PET bottle for 750 ml - PET",
+        "material": "PET",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 0.5,
+        "unit": "MT",
+        "printed_quantity": "0.500",
+        "printed_unit": "Tonne",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 500.0,
+        "normalization_requires_master": false,
+        "rate": 211058.17,
+        "printed_rate": "211,058.17",
+        "amount": 105529.09,
+        "printed_amount": "105,529.09",
+        "gst_rate": 18,
+        "gst_amount": 18995.24,
+        "printed_description_lines": [
+          "PET bottle for 750 ml - PET"
+        ]
+      }
+    ],
+    "total_taxable_value": 105529.09,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 18995.24,
+    "gst": 18995.24,
+    "invoice_total": 124524.33,
+    "printed_total": "124,524.33",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    500000.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00121740"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN08"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0000001"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN08",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "western",
+    "currency_mark": "INR"
+  },
+  "seed": 7659667468897220142,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "3a486bc179c279b450cbbcb59f6ce52ba3567d365b3c1dbfb33d3df38192015a"
+}

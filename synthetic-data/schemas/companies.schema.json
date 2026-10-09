@@ -3,7 +3,7 @@
   "$id": "https://eprlens.example/schemas/companies.schema.json",
   "title": "Company master",
   "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
-  "x-schema-version": "0.2.0",
+  "x-schema-version": "0.3.0",
   "x-primary-key": "company_id",
   "type": "object",
   "additionalProperties": false,
@@ -20,6 +20,7 @@
     "states_operated",
     "headquarters_state",
     "hq_address_id",
+    "fake_gstin",
     "epr_registered",
     "registration_status",
     "waste_stream",
@@ -118,6 +119,12 @@
       "pattern": "^ADDR_\\d{6}$",
       "x-provenance": "M",
       "x-foreign-key": "addresses.address_id"
+    },
+    "fake_gstin": {
+      "type": "string",
+      "description": "GSTIN-like, deliberately invalid checksum (printed on sales invoices)",
+      "pattern": "^\\d{2}[A-Z]{5}\\d{4}[A-Z][1-9A-Z]Z[0-9A-Z]$",
+      "x-provenance": "P"
     },
     "epr_registered": {
       "type": "boolean",

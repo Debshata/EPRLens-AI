@@ -1,9 +1,9 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://eprlens.example/schemas/invoices.schema.json",
-  "title": "Invoice headers (DS-05 A)",
+  "title": "Invoice headers (amounts in invoice currency)",
   "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
-  "x-schema-version": "0.2.0",
+  "x-schema-version": "0.3.0",
   "x-primary-key": "invoice_id",
   "type": "object",
   "additionalProperties": false,
@@ -14,10 +14,12 @@
     "company_id",
     "supplier_id",
     "buyer_id",
-    "invoice_date",
     "place_of_supply_state",
     "tax_mode",
     "currency",
+    "cgst",
+    "sgst",
+    "igst",
     "total_taxable_value",
     "gst",
     "total",
@@ -76,10 +78,13 @@
       "x-provenance": "M"
     },
     "invoice_date": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "format": "date",
       "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
-      "description": "Date",
+      "description": "Date (null only for AN06)",
       "x-provenance": "P"
     },
     "place_of_supply_state": {
@@ -104,6 +109,45 @@
         "INR",
         "USD"
       ],
+      "x-provenance": "P"
+    },
+    "supplier_gstin": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Issuer GSTIN-like value as printed (null for imports / AN06)",
+      "x-provenance": "P"
+    },
+    "buyer_gstin": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Recipient GSTIN-like value as printed",
+      "x-provenance": "P"
+    },
+    "fx_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Illustrative INR per USD for import invoices",
+      "x-provenance": "P"
+    },
+    "cgst": {
+      "type": "number",
+      "description": "CGST in invoice currency",
+      "x-provenance": "P"
+    },
+    "sgst": {
+      "type": "number",
+      "description": "SGST in invoice currency",
+      "x-provenance": "P"
+    },
+    "igst": {
+      "type": "number",
+      "description": "IGST in invoice currency",
       "x-provenance": "P"
     },
     "total_taxable_value": {

@@ -3,7 +3,7 @@
   "$id": "https://eprlens.example/schemas/anomaly_ground_truth.schema.json",
   "title": "Anomaly ground truth (never visible to detectors)",
   "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
-  "x-schema-version": "0.2.0",
+  "x-schema-version": "0.3.0",
   "x-primary-key": "anomaly_instance_id",
   "type": "object",
   "additionalProperties": false,
@@ -12,6 +12,7 @@
     "record_id",
     "record_type",
     "anomaly_type",
+    "company_id",
     "expected_detection_method",
     "severity",
     "is_anomaly",
@@ -70,6 +71,22 @@
         "AN19",
         "AN20"
       ],
+      "x-provenance": "GT"
+    },
+    "company_id": {
+      "type": "string",
+      "description": "Company",
+      "pattern": "^COMP_\\d{4}$",
+      "x-provenance": "GT",
+      "x-foreign-key": "companies.company_id"
+    },
+    "invoice_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Invoice whose document/record is affected",
+      "pattern": "^INV_\\d{8}$",
       "x-provenance": "GT"
     },
     "field": {
@@ -153,6 +170,14 @@
     "seed": {
       "type": "integer",
       "description": "Sub-seed used",
+      "x-provenance": "GT"
+    },
+    "note": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Sub-type / detail",
       "x-provenance": "GT"
     },
     "synthetic_flag": {

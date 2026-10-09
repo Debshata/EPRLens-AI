@@ -1,0 +1,118 @@
+{
+  "document_id": "DOC_000008",
+  "invoice_id": "INV_00008892",
+  "invoice_number": "SYNO/2324/00001",
+  "invoice_type": "FG_SALES",
+  "invoice_type_code": "IT02",
+  "company_id": "COMP_0100",
+  "supplier_id": "COMP_0100",
+  "buyer_id": "BUY_0081",
+  "expected_fields": {
+    "invoice_number": "SYNO/2324/00001",
+    "invoice_date": "2023-04-06",
+    "printed_date": "06-Apr-2023",
+    "invoice_type": "FG_SALES",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Novaglow Beauty Pvt Ltd",
+    "vendor_gstin": "27DSQCL7561Q2ZO",
+    "buyer": "Vanaray Distributors",
+    "buyer_gstin": "27NSNFN7700R1ZV",
+    "place_of_supply": "Maharashtra (27)",
+    "tax_mode": "intra",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000008:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Zarapath Face Wash 50 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3304",
+        "quantity": 7015,
+        "unit": "pcs",
+        "printed_quantity": "7,015",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 70.149,
+        "normalization_requires_master": true,
+        "rate": 484.5,
+        "printed_rate": "484.50",
+        "amount": 3398767.5,
+        "printed_amount": "33,98,767.50",
+        "gst_rate": 18,
+        "gst_amount": 611778.15,
+        "printed_description_lines": [
+          "Zarapath Face Wash 50 ml"
+        ]
+      },
+      {
+        "line_reference": "DOC_000008:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "Nilaglow Face Wash 100 ml",
+        "material": null,
+        "plastic_category": null,
+        "plastic_category_printed": false,
+        "hsn_code": "3304",
+        "quantity": 237,
+        "unit": "pcs",
+        "printed_quantity": "237",
+        "printed_unit": "pcs",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 1.706,
+        "normalization_requires_master": true,
+        "rate": 254.59,
+        "printed_rate": "254.59",
+        "amount": 60337.83,
+        "printed_amount": "60,337.83",
+        "gst_rate": 18,
+        "gst_amount": 10860.81,
+        "printed_description_lines": [
+          "Nilaglow Face Wash 100 ml"
+        ]
+      }
+    ],
+    "total_taxable_value": 3459105.33,
+    "cgst": 311319.48,
+    "sgst": 311319.48,
+    "igst": 0.0,
+    "gst": 622638.96,
+    "invoice_total": 4081744.29,
+    "printed_total": "40,81,744.29",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    70.149,
+    1.706
+  ],
+  "linked_transaction_ids": [
+    "TXN_00061249",
+    "TXN_00061264"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [
+    "ANM_0003351"
+  ],
+  "test_case_type": "targeted_legit_hard",
+  "test_case": "AN17_shared_number",
+  "paired_document_id": null,
+  "template_id": "L08",
+  "template_name": "Billing + shipping",
+  "layout_variant": {
+    "date_style": "mon",
+    "number_format": "indian",
+    "currency_mark": "INR"
+  },
+  "seed": 8707298413246536827,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "0595b83ba87824c62379aa8c41cad5857714fd69afb73dee7c6230f2ae723165"
+}

@@ -1,9 +1,9 @@
 # Full-dataset configuration — SYNTHETIC — EPRLens Demo
-# Status: PROPOSED. Consumed by generate.py, which is built only after
-# "APPROVED — GENERATE FULL SYNTHETIC DATASET". Values mirror docs/generator-assumptions.md.
+# Status: APPROVED 2026-10-09 ("APPROVED — GENERATE FULL SYNTHETIC DATASET"). Consumed by generate.py.
+# Every value is an ILLUSTRATIVE engineering assumption (docs/generator-assumptions.md), not market or regulatory data.
 
 seed: 20261009
-generator_version: "0.1.0-proposal"
+generator_version: "1.0.0"
 entity_config: synthetic-data/config/entity_seed.yaml
 entity_pack: full
 
@@ -16,28 +16,78 @@ outputs:
   json_dir: invoices/json
   manifest: manifests/MANIFEST.json
 
+masters_dir: synthetic-data/masters
+
 sales:
-  packaged_share: [0.6, 0.9]
+  product_share_alpha: 1.2
+  active_buyer_share: 0.5          # share of a company's buyers invoiced in any given month
+  rows_per_product_month: {1: 0.15, 2: 0.35, 3: 0.50}
   growth: {mean: 0.08, sd: 0.10, min: -0.2, max: 0.5}
   noise_sd: 0.08
   launch_ramp_months: [3, 6]
   buyer_registered_beta: [4, 3]
-  export_company_share: 0.15
+  export_company_share: 0.25
   export_unit_share: [0.02, 0.15]
   return_unit_share: [0.005, 0.02]
 
 purchases:                                          # DS-03 A: produced = sold
   safety_stock: [0.10, 0.30]
-  opening_months: [1, 2]
+  order_cycle_months: {large: 2, medium: 4, small: 6, micro: 6}
   written_off_share: [0.0, 0.01]
-  small_company_order_every_months: 2
+  written_off_month_probability: 0.3
+  lot_split_probability: 0.6                        # purchase delivered in 2 lots → 2 records, 2 invoice lines
+  import_share: [0.3, 1.0]                          # importer companies: share of purchases imported
+  print_mt_if_kg_at_least: 2000
+  print_mt_probability: 0.4
+  small_mt_range_kg: [300, 1000]
+  small_mt_probability: 0.15
+  sup_test_001_topup_months: 12                     # TS02 secondary supplier for COMP_0001
+  sup_test_001_topup_share: [0.02, 0.05]
+  demo_half_tonne_month: "2025-11"                  # handbook p.15 pattern: 0.5 MT printed, 500 MT recorded
 
 invoices:
-  sales_lines_max: 12
-  multi_material_share: 0.02
+  lines_max: 12
+  credit_note_share: 0.02                           # of purchase invoices (price-only credits)
+  return_row_probability: 0.02
+  return_units_share: [0.1, 0.5]
+  cancelled_twin_share: 0.005
+  waste_procurement_rate_inr_per_kg: [10, 30]
+  recycler_processing_rate_inr_per_kg: [4, 12]
+  recycling_service_pair_share: 0.5
+  recycling_service_fee_inr: [15000, 120000]
+  usd_inr_rate: 83.0                                # illustrative fixed rate, not a market rate
   shared_number_groups: 300                         # AN17 legit groups of 2–5 (handbook p.41)
   cancelled_share: 0.005
   gst_rates: {default: 18, alternatives: [5, 12]}   # illustrative, TBD verification
+  purchase_gst_12_share: 0.15
+  sales_gst_by_industry:                            # illustrative only — NOT verified tax rates
+    Beverages: 18
+    FMCG: 18
+    Food: 12
+    Personal Care: 18
+    Cosmetics: 18
+    Pharmaceuticals: 12
+    Electronics: 18
+    Appliances: 18
+    Automotive: 18
+    Retail: 5
+    E-commerce: 18
+    Household Products: 18
+    Industrial Goods: 18
+  sales_hsn_by_industry:                            # illustrative headings, TBD verification
+    Beverages: "2202"
+    FMCG: "3402"
+    Food: "1905"
+    Personal Care: "3305"
+    Cosmetics: "3304"
+    Pharmaceuticals: "3004"
+    Electronics: "8504"
+    Appliances: "8509"
+    Automotive: "8708"
+    Retail: "1006"
+    E-commerce: "9965"
+    Household Products: "3402"
+    Industrial Goods: "3506"
   price_per_kg_inr:                                 # illustrative, NOT market prices
     PET: [110, 160]
     HDPE: [100, 150]
@@ -64,12 +114,30 @@ scenarios:
   per_company: 3
   reduction_pct: [5, 15, 25]
 
-business_descriptions: {count: 150, vague_share: 0.1}
+business_descriptions: {count: 150, vague_share: 0.1, contradictory_share: 0.1}
+
+seasonality:                                        # Jan..Dec multipliers (normalised to mean 1 in code); illustrative
+  Beverages: [0.85, 0.95, 1.20, 1.35, 1.35, 1.25, 0.90, 0.90, 1.00, 1.00, 0.90, 0.85]
+  FMCG: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.05, 1.2, 1.2, 1.0]
+  Food: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.05, 1.25, 1.25, 1.0]
+  Personal Care: [0.95, 0.95, 1.05, 1.08, 1.08, 1.0, 0.97, 0.97, 1.0, 1.0, 0.98, 0.95]
+  Cosmetics: [1.15, 1.15, 1.0, 0.95, 0.9, 0.9, 0.9, 0.95, 1.0, 1.05, 1.15, 1.15]
+  Pharmaceuticals: [1.0, 1.0, 0.95, 0.95, 0.95, 1.0, 1.15, 1.15, 1.15, 1.0, 1.0, 1.0]
+  Electronics: [0.9, 0.9, 0.95, 0.95, 0.9, 0.9, 0.95, 1.0, 1.2, 1.4, 1.4, 1.0]
+  Appliances: [0.85, 0.95, 1.3, 1.3, 1.3, 1.0, 0.85, 0.85, 0.95, 1.2, 1.2, 0.9]
+  Automotive: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.05, 1.05, 1.0]
+  Retail: [1.0, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 1.0, 1.05, 1.3, 1.3, 1.1]
+  E-commerce: [1.3, 0.95, 0.9, 0.9, 0.9, 0.9, 0.95, 1.15, 1.0, 1.5, 1.1, 1.05]
+  Household Products: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.15, 1.15, 1.0]
+  Industrial Goods: [1.0, 1.0, 1.15, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
 
 anomalies:                                          # DS-07 A — see docs/anomaly-distribution.md
   invoice_counts: {AN01: 200, AN02: 150, AN03: 120, AN04: 150, AN05: 150, AN06: 200, AN07: 250,
                    AN08: 200, AN10: 80, AN14: 80, AN15: 80, AN16: 80, AN18: 60, AN19: 80, AN20: 100}
-  product_month_counts: {AN09: 330}
+  product_month_counts: {AN09: 324}                # + 6 SUP_TEST_001 supplier spikes = 330
+  supplier_spike_counts: {AN09: 6}
+  shared_number_groups: 300                         # AN17 hard negatives (handbook p.41)
+  ts01_rows: 6                                      # AN13 rows reassigned to REC_TEST_001
   recycling_counts: {AN11: 300, AN12: 250, AN13: 150}
   compound_share_max: 0.02
 
@@ -77,7 +145,12 @@ pdfs:
   total: 1000
   routine: 600
   targeted_anomaly: 280
-  targeted_legit_hard: 120
+  targeted_legit_hard_total: 120
+  routine_by_type: {IT01: 150, IT02: 150, IT08: 80, IT09: 60, IT03: 50, IT04: 30, IT07: 30, IT10: 20, IT05: 15, IT06: 15}
+  targeted_anomaly_by_type: {AN01: 25, AN02: 20, AN03: 15, AN04: 20, AN05: 20, AN06: 20, AN07: 30, AN08: 30, AN10: 10,
+                             AN11: 10, AN12: 10, AN13: 15, AN14: 15, AN15: 10, AN16: 10, AN18: 10, AN19: 5, AN20: 5}
+  targeted_legit_hard: {shared_invoice_number: 30, multi_page: 15, large_seasonal: 15, g_and_pcs_units: 15, small_mt: 10,
+                        credit_note_applied: 10, return_applied: 10, igst_ship_to_other_state: 10, unregistered_buyer: 5}
   templates: [L01, L02, L03, L04, L05, L06, L07, L08, L09, L10, L11, L12]
   min_docs_per_template: 50
   renderer: reportlab                               # DS-18 A (pending)

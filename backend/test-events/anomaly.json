@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "source_of_truth": "synthetic-data/masters + data/generated (regenerate with synthetic-data/generate.py)",
+    "seed": 20261009,
+    "generator_version": "1.0.0",
+    "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+    "note": "Invocation envelope TBD (D056)."
+  },
+  "action": "detect_anomalies",
+  "company_id": "COMP_0001",
+  "invoice_ids": [
+    "INV_00017685",
+    "INV_00043713"
+  ],
+  "expected_anomaly_types": {
+    "INV_00017685": "AN08",
+    "INV_00043713": "AN11"
+  }
+}

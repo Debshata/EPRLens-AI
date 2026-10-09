@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/splits.schema.json",
+  "title": "Company-level evaluation splits (DS-08)",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.3.0",
+  "x-primary-key": "company_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "company_id",
+    "anomaly_split",
+    "forecast_holdout",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "company_id": {
+      "type": "string",
+      "description": "Company",
+      "pattern": "^COMP_\\d{4}$",
+      "x-provenance": "M",
+      "x-foreign-key": "companies.company_id"
+    },
+    "anomaly_split": {
+      "type": "string",
+      "description": "Anomaly split by company",
+      "enum": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "x-provenance": "M"
+    },
+    "forecast_holdout": {
+      "type": "boolean",
+      "description": "Company held out entirely from forecast training",
+      "x-provenance": "M"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

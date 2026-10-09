@@ -212,6 +212,8 @@ def build_company(ctx, cid, industry=None, fixed=None):
         "turnover_cr": turnover, "manufacturer": manufacturer, "importer": importer,
         "brand_owner": brand_owner, "msme_flag": msme, "states_operated": states,
         "headquarters_state": hq, "hq_address_id": addr_id,
+        # separate stream so adding this field changes no other draw
+        "fake_gstin": ids.fake_gstin(ctx.r("company_gstin", cid), geo.state_code(hq), "C"),
         "epr_registered": status == "registered", "registration_status": status,
         "waste_stream": "plastic_packaging", "business_description": "", "annual_units": annual_units,
         "active_products": 0, "created_at": f"{created.isoformat()}T10:00:00+05:30",

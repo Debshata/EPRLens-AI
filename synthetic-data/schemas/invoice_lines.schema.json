@@ -3,7 +3,7 @@
   "$id": "https://eprlens.example/schemas/invoice_lines.schema.json",
   "title": "Invoice lines (DS-05 A)",
   "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
-  "x-schema-version": "0.2.0",
+  "x-schema-version": "0.3.0",
   "x-primary-key": "invoice_line_id",
   "type": "object",
   "additionalProperties": false,
@@ -199,6 +199,15 @@
       ],
       "description": "Linked transaction",
       "pattern": "^TXN_\\d{8}$",
+      "x-provenance": "M"
+    },
+    "source_record_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Recycling record behind a recycler invoice line",
+      "pattern": "^RCY_\\d{7}$",
       "x-provenance": "M"
     },
     "synthetic_flag": {

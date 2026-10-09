@@ -3,7 +3,7 @@
   "$id": "https://eprlens.example/schemas/scenarios.schema.json",
   "title": "What-if scenario inputs",
   "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
-  "x-schema-version": "0.2.0",
+  "x-schema-version": "0.3.0",
   "x-primary-key": "scenario_id",
   "type": "object",
   "additionalProperties": false,
@@ -11,6 +11,8 @@
     "scenario_id",
     "company_id",
     "product_id",
+    "component_id",
+    "reduction_pct",
     "baseline_weight_g",
     "proposed_weight_g",
     "units",
@@ -40,6 +42,20 @@
       "pattern": "^PROD_(\\d{6}|TEST_\\d{3})$",
       "x-provenance": "M",
       "x-foreign-key": "products.product_id"
+    },
+    "component_id": {
+      "type": "string",
+      "description": "Component whose weight changes",
+      "pattern": "^PKGCOMP_\\d{6}$",
+      "x-provenance": "M",
+      "x-foreign-key": "packaging_components.component_id"
+    },
+    "reduction_pct": {
+      "type": "number",
+      "description": "Weight reduction %",
+      "minimum": 0,
+      "maximum": 90,
+      "x-provenance": "E"
     },
     "baseline_weight_g": {
       "type": "number",

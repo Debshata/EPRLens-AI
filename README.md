@@ -9,7 +9,4 @@ Start here:
 3. `docs/dummy-entities.md` — the shared entity master used by every part of the project.
 4. `synthetic-data/README.md` — how to regenerate and test.
 
-Approval phrases:
-
-- `APPROVED — GENERATE FULL ENTITY MASTER` → generate the 200-company entity set.
-- `APPROVED — GENERATE FULL SYNTHETIC DATASET` → build and run the full dataset + 1,000 PDFs.
+Status (2026-10-09): entity master and full synthetic dataset generated (`synthetic-data/MANIFEST.json`, `docs/synthetic-data-provenance.md`). The full output lives in `data/generated/` (git-ignored); committed samples are in `synthetic-data/outputs/sample/`. Next phase: ML training scripts (`ml/scripts/`).

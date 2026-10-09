@@ -1,0 +1,88 @@
+{
+  "document_id": "DOC_000025",
+  "invoice_id": "INV_00026637",
+  "invoice_number": "SYEXP-00003",
+  "invoice_type": "IMPORT_COMMERCIAL",
+  "invoice_type_code": "IT07",
+  "company_id": "COMP_0079",
+  "supplier_id": "SUP_0008",
+  "buyer_id": "COMP_0079",
+  "expected_fields": {
+    "invoice_number": "SYEXP-00003",
+    "invoice_date": "2023-04-25",
+    "printed_date": "25-04-2023",
+    "invoice_type": "IMPORT_COMMERCIAL",
+    "title": "COMMERCIAL INVOICE",
+    "status": "issued",
+    "vendor": "Vrikshbloom Packaging Solutions Pvt Ltd",
+    "vendor_gstin": null,
+    "buyer": "Kesarpact Food Products Pvt Ltd",
+    "buyer_gstin": "10YYACM4280P2ZY",
+    "place_of_supply": null,
+    "tax_mode": "import",
+    "currency": "USD",
+    "fx_rate": 83.0,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000025:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "Inner tray for 100 g - PS",
+        "material": "PS",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 4597,
+        "unit": "kg",
+        "printed_quantity": "4597.00",
+        "printed_unit": "Kg",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 4597.0,
+        "normalization_requires_master": false,
+        "rate": 2.65,
+        "printed_rate": "2.65",
+        "amount": 12182.05,
+        "printed_amount": "12182.05",
+        "gst_rate": 0,
+        "gst_amount": 0.0,
+        "printed_description_lines": [
+          "Inner tray for 100 g - PS"
+        ]
+      }
+    ],
+    "total_taxable_value": 12182.05,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 0.0,
+    "gst": 0.0,
+    "invoice_total": 12182.05,
+    "printed_total": "12182.05",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    4597.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00142197"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": false,
+  "anomaly_types": [],
+  "anomaly_instance_ids": [],
+  "test_case_type": "routine",
+  "test_case": "routine",
+  "paired_document_id": null,
+  "template_id": "L12",
+  "template_name": "Import commercial",
+  "layout_variant": {
+    "date_style": "dash",
+    "number_format": "plain",
+    "currency_mark": "USD"
+  },
+  "seed": 1964351185108608201,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "81bfcbd2a50ef6ab741047a7ea293650ff28ce698c79d5813744da5f51f6dcc7"
+}

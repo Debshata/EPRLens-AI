@@ -1,0 +1,4 @@
+scenario_id,company_id,product_id,baseline_kg,proposed_kg,projected_reduction_kg,reduction_pct_effective,plastic_baseline_kg,plastic_proposed_kg,plastic_reduction_kg,units_basis,period,disclaimer,synthetic_flag
+SCN_000001,COMP_0001,PROD_000004,1662929.272,1619787.239,43142.033,2.5943,956968.732,913826.699,43142.033,historical,FY2025-26,Hypothetical; assumes unchanged sales and a feasible redesign; not a compliance or cost claim.,true
+SCN_000002,COMP_0001,PROD_000004,1662929.272,1533503.173,129426.099,7.783,956968.732,827542.633,129426.099,historical,FY2025-26,Hypothetical; assumes unchanged sales and a feasible redesign; not a compliance or cost claim.,true
+SCN_000003,COMP_0001,PROD_000004,1662929.272,1447219.107,215710.165,12.9717,956968.732,741258.567,215710.165,historical,FY2025-26,Hypothetical; assumes unchanged sales and a feasible redesign; not a compliance or cost claim.,true

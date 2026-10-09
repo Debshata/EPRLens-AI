@@ -1,0 +1,120 @@
+{
+  "document_id": "DOC_000026",
+  "invoice_id": "INV_00027956",
+  "invoice_number": "SYDH/2324/00005",
+  "invoice_type": "PKG_PURCHASE",
+  "invoice_type_code": "IT01",
+  "company_id": "COMP_0092",
+  "supplier_id": "SUP_0042",
+  "buyer_id": "COMP_0092",
+  "expected_fields": {
+    "invoice_number": "SYDH/2324/00005",
+    "invoice_date": "2023-04-25",
+    "printed_date": "25/04/2023",
+    "invoice_type": "PKG_PURCHASE",
+    "title": "TAX INVOICE",
+    "status": "issued",
+    "vendor": "Dharaglow Converters Pvt Ltd",
+    "vendor_gstin": "37FTECY6624B2ZJ",
+    "buyer": "Chandrafield Personal Care Pvt Ltd",
+    "buyer_gstin": "24VIQCE8377S2ZF",
+    "place_of_supply": "Gujarat (24)",
+    "tax_mode": "inter",
+    "currency": "INR",
+    "fx_rate": null,
+    "original_invoice_number": null,
+    "lines": [
+      {
+        "line_reference": "DOC_000026:p1:l1",
+        "page_number": 1,
+        "line_no": 1,
+        "item_description": "HDPE bottle for 180 ml - PP (lot 1/2)",
+        "material": "PP",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 120,
+        "unit": "kg",
+        "printed_quantity": "120.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 120.0,
+        "normalization_requires_master": false,
+        "rate": 191.55,
+        "printed_rate": "191.55",
+        "amount": 22986.0,
+        "printed_amount": "22,986.00",
+        "gst_rate": 18,
+        "gst_amount": 4137.48,
+        "printed_description_lines": [
+          "HDPE bottle for 180 ml - PP (lot 1/2)"
+        ]
+      },
+      {
+        "line_reference": "DOC_000026:p1:l2",
+        "page_number": 1,
+        "line_no": 2,
+        "item_description": "HDPE bottle for 180 ml - HDPE (lot 2/2)",
+        "material": "HDPE",
+        "plastic_category": "CAT_I",
+        "plastic_category_printed": true,
+        "hsn_code": "3923",
+        "quantity": 133,
+        "unit": "kg",
+        "printed_quantity": "133.00",
+        "printed_unit": "KGS",
+        "weight_per_unit_g": null,
+        "normalized_quantity_kg": 133.0,
+        "normalization_requires_master": false,
+        "rate": 191.55,
+        "printed_rate": "191.55",
+        "amount": 25476.15,
+        "printed_amount": "25,476.15",
+        "gst_rate": 18,
+        "gst_amount": 4585.71,
+        "printed_description_lines": [
+          "HDPE bottle for 180 ml - HDPE (lot 2/2)"
+        ]
+      }
+    ],
+    "total_taxable_value": 48462.15,
+    "cgst": 0.0,
+    "sgst": 0.0,
+    "igst": 8723.19,
+    "gst": 8723.19,
+    "invoice_total": 57185.34,
+    "printed_total": "57,185.34",
+    "page_count": 1
+  },
+  "recorded_quantities_kg": [
+    120.0,
+    133.0
+  ],
+  "linked_transaction_ids": [
+    "TXN_00145302",
+    "TXN_00145303"
+  ],
+  "linked_recycling_record_ids": [],
+  "is_anomaly": true,
+  "anomaly_types": [
+    "AN03"
+  ],
+  "anomaly_instance_ids": [
+    "ANM_0001342"
+  ],
+  "test_case_type": "targeted_anomaly",
+  "test_case": "AN03",
+  "paired_document_id": null,
+  "template_id": "L11",
+  "template_name": "Minimal plain text",
+  "layout_variant": {
+    "date_style": "slash",
+    "number_format": "indian",
+    "currency_mark": "Rs."
+  },
+  "seed": 15153936529217022142,
+  "generator_version": "1.0.0",
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "synthetic_flag": true,
+  "render_sha256": "bf1e9951dead96e0f6afef243d68fb81c8d004bcc357c7bb512ff11cb892c9c2"
+}

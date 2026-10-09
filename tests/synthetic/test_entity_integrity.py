@@ -58,7 +58,7 @@ def test_every_row_is_marked_synthetic(ix, users):
 
 
 def test_no_valid_real_gstins(ix):
-    values = [r["fake_gstin"] for t in ("suppliers", "buyers", "recyclers") for r in ix.tables[t] if r["fake_gstin"]]
+    values = [r["fake_gstin"] for t in ("companies", "suppliers", "buyers", "recyclers") for r in ix.tables[t] if r["fake_gstin"]]
     assert values
     for g in values:
         assert not ids.gstin_checksum_valid(g), g
@@ -260,10 +260,6 @@ def test_example_invoice_parties_and_math(ix):
         assert line["amount"] == round(line["quantity"] * line["rate"], 2)
     assert abs(e["total_taxable_value"] + e["gst"] - e["invoice_total"]) < 0.01
     jsonschema.validate(doc, json.loads((SD / "schemas" / "invoice_document.schema.json").read_text(encoding="utf-8")))
-
-
-def test_transaction_references_valid_invoice():
-    pytest.skip("transactions/invoices are generated only after full-dataset approval")
 
 
 def test_manifest_hashes_and_counts():
