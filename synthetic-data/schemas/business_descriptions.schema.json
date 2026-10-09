@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/business_descriptions.schema.json",
+  "title": "Natural-language business descriptions with ground truth",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "description_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "description_id",
+    "company_id",
+    "description",
+    "expected_manufacturer",
+    "expected_importer",
+    "expected_brand_owner",
+    "expected_industry",
+    "difficulty",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "description_id": {
+      "type": "string",
+      "description": "Id",
+      "pattern": "^DESC_\\d{4}$",
+      "x-provenance": "M"
+    },
+    "company_id": {
+      "type": "string",
+      "description": "Company",
+      "pattern": "^COMP_\\d{4}$",
+      "x-provenance": "M",
+      "x-foreign-key": "companies.company_id"
+    },
+    "description": {
+      "type": "string",
+      "description": "Template-generated text",
+      "x-provenance": "E"
+    },
+    "expected_manufacturer": {
+      "type": "boolean",
+      "description": "",
+      "x-provenance": "GT"
+    },
+    "expected_importer": {
+      "type": "boolean",
+      "description": "",
+      "x-provenance": "GT"
+    },
+    "expected_brand_owner": {
+      "type": "boolean",
+      "description": "",
+      "x-provenance": "GT"
+    },
+    "expected_industry": {
+      "type": "string",
+      "description": "",
+      "enum": [
+        "Beverages",
+        "FMCG",
+        "Cosmetics",
+        "Personal Care",
+        "Food",
+        "Pharmaceuticals",
+        "Electronics",
+        "Appliances",
+        "Automotive",
+        "Retail",
+        "E-commerce",
+        "Household Products",
+        "Industrial Goods"
+      ],
+      "x-provenance": "GT"
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "plain | vague | contradictory",
+      "enum": [
+        "plain",
+        "vague",
+        "contradictory"
+      ],
+      "x-provenance": "GT"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

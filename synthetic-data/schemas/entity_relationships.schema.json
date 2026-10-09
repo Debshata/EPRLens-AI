@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/entity_relationships.schema.json",
+  "title": "Entity relationships",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "relationship_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "relationship_id",
+    "source_entity_type",
+    "source_entity_id",
+    "relationship_type",
+    "target_entity_type",
+    "target_entity_id",
+    "start_date",
+    "active",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "relationship_id": {
+      "type": "string",
+      "description": "Id",
+      "pattern": "^REL_\\d{6}$",
+      "x-provenance": "M"
+    },
+    "source_entity_type": {
+      "type": "string",
+      "description": "Source type",
+      "enum": [
+        "company",
+        "supplier",
+        "buyer",
+        "recycler",
+        "product",
+        "component"
+      ],
+      "x-provenance": "M"
+    },
+    "source_entity_id": {
+      "type": "string",
+      "description": "Source id",
+      "x-provenance": "M"
+    },
+    "relationship_type": {
+      "type": "string",
+      "description": "Type",
+      "enum": [
+        "BUYS_FROM",
+        "SELLS_TO",
+        "USES_RECYCLER",
+        "OWNS_PRODUCT",
+        "USES_COMPONENT",
+        "SUPPLIED_BY"
+      ],
+      "x-provenance": "M"
+    },
+    "target_entity_type": {
+      "type": "string",
+      "description": "Target type",
+      "enum": [
+        "company",
+        "supplier",
+        "buyer",
+        "recycler",
+        "product",
+        "component"
+      ],
+      "x-provenance": "M"
+    },
+    "target_entity_id": {
+      "type": "string",
+      "description": "Target id",
+      "x-provenance": "M"
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Start",
+      "x-provenance": "E"
+    },
+    "end_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "End (null = open)",
+      "x-provenance": "E"
+    },
+    "active": {
+      "type": "boolean",
+      "description": "False if ended",
+      "x-provenance": "M"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

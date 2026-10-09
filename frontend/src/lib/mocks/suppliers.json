@@ -1,0 +1,195 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "0.2.0-entities",
+    "entity_pack": "full",
+    "source_of_truth": "synthetic-data/masters/*.csv",
+    "note": "Same IDs as synthetic-data/masters. Do not invent frontend-only entities."
+  },
+  "suppliers": [
+    {
+      "supplier_id": "SUP_0001",
+      "supplier_name": "Yuvawave PET Bottles Pvt Ltd",
+      "supplier_type": "PET bottle manufacturer",
+      "state": "Gujarat",
+      "city": "Vapi",
+      "hq_address_id": "ADDR_000009",
+      "fake_gstin": "24ZWNCQ0245Y2ZZ",
+      "registration_status": "registered",
+      "supported_materials": [
+        "PET"
+      ],
+      "supported_component_forms": [
+        "bottle",
+        "jar"
+      ],
+      "min_order_quantity": 50000,
+      "typical_unit": "pcs",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0002",
+      "supplier_name": "Chandraleaf Caps Pvt Ltd",
+      "supplier_type": "cap supplier",
+      "state": "Karnataka",
+      "city": "Bengaluru",
+      "hq_address_id": "ADDR_000010",
+      "fake_gstin": "29PHMCO5664A2Z4",
+      "registration_status": "registered",
+      "supported_materials": [
+        "PP",
+        "HDPE"
+      ],
+      "supported_component_forms": [
+        "cap",
+        "closure"
+      ],
+      "min_order_quantity": 50000,
+      "typical_unit": "pcs",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0003",
+      "supplier_name": "Zarapeak Label Prints Pvt Ltd",
+      "supplier_type": "label supplier",
+      "state": "West Bengal",
+      "city": "Howrah",
+      "hq_address_id": "ADDR_000011",
+      "fake_gstin": "19YJQCL0840A2ZY",
+      "registration_status": "unregistered",
+      "supported_materials": [
+        "PP",
+        "PAPER",
+        "PVC"
+      ],
+      "supported_component_forms": [
+        "label_film",
+        "paper_label"
+      ],
+      "min_order_quantity": 10,
+      "typical_unit": "rolls",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0004",
+      "supplier_name": "Nilafizz Corrugators Pvt Ltd",
+      "supplier_type": "carton supplier",
+      "state": "Goa",
+      "city": "Verna",
+      "hq_address_id": "ADDR_000012",
+      "fake_gstin": "30FJTCE0299F1Z3",
+      "registration_status": "registered",
+      "supported_materials": [
+        "CARDBOARD",
+        "PAPER"
+      ],
+      "supported_component_forms": [
+        "box",
+        "carton",
+        "void_fill"
+      ],
+      "min_order_quantity": 10000,
+      "typical_unit": "pcs",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0005",
+      "supplier_name": "Lumiwell Packaging Components Pvt Ltd",
+      "supplier_type": "component supplier",
+      "state": "Goa",
+      "city": "Margao",
+      "hq_address_id": "ADDR_000013",
+      "fake_gstin": "30FQYCU3815R3ZY",
+      "registration_status": "registered",
+      "supported_materials": [
+        "PS",
+        "PP",
+        "HDPE",
+        "METAL",
+        "GLASS"
+      ],
+      "supported_component_forms": [
+        "can",
+        "cap",
+        "drum",
+        "eps_block",
+        "glass_bottle",
+        "pail",
+        "tray"
+      ],
+      "min_order_quantity": 5000,
+      "typical_unit": "pcs",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0010",
+      "supplier_name": "Jalavista Converters Pvt Ltd",
+      "supplier_type": "packaging converter",
+      "state": "Maharashtra",
+      "city": "Aurangabad",
+      "hq_address_id": "ADDR_000018",
+      "fake_gstin": "27OSJCQ7156S3Z1",
+      "registration_status": "unregistered",
+      "supported_materials": [
+        "PET",
+        "HDPE",
+        "PP",
+        "PS",
+        "PVC",
+        "MLP"
+      ],
+      "supported_component_forms": [
+        "blister",
+        "bottle",
+        "drum",
+        "eps_block",
+        "jar",
+        "laminated_tube",
+        "pail",
+        "pouch_laminate",
+        "sachet_laminate",
+        "tray",
+        "tub"
+      ],
+      "min_order_quantity": 500,
+      "typical_unit": "kg",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_TEST_001",
+      "supplier_name": "Ecoglow PET Bottles Pvt Ltd",
+      "supplier_type": "PET bottle manufacturer",
+      "state": "Haryana",
+      "city": "Sonipat",
+      "hq_address_id": "ADDR_000019",
+      "fake_gstin": "06ODQCM2783K1Z4",
+      "registration_status": "registered",
+      "supported_materials": [
+        "PET"
+      ],
+      "supported_component_forms": [
+        "bottle",
+        "jar"
+      ],
+      "min_order_quantity": 50000,
+      "typical_unit": "pcs",
+      "test_entity": true,
+      "test_scenario": "TS02_SUPPLIER_ABNORMAL_QUANTITY",
+      "synthetic_flag": true
+    }
+  ]
+}

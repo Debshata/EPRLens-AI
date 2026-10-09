@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/invoices.schema.json",
+  "title": "Invoice headers (DS-05 A)",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "invoice_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "invoice_id",
+    "invoice_number",
+    "invoice_type",
+    "company_id",
+    "supplier_id",
+    "buyer_id",
+    "invoice_date",
+    "place_of_supply_state",
+    "tax_mode",
+    "currency",
+    "total_taxable_value",
+    "gst",
+    "total",
+    "line_count",
+    "status",
+    "is_anomaly",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "invoice_id": {
+      "type": "string",
+      "description": "Internal id",
+      "pattern": "^INV_\\d{8}$",
+      "x-provenance": "M"
+    },
+    "invoice_number": {
+      "type": "string",
+      "description": "Printed number (≤ 5 may share, handbook p.41)",
+      "pattern": "^SY[A-Z0-9/-]{3,14}$",
+      "x-provenance": "P"
+    },
+    "invoice_type": {
+      "type": "string",
+      "description": "Type",
+      "enum": [
+        "PKG_PURCHASE",
+        "FG_SALES",
+        "RECYCLER_PROCESSING",
+        "WASTE_PROCUREMENT",
+        "CREDIT_NOTE",
+        "RETURN",
+        "IMPORT_COMMERCIAL",
+        "PKG_COMPONENT",
+        "MULTI_MATERIAL",
+        "RECYCLING_SERVICE"
+      ],
+      "x-provenance": "P"
+    },
+    "company_id": {
+      "type": "string",
+      "description": "EPRLens client",
+      "pattern": "^COMP_\\d{4}$",
+      "x-provenance": "M",
+      "x-foreign-key": "companies.company_id"
+    },
+    "supplier_id": {
+      "type": "string",
+      "description": "Issuer",
+      "pattern": "^(COMP_\\d{4}|SUP_(\\d{4}|TEST_\\d{3})|BUY_(\\d{4}|TEST_\\d{3})|REC_(\\d{4}|TEST_\\d{3}))$",
+      "x-provenance": "M"
+    },
+    "buyer_id": {
+      "type": "string",
+      "description": "Recipient",
+      "pattern": "^(COMP_\\d{4}|SUP_(\\d{4}|TEST_\\d{3})|BUY_(\\d{4}|TEST_\\d{3})|REC_(\\d{4}|TEST_\\d{3}))$",
+      "x-provenance": "M"
+    },
+    "invoice_date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Date",
+      "x-provenance": "P"
+    },
+    "place_of_supply_state": {
+      "type": "string",
+      "description": "Place of supply",
+      "x-provenance": "P"
+    },
+    "tax_mode": {
+      "type": "string",
+      "description": "intra (CGST+SGST) | inter (IGST) | import",
+      "enum": [
+        "intra",
+        "inter",
+        "import"
+      ],
+      "x-provenance": "P"
+    },
+    "currency": {
+      "type": "string",
+      "description": "Currency",
+      "enum": [
+        "INR",
+        "USD"
+      ],
+      "x-provenance": "P"
+    },
+    "total_taxable_value": {
+      "type": "number",
+      "description": "₹",
+      "x-provenance": "P"
+    },
+    "gst": {
+      "type": "number",
+      "description": "Σ tax heads ₹",
+      "x-provenance": "P"
+    },
+    "total": {
+      "type": "number",
+      "description": "Invoice total ₹",
+      "x-provenance": "P"
+    },
+    "line_count": {
+      "type": "integer",
+      "description": "Lines",
+      "minimum": 1,
+      "maximum": 12,
+      "x-provenance": "M"
+    },
+    "status": {
+      "type": "string",
+      "description": "issued | cancelled",
+      "enum": [
+        "issued",
+        "cancelled"
+      ],
+      "x-provenance": "P"
+    },
+    "original_invoice_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "For credit notes / returns",
+      "pattern": "^INV_\\d{8}$",
+      "x-provenance": "M"
+    },
+    "document_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "PDF if rendered",
+      "pattern": "^DOC_\\d{6}$",
+      "x-provenance": "M"
+    },
+    "is_anomaly": {
+      "type": "boolean",
+      "description": "Ground truth",
+      "x-provenance": "GT"
+    },
+    "anomaly_type": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Primary anomaly",
+      "enum": [
+        "AN01",
+        "AN02",
+        "AN03",
+        "AN04",
+        "AN05",
+        "AN06",
+        "AN07",
+        "AN08",
+        "AN09",
+        "AN10",
+        "AN11",
+        "AN12",
+        "AN13",
+        "AN14",
+        "AN15",
+        "AN16",
+        "AN17",
+        "AN18",
+        "AN19",
+        "AN20",
+        null
+      ],
+      "x-provenance": "GT"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

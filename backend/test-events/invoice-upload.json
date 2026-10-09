@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "0.2.0-entities",
+    "entity_pack": "full",
+    "source_of_truth": "synthetic-data/masters/*.csv",
+    "note": "Invocation envelope TBD (D056). Payload shape is a proposal."
+  },
+  "action": "parse_invoice",
+  "company_id": "COMP_0001",
+  "document_id": "DOC_990001",
+  "s3": {
+    "bucket": "<uploads-bucket-placeholder>",
+    "key": "uploads/COMP_0001/invoices/DOC_990001.pdf"
+  },
+  "expected": {
+    "invoice_number": "SYYU/2526/00123",
+    "supplier_id": "SUP_0001",
+    "total_normalized_kg": 2904.0
+  }
+}

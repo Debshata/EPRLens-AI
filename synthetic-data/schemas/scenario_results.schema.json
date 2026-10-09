@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/scenario_results.schema.json",
+  "title": "What-if calculated outputs (docs/scenario-formulas.md)",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "scenario_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "scenario_id",
+    "company_id",
+    "product_id",
+    "baseline_kg",
+    "proposed_kg",
+    "projected_reduction_kg",
+    "reduction_pct_effective",
+    "plastic_baseline_kg",
+    "plastic_proposed_kg",
+    "plastic_reduction_kg",
+    "units_basis",
+    "period",
+    "disclaimer",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "scenario_id": {
+      "type": "string",
+      "description": "Id",
+      "pattern": "^SCN_\\d{6}$",
+      "x-provenance": "M",
+      "x-foreign-key": "scenarios.scenario_id"
+    },
+    "company_id": {
+      "type": "string",
+      "description": "",
+      "pattern": "^COMP_\\d{4}$",
+      "x-provenance": "M"
+    },
+    "product_id": {
+      "type": "string",
+      "description": "",
+      "pattern": "^PROD_(\\d{6}|TEST_\\d{3})$",
+      "x-provenance": "M"
+    },
+    "baseline_kg": {
+      "type": "number",
+      "description": "",
+      "x-provenance": "E"
+    },
+    "proposed_kg": {
+      "type": "number",
+      "description": "",
+      "x-provenance": "E"
+    },
+    "projected_reduction_kg": {
+      "type": "number",
+      "description": "",
+      "x-provenance": "E"
+    },
+    "reduction_pct_effective": {
+      "type": "number",
+      "description": "",
+      "x-provenance": "E"
+    },
+    "plastic_baseline_kg": {
+      "type": "number",
+      "description": "",
+      "x-provenance": "E"
+    },
+    "plastic_proposed_kg": {
+      "type": "number",
+      "description": "",
+      "x-provenance": "E"
+    },
+    "plastic_reduction_kg": {
+      "type": "number",
+      "description": "",
+      "x-provenance": "E"
+    },
+    "units_basis": {
+      "type": "string",
+      "description": "historical | forecast",
+      "enum": [
+        "historical",
+        "forecast"
+      ],
+      "x-provenance": "E"
+    },
+    "period": {
+      "type": "string",
+      "description": "e.g. FY2025-26",
+      "x-provenance": "E"
+    },
+    "disclaimer": {
+      "type": "string",
+      "description": "Hypothetical; not a compliance or cost claim",
+      "x-provenance": "M"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

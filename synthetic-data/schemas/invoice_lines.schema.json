@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/invoice_lines.schema.json",
+  "title": "Invoice lines (DS-05 A)",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "invoice_line_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "invoice_line_id",
+    "invoice_id",
+    "line_no",
+    "item_description",
+    "rate",
+    "taxable_value",
+    "gst_rate",
+    "gst_amount",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "invoice_line_id": {
+      "type": "string",
+      "description": "Id",
+      "pattern": "^INVL_\\d{9}$",
+      "x-provenance": "M"
+    },
+    "invoice_id": {
+      "type": "string",
+      "description": "Header",
+      "pattern": "^INV_\\d{8}$",
+      "x-provenance": "M",
+      "x-foreign-key": "invoices.invoice_id"
+    },
+    "line_no": {
+      "type": "integer",
+      "description": "1–12",
+      "minimum": 1,
+      "maximum": 12,
+      "x-provenance": "P"
+    },
+    "item_description": {
+      "type": "string",
+      "description": "Printed description",
+      "x-provenance": "P"
+    },
+    "product_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Product",
+      "pattern": "^PROD_(\\d{6}|TEST_\\d{3})$",
+      "x-provenance": "M",
+      "x-foreign-key": "products.product_id"
+    },
+    "component_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Component",
+      "pattern": "^PKGCOMP_\\d{6}$",
+      "x-provenance": "M",
+      "x-foreign-key": "packaging_components.component_id"
+    },
+    "material": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Material",
+      "enum": [
+        "PET",
+        "HDPE",
+        "LDPE",
+        "LLDPE",
+        "PP",
+        "PVC",
+        "PS",
+        "MLP",
+        "COMPOSTABLE",
+        "PAPER",
+        "CARDBOARD",
+        "GLASS",
+        "METAL",
+        "BATTERY",
+        "OTHER",
+        null
+      ],
+      "x-provenance": "P"
+    },
+    "plastic_category": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Category as printed on the synthetic document (convention, not legal)",
+      "enum": [
+        "CAT_I",
+        "CAT_II",
+        "CAT_III",
+        "CAT_IV",
+        "NA",
+        "UNKNOWN",
+        null
+      ],
+      "x-provenance": "P"
+    },
+    "hsn_code": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "HSN",
+      "x-provenance": "P"
+    },
+    "raw_quantity": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Printed quantity",
+      "x-provenance": "P"
+    },
+    "raw_unit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Printed unit",
+      "enum": [
+        "kg",
+        "g",
+        "MT",
+        "pcs",
+        "cartons",
+        "bottles",
+        "bags",
+        "rolls",
+        null
+      ],
+      "x-provenance": "P"
+    },
+    "weight_per_unit_g": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Printed or master g/unit",
+      "x-provenance": "P"
+    },
+    "normalized_quantity_kg": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Normalised kg",
+      "x-provenance": "M"
+    },
+    "recorded_quantity_kg": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Matching internal record kg",
+      "x-provenance": "M"
+    },
+    "rate": {
+      "type": "number",
+      "description": "₹/unit",
+      "x-provenance": "P"
+    },
+    "taxable_value": {
+      "type": "number",
+      "description": "₹",
+      "x-provenance": "P"
+    },
+    "gst_rate": {
+      "type": "number",
+      "description": "%",
+      "enum": [
+        0,
+        5,
+        12,
+        18
+      ],
+      "x-provenance": "P"
+    },
+    "gst_amount": {
+      "type": "number",
+      "description": "₹",
+      "x-provenance": "P"
+    },
+    "transaction_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Linked transaction",
+      "pattern": "^TXN_\\d{8}$",
+      "x-provenance": "M"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

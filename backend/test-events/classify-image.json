@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "0.2.0-entities",
+    "entity_pack": "full",
+    "source_of_truth": "synthetic-data/masters/*.csv",
+    "note": "Invocation envelope TBD (D056). Payload shape is a proposal."
+  },
+  "action": "classify_image",
+  "company_id": "COMP_0001",
+  "product_id": "PROD_000001",
+  "component_id": "PKGCOMP_000002",
+  "s3": {
+    "bucket": "<uploads-bucket-placeholder>",
+    "key": "uploads/COMP_0001/images/<image-placeholder>.jpg"
+  },
+  "declared_material": "PET",
+  "note": "Image not included; prediction is a probable material only, never a legal category."
+}

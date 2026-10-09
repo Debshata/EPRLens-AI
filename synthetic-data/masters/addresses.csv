@@ -1,0 +1,599 @@
+address_id,entity_type,entity_id,address_kind,address_line_1,address_line_2,city,state,state_code,postal_code,country,synthetic_flag
+ADDR_000001,company,COMP_0001,hq,"Plot No. 153, Sector 8",Nilgiri Business Park,New Delhi,Delhi,07,116724,India,true
+ADDR_000002,company,COMP_0001,plant,"Shed 30, Phase II",Sagar Industrial Area,Sonipat,Haryana,06,125680,India,true
+ADDR_000003,company,COMP_0002,hq,"Plot No. 213, Sector 40",Kesar Logistics Park,Hajipur,Bihar,10,842905,India,true
+ADDR_000004,company,COMP_0003,hq,"Unit 394, Vrikshbrook House",Navrang Logistics Park,Bhopal,Madhya Pradesh,23,450251,India,true
+ADDR_000005,company,COMP_0004,hq,"Plot No. 299, Sector 38",Shanti Trade Centre,Hyderabad,Telangana,36,508468,India,true
+ADDR_000006,company,COMP_0004,plant,"Shed 25, Phase I",Prabhat Business Park,Medchal,Telangana,36,503900,India,true
+ADDR_000007,company,COMP_0005,hq,"Unit 403, Samawing House",Shanti Logistics Park,Bengaluru,Karnataka,29,574150,India,true
+ADDR_000008,supplier,SUP_TEST_002,hq,"Plot No. 287, Sector 32",Sagar Industrial Area,Vapi,Gujarat,24,384587,India,true
+ADDR_000009,supplier,SUP_0001,hq,"Unit 862, Zarawave House",Amrit Commercial Complex,Vapi,Gujarat,24,395570,India,true
+ADDR_000010,supplier,SUP_0002,hq,"Unit 808, Udayawell House",Amrit Trade Centre,Bengaluru,Karnataka,29,569408,India,true
+ADDR_000011,supplier,SUP_0003,hq,"Shed 53, Phase III",Kesar Industrial Area,Howrah,West Bengal,19,716469,India,true
+ADDR_000012,supplier,SUP_0004,hq,"Plot No. 286, Sector 10",Sagar Udyog Nagar,Verna,Goa,30,409489,India,true
+ADDR_000013,supplier,SUP_0005,hq,"Plot No. 67, Sector 9",Nilgiri Commercial Complex,Margao,Goa,30,405953,India,true
+ADDR_000014,supplier,SUP_0006,hq,"Unit 633, Udayagrove House",Vasant Industrial Area,Medchal,Telangana,36,508083,India,true
+ADDR_000015,supplier,SUP_0007,hq,"Shed 13, Phase III",Mandar Trade Centre,Kochi,Kerala,32,691713,India,true
+ADDR_000016,supplier,SUP_0008,hq,"Plot No. 96, Sector 13",Kesar Industrial Area,Pune,Maharashtra,27,442011,India,true
+ADDR_000017,supplier,SUP_0009,hq,"Unit 340, Vrikshcrest House",Navrang Industrial Area,Solan,Himachal Pradesh,02,171027,India,true
+ADDR_000018,supplier,SUP_0010,hq,"Shed 71, Phase I",Kesar Commercial Complex,Aurangabad,Maharashtra,27,435382,India,true
+ADDR_000019,supplier,SUP_TEST_001,hq,"Plot No. 53, Sector 31",Prabhat Logistics Park,Sonipat,Haryana,06,137294,India,true
+ADDR_000020,buyer,BUY_0001,hq,"Shed 64, Phase II",Mandar Trade Centre,Medchal,Telangana,36,509564,India,true
+ADDR_000021,buyer,BUY_0002,hq,"Shed 78, Phase III",Nilgiri Industrial Area,Panipat,Haryana,06,135654,India,true
+ADDR_000022,buyer,BUY_0003,hq,"Unit 712, Pranapact House",Kesar Industrial Area,Howrah,West Bengal,19,711798,India,true
+ADDR_000023,buyer,BUY_0004,hq,"Unit 144, Vedakart House",Mandar Business Park,Bengaluru,Karnataka,29,562825,India,true
+ADDR_000024,buyer,BUY_0005,hq,"Unit 397, Ojasbrook House",Navrang Business Park,Kanpur,Uttar Pradesh,09,224348,India,true
+ADDR_000025,buyer,BUY_0006,hq,"Plot No. 124, Sector 28",Shanti Commercial Complex,Bengaluru,Karnataka,29,578300,India,true
+ADDR_000026,buyer,BUY_0007,hq,"Plot No. 228, Sector 1",Mandar Trade Centre,Jaipur,Rajasthan,08,309465,India,true
+ADDR_000027,buyer,BUY_0008,hq,"Shed 67, Phase II",Sagar Commercial Complex,Jalandhar,Punjab,03,141173,India,true
+ADDR_000028,buyer,BUY_0009,hq,"Shed 76, Phase I",Vasant Commercial Complex,Bhiwadi,Rajasthan,08,307912,India,true
+ADDR_000029,buyer,BUY_0010,hq,"Unit 663, Vrikshmint House",Kesar Commercial Complex,Panipat,Haryana,06,134126,India,true
+ADDR_000030,buyer,BUY_TEST_001,hq,"Shed 62, Phase III",Nilgiri Logistics Park,Kanpur,Uttar Pradesh,09,207581,India,true
+ADDR_000031,recycler,REC_0001,hq,"Unit 745, Ritucrest House",Navrang Trade Centre,Sonipat,Haryana,06,135981,India,true
+ADDR_000032,recycler,REC_0002,hq,"Plot No. 42, Sector 18",Sagar Commercial Complex,Howrah,West Bengal,19,710738,India,true
+ADDR_000033,recycler,REC_0003,hq,"Shed 7, Phase II",Amrit Commercial Complex,Coimbatore,Tamil Nadu,33,645962,India,true
+ADDR_000034,recycler,REC_0004,hq,"Plot No. 60, Sector 17",Nilgiri Trade Centre,Hyderabad,Telangana,36,505367,India,true
+ADDR_000035,recycler,REC_0005,hq,"Plot No. 158, Sector 4",Navrang Industrial Area,Jaipur,Rajasthan,08,315884,India,true
+ADDR_000036,recycler,REC_TEST_001,hq,"Plot No. 138, Sector 30",Mandar Industrial Area,Ghaziabad,Uttar Pradesh,09,206389,India,true
+ADDR_000037,company,COMP_0006,hq,"Plot No. 167, Sector 7",Mandar Udyog Nagar,Aurangabad,Maharashtra,27,441126,India,true
+ADDR_000038,company,COMP_0006,warehouse,"Shed 76, Phase II",Sagar Logistics Park,Surat,Gujarat,24,364080,India,true
+ADDR_000039,company,COMP_0007,hq,"Unit 141, Vrikshstone House",Vasant Commercial Complex,Lucknow,Uttar Pradesh,09,228010,India,true
+ADDR_000040,company,COMP_0007,plant,"Unit 488, Kesarbloom House",Kesar Udyog Nagar,Chennai,Tamil Nadu,33,630071,India,true
+ADDR_000041,company,COMP_0008,hq,"Plot No. 203, Sector 19",Navrang Business Park,Bengaluru,Karnataka,29,575330,India,true
+ADDR_000042,company,COMP_0008,warehouse,"Shed 64, Phase I",Navrang Logistics Park,Delhi,Delhi,07,114844,India,true
+ADDR_000043,company,COMP_0009,hq,"Shed 17, Phase III",Amrit Industrial Area,Nagpur,Maharashtra,27,430257,India,true
+ADDR_000044,company,COMP_0010,hq,"Unit 175, Indrawing House",Amrit Industrial Area,Lucknow,Uttar Pradesh,09,204658,India,true
+ADDR_000045,company,COMP_0011,hq,"Plot No. 201, Sector 27",Kesar Commercial Complex,Surat,Gujarat,24,363120,India,true
+ADDR_000046,company,COMP_0012,hq,"Plot No. 39, Sector 39",Kesar Business Park,Nagpur,Maharashtra,27,443825,India,true
+ADDR_000047,company,COMP_0013,hq,"Plot No. 136, Sector 19",Sagar Business Park,Bengaluru,Karnataka,29,576379,India,true
+ADDR_000048,company,COMP_0014,hq,"Plot No. 102, Sector 26",Amrit Commercial Complex,Durgapur,West Bengal,19,719240,India,true
+ADDR_000049,company,COMP_0015,hq,"Unit 511, Indrakart House",Sagar Udyog Nagar,Coimbatore,Tamil Nadu,33,633897,India,true
+ADDR_000050,company,COMP_0015,plant,"Plot No. 282, Sector 13",Navrang Business Park,Ludhiana,Punjab,03,149595,India,true
+ADDR_000051,company,COMP_0016,hq,"Plot No. 283, Sector 23",Suryodaya Commercial Complex,Mumbai,Maharashtra,27,406498,India,true
+ADDR_000052,company,COMP_0017,hq,"Shed 40, Phase I",Mandar Udyog Nagar,Faridabad,Haryana,06,122652,India,true
+ADDR_000053,company,COMP_0017,warehouse,"Shed 60, Phase II",Suryodaya Industrial Area,Hubballi,Karnataka,29,564061,India,true
+ADDR_000054,company,COMP_0017,warehouse,"Plot No. 19, Sector 32",Kesar Commercial Complex,Kanpur,Uttar Pradesh,09,209457,India,true
+ADDR_000055,company,COMP_0018,hq,"Plot No. 142, Sector 33",Vasant Logistics Park,Hubballi,Karnataka,29,570961,India,true
+ADDR_000056,company,COMP_0019,hq,"Plot No. 63, Sector 12",Sagar Logistics Park,Aurangabad,Maharashtra,27,417520,India,true
+ADDR_000057,company,COMP_0019,warehouse,"Shed 72, Phase III",Shanti Udyog Nagar,Sri City,Andhra Pradesh,37,520626,India,true
+ADDR_000058,company,COMP_0020,hq,"Unit 516, Vedawave House",Kesar Logistics Park,Nagpur,Maharashtra,27,411518,India,true
+ADDR_000059,company,COMP_0021,hq,"Shed 45, Phase II",Kesar Udyog Nagar,Sonipat,Haryana,06,131977,India,true
+ADDR_000060,company,COMP_0022,hq,"Shed 73, Phase I",Kesar Udyog Nagar,Ahmedabad,Gujarat,24,380372,India,true
+ADDR_000061,company,COMP_0023,hq,"Shed 77, Phase III",Mandar Logistics Park,Hubballi,Karnataka,29,560084,India,true
+ADDR_000062,company,COMP_0023,warehouse,"Shed 66, Phase III",Prabhat Industrial Area,Hubballi,Karnataka,29,576520,India,true
+ADDR_000063,company,COMP_0023,warehouse,"Shed 1, Phase I",Kesar Industrial Area,Indore,Madhya Pradesh,23,476788,India,true
+ADDR_000064,company,COMP_0024,hq,"Shed 75, Phase II",Mandar Industrial Area,Mohali,Punjab,03,153048,India,true
+ADDR_000065,company,COMP_0025,hq,"Shed 17, Phase II",Mandar Trade Centre,Panipat,Haryana,06,124354,India,true
+ADDR_000066,company,COMP_0025,plant,"Unit 749, Mithragrove House",Kesar Business Park,Chennai,Tamil Nadu,33,609868,India,true
+ADDR_000067,company,COMP_0026,hq,"Unit 637, Suvarnashore House",Mandar Commercial Complex,Sonipat,Haryana,06,133732,India,true
+ADDR_000068,company,COMP_0027,hq,"Unit 906, Samafizz House",Prabhat Business Park,Patna,Bihar,10,850878,India,true
+ADDR_000069,company,COMP_0028,hq,"Plot No. 270, Sector 23",Mandar Business Park,Mumbai,Maharashtra,27,401877,India,true
+ADDR_000070,company,COMP_0028,warehouse,"Plot No. 58, Sector 26",Vasant Industrial Area,Hosur,Tamil Nadu,33,606480,India,true
+ADDR_000071,company,COMP_0029,hq,"Unit 889, Jalafield House",Navrang Logistics Park,Sri City,Andhra Pradesh,37,530563,India,true
+ADDR_000072,company,COMP_0029,plant,"Shed 75, Phase II",Prabhat Trade Centre,Jaipur,Rajasthan,08,300285,India,true
+ADDR_000073,company,COMP_0030,hq,"Plot No. 159, Sector 31",Vasant Trade Centre,Kolkata,West Bengal,19,702397,India,true
+ADDR_000074,company,COMP_0030,plant,"Unit 212, Rituray House",Suryodaya Commercial Complex,Haridwar,Uttarakhand,05,268869,India,true
+ADDR_000075,company,COMP_0031,hq,"Plot No. 254, Sector 2",Mandar Business Park,Sonipat,Haryana,06,130363,India,true
+ADDR_000076,company,COMP_0032,hq,"Shed 50, Phase II",Navrang Logistics Park,Delhi,Delhi,07,114309,India,true
+ADDR_000077,company,COMP_0033,hq,"Plot No. 186, Sector 26",Prabhat Commercial Complex,Jalandhar,Punjab,03,153469,India,true
+ADDR_000078,company,COMP_0034,hq,"Shed 36, Phase I",Suryodaya Industrial Area,Delhi,Delhi,07,116815,India,true
+ADDR_000079,company,COMP_0035,hq,"Shed 64, Phase I",Navrang Trade Centre,Jaipur,Rajasthan,08,348535,India,true
+ADDR_000080,company,COMP_0036,hq,"Shed 35, Phase II",Suryodaya Trade Centre,Surat,Gujarat,24,385231,India,true
+ADDR_000081,company,COMP_0037,hq,"Plot No. 255, Sector 15",Mandar Industrial Area,Surat,Gujarat,24,393595,India,true
+ADDR_000082,company,COMP_0038,hq,"Plot No. 273, Sector 20",Sagar Udyog Nagar,Medchal,Telangana,36,501465,India,true
+ADDR_000083,company,COMP_0038,warehouse,"Shed 66, Phase I",Sagar Industrial Area,Hosur,Tamil Nadu,33,605539,India,true
+ADDR_000084,company,COMP_0039,hq,"Shed 47, Phase II",Suryodaya Commercial Complex,Mohali,Punjab,03,157169,India,true
+ADDR_000085,company,COMP_0040,hq,"Plot No. 292, Sector 10",Shanti Trade Centre,Mumbai,Maharashtra,27,431429,India,true
+ADDR_000086,company,COMP_0041,hq,"Shed 24, Phase II",Navrang Trade Centre,Ahmedabad,Gujarat,24,385469,India,true
+ADDR_000087,company,COMP_0042,hq,"Unit 691, Rituwave House",Amrit Logistics Park,Hosur,Tamil Nadu,33,643408,India,true
+ADDR_000088,company,COMP_0043,hq,"Plot No. 103, Sector 16",Suryodaya Business Park,Sonipat,Haryana,06,125060,India,true
+ADDR_000089,company,COMP_0043,warehouse,"Shed 7, Phase II",Navrang Industrial Area,Kolkata,West Bengal,19,710450,India,true
+ADDR_000090,company,COMP_0043,plant,"Plot No. 175, Sector 22",Shanti Trade Centre,Howrah,West Bengal,19,738731,India,true
+ADDR_000091,company,COMP_0044,hq,"Shed 18, Phase III",Vasant Udyog Nagar,Jalandhar,Punjab,03,151867,India,true
+ADDR_000092,company,COMP_0045,hq,"Plot No. 101, Sector 24",Shanti Commercial Complex,Aurangabad,Maharashtra,27,449117,India,true
+ADDR_000093,company,COMP_0045,warehouse,"Shed 14, Phase III",Nilgiri Udyog Nagar,Bengaluru,Karnataka,29,583600,India,true
+ADDR_000094,company,COMP_0046,hq,"Unit 471, Kesarstone House",Kesar Udyog Nagar,Jodhpur,Rajasthan,08,348012,India,true
+ADDR_000095,company,COMP_0047,hq,"Plot No. 65, Sector 24",Mandar Udyog Nagar,Mumbai,Maharashtra,27,432853,India,true
+ADDR_000096,company,COMP_0048,hq,"Unit 719, Purebloom House",Navrang Business Park,Surat,Gujarat,24,365217,India,true
+ADDR_000097,company,COMP_0048,warehouse,"Shed 79, Phase II",Shanti Udyog Nagar,Pune,Maharashtra,27,445588,India,true
+ADDR_000098,company,COMP_0048,plant,"Plot No. 140, Sector 13",Prabhat Trade Centre,Hosur,Tamil Nadu,33,648608,India,true
+ADDR_000099,company,COMP_0049,hq,"Plot No. 60, Sector 40",Suryodaya Business Park,Hosur,Tamil Nadu,33,648610,India,true
+ADDR_000100,company,COMP_0049,plant,"Shed 71, Phase I",Kesar Commercial Complex,Vijayawada,Andhra Pradesh,37,523344,India,true
+ADDR_000101,company,COMP_0049,plant,"Shed 60, Phase II",Nilgiri Industrial Area,New Delhi,Delhi,07,116743,India,true
+ADDR_000102,company,COMP_0050,hq,"Plot No. 164, Sector 40",Suryodaya Udyog Nagar,Lucknow,Uttar Pradesh,09,204670,India,true
+ADDR_000103,company,COMP_0051,hq,"Unit 485, Pranavista House",Kesar Industrial Area,Bhubaneswar,Odisha,21,757336,India,true
+ADDR_000104,company,COMP_0052,hq,"Unit 688, Ojaswing House",Shanti Trade Centre,Aurangabad,Maharashtra,27,438951,India,true
+ADDR_000105,company,COMP_0053,hq,"Shed 29, Phase III",Amrit Business Park,Panipat,Haryana,06,121501,India,true
+ADDR_000106,company,COMP_0054,hq,"Unit 437, Lumimint House",Shanti Commercial Complex,Hosur,Tamil Nadu,33,649457,India,true
+ADDR_000107,company,COMP_0055,hq,"Unit 762, Pureline House",Prabhat Industrial Area,Vapi,Gujarat,24,360729,India,true
+ADDR_000108,company,COMP_0056,hq,"Plot No. 122, Sector 26",Shanti Industrial Area,Faridabad,Haryana,06,130757,India,true
+ADDR_000109,company,COMP_0056,warehouse,"Unit 794, Chandrabrook House",Amrit Trade Centre,Kanpur,Uttar Pradesh,09,220618,India,true
+ADDR_000110,company,COMP_0056,plant,"Shed 27, Phase I",Mandar Business Park,Surat,Gujarat,24,386772,India,true
+ADDR_000111,company,COMP_0057,hq,"Plot No. 24, Sector 40",Mandar Industrial Area,Nagpur,Maharashtra,27,431131,India,true
+ADDR_000112,company,COMP_0058,hq,"Shed 23, Phase III",Sagar Business Park,Kanpur,Uttar Pradesh,09,209467,India,true
+ADDR_000113,company,COMP_0059,hq,"Unit 909, Dharavista House",Prabhat Business Park,Kanpur,Uttar Pradesh,09,202140,India,true
+ADDR_000114,company,COMP_0060,hq,"Unit 625, Prananest House",Sagar Udyog Nagar,New Delhi,Delhi,07,110346,India,true
+ADDR_000115,company,COMP_0061,hq,"Plot No. 156, Sector 8",Mandar Industrial Area,Delhi,Delhi,07,117544,India,true
+ADDR_000116,company,COMP_0061,warehouse,"Shed 66, Phase II",Suryodaya Business Park,New Delhi,Delhi,07,112587,India,true
+ADDR_000117,company,COMP_0062,hq,"Shed 66, Phase II",Mandar Commercial Complex,Aurangabad,Maharashtra,27,431370,India,true
+ADDR_000118,company,COMP_0062,plant,"Plot No. 154, Sector 27",Kesar Logistics Park,Verna,Goa,30,406969,India,true
+ADDR_000119,company,COMP_0063,hq,"Shed 52, Phase II",Shanti Trade Centre,Durgapur,West Bengal,19,717844,India,true
+ADDR_000120,company,COMP_0063,warehouse,"Plot No. 280, Sector 21",Vasant Trade Centre,Pune,Maharashtra,27,412738,India,true
+ADDR_000121,company,COMP_0063,plant,"Plot No. 299, Sector 11",Kesar Trade Centre,Medchal,Telangana,36,504601,India,true
+ADDR_000122,company,COMP_0064,hq,"Unit 761, Indraleaf House",Mandar Commercial Complex,Baddi,Himachal Pradesh,02,177494,India,true
+ADDR_000123,company,COMP_0064,plant,"Shed 23, Phase II",Kesar Trade Centre,Hajipur,Bihar,10,842889,India,true
+ADDR_000124,company,COMP_0065,hq,"Shed 33, Phase I",Vasant Trade Centre,Delhi,Delhi,07,113290,India,true
+ADDR_000125,company,COMP_0066,hq,"Shed 75, Phase II",Prabhat Business Park,Jodhpur,Rajasthan,08,314633,India,true
+ADDR_000126,company,COMP_0067,hq,"Plot No. 266, Sector 5",Prabhat Commercial Complex,Mumbai,Maharashtra,27,436546,India,true
+ADDR_000127,company,COMP_0068,hq,"Plot No. 76, Sector 15",Vasant Udyog Nagar,Aurangabad,Maharashtra,27,438391,India,true
+ADDR_000128,company,COMP_0069,hq,"Unit 458, Suvarnabrook House",Vasant Industrial Area,Cuttack,Odisha,21,767077,India,true
+ADDR_000129,company,COMP_0069,plant,"Plot No. 108, Sector 32",Prabhat Trade Centre,Cuttack,Odisha,21,769198,India,true
+ADDR_000130,company,COMP_0070,hq,"Unit 618, Samabrook House",Vasant Logistics Park,Hosur,Tamil Nadu,33,634895,India,true
+ADDR_000131,company,COMP_0071,hq,"Shed 55, Phase I",Suryodaya Logistics Park,Surat,Gujarat,24,385163,India,true
+ADDR_000132,company,COMP_0071,plant,"Shed 31, Phase I",Nilgiri Industrial Area,Ghaziabad,Uttar Pradesh,09,200942,India,true
+ADDR_000133,company,COMP_0072,hq,"Plot No. 28, Sector 6",Sagar Business Park,Vapi,Gujarat,24,367674,India,true
+ADDR_000134,company,COMP_0073,hq,"Plot No. 152, Sector 8",Mandar Udyog Nagar,Guwahati,Assam,18,786450,India,true
+ADDR_000135,company,COMP_0074,hq,"Shed 54, Phase I",Vasant Industrial Area,Jalandhar,Punjab,03,156482,India,true
+ADDR_000136,company,COMP_0075,hq,"Plot No. 184, Sector 4",Kesar Trade Centre,Faridabad,Haryana,06,133389,India,true
+ADDR_000137,company,COMP_0076,hq,"Unit 542, Purebloom House",Navrang Trade Centre,Chennai,Tamil Nadu,33,600196,India,true
+ADDR_000138,company,COMP_0077,hq,"Shed 4, Phase II",Amrit Logistics Park,Gurugram,Haryana,06,138454,India,true
+ADDR_000139,company,COMP_0077,warehouse,"Plot No. 123, Sector 23",Kesar Trade Centre,Gurugram,Haryana,06,120036,India,true
+ADDR_000140,company,COMP_0077,plant,"Plot No. 210, Sector 40",Prabhat Logistics Park,Faridabad,Haryana,06,124954,India,true
+ADDR_000141,company,COMP_0078,hq,"Plot No. 6, Sector 14",Suryodaya Business Park,Jalandhar,Punjab,03,145303,India,true
+ADDR_000142,company,COMP_0078,plant,"Shed 5, Phase I",Shanti Commercial Complex,Noida,Uttar Pradesh,09,200607,India,true
+ADDR_000143,company,COMP_0079,hq,"Shed 59, Phase I",Navrang Logistics Park,Hajipur,Bihar,10,846206,India,true
+ADDR_000144,company,COMP_0080,hq,"Shed 21, Phase II",Sagar Trade Centre,Faridabad,Haryana,06,125756,India,true
+ADDR_000145,company,COMP_0081,hq,"Unit 277, Jalagrove House",Amrit Trade Centre,Patna,Bihar,10,859746,India,true
+ADDR_000146,company,COMP_0082,hq,"Plot No. 225, Sector 38",Kesar Logistics Park,New Delhi,Delhi,07,119317,India,true
+ADDR_000147,company,COMP_0083,hq,"Unit 364, Jalastone House",Sagar Udyog Nagar,Kanpur,Uttar Pradesh,09,258089,India,true
+ADDR_000148,company,COMP_0083,plant,"Shed 37, Phase I",Navrang Trade Centre,Kanpur,Uttar Pradesh,09,224389,India,true
+ADDR_000149,company,COMP_0084,hq,"Plot No. 110, Sector 4",Kesar Logistics Park,Solan,Himachal Pradesh,02,176386,India,true
+ADDR_000150,company,COMP_0085,hq,"Shed 6, Phase III",Amrit Industrial Area,Medchal,Telangana,36,509372,India,true
+ADDR_000151,company,COMP_0085,plant,"Shed 19, Phase I",Prabhat Business Park,Gurugram,Haryana,06,122607,India,true
+ADDR_000152,company,COMP_0085,warehouse,"Shed 65, Phase I",Nilgiri Business Park,Jalandhar,Punjab,03,152465,India,true
+ADDR_000153,company,COMP_0086,hq,"Shed 27, Phase II",Kesar Business Park,Bhiwadi,Rajasthan,08,345110,India,true
+ADDR_000154,company,COMP_0087,hq,"Unit 271, Hiraleaf House",Mandar Commercial Complex,Vadodara,Gujarat,24,387673,India,true
+ADDR_000155,company,COMP_0088,hq,"Unit 801, Saffravale House",Suryodaya Udyog Nagar,Nagpur,Maharashtra,27,410743,India,true
+ADDR_000156,company,COMP_0089,hq,"Shed 62, Phase II",Sagar Udyog Nagar,Patna,Bihar,10,806902,India,true
+ADDR_000157,company,COMP_0089,plant,"Shed 35, Phase II",Nilgiri Trade Centre,Hosur,Tamil Nadu,33,602561,India,true
+ADDR_000158,company,COMP_0090,hq,"Plot No. 87, Sector 31",Sagar Trade Centre,Panipat,Haryana,06,128381,India,true
+ADDR_000159,company,COMP_0091,hq,"Unit 435, Vedabloom House",Navrang Business Park,Baddi,Himachal Pradesh,02,171086,India,true
+ADDR_000160,company,COMP_0092,hq,"Plot No. 235, Sector 15",Kesar Logistics Park,Vadodara,Gujarat,24,387952,India,true
+ADDR_000161,company,COMP_0093,hq,"Plot No. 59, Sector 21",Suryodaya Udyog Nagar,Aurangabad,Maharashtra,27,440271,India,true
+ADDR_000162,company,COMP_0093,warehouse,"Plot No. 238, Sector 18",Shanti Trade Centre,Mumbai,Maharashtra,27,407833,India,true
+ADDR_000163,company,COMP_0093,plant,"Unit 188, Udayadale House",Nilgiri Commercial Complex,Nagpur,Maharashtra,27,432552,India,true
+ADDR_000164,company,COMP_0094,hq,"Shed 9, Phase I",Amrit Udyog Nagar,Kolkata,West Bengal,19,702241,India,true
+ADDR_000165,company,COMP_0094,plant,"Unit 754, Vrikshvale House",Amrit Business Park,Chennai,Tamil Nadu,33,639791,India,true
+ADDR_000166,company,COMP_0095,hq,"Plot No. 260, Sector 38",Kesar Business Park,Aurangabad,Maharashtra,27,406411,India,true
+ADDR_000167,company,COMP_0096,hq,"Shed 39, Phase I",Nilgiri Trade Centre,Patna,Bihar,10,852670,India,true
+ADDR_000168,company,COMP_0096,warehouse,"Shed 15, Phase II",Suryodaya Industrial Area,Bengaluru,Karnataka,29,565403,India,true
+ADDR_000169,company,COMP_0096,plant,"Shed 22, Phase III",Kesar Business Park,Patna,Bihar,10,858093,India,true
+ADDR_000170,company,COMP_0097,hq,"Plot No. 26, Sector 30",Mandar Business Park,Nagpur,Maharashtra,27,417462,India,true
+ADDR_000171,company,COMP_0098,hq,"Shed 70, Phase III",Prabhat Udyog Nagar,Chennai,Tamil Nadu,33,634692,India,true
+ADDR_000172,company,COMP_0099,hq,"Shed 49, Phase II",Navrang Commercial Complex,Sonipat,Haryana,06,125706,India,true
+ADDR_000173,company,COMP_0100,hq,"Plot No. 142, Sector 15",Mandar Logistics Park,Aurangabad,Maharashtra,27,411542,India,true
+ADDR_000174,company,COMP_0101,hq,"Plot No. 111, Sector 39",Navrang Industrial Area,Delhi,Delhi,07,112885,India,true
+ADDR_000175,company,COMP_0102,hq,"Shed 33, Phase II",Suryodaya Logistics Park,Bengaluru,Karnataka,29,563256,India,true
+ADDR_000176,company,COMP_0103,hq,"Plot No. 223, Sector 3",Mandar Industrial Area,New Delhi,Delhi,07,112260,India,true
+ADDR_000177,company,COMP_0104,hq,"Plot No. 197, Sector 23",Sagar Industrial Area,Kanpur,Uttar Pradesh,09,205855,India,true
+ADDR_000178,company,COMP_0105,hq,"Plot No. 48, Sector 40",Sagar Industrial Area,Medchal,Telangana,36,508326,India,true
+ADDR_000179,company,COMP_0105,plant,"Unit 820, Taraglow House",Prabhat Udyog Nagar,Hyderabad,Telangana,36,505030,India,true
+ADDR_000180,company,COMP_0106,hq,"Shed 37, Phase I",Vasant Business Park,Chennai,Tamil Nadu,33,630393,India,true
+ADDR_000181,company,COMP_0107,hq,"Shed 8, Phase III",Navrang Trade Centre,Pune,Maharashtra,27,442035,India,true
+ADDR_000182,company,COMP_0108,hq,"Shed 39, Phase III",Navrang Logistics Park,Ghaziabad,Uttar Pradesh,09,206074,India,true
+ADDR_000183,company,COMP_0109,hq,"Unit 218, Udayacrest House",Vasant Trade Centre,Delhi,Delhi,07,111694,India,true
+ADDR_000184,company,COMP_0110,hq,"Shed 9, Phase II",Prabhat Logistics Park,Lucknow,Uttar Pradesh,09,209856,India,true
+ADDR_000185,company,COMP_0111,hq,"Shed 67, Phase III",Navrang Commercial Complex,New Delhi,Delhi,07,115973,India,true
+ADDR_000186,company,COMP_0111,warehouse,"Shed 19, Phase III",Nilgiri Logistics Park,Vapi,Gujarat,24,362509,India,true
+ADDR_000187,company,COMP_0112,hq,"Plot No. 84, Sector 21",Sagar Industrial Area,Hyderabad,Telangana,36,505457,India,true
+ADDR_000188,company,COMP_0113,hq,"Plot No. 222, Sector 1",Sagar Trade Centre,Hubballi,Karnataka,29,569739,India,true
+ADDR_000189,company,COMP_0113,plant,"Shed 28, Phase III",Suryodaya Industrial Area,Coimbatore,Tamil Nadu,33,608875,India,true
+ADDR_000190,company,COMP_0114,hq,"Unit 658, Vedaroot House",Shanti Logistics Park,Mumbai,Maharashtra,27,402678,India,true
+ADDR_000191,company,COMP_0115,hq,"Unit 533, Lumifizz House",Nilgiri Trade Centre,Vadodara,Gujarat,24,394365,India,true
+ADDR_000192,company,COMP_0116,hq,"Shed 20, Phase III",Sagar Business Park,Chennai,Tamil Nadu,33,649800,India,true
+ADDR_000193,company,COMP_0116,plant,"Shed 46, Phase III",Vasant Logistics Park,New Delhi,Delhi,07,113191,India,true
+ADDR_000194,company,COMP_0116,warehouse,"Shed 17, Phase II",Sagar Logistics Park,Pune,Maharashtra,27,435815,India,true
+ADDR_000195,company,COMP_0117,hq,"Shed 74, Phase II",Navrang Business Park,Pune,Maharashtra,27,404954,India,true
+ADDR_000196,company,COMP_0118,hq,"Plot No. 287, Sector 38",Prabhat Commercial Complex,Surat,Gujarat,24,398569,India,true
+ADDR_000197,company,COMP_0119,hq,"Plot No. 106, Sector 9",Amrit Trade Centre,Mohali,Punjab,03,149812,India,true
+ADDR_000198,company,COMP_0120,hq,"Plot No. 16, Sector 22",Shanti Business Park,Noida,Uttar Pradesh,09,258934,India,true
+ADDR_000199,company,COMP_0121,hq,"Shed 5, Phase II",Suryodaya Logistics Park,Hosur,Tamil Nadu,33,602894,India,true
+ADDR_000200,company,COMP_0122,hq,"Shed 14, Phase II",Navrang Commercial Complex,Guwahati,Assam,18,784219,India,true
+ADDR_000201,company,COMP_0123,hq,"Unit 355, Samasprout House",Shanti Logistics Park,Visakhapatnam,Andhra Pradesh,37,516527,India,true
+ADDR_000202,company,COMP_0124,hq,"Plot No. 48, Sector 1",Vasant Commercial Complex,Patna,Bihar,10,842402,India,true
+ADDR_000203,company,COMP_0124,plant,"Unit 759, Chandrakart House",Vasant Commercial Complex,Faridabad,Haryana,06,139513,India,true
+ADDR_000204,company,COMP_0125,hq,"Shed 55, Phase II",Nilgiri Trade Centre,Mumbai,Maharashtra,27,438978,India,true
+ADDR_000205,company,COMP_0126,hq,"Unit 411, Pranaline House",Mandar Industrial Area,Vijayawada,Andhra Pradesh,37,518499,India,true
+ADDR_000206,company,COMP_0127,hq,"Plot No. 225, Sector 29",Kesar Logistics Park,Visakhapatnam,Andhra Pradesh,37,520006,India,true
+ADDR_000207,company,COMP_0128,hq,"Plot No. 63, Sector 37",Nilgiri Trade Centre,Mumbai,Maharashtra,27,409072,India,true
+ADDR_000208,company,COMP_0129,hq,"Shed 34, Phase I",Kesar Trade Centre,Sonipat,Haryana,06,121648,India,true
+ADDR_000209,company,COMP_0130,hq,"Unit 898, Arungrove House",Mandar Industrial Area,Jaipur,Rajasthan,08,300155,India,true
+ADDR_000210,company,COMP_0131,hq,"Unit 619, Zarabrook House",Prabhat Trade Centre,Faridabad,Haryana,06,131726,India,true
+ADDR_000211,company,COMP_0132,hq,"Plot No. 58, Sector 17",Mandar Commercial Complex,Sonipat,Haryana,06,123284,India,true
+ADDR_000212,company,COMP_0133,hq,"Plot No. 97, Sector 17",Amrit Logistics Park,Medchal,Telangana,36,502912,India,true
+ADDR_000213,company,COMP_0134,hq,"Plot No. 277, Sector 15",Navrang Udyog Nagar,Coimbatore,Tamil Nadu,33,641988,India,true
+ADDR_000214,company,COMP_0135,hq,"Shed 61, Phase I",Navrang Udyog Nagar,Mumbai,Maharashtra,27,407488,India,true
+ADDR_000215,company,COMP_0136,hq,"Shed 24, Phase I",Nilgiri Logistics Park,Durgapur,West Bengal,19,704603,India,true
+ADDR_000216,company,COMP_0137,hq,"Shed 24, Phase II",Vasant Industrial Area,Sri City,Andhra Pradesh,37,513267,India,true
+ADDR_000217,company,COMP_0138,hq,"Unit 483, Tarastone House",Shanti Commercial Complex,Verna,Goa,30,403937,India,true
+ADDR_000218,company,COMP_0138,plant,"Shed 12, Phase III",Kesar Udyog Nagar,Gurugram,Haryana,06,131254,India,true
+ADDR_000219,company,COMP_0139,hq,"Shed 36, Phase III",Shanti Trade Centre,Baddi,Himachal Pradesh,02,177114,India,true
+ADDR_000220,company,COMP_0139,plant,"Plot No. 255, Sector 9",Vasant Trade Centre,Gurugram,Haryana,06,123405,India,true
+ADDR_000221,company,COMP_0140,hq,"Unit 843, Tarastone House",Navrang Trade Centre,Medchal,Telangana,36,500662,India,true
+ADDR_000222,company,COMP_0141,hq,"Unit 848, Hirapath House",Sagar Udyog Nagar,Rudrapur,Uttarakhand,05,247222,India,true
+ADDR_000223,company,COMP_0142,hq,"Shed 46, Phase II",Kesar Industrial Area,Thiruvananthapuram,Kerala,32,681587,India,true
+ADDR_000224,company,COMP_0142,warehouse,"Unit 429, Kiracrest House",Nilgiri Udyog Nagar,Panipat,Haryana,06,121925,India,true
+ADDR_000225,company,COMP_0142,warehouse,"Unit 533, Saffrasprout House",Shanti Udyog Nagar,Faridabad,Haryana,06,122032,India,true
+ADDR_000226,company,COMP_0143,hq,"Plot No. 145, Sector 5",Nilgiri Udyog Nagar,Hubballi,Karnataka,29,566781,India,true
+ADDR_000227,company,COMP_0144,hq,"Plot No. 116, Sector 20",Sagar Logistics Park,Patna,Bihar,10,859244,India,true
+ADDR_000228,company,COMP_0144,warehouse,"Plot No. 257, Sector 31",Amrit Industrial Area,Hyderabad,Telangana,36,505712,India,true
+ADDR_000229,company,COMP_0144,warehouse,"Plot No. 1, Sector 7",Nilgiri Industrial Area,Patna,Bihar,10,853731,India,true
+ADDR_000230,company,COMP_0145,hq,"Shed 9, Phase I",Mandar Logistics Park,New Delhi,Delhi,07,111869,India,true
+ADDR_000231,company,COMP_0146,hq,"Unit 481, Yuvastone House",Sagar Logistics Park,Mysuru,Karnataka,29,589768,India,true
+ADDR_000232,company,COMP_0147,hq,"Unit 155, Gangavista House",Vasant Business Park,Surat,Gujarat,24,365557,India,true
+ADDR_000233,company,COMP_0148,hq,"Plot No. 144, Sector 20",Shanti Trade Centre,Ahmedabad,Gujarat,24,380633,India,true
+ADDR_000234,company,COMP_0149,hq,"Plot No. 242, Sector 25",Mandar Business Park,Bhiwadi,Rajasthan,08,306356,India,true
+ADDR_000235,company,COMP_0149,plant,"Plot No. 55, Sector 37",Amrit Trade Centre,Medchal,Telangana,36,504726,India,true
+ADDR_000236,company,COMP_0149,plant,"Plot No. 175, Sector 33",Prabhat Business Park,Hubballi,Karnataka,29,587797,India,true
+ADDR_000237,company,COMP_0150,hq,"Plot No. 94, Sector 8",Mandar Business Park,Kolkata,West Bengal,19,731959,India,true
+ADDR_000238,company,COMP_0151,hq,"Unit 323, Nilastone House",Nilgiri Industrial Area,Mysuru,Karnataka,29,561125,India,true
+ADDR_000239,company,COMP_0152,hq,"Unit 111, Vedabloom House",Suryodaya Trade Centre,Faridabad,Haryana,06,136990,India,true
+ADDR_000240,company,COMP_0153,hq,"Shed 62, Phase II",Mandar Udyog Nagar,Mysuru,Karnataka,29,577934,India,true
+ADDR_000241,company,COMP_0154,hq,"Unit 894, Chandrawell House",Prabhat Commercial Complex,Margao,Goa,30,405801,India,true
+ADDR_000242,company,COMP_0155,hq,"Unit 474, Novabrook House",Vasant Logistics Park,Rudrapur,Uttarakhand,05,246107,India,true
+ADDR_000243,company,COMP_0155,plant,"Shed 21, Phase I",Navrang Business Park,Mumbai,Maharashtra,27,405743,India,true
+ADDR_000244,company,COMP_0155,plant,"Plot No. 144, Sector 8",Mandar Business Park,Dehradun,Uttarakhand,05,260523,India,true
+ADDR_000245,company,COMP_0156,hq,"Plot No. 128, Sector 21",Sagar Business Park,Mumbai,Maharashtra,27,416441,India,true
+ADDR_000246,company,COMP_0157,hq,"Plot No. 77, Sector 39",Mandar Business Park,Bengaluru,Karnataka,29,565985,India,true
+ADDR_000247,company,COMP_0158,hq,"Plot No. 52, Sector 20",Amrit Trade Centre,Faridabad,Haryana,06,137786,India,true
+ADDR_000248,company,COMP_0159,hq,"Shed 26, Phase III",Vasant Logistics Park,Ahmedabad,Gujarat,24,389999,India,true
+ADDR_000249,company,COMP_0160,hq,"Shed 43, Phase III",Nilgiri Trade Centre,Kolkata,West Bengal,19,714051,India,true
+ADDR_000250,company,COMP_0161,hq,"Plot No. 103, Sector 31",Nilgiri Trade Centre,Cuttack,Odisha,21,757598,India,true
+ADDR_000251,company,COMP_0161,warehouse,"Unit 319, Indragrove House",Prabhat Commercial Complex,Hajipur,Bihar,10,851250,India,true
+ADDR_000252,company,COMP_0161,warehouse,"Plot No. 166, Sector 22",Suryodaya Industrial Area,Bengaluru,Karnataka,29,577910,India,true
+ADDR_000253,company,COMP_0162,hq,"Plot No. 198, Sector 33",Sagar Trade Centre,Indore,Madhya Pradesh,23,461589,India,true
+ADDR_000254,company,COMP_0163,hq,"Plot No. 210, Sector 31",Suryodaya Udyog Nagar,Pune,Maharashtra,27,434167,India,true
+ADDR_000255,company,COMP_0163,warehouse,"Unit 320, Suvarnaglow House",Mandar Business Park,Vadodara,Gujarat,24,363306,India,true
+ADDR_000256,company,COMP_0163,plant,"Unit 818, Arunhaven House",Navrang Industrial Area,Coimbatore,Tamil Nadu,33,637398,India,true
+ADDR_000257,company,COMP_0164,hq,"Shed 73, Phase II",Prabhat Udyog Nagar,Bengaluru,Karnataka,29,561120,India,true
+ADDR_000258,company,COMP_0165,hq,"Shed 3, Phase I",Nilgiri Industrial Area,Vadodara,Gujarat,24,360271,India,true
+ADDR_000259,company,COMP_0166,hq,"Plot No. 193, Sector 39",Navrang Industrial Area,Sonipat,Haryana,06,120637,India,true
+ADDR_000260,company,COMP_0166,warehouse,"Shed 9, Phase I",Kesar Udyog Nagar,Surat,Gujarat,24,360165,India,true
+ADDR_000261,company,COMP_0167,hq,"Shed 39, Phase I",Nilgiri Udyog Nagar,Mysuru,Karnataka,29,589604,India,true
+ADDR_000262,company,COMP_0167,plant,"Shed 70, Phase II",Shanti Business Park,Bengaluru,Karnataka,29,563198,India,true
+ADDR_000263,company,COMP_0168,hq,"Plot No. 30, Sector 38",Sagar Commercial Complex,Noida,Uttar Pradesh,09,226146,India,true
+ADDR_000264,company,COMP_0168,plant,"Shed 55, Phase I",Suryodaya Logistics Park,Ghaziabad,Uttar Pradesh,09,254933,India,true
+ADDR_000265,company,COMP_0168,warehouse,"Unit 186, Saffrahaven House",Sagar Commercial Complex,Indore,Madhya Pradesh,23,465498,India,true
+ADDR_000266,company,COMP_0169,hq,"Shed 22, Phase II",Mandar Udyog Nagar,Hosur,Tamil Nadu,33,642254,India,true
+ADDR_000267,company,COMP_0170,hq,"Shed 25, Phase II",Kesar Udyog Nagar,Baddi,Himachal Pradesh,02,175630,India,true
+ADDR_000268,company,COMP_0171,hq,"Unit 598, Vrikshvale House",Nilgiri Logistics Park,Panipat,Haryana,06,126437,India,true
+ADDR_000269,company,COMP_0172,hq,"Shed 65, Phase I",Mandar Commercial Complex,Mumbai,Maharashtra,27,432220,India,true
+ADDR_000270,company,COMP_0173,hq,"Unit 534, Vanawave House",Nilgiri Trade Centre,Bhiwadi,Rajasthan,08,319641,India,true
+ADDR_000271,company,COMP_0173,plant,"Shed 10, Phase II",Prabhat Udyog Nagar,Jodhpur,Rajasthan,08,341019,India,true
+ADDR_000272,company,COMP_0173,plant,"Shed 77, Phase III",Kesar Udyog Nagar,Durgapur,West Bengal,19,739069,India,true
+ADDR_000273,company,COMP_0174,hq,"Plot No. 195, Sector 14",Mandar Industrial Area,Jodhpur,Rajasthan,08,305258,India,true
+ADDR_000274,company,COMP_0175,hq,"Unit 855, Vrikshridge House",Prabhat Udyog Nagar,Medchal,Telangana,36,505329,India,true
+ADDR_000275,company,COMP_0176,hq,"Shed 51, Phase II",Suryodaya Udyog Nagar,Gurugram,Haryana,06,121637,India,true
+ADDR_000276,company,COMP_0177,hq,"Shed 25, Phase II",Suryodaya Commercial Complex,Nagpur,Maharashtra,27,403416,India,true
+ADDR_000277,company,COMP_0177,plant,"Shed 8, Phase II",Kesar Business Park,Kochi,Kerala,32,683133,India,true
+ADDR_000278,company,COMP_0177,warehouse,"Shed 5, Phase I",Vasant Industrial Area,Sri City,Andhra Pradesh,37,510004,India,true
+ADDR_000279,company,COMP_0178,hq,"Shed 70, Phase I",Sagar Trade Centre,Aurangabad,Maharashtra,27,413419,India,true
+ADDR_000280,company,COMP_0178,warehouse,"Plot No. 299, Sector 38",Sagar Logistics Park,New Delhi,Delhi,07,111965,India,true
+ADDR_000281,company,COMP_0179,hq,"Shed 41, Phase II",Kesar Trade Centre,Mysuru,Karnataka,29,588628,India,true
+ADDR_000282,company,COMP_0180,hq,"Plot No. 2, Sector 37",Nilgiri Udyog Nagar,Chennai,Tamil Nadu,33,630303,India,true
+ADDR_000283,company,COMP_0181,hq,"Plot No. 241, Sector 29",Suryodaya Logistics Park,Hosur,Tamil Nadu,33,607109,India,true
+ADDR_000284,company,COMP_0182,hq,"Shed 41, Phase I",Mandar Industrial Area,Kochi,Kerala,32,693982,India,true
+ADDR_000285,company,COMP_0183,hq,"Plot No. 257, Sector 29",Sagar Trade Centre,New Delhi,Delhi,07,118026,India,true
+ADDR_000286,company,COMP_0184,hq,"Shed 26, Phase III",Kesar Industrial Area,Sri City,Andhra Pradesh,37,536178,India,true
+ADDR_000287,company,COMP_0185,hq,"Shed 24, Phase III",Navrang Trade Centre,Noida,Uttar Pradesh,09,204648,India,true
+ADDR_000288,company,COMP_0186,hq,"Plot No. 285, Sector 36",Shanti Trade Centre,Howrah,West Bengal,19,703076,India,true
+ADDR_000289,company,COMP_0187,hq,"Unit 539, Nilakart House",Shanti Udyog Nagar,Panipat,Haryana,06,131497,India,true
+ADDR_000290,company,COMP_0188,hq,"Shed 40, Phase I",Shanti Udyog Nagar,Aurangabad,Maharashtra,27,444810,India,true
+ADDR_000291,company,COMP_0189,hq,"Plot No. 150, Sector 36",Vasant Udyog Nagar,Mumbai,Maharashtra,27,434299,India,true
+ADDR_000292,company,COMP_0190,hq,"Shed 31, Phase I",Shanti Business Park,Lucknow,Uttar Pradesh,09,203112,India,true
+ADDR_000293,company,COMP_0191,hq,"Shed 21, Phase I",Kesar Industrial Area,Pune,Maharashtra,27,439299,India,true
+ADDR_000294,company,COMP_0192,hq,"Unit 890, Chandranest House",Shanti Udyog Nagar,Sonipat,Haryana,06,124265,India,true
+ADDR_000295,company,COMP_0193,hq,"Plot No. 103, Sector 7",Kesar Commercial Complex,Vadodara,Gujarat,24,365129,India,true
+ADDR_000296,company,COMP_0193,plant,"Plot No. 144, Sector 31",Navrang Industrial Area,Aurangabad,Maharashtra,27,445030,India,true
+ADDR_000297,company,COMP_0194,hq,"Shed 42, Phase I",Vasant Trade Centre,Pune,Maharashtra,27,439185,India,true
+ADDR_000298,company,COMP_0195,hq,"Shed 78, Phase II",Shanti Logistics Park,Baddi,Himachal Pradesh,02,178500,India,true
+ADDR_000299,company,COMP_0196,hq,"Shed 59, Phase II",Shanti Udyog Nagar,Ghaziabad,Uttar Pradesh,09,204060,India,true
+ADDR_000300,company,COMP_0197,hq,"Shed 5, Phase I",Navrang Industrial Area,Medchal,Telangana,36,501481,India,true
+ADDR_000301,company,COMP_0198,hq,"Shed 55, Phase III",Nilgiri Trade Centre,Delhi,Delhi,07,113826,India,true
+ADDR_000302,company,COMP_0199,hq,"Plot No. 295, Sector 19",Suryodaya Business Park,Mumbai,Maharashtra,27,441447,India,true
+ADDR_000303,company,COMP_0200,hq,"Unit 846, Suvarnavale House",Shanti Business Park,Pune,Maharashtra,27,418821,India,true
+ADDR_000304,supplier,SUP_0011,hq,"Plot No. 151, Sector 29",Kesar Logistics Park,Surat,Gujarat,24,394531,India,true
+ADDR_000305,supplier,SUP_0012,hq,"Shed 56, Phase I",Suryodaya Business Park,Vadodara,Gujarat,24,363253,India,true
+ADDR_000306,supplier,SUP_0013,hq,"Plot No. 16, Sector 9",Amrit Trade Centre,Hubballi,Karnataka,29,586689,India,true
+ADDR_000307,supplier,SUP_0014,hq,"Shed 40, Phase I",Suryodaya Business Park,Hyderabad,Telangana,36,500998,India,true
+ADDR_000308,supplier,SUP_0015,hq,"Shed 59, Phase II",Suryodaya Business Park,Mumbai,Maharashtra,27,402023,India,true
+ADDR_000309,supplier,SUP_0016,hq,"Plot No. 34, Sector 30",Sagar Commercial Complex,Pune,Maharashtra,27,435683,India,true
+ADDR_000310,supplier,SUP_0017,hq,"Shed 41, Phase II",Navrang Logistics Park,Hyderabad,Telangana,36,506299,India,true
+ADDR_000311,supplier,SUP_0018,hq,"Shed 30, Phase II",Vasant Industrial Area,Nagpur,Maharashtra,27,430334,India,true
+ADDR_000312,supplier,SUP_0019,hq,"Unit 410, Arunfield House",Shanti Trade Centre,Kanpur,Uttar Pradesh,09,229489,India,true
+ADDR_000313,supplier,SUP_0020,hq,"Unit 224, Aquastone House",Prabhat Trade Centre,Ahmedabad,Gujarat,24,364291,India,true
+ADDR_000314,supplier,SUP_0021,hq,"Unit 722, Ecoshore House",Shanti Logistics Park,Pithampur,Madhya Pradesh,23,456413,India,true
+ADDR_000315,supplier,SUP_0022,hq,"Plot No. 138, Sector 1",Sagar Logistics Park,Thiruvananthapuram,Kerala,32,690590,India,true
+ADDR_000316,supplier,SUP_0023,hq,"Plot No. 176, Sector 17",Mandar Commercial Complex,Aurangabad,Maharashtra,27,439427,India,true
+ADDR_000317,supplier,SUP_0024,hq,"Plot No. 262, Sector 5",Nilgiri Business Park,Thiruvananthapuram,Kerala,32,687032,India,true
+ADDR_000318,supplier,SUP_0025,hq,"Shed 21, Phase I",Kesar Industrial Area,Hubballi,Karnataka,29,588442,India,true
+ADDR_000319,supplier,SUP_0026,hq,"Shed 50, Phase III",Navrang Trade Centre,Haridwar,Uttarakhand,05,243022,India,true
+ADDR_000320,supplier,SUP_0027,hq,"Unit 574, Suvarnaray House",Navrang Commercial Complex,Noida,Uttar Pradesh,09,254413,India,true
+ADDR_000321,supplier,SUP_0028,hq,"Unit 202, Udayakart House",Vasant Udyog Nagar,Faridabad,Haryana,06,121974,India,true
+ADDR_000322,supplier,SUP_0029,hq,"Plot No. 128, Sector 23",Suryodaya Business Park,Jodhpur,Rajasthan,08,340970,India,true
+ADDR_000323,supplier,SUP_0030,hq,"Shed 38, Phase I",Mandar Business Park,Solan,Himachal Pradesh,02,178286,India,true
+ADDR_000324,supplier,SUP_0031,hq,"Unit 684, Vanaray House",Shanti Business Park,Nagpur,Maharashtra,27,412806,India,true
+ADDR_000325,supplier,SUP_0032,hq,"Unit 556, Mithrashore House",Kesar Logistics Park,Kochi,Kerala,32,694352,India,true
+ADDR_000326,supplier,SUP_0033,hq,"Unit 385, Indramint House",Navrang Commercial Complex,Lucknow,Uttar Pradesh,09,229653,India,true
+ADDR_000327,supplier,SUP_0034,hq,"Shed 22, Phase I",Kesar Logistics Park,Mumbai,Maharashtra,27,447835,India,true
+ADDR_000328,supplier,SUP_0035,hq,"Plot No. 201, Sector 5",Mandar Trade Centre,Aurangabad,Maharashtra,27,433312,India,true
+ADDR_000329,supplier,SUP_0036,hq,"Plot No. 208, Sector 24",Suryodaya Industrial Area,Chennai,Tamil Nadu,33,634103,India,true
+ADDR_000330,supplier,SUP_0037,hq,"Plot No. 196, Sector 6",Mandar Commercial Complex,Hubballi,Karnataka,29,586940,India,true
+ADDR_000331,supplier,SUP_0038,hq,"Shed 48, Phase I",Shanti Business Park,Pune,Maharashtra,27,410233,India,true
+ADDR_000332,supplier,SUP_0039,hq,"Unit 667, Pranapath House",Mandar Business Park,Indore,Madhya Pradesh,23,472094,India,true
+ADDR_000333,supplier,SUP_0040,hq,"Unit 389, Purefield House",Vasant Udyog Nagar,Hubballi,Karnataka,29,562009,India,true
+ADDR_000334,supplier,SUP_0041,hq,"Unit 543, Pranawave House",Kesar Logistics Park,Vadodara,Gujarat,24,383543,India,true
+ADDR_000335,supplier,SUP_0042,hq,"Shed 43, Phase I",Shanti Trade Centre,Sri City,Andhra Pradesh,37,511460,India,true
+ADDR_000336,supplier,SUP_0043,hq,"Shed 19, Phase I",Shanti Trade Centre,Noida,Uttar Pradesh,09,206606,India,true
+ADDR_000337,supplier,SUP_0044,hq,"Shed 73, Phase I",Navrang Logistics Park,Vapi,Gujarat,24,390885,India,true
+ADDR_000338,supplier,SUP_0045,hq,"Unit 392, Lumibrook House",Amrit Trade Centre,Baddi,Himachal Pradesh,02,179064,India,true
+ADDR_000339,supplier,SUP_0046,hq,"Plot No. 31, Sector 37",Mandar Business Park,Haridwar,Uttarakhand,05,247144,India,true
+ADDR_000340,supplier,SUP_0047,hq,"Plot No. 26, Sector 10",Shanti Trade Centre,Mysuru,Karnataka,29,577973,India,true
+ADDR_000341,supplier,SUP_0048,hq,"Unit 571, Ritufizz House",Amrit Udyog Nagar,Mohali,Punjab,03,141307,India,true
+ADDR_000342,supplier,SUP_0049,hq,"Unit 415, Udayashore House",Sagar Udyog Nagar,Ahmedabad,Gujarat,24,390090,India,true
+ADDR_000343,supplier,SUP_0050,hq,"Plot No. 57, Sector 26",Shanti Commercial Complex,Panipat,Haryana,06,134431,India,true
+ADDR_000344,supplier,SUP_0051,hq,"Unit 548, Jalaridge House",Navrang Udyog Nagar,Sri City,Andhra Pradesh,37,514266,India,true
+ADDR_000345,supplier,SUP_0052,hq,"Plot No. 235, Sector 19",Kesar Commercial Complex,Lucknow,Uttar Pradesh,09,222702,India,true
+ADDR_000346,supplier,SUP_0053,hq,"Shed 46, Phase II",Suryodaya Trade Centre,Pithampur,Madhya Pradesh,23,458431,India,true
+ADDR_000347,supplier,SUP_0054,hq,"Shed 64, Phase I",Mandar Logistics Park,Kanpur,Uttar Pradesh,09,201876,India,true
+ADDR_000348,supplier,SUP_0055,hq,"Plot No. 81, Sector 28",Suryodaya Trade Centre,Kochi,Kerala,32,695463,India,true
+ADDR_000349,supplier,SUP_0056,hq,"Unit 739, Kiradale House",Sagar Commercial Complex,Panipat,Haryana,06,134870,India,true
+ADDR_000350,supplier,SUP_0057,hq,"Shed 40, Phase I",Nilgiri Trade Centre,Delhi,Delhi,07,113240,India,true
+ADDR_000351,supplier,SUP_0058,hq,"Unit 401, Novaloom House",Vasant Logistics Park,Mysuru,Karnataka,29,587583,India,true
+ADDR_000352,supplier,SUP_0059,hq,"Plot No. 22, Sector 6",Amrit Logistics Park,Hubballi,Karnataka,29,569542,India,true
+ADDR_000353,supplier,SUP_0060,hq,"Shed 49, Phase II",Navrang Commercial Complex,Ahmedabad,Gujarat,24,362550,India,true
+ADDR_000354,supplier,SUP_0061,hq,"Plot No. 21, Sector 20",Vasant Udyog Nagar,Patna,Bihar,10,858149,India,true
+ADDR_000355,supplier,SUP_0062,hq,"Unit 693, Jalaloom House",Mandar Commercial Complex,Bhubaneswar,Odisha,21,752993,India,true
+ADDR_000356,supplier,SUP_0063,hq,"Unit 438, Vedaglow House",Shanti Business Park,New Delhi,Delhi,07,112276,India,true
+ADDR_000357,supplier,SUP_0064,hq,"Shed 76, Phase II",Shanti Logistics Park,Kolkata,West Bengal,19,705705,India,true
+ADDR_000358,supplier,SUP_0065,hq,"Shed 79, Phase II",Shanti Commercial Complex,Mysuru,Karnataka,29,565217,India,true
+ADDR_000359,supplier,SUP_0066,hq,"Shed 52, Phase II",Mandar Industrial Area,Coimbatore,Tamil Nadu,33,643120,India,true
+ADDR_000360,supplier,SUP_0067,hq,"Unit 852, Tarawing House",Kesar Udyog Nagar,Pithampur,Madhya Pradesh,23,465521,India,true
+ADDR_000361,supplier,SUP_0068,hq,"Plot No. 211, Sector 25",Shanti Trade Centre,Visakhapatnam,Andhra Pradesh,37,535603,India,true
+ADDR_000362,supplier,SUP_0069,hq,"Unit 841, Vanaglow House",Suryodaya Business Park,Hubballi,Karnataka,29,577020,India,true
+ADDR_000363,supplier,SUP_0070,hq,"Unit 715, Vedawing House",Nilgiri Logistics Park,Visakhapatnam,Andhra Pradesh,37,525959,India,true
+ADDR_000364,supplier,SUP_0071,hq,"Unit 612, Tarafizz House",Shanti Industrial Area,Mumbai,Maharashtra,27,418638,India,true
+ADDR_000365,supplier,SUP_0072,hq,"Shed 38, Phase I",Nilgiri Commercial Complex,Mumbai,Maharashtra,27,445430,India,true
+ADDR_000366,supplier,SUP_0073,hq,"Unit 288, Dharaline House",Vasant Trade Centre,Kolkata,West Bengal,19,704890,India,true
+ADDR_000367,supplier,SUP_0074,hq,"Unit 462, Hirapact House",Vasant Commercial Complex,Guwahati,Assam,18,781098,India,true
+ADDR_000368,supplier,SUP_0075,hq,"Shed 22, Phase III",Amrit Trade Centre,Pune,Maharashtra,27,413629,India,true
+ADDR_000369,supplier,SUP_0076,hq,"Unit 289, Yuvavale House",Navrang Trade Centre,Nagpur,Maharashtra,27,449862,India,true
+ADDR_000370,supplier,SUP_0077,hq,"Shed 31, Phase III",Navrang Business Park,Panipat,Haryana,06,138345,India,true
+ADDR_000371,supplier,SUP_0078,hq,"Shed 55, Phase I",Amrit Industrial Area,Bengaluru,Karnataka,29,573933,India,true
+ADDR_000372,supplier,SUP_0079,hq,"Plot No. 208, Sector 23",Suryodaya Logistics Park,Vadodara,Gujarat,24,366352,India,true
+ADDR_000373,supplier,SUP_0080,hq,"Plot No. 108, Sector 10",Vasant Trade Centre,Faridabad,Haryana,06,128736,India,true
+ADDR_000374,supplier,SUP_0081,hq,"Shed 13, Phase III",Kesar Logistics Park,Kochi,Kerala,32,686215,India,true
+ADDR_000375,supplier,SUP_0082,hq,"Unit 477, Suvarnadale House",Sagar Trade Centre,Surat,Gujarat,24,389305,India,true
+ADDR_000376,supplier,SUP_0083,hq,"Shed 20, Phase II",Shanti Industrial Area,Mumbai,Maharashtra,27,404254,India,true
+ADDR_000377,supplier,SUP_0084,hq,"Shed 61, Phase III",Vasant Commercial Complex,Guwahati,Assam,18,782452,India,true
+ADDR_000378,supplier,SUP_0085,hq,"Shed 16, Phase II",Vasant Logistics Park,Panipat,Haryana,06,130412,India,true
+ADDR_000379,supplier,SUP_0086,hq,"Plot No. 174, Sector 34",Navrang Trade Centre,Jodhpur,Rajasthan,08,305556,India,true
+ADDR_000380,supplier,SUP_0087,hq,"Plot No. 119, Sector 25",Kesar Logistics Park,Pune,Maharashtra,27,447715,India,true
+ADDR_000381,supplier,SUP_0088,hq,"Plot No. 175, Sector 32",Prabhat Industrial Area,Indore,Madhya Pradesh,23,450522,India,true
+ADDR_000382,supplier,SUP_0089,hq,"Plot No. 48, Sector 40",Amrit Commercial Complex,Sonipat,Haryana,06,129129,India,true
+ADDR_000383,supplier,SUP_0090,hq,"Unit 626, Kirawell House",Sagar Industrial Area,Delhi,Delhi,07,117159,India,true
+ADDR_000384,supplier,SUP_0091,hq,"Plot No. 240, Sector 35",Navrang Business Park,Ghaziabad,Uttar Pradesh,09,253431,India,true
+ADDR_000385,supplier,SUP_0092,hq,"Shed 50, Phase II",Nilgiri Business Park,Visakhapatnam,Andhra Pradesh,37,529089,India,true
+ADDR_000386,supplier,SUP_0093,hq,"Plot No. 137, Sector 38",Sagar Industrial Area,Vapi,Gujarat,24,382408,India,true
+ADDR_000387,supplier,SUP_0094,hq,"Plot No. 271, Sector 23",Amrit Commercial Complex,Aurangabad,Maharashtra,27,432814,India,true
+ADDR_000388,supplier,SUP_0095,hq,"Shed 47, Phase I",Sagar Trade Centre,Coimbatore,Tamil Nadu,33,635348,India,true
+ADDR_000389,supplier,SUP_0096,hq,"Plot No. 270, Sector 21",Nilgiri Trade Centre,Ahmedabad,Gujarat,24,395177,India,true
+ADDR_000390,supplier,SUP_0097,hq,"Plot No. 113, Sector 29",Navrang Trade Centre,Bengaluru,Karnataka,29,587202,India,true
+ADDR_000391,supplier,SUP_0098,hq,"Plot No. 44, Sector 32",Suryodaya Logistics Park,Hubballi,Karnataka,29,585924,India,true
+ADDR_000392,supplier,SUP_0099,hq,"Plot No. 211, Sector 2",Kesar Logistics Park,Vapi,Gujarat,24,363330,India,true
+ADDR_000393,supplier,SUP_0100,hq,"Unit 508, Ojasgrove House",Mandar Trade Centre,Chennai,Tamil Nadu,33,646564,India,true
+ADDR_000394,supplier,SUP_0101,hq,"Shed 46, Phase I",Shanti Trade Centre,Mysuru,Karnataka,29,584008,India,true
+ADDR_000395,supplier,SUP_0102,hq,"Plot No. 297, Sector 8",Mandar Industrial Area,Hosur,Tamil Nadu,33,642121,India,true
+ADDR_000396,supplier,SUP_0103,hq,"Plot No. 8, Sector 37",Kesar Business Park,Hosur,Tamil Nadu,33,649325,India,true
+ADDR_000397,supplier,SUP_0104,hq,"Unit 886, Puresprout House",Mandar Industrial Area,Vadodara,Gujarat,24,383173,India,true
+ADDR_000398,supplier,SUP_0105,hq,"Plot No. 45, Sector 17",Sagar Udyog Nagar,Surat,Gujarat,24,382796,India,true
+ADDR_000399,supplier,SUP_0106,hq,"Plot No. 174, Sector 23",Navrang Industrial Area,Vapi,Gujarat,24,365296,India,true
+ADDR_000400,supplier,SUP_0107,hq,"Shed 60, Phase II",Vasant Business Park,Bhopal,Madhya Pradesh,23,475433,India,true
+ADDR_000401,supplier,SUP_0108,hq,"Shed 49, Phase II",Kesar Industrial Area,Durgapur,West Bengal,19,733477,India,true
+ADDR_000402,supplier,SUP_0109,hq,"Plot No. 24, Sector 20",Mandar Commercial Complex,Aurangabad,Maharashtra,27,418093,India,true
+ADDR_000403,supplier,SUP_0110,hq,"Plot No. 188, Sector 13",Amrit Business Park,Medchal,Telangana,36,504132,India,true
+ADDR_000404,supplier,SUP_0111,hq,"Shed 14, Phase I",Nilgiri Industrial Area,Hyderabad,Telangana,36,502769,India,true
+ADDR_000405,supplier,SUP_0112,hq,"Plot No. 132, Sector 18",Vasant Industrial Area,Panipat,Haryana,06,127802,India,true
+ADDR_000406,supplier,SUP_0113,hq,"Plot No. 293, Sector 4",Nilgiri Udyog Nagar,Vijayawada,Andhra Pradesh,37,511139,India,true
+ADDR_000407,supplier,SUP_0114,hq,"Shed 68, Phase I",Prabhat Trade Centre,Mumbai,Maharashtra,27,433017,India,true
+ADDR_000408,supplier,SUP_0115,hq,"Shed 1, Phase III",Shanti Business Park,Vapi,Gujarat,24,363016,India,true
+ADDR_000409,supplier,SUP_0116,hq,"Shed 6, Phase II",Shanti Industrial Area,New Delhi,Delhi,07,118324,India,true
+ADDR_000410,supplier,SUP_0117,hq,"Plot No. 215, Sector 25",Vasant Industrial Area,New Delhi,Delhi,07,119944,India,true
+ADDR_000411,supplier,SUP_0118,hq,"Shed 53, Phase II",Shanti Udyog Nagar,Pune,Maharashtra,27,447512,India,true
+ADDR_000412,supplier,SUP_0119,hq,"Unit 584, Novapath House",Vasant Udyog Nagar,Pithampur,Madhya Pradesh,23,453693,India,true
+ADDR_000413,supplier,SUP_0120,hq,"Shed 64, Phase II",Shanti Udyog Nagar,Kanpur,Uttar Pradesh,09,209150,India,true
+ADDR_000414,buyer,BUY_0011,hq,"Unit 349, Samapath House",Mandar Commercial Complex,Solan,Himachal Pradesh,02,172699,India,true
+ADDR_000415,buyer,BUY_0012,hq,"Plot No. 151, Sector 28",Sagar Logistics Park,Aurangabad,Maharashtra,27,448235,India,true
+ADDR_000416,buyer,BUY_0013,hq,"Plot No. 184, Sector 17",Nilgiri Industrial Area,Durgapur,West Bengal,19,719338,India,true
+ADDR_000417,buyer,BUY_0014,hq,"Plot No. 39, Sector 15",Navrang Commercial Complex,Bhiwadi,Rajasthan,08,319944,India,true
+ADDR_000418,buyer,BUY_0015,hq,"Unit 413, Ritumint House",Mandar Commercial Complex,Baddi,Himachal Pradesh,02,172540,India,true
+ADDR_000419,buyer,BUY_0016,hq,"Unit 440, Vanakart House",Amrit Industrial Area,Dehradun,Uttarakhand,05,267346,India,true
+ADDR_000420,buyer,BUY_0017,hq,"Unit 571, Indravista House",Suryodaya Udyog Nagar,Nagpur,Maharashtra,27,409657,India,true
+ADDR_000421,buyer,BUY_0018,hq,"Plot No. 64, Sector 3",Navrang Udyog Nagar,Delhi,Delhi,07,112074,India,true
+ADDR_000422,buyer,BUY_0019,hq,"Plot No. 112, Sector 4",Suryodaya Commercial Complex,Delhi,Delhi,07,114013,India,true
+ADDR_000423,buyer,BUY_0020,hq,"Plot No. 95, Sector 13",Prabhat Trade Centre,Nagpur,Maharashtra,27,430895,India,true
+ADDR_000424,buyer,BUY_0021,hq,"Unit 419, Vanavista House",Vasant Business Park,Kanpur,Uttar Pradesh,09,206539,India,true
+ADDR_000425,buyer,BUY_0022,hq,"Shed 54, Phase III",Sagar Business Park,Mysuru,Karnataka,29,588742,India,true
+ADDR_000426,buyer,BUY_0023,hq,"Plot No. 269, Sector 34",Nilgiri Trade Centre,Coimbatore,Tamil Nadu,33,643660,India,true
+ADDR_000427,buyer,BUY_0024,hq,"Unit 393, Ecofizz House",Amrit Business Park,Nagpur,Maharashtra,27,403266,India,true
+ADDR_000428,buyer,BUY_0025,hq,"Shed 78, Phase III",Nilgiri Udyog Nagar,New Delhi,Delhi,07,119525,India,true
+ADDR_000429,buyer,BUY_0026,hq,"Shed 16, Phase III",Kesar Commercial Complex,Nagpur,Maharashtra,27,410745,India,true
+ADDR_000430,buyer,BUY_0027,hq,"Shed 32, Phase II",Shanti Udyog Nagar,Hyderabad,Telangana,36,501169,India,true
+ADDR_000431,buyer,BUY_0028,hq,"Plot No. 272, Sector 8",Kesar Commercial Complex,Kolkata,West Bengal,19,736695,India,true
+ADDR_000432,buyer,BUY_0029,hq,"Unit 474, Pranakart House",Sagar Business Park,Pune,Maharashtra,27,431391,India,true
+ADDR_000433,buyer,BUY_0030,hq,"Unit 442, Suvarnamint House",Sagar Commercial Complex,Nagpur,Maharashtra,27,401319,India,true
+ADDR_000434,buyer,BUY_0031,hq,"Plot No. 45, Sector 31",Prabhat Udyog Nagar,Hubballi,Karnataka,29,586594,India,true
+ADDR_000435,buyer,BUY_0032,hq,"Plot No. 215, Sector 17",Kesar Business Park,Mysuru,Karnataka,29,562003,India,true
+ADDR_000436,buyer,BUY_0033,hq,"Plot No. 15, Sector 14",Sagar Industrial Area,Pune,Maharashtra,27,403004,India,true
+ADDR_000437,buyer,BUY_0034,hq,"Unit 366, Ritucrest House",Shanti Industrial Area,Vapi,Gujarat,24,383009,India,true
+ADDR_000438,buyer,BUY_0035,hq,"Shed 78, Phase II",Amrit Business Park,Vadodara,Gujarat,24,390663,India,true
+ADDR_000439,buyer,BUY_0036,hq,"Unit 627, Yuvawave House",Suryodaya Industrial Area,Coimbatore,Tamil Nadu,33,600368,India,true
+ADDR_000440,buyer,BUY_0037,hq,"Plot No. 109, Sector 28",Mandar Udyog Nagar,Nagpur,Maharashtra,27,415907,India,true
+ADDR_000441,buyer,BUY_0038,hq,"Shed 38, Phase III",Vasant Industrial Area,Nagpur,Maharashtra,27,445910,India,true
+ADDR_000442,buyer,BUY_0039,hq,"Unit 144, Bodhikart House",Kesar Trade Centre,Chennai,Tamil Nadu,33,634825,India,true
+ADDR_000443,buyer,BUY_0040,hq,"Plot No. 267, Sector 28",Mandar Commercial Complex,Medchal,Telangana,36,502353,India,true
+ADDR_000444,buyer,BUY_0041,hq,"Unit 390, Samafield House",Navrang Logistics Park,Durgapur,West Bengal,19,714644,India,true
+ADDR_000445,buyer,BUY_0042,hq,"Shed 12, Phase II",Kesar Trade Centre,Aurangabad,Maharashtra,27,408948,India,true
+ADDR_000446,buyer,BUY_0043,hq,"Plot No. 103, Sector 11",Shanti Trade Centre,Bhiwadi,Rajasthan,08,343804,India,true
+ADDR_000447,buyer,BUY_0044,hq,"Plot No. 125, Sector 9",Navrang Commercial Complex,Vapi,Gujarat,24,381379,India,true
+ADDR_000448,buyer,BUY_0045,hq,"Plot No. 191, Sector 20",Sagar Industrial Area,Medchal,Telangana,36,507156,India,true
+ADDR_000449,buyer,BUY_0046,hq,"Plot No. 54, Sector 6",Suryodaya Business Park,Durgapur,West Bengal,19,738773,India,true
+ADDR_000450,buyer,BUY_0047,hq,"Shed 50, Phase I",Mandar Business Park,Pune,Maharashtra,27,418929,India,true
+ADDR_000451,buyer,BUY_0048,hq,"Shed 80, Phase I",Nilgiri Udyog Nagar,Ghaziabad,Uttar Pradesh,09,221527,India,true
+ADDR_000452,buyer,BUY_0049,hq,"Shed 35, Phase I",Mandar Commercial Complex,Aurangabad,Maharashtra,27,410124,India,true
+ADDR_000453,buyer,BUY_0050,hq,"Unit 587, Gangastone House",Shanti Trade Centre,Hyderabad,Telangana,36,502023,India,true
+ADDR_000454,buyer,BUY_0051,hq,"Shed 10, Phase II",Vasant Udyog Nagar,Mohali,Punjab,03,159594,India,true
+ADDR_000455,buyer,BUY_0052,hq,"Plot No. 114, Sector 38",Mandar Trade Centre,Ghaziabad,Uttar Pradesh,09,201789,India,true
+ADDR_000456,buyer,BUY_0053,hq,"Unit 897, Kesargrove House",Navrang Commercial Complex,Verna,Goa,30,401955,India,true
+ADDR_000457,buyer,BUY_0054,hq,"Shed 1, Phase I",Kesar Logistics Park,Patna,Bihar,10,849046,India,true
+ADDR_000458,buyer,BUY_0055,hq,"Shed 38, Phase I",Nilgiri Trade Centre,Noida,Uttar Pradesh,09,204113,India,true
+ADDR_000459,buyer,BUY_0056,hq,"Plot No. 34, Sector 7",Sagar Business Park,Solan,Himachal Pradesh,02,175131,India,true
+ADDR_000460,buyer,BUY_0057,hq,"Unit 726, Chandrafield House",Amrit Business Park,Bengaluru,Karnataka,29,585645,India,true
+ADDR_000461,buyer,BUY_0058,hq,"Plot No. 91, Sector 6",Kesar Business Park,Ahmedabad,Gujarat,24,366286,India,true
+ADDR_000462,buyer,BUY_0059,hq,"Plot No. 80, Sector 40",Sagar Udyog Nagar,Visakhapatnam,Andhra Pradesh,37,525900,India,true
+ADDR_000463,buyer,BUY_0060,hq,"Unit 501, Udayaleaf House",Shanti Business Park,Panipat,Haryana,06,121792,India,true
+ADDR_000464,buyer,BUY_0061,hq,"Plot No. 228, Sector 14",Suryodaya Trade Centre,Aurangabad,Maharashtra,27,430657,India,true
+ADDR_000465,buyer,BUY_0062,hq,"Plot No. 210, Sector 18",Suryodaya Udyog Nagar,Sonipat,Haryana,06,131377,India,true
+ADDR_000466,buyer,BUY_0063,hq,"Shed 38, Phase III",Vasant Industrial Area,Durgapur,West Bengal,19,731739,India,true
+ADDR_000467,buyer,BUY_0064,hq,"Plot No. 116, Sector 25",Kesar Logistics Park,Visakhapatnam,Andhra Pradesh,37,527691,India,true
+ADDR_000468,buyer,BUY_0065,hq,"Plot No. 6, Sector 29",Kesar Trade Centre,Kolkata,West Bengal,19,706516,India,true
+ADDR_000469,buyer,BUY_0066,hq,"Unit 540, Vedawick House",Prabhat Udyog Nagar,Hubballi,Karnataka,29,567244,India,true
+ADDR_000470,buyer,BUY_0067,hq,"Shed 69, Phase I",Suryodaya Commercial Complex,Vapi,Gujarat,24,386643,India,true
+ADDR_000471,buyer,BUY_0068,hq,"Plot No. 288, Sector 16",Shanti Industrial Area,Patna,Bihar,10,858857,India,true
+ADDR_000472,buyer,BUY_0069,hq,"Plot No. 221, Sector 18",Prabhat Industrial Area,Coimbatore,Tamil Nadu,33,605319,India,true
+ADDR_000473,buyer,BUY_0070,hq,"Shed 33, Phase II",Sagar Industrial Area,Bengaluru,Karnataka,29,572230,India,true
+ADDR_000474,buyer,BUY_0071,hq,"Shed 6, Phase III",Suryodaya Trade Centre,Ghaziabad,Uttar Pradesh,09,203607,India,true
+ADDR_000475,buyer,BUY_0072,hq,"Unit 744, Pranastone House",Mandar Commercial Complex,Hosur,Tamil Nadu,33,606616,India,true
+ADDR_000476,buyer,BUY_0073,hq,"Shed 77, Phase I",Vasant Business Park,Panipat,Haryana,06,132652,India,true
+ADDR_000477,buyer,BUY_0074,hq,"Shed 44, Phase I",Mandar Trade Centre,Patna,Bihar,10,851952,India,true
+ADDR_000478,buyer,BUY_0075,hq,"Shed 30, Phase II",Nilgiri Business Park,Nagpur,Maharashtra,27,448600,India,true
+ADDR_000479,buyer,BUY_0076,hq,"Shed 42, Phase II",Sagar Business Park,New Delhi,Delhi,07,116144,India,true
+ADDR_000480,buyer,BUY_0077,hq,"Plot No. 236, Sector 5",Nilgiri Commercial Complex,Mumbai,Maharashtra,27,430691,India,true
+ADDR_000481,buyer,BUY_0078,hq,"Shed 21, Phase II",Amrit Business Park,Howrah,West Bengal,19,735255,India,true
+ADDR_000482,buyer,BUY_0079,hq,"Unit 205, Samavista House",Sagar Trade Centre,Mumbai,Maharashtra,27,413882,India,true
+ADDR_000483,buyer,BUY_0080,hq,"Shed 24, Phase II",Suryodaya Industrial Area,Noida,Uttar Pradesh,09,253474,India,true
+ADDR_000484,buyer,BUY_0081,hq,"Plot No. 250, Sector 2",Sagar Commercial Complex,Aurangabad,Maharashtra,27,401951,India,true
+ADDR_000485,buyer,BUY_0082,hq,"Plot No. 262, Sector 32",Mandar Business Park,Mohali,Punjab,03,142293,India,true
+ADDR_000486,buyer,BUY_0083,hq,"Plot No. 45, Sector 29",Kesar Trade Centre,Baddi,Himachal Pradesh,02,174789,India,true
+ADDR_000487,buyer,BUY_0084,hq,"Plot No. 129, Sector 9",Kesar Udyog Nagar,Vadodara,Gujarat,24,368464,India,true
+ADDR_000488,buyer,BUY_0085,hq,"Shed 28, Phase II",Suryodaya Industrial Area,Vijayawada,Andhra Pradesh,37,530577,India,true
+ADDR_000489,buyer,BUY_0086,hq,"Plot No. 230, Sector 16",Navrang Trade Centre,Ludhiana,Punjab,03,150819,India,true
+ADDR_000490,buyer,BUY_0087,hq,"Shed 32, Phase III",Vasant Industrial Area,Ghaziabad,Uttar Pradesh,09,258468,India,true
+ADDR_000491,buyer,BUY_0088,hq,"Shed 25, Phase III",Vasant Industrial Area,Hajipur,Bihar,10,841175,India,true
+ADDR_000492,buyer,BUY_0089,hq,"Shed 17, Phase I",Kesar Logistics Park,Jaipur,Rajasthan,08,348827,India,true
+ADDR_000493,buyer,BUY_0090,hq,"Plot No. 58, Sector 34",Mandar Logistics Park,Vijayawada,Andhra Pradesh,37,515240,India,true
+ADDR_000494,buyer,BUY_0091,hq,"Shed 3, Phase I",Nilgiri Logistics Park,Ludhiana,Punjab,03,155709,India,true
+ADDR_000495,buyer,BUY_0092,hq,"Plot No. 43, Sector 21",Sagar Logistics Park,Dehradun,Uttarakhand,05,267416,India,true
+ADDR_000496,buyer,BUY_0093,hq,"Unit 549, Novaroot House",Sagar Industrial Area,Delhi,Delhi,07,116481,India,true
+ADDR_000497,buyer,BUY_0094,hq,"Unit 261, Mithrawell House",Vasant Udyog Nagar,Aurangabad,Maharashtra,27,401702,India,true
+ADDR_000498,buyer,BUY_0095,hq,"Unit 877, Purenest House",Navrang Logistics Park,Thiruvananthapuram,Kerala,32,681938,India,true
+ADDR_000499,buyer,BUY_0096,hq,"Plot No. 290, Sector 9",Navrang Industrial Area,Vijayawada,Andhra Pradesh,37,528952,India,true
+ADDR_000500,buyer,BUY_0097,hq,"Shed 30, Phase II",Amrit Business Park,Dehradun,Uttarakhand,05,264694,India,true
+ADDR_000501,buyer,BUY_0098,hq,"Shed 18, Phase I",Suryodaya Trade Centre,Mumbai,Maharashtra,27,406411,India,true
+ADDR_000502,buyer,BUY_0099,hq,"Plot No. 61, Sector 19",Amrit Commercial Complex,Ghaziabad,Uttar Pradesh,09,200582,India,true
+ADDR_000503,buyer,BUY_0100,hq,"Unit 400, Kesarfizz House",Prabhat Logistics Park,Chennai,Tamil Nadu,33,637078,India,true
+ADDR_000504,buyer,BUY_0101,hq,"Shed 46, Phase III",Shanti Trade Centre,Solan,Himachal Pradesh,02,176594,India,true
+ADDR_000505,buyer,BUY_0102,hq,"Shed 47, Phase III",Suryodaya Industrial Area,Kanpur,Uttar Pradesh,09,226799,India,true
+ADDR_000506,buyer,BUY_0103,hq,"Plot No. 52, Sector 17",Nilgiri Udyog Nagar,Hubballi,Karnataka,29,583185,India,true
+ADDR_000507,buyer,BUY_0104,hq,"Shed 52, Phase I",Nilgiri Trade Centre,Indore,Madhya Pradesh,23,450614,India,true
+ADDR_000508,buyer,BUY_0105,hq,"Unit 574, Hiranest House",Mandar Business Park,Nagpur,Maharashtra,27,408178,India,true
+ADDR_000509,buyer,BUY_0106,hq,"Unit 623, Jalaridge House",Prabhat Industrial Area,Bengaluru,Karnataka,29,579356,India,true
+ADDR_000510,buyer,BUY_0107,hq,"Shed 22, Phase III",Mandar Trade Centre,Vadodara,Gujarat,24,391191,India,true
+ADDR_000511,buyer,BUY_0108,hq,"Shed 34, Phase I",Suryodaya Logistics Park,Bhiwadi,Rajasthan,08,342539,India,true
+ADDR_000512,buyer,BUY_0109,hq,"Shed 28, Phase I",Suryodaya Business Park,Guwahati,Assam,18,789202,India,true
+ADDR_000513,buyer,BUY_0110,hq,"Unit 183, Indraray House",Sagar Trade Centre,Mysuru,Karnataka,29,575536,India,true
+ADDR_000514,buyer,BUY_0111,hq,"Unit 391, Indrahaven House",Vasant Trade Centre,Patna,Bihar,10,844013,India,true
+ADDR_000515,buyer,BUY_0112,hq,"Unit 877, Dhararay House",Mandar Industrial Area,Guwahati,Assam,18,787502,India,true
+ADDR_000516,buyer,BUY_0113,hq,"Unit 707, Novamint House",Shanti Industrial Area,Ghaziabad,Uttar Pradesh,09,207456,India,true
+ADDR_000517,buyer,BUY_0114,hq,"Shed 57, Phase I",Nilgiri Udyog Nagar,Aurangabad,Maharashtra,27,430784,India,true
+ADDR_000518,buyer,BUY_0115,hq,"Unit 654, Vedawave House",Mandar Industrial Area,Jodhpur,Rajasthan,08,319163,India,true
+ADDR_000519,buyer,BUY_0116,hq,"Plot No. 49, Sector 26",Suryodaya Commercial Complex,Delhi,Delhi,07,111654,India,true
+ADDR_000520,buyer,BUY_0117,hq,"Unit 232, Vrikshroot House",Sagar Udyog Nagar,Panipat,Haryana,06,139936,India,true
+ADDR_000521,buyer,BUY_0118,hq,"Shed 6, Phase I",Suryodaya Logistics Park,Kochi,Kerala,32,685566,India,true
+ADDR_000522,buyer,BUY_0119,hq,"Shed 51, Phase III",Suryodaya Commercial Complex,Ahmedabad,Gujarat,24,361514,India,true
+ADDR_000523,buyer,BUY_0120,hq,"Shed 59, Phase II",Shanti Logistics Park,Medchal,Telangana,36,507927,India,true
+ADDR_000524,buyer,BUY_0121,hq,"Unit 306, Kesarpact House",Kesar Industrial Area,Bhubaneswar,Odisha,21,762767,India,true
+ADDR_000525,buyer,BUY_0122,hq,"Plot No. 149, Sector 14",Shanti Trade Centre,Visakhapatnam,Andhra Pradesh,37,516857,India,true
+ADDR_000526,buyer,BUY_0123,hq,"Plot No. 298, Sector 23",Shanti Logistics Park,Mumbai,Maharashtra,27,411032,India,true
+ADDR_000527,buyer,BUY_0124,hq,"Plot No. 290, Sector 23",Kesar Logistics Park,Vapi,Gujarat,24,399950,India,true
+ADDR_000528,buyer,BUY_0125,hq,"Shed 41, Phase III",Suryodaya Udyog Nagar,New Delhi,Delhi,07,111452,India,true
+ADDR_000529,buyer,BUY_0126,hq,"Plot No. 84, Sector 27",Sagar Commercial Complex,Ludhiana,Punjab,03,154636,India,true
+ADDR_000530,buyer,BUY_0127,hq,"Plot No. 91, Sector 11",Kesar Industrial Area,Hyderabad,Telangana,36,506945,India,true
+ADDR_000531,buyer,BUY_0128,hq,"Shed 35, Phase I",Sagar Trade Centre,Vadodara,Gujarat,24,396791,India,true
+ADDR_000532,buyer,BUY_0129,hq,"Shed 48, Phase II",Nilgiri Logistics Park,Ghaziabad,Uttar Pradesh,09,209946,India,true
+ADDR_000533,buyer,BUY_0130,hq,"Shed 16, Phase III",Nilgiri Business Park,Faridabad,Haryana,06,137166,India,true
+ADDR_000534,buyer,BUY_0131,hq,"Shed 45, Phase III",Amrit Logistics Park,Ghaziabad,Uttar Pradesh,09,225455,India,true
+ADDR_000535,buyer,BUY_0132,hq,"Unit 182, Udayahaven House",Nilgiri Logistics Park,Hyderabad,Telangana,36,509933,India,true
+ADDR_000536,buyer,BUY_0133,hq,"Shed 35, Phase III",Sagar Industrial Area,Howrah,West Bengal,19,709900,India,true
+ADDR_000537,buyer,BUY_0134,hq,"Unit 692, Novaroot House",Vasant Logistics Park,New Delhi,Delhi,07,110722,India,true
+ADDR_000538,buyer,BUY_0135,hq,"Shed 77, Phase II",Amrit Business Park,Cuttack,Odisha,21,751038,India,true
+ADDR_000539,buyer,BUY_0136,hq,"Shed 79, Phase I",Sagar Industrial Area,Sri City,Andhra Pradesh,37,535618,India,true
+ADDR_000540,buyer,BUY_0137,hq,"Plot No. 252, Sector 24",Suryodaya Trade Centre,Aurangabad,Maharashtra,27,408569,India,true
+ADDR_000541,buyer,BUY_0138,hq,"Shed 20, Phase I",Nilgiri Udyog Nagar,Bhiwadi,Rajasthan,08,347426,India,true
+ADDR_000542,buyer,BUY_0139,hq,"Shed 72, Phase I",Vasant Commercial Complex,Ludhiana,Punjab,03,157829,India,true
+ADDR_000543,buyer,BUY_0140,hq,"Shed 64, Phase I",Vasant Commercial Complex,Baddi,Himachal Pradesh,02,176972,India,true
+ADDR_000544,buyer,BUY_0141,hq,"Shed 23, Phase II",Prabhat Commercial Complex,Chennai,Tamil Nadu,33,639092,India,true
+ADDR_000545,buyer,BUY_0142,hq,"Plot No. 142, Sector 34",Shanti Business Park,Mumbai,Maharashtra,27,433923,India,true
+ADDR_000546,buyer,BUY_0143,hq,"Unit 850, Rituray House",Vasant Commercial Complex,Noida,Uttar Pradesh,09,201174,India,true
+ADDR_000547,buyer,BUY_0144,hq,"Plot No. 255, Sector 14",Prabhat Business Park,Vapi,Gujarat,24,389885,India,true
+ADDR_000548,buyer,BUY_0145,hq,"Shed 28, Phase II",Vasant Logistics Park,Hajipur,Bihar,10,845381,India,true
+ADDR_000549,buyer,BUY_0146,hq,"Plot No. 112, Sector 22",Amrit Trade Centre,Howrah,West Bengal,19,703904,India,true
+ADDR_000550,buyer,BUY_0147,hq,"Plot No. 79, Sector 14",Amrit Trade Centre,Chennai,Tamil Nadu,33,631531,India,true
+ADDR_000551,buyer,BUY_0148,hq,"Shed 31, Phase II",Shanti Trade Centre,Aurangabad,Maharashtra,27,408833,India,true
+ADDR_000552,buyer,BUY_0149,hq,"Unit 470, Pranavista House",Sagar Logistics Park,Aurangabad,Maharashtra,27,406895,India,true
+ADDR_000553,buyer,BUY_0150,hq,"Unit 792, Indranest House",Amrit Industrial Area,Medchal,Telangana,36,502768,India,true
+ADDR_000554,recycler,REC_0006,hq,"Shed 60, Phase I",Suryodaya Udyog Nagar,Durgapur,West Bengal,19,733906,India,true
+ADDR_000555,recycler,REC_0007,hq,"Plot No. 275, Sector 28",Navrang Trade Centre,Vijayawada,Andhra Pradesh,37,537617,India,true
+ADDR_000556,recycler,REC_0008,hq,"Unit 709, Arunwick House",Amrit Logistics Park,Sonipat,Haryana,06,121590,India,true
+ADDR_000557,recycler,REC_0009,hq,"Plot No. 258, Sector 18",Nilgiri Commercial Complex,Guwahati,Assam,18,784954,India,true
+ADDR_000558,recycler,REC_0010,hq,"Shed 55, Phase III",Suryodaya Logistics Park,Kolkata,West Bengal,19,711898,India,true
+ADDR_000559,recycler,REC_0011,hq,"Shed 71, Phase II",Sagar Business Park,Indore,Madhya Pradesh,23,466359,India,true
+ADDR_000560,recycler,REC_0012,hq,"Unit 330, Samamint House",Navrang Trade Centre,Delhi,Delhi,07,111139,India,true
+ADDR_000561,recycler,REC_0013,hq,"Shed 79, Phase II",Prabhat Logistics Park,Haridwar,Uttarakhand,05,264710,India,true
+ADDR_000562,recycler,REC_0014,hq,"Shed 76, Phase II",Navrang Commercial Complex,Kanpur,Uttar Pradesh,09,205040,India,true
+ADDR_000563,recycler,REC_0015,hq,"Unit 786, Saffrabloom House",Prabhat Commercial Complex,Baddi,Himachal Pradesh,02,177031,India,true
+ADDR_000564,recycler,REC_0016,hq,"Unit 626, Vedapeak House",Vasant Business Park,Kochi,Kerala,32,681774,India,true
+ADDR_000565,recycler,REC_0017,hq,"Shed 77, Phase II",Kesar Logistics Park,Howrah,West Bengal,19,704176,India,true
+ADDR_000566,recycler,REC_0018,hq,"Plot No. 243, Sector 36",Mandar Trade Centre,Faridabad,Haryana,06,132298,India,true
+ADDR_000567,recycler,REC_0019,hq,"Shed 17, Phase II",Kesar Commercial Complex,Bengaluru,Karnataka,29,585981,India,true
+ADDR_000568,recycler,REC_0020,hq,"Unit 789, Nilamint House",Kesar Logistics Park,Thiruvananthapuram,Kerala,32,697442,India,true
+ADDR_000569,recycler,REC_0021,hq,"Plot No. 193, Sector 1",Amrit Commercial Complex,Lucknow,Uttar Pradesh,09,256645,India,true
+ADDR_000570,recycler,REC_0022,hq,"Shed 24, Phase III",Kesar Logistics Park,Ghaziabad,Uttar Pradesh,09,259856,India,true
+ADDR_000571,recycler,REC_0023,hq,"Shed 63, Phase I",Vasant Business Park,New Delhi,Delhi,07,118964,India,true
+ADDR_000572,recycler,REC_0024,hq,"Unit 649, Taraleaf House",Vasant Industrial Area,Faridabad,Haryana,06,139012,India,true
+ADDR_000573,recycler,REC_0025,hq,"Shed 53, Phase II",Sagar Industrial Area,Rudrapur,Uttarakhand,05,266134,India,true
+ADDR_000574,recycler,REC_0026,hq,"Unit 172, Pranacrest House",Suryodaya Industrial Area,Solan,Himachal Pradesh,02,173300,India,true
+ADDR_000575,recycler,REC_0027,hq,"Unit 589, Indrapeak House",Prabhat Commercial Complex,Mysuru,Karnataka,29,580703,India,true
+ADDR_000576,recycler,REC_0028,hq,"Unit 234, Ojasvista House",Amrit Business Park,Guwahati,Assam,18,786628,India,true
+ADDR_000577,recycler,REC_0029,hq,"Shed 65, Phase III",Kesar Trade Centre,Nagpur,Maharashtra,27,403118,India,true
+ADDR_000578,recycler,REC_0030,hq,"Unit 166, Chandraridge House",Nilgiri Udyog Nagar,Aurangabad,Maharashtra,27,434370,India,true
+ADDR_000579,recycler,REC_0031,hq,"Shed 34, Phase II",Kesar Commercial Complex,Pithampur,Madhya Pradesh,23,461614,India,true
+ADDR_000580,recycler,REC_0032,hq,"Plot No. 257, Sector 28",Vasant Trade Centre,Hosur,Tamil Nadu,33,603676,India,true
+ADDR_000581,recycler,REC_0033,hq,"Unit 303, Ritugrove House",Vasant Business Park,Sonipat,Haryana,06,122702,India,true
+ADDR_000582,recycler,REC_0034,hq,"Plot No. 175, Sector 10",Shanti Industrial Area,Faridabad,Haryana,06,133716,India,true
+ADDR_000583,recycler,REC_0035,hq,"Shed 18, Phase I",Suryodaya Industrial Area,Jodhpur,Rajasthan,08,347757,India,true
+ADDR_000584,recycler,REC_0036,hq,"Unit 347, Kiraleaf House",Nilgiri Commercial Complex,Coimbatore,Tamil Nadu,33,636335,India,true
+ADDR_000585,recycler,REC_0037,hq,"Shed 20, Phase III",Nilgiri Industrial Area,Solan,Himachal Pradesh,02,171418,India,true
+ADDR_000586,recycler,REC_0038,hq,"Unit 326, Zaraleaf House",Vasant Trade Centre,Nagpur,Maharashtra,27,416554,India,true
+ADDR_000587,recycler,REC_0039,hq,"Plot No. 141, Sector 17",Amrit Industrial Area,Mumbai,Maharashtra,27,400305,India,true
+ADDR_000588,recycler,REC_0040,hq,"Plot No. 130, Sector 17",Sagar Logistics Park,Delhi,Delhi,07,116037,India,true
+ADDR_000589,recycler,REC_0041,hq,"Unit 292, Saffravale House",Sagar Trade Centre,Nagpur,Maharashtra,27,447386,India,true
+ADDR_000590,recycler,REC_0042,hq,"Shed 9, Phase I",Kesar Industrial Area,Coimbatore,Tamil Nadu,33,602281,India,true
+ADDR_000591,recycler,REC_0043,hq,"Shed 59, Phase II",Suryodaya Trade Centre,Nagpur,Maharashtra,27,449194,India,true
+ADDR_000592,recycler,REC_0044,hq,"Shed 47, Phase III",Nilgiri Industrial Area,Chennai,Tamil Nadu,33,633873,India,true
+ADDR_000593,recycler,REC_0045,hq,"Shed 3, Phase I",Suryodaya Industrial Area,Kanpur,Uttar Pradesh,09,206299,India,true
+ADDR_000594,recycler,REC_0046,hq,"Shed 54, Phase III",Prabhat Business Park,Sonipat,Haryana,06,125442,India,true
+ADDR_000595,recycler,REC_0047,hq,"Plot No. 129, Sector 36",Prabhat Logistics Park,Gurugram,Haryana,06,123166,India,true
+ADDR_000596,recycler,REC_0048,hq,"Plot No. 55, Sector 38",Suryodaya Business Park,Ahmedabad,Gujarat,24,366164,India,true
+ADDR_000597,recycler,REC_0049,hq,"Unit 757, Kesarnest House",Mandar Commercial Complex,Kolkata,West Bengal,19,704917,India,true
+ADDR_000598,recycler,REC_0050,hq,"Plot No. 290, Sector 33",Prabhat Logistics Park,Vadodara,Gujarat,24,392315,India,true

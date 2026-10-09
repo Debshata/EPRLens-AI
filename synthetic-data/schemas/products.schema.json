@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/products.schema.json",
+  "title": "Product master",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "product_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "product_id",
+    "company_id",
+    "product_name",
+    "product_category",
+    "industry",
+    "launch_date",
+    "selling_unit",
+    "units_per_case",
+    "active",
+    "test_entity",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "product_id": {
+      "type": "string",
+      "description": "Product id",
+      "pattern": "^PROD_(\\d{6}|TEST_\\d{3})$",
+      "x-provenance": "M"
+    },
+    "company_id": {
+      "type": "string",
+      "description": "Owner company",
+      "pattern": "^COMP_\\d{4}$",
+      "x-provenance": "M",
+      "x-foreign-key": "companies.company_id"
+    },
+    "product_name": {
+      "type": "string",
+      "description": "Fictional product name",
+      "x-provenance": "E"
+    },
+    "product_category": {
+      "type": "string",
+      "description": "Product category",
+      "x-provenance": "E"
+    },
+    "industry": {
+      "type": "string",
+      "description": "Industry (denormalised)",
+      "enum": [
+        "Beverages",
+        "FMCG",
+        "Cosmetics",
+        "Personal Care",
+        "Food",
+        "Pharmaceuticals",
+        "Electronics",
+        "Appliances",
+        "Automotive",
+        "Retail",
+        "E-commerce",
+        "Household Products",
+        "Industrial Goods"
+      ],
+      "x-provenance": "E"
+    },
+    "launch_date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Launch date",
+      "x-provenance": "E"
+    },
+    "selling_unit": {
+      "type": "string",
+      "description": "Unit in which the product is sold",
+      "x-provenance": "E"
+    },
+    "units_per_case": {
+      "type": "integer",
+      "description": "Units per shipping case",
+      "minimum": 1,
+      "x-provenance": "E"
+    },
+    "active": {
+      "type": "boolean",
+      "description": "False = discontinued",
+      "x-provenance": "M"
+    },
+    "test_entity": {
+      "type": "boolean",
+      "description": "True for deliberately problematic *_TEST_* entities (DS-22/23).",
+      "x-provenance": "M"
+    },
+    "test_scenario": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Scenario code (see docs/dummy-entities.md), null for normal entities.",
+      "pattern": "^TS\\d{2}_[A-Z0-9_]+$",
+      "x-provenance": "M"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

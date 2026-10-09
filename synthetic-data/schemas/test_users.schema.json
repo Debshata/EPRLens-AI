@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/test_users.schema.json",
+  "title": "Test user / account fixtures (no passwords)",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "user_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "user_id",
+    "display_name",
+    "fake_email",
+    "role",
+    "company_scope",
+    "permissions",
+    "fixture_only",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "Id",
+      "pattern": "^USR_\\d{4}$",
+      "x-provenance": "M"
+    },
+    "display_name": {
+      "type": "string",
+      "description": "Generic role-based placeholder",
+      "x-provenance": "M"
+    },
+    "fake_email": {
+      "type": "string",
+      "description": "@example.com only",
+      "pattern": "^[a-z0-9.]+@example\\.com$",
+      "x-provenance": "M"
+    },
+    "role": {
+      "type": "string",
+      "description": "Role (fixture only; D034 pending)",
+      "enum": [
+        "company_admin",
+        "sustainability_manager",
+        "compliance_manager",
+        "finance_user",
+        "operations_user",
+        "consultant",
+        "demo_user"
+      ],
+      "x-provenance": "M"
+    },
+    "company_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Home company; null for consultant",
+      "pattern": "^COMP_\\d{4}$",
+      "x-provenance": "M",
+      "x-foreign-key": "companies.company_id"
+    },
+    "company_scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Companies the user may access",
+      "x-provenance": "M"
+    },
+    "permissions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Fixture permission strings (not a production authorization model)",
+      "x-provenance": "M"
+    },
+    "fixture_only": {
+      "type": "boolean",
+      "description": "Always true: test fixture, not production auth (DS-25)",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/companies.schema.json",
+  "title": "Company master",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "company_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "company_id",
+    "company_name",
+    "industry",
+    "company_size",
+    "turnover_cr",
+    "manufacturer",
+    "importer",
+    "brand_owner",
+    "msme_flag",
+    "states_operated",
+    "headquarters_state",
+    "hq_address_id",
+    "epr_registered",
+    "registration_status",
+    "waste_stream",
+    "business_description",
+    "annual_units",
+    "active_products",
+    "created_at",
+    "test_entity",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "company_id": {
+      "type": "string",
+      "description": "Company id",
+      "pattern": "^COMP_\\d{4}$",
+      "x-provenance": "M"
+    },
+    "company_name": {
+      "type": "string",
+      "description": "Fictional company name",
+      "x-provenance": "E"
+    },
+    "industry": {
+      "type": "string",
+      "description": "Industry",
+      "enum": [
+        "Beverages",
+        "FMCG",
+        "Cosmetics",
+        "Personal Care",
+        "Food",
+        "Pharmaceuticals",
+        "Electronics",
+        "Appliances",
+        "Automotive",
+        "Retail",
+        "E-commerce",
+        "Household Products",
+        "Industrial Goods"
+      ],
+      "x-provenance": "E"
+    },
+    "company_size": {
+      "type": "string",
+      "description": "Illustrative turnover band (not official MSME criteria)",
+      "enum": [
+        "micro",
+        "small",
+        "medium",
+        "large"
+      ],
+      "x-provenance": "E"
+    },
+    "turnover_cr": {
+      "type": "number",
+      "description": "Annual turnover, ₹ crore (synthetic)",
+      "minimum": 0,
+      "x-provenance": "E"
+    },
+    "manufacturer": {
+      "type": "boolean",
+      "description": "Business fact: manufactures products/packaging",
+      "x-provenance": "H"
+    },
+    "importer": {
+      "type": "boolean",
+      "description": "Business fact: imports products or packaging",
+      "x-provenance": "H"
+    },
+    "brand_owner": {
+      "type": "boolean",
+      "description": "Business fact: sells under own brand (registration need is a separate rule, DS-14)",
+      "x-provenance": "H"
+    },
+    "msme_flag": {
+      "type": "boolean",
+      "description": "Synthetic MSME attribute (not derived from official criteria)",
+      "x-provenance": "E"
+    },
+    "states_operated": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "States where the company sells",
+      "x-provenance": "H"
+    },
+    "headquarters_state": {
+      "type": "string",
+      "description": "HQ state",
+      "x-provenance": "E"
+    },
+    "hq_address_id": {
+      "type": "string",
+      "description": "HQ address",
+      "pattern": "^ADDR_\\d{6}$",
+      "x-provenance": "M",
+      "x-foreign-key": "addresses.address_id"
+    },
+    "epr_registered": {
+      "type": "boolean",
+      "description": "Declared EPR registration status (synthetic)",
+      "x-provenance": "H"
+    },
+    "registration_status": {
+      "type": "string",
+      "description": "Declared registration status",
+      "enum": [
+        "registered",
+        "application_pending",
+        "not_registered",
+        "unknown"
+      ],
+      "x-provenance": "H"
+    },
+    "waste_stream": {
+      "type": "string",
+      "description": "EPR waste stream in scope",
+      "enum": [
+        "plastic_packaging"
+      ],
+      "x-provenance": "H"
+    },
+    "business_description": {
+      "type": "string",
+      "description": "Short synthetic description",
+      "x-provenance": "E"
+    },
+    "annual_units": {
+      "type": "integer",
+      "description": "Planned annual finished units (synthetic)",
+      "minimum": 0,
+      "x-provenance": "E"
+    },
+    "active_products": {
+      "type": "integer",
+      "description": "Count of active products",
+      "minimum": 0,
+      "x-provenance": "M"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Synthetic onboarding timestamp (deterministic, not generation time)",
+      "x-provenance": "M"
+    },
+    "test_entity": {
+      "type": "boolean",
+      "description": "True for deliberately problematic *_TEST_* entities (DS-22/23).",
+      "x-provenance": "M"
+    },
+    "test_scenario": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Scenario code (see docs/dummy-entities.md), null for normal entities.",
+      "pattern": "^TS\\d{2}_[A-Z0-9_]+$",
+      "x-provenance": "M"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

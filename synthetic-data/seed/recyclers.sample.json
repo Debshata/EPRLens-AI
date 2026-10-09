@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "0.2.0-entities",
+    "entity_pack": "full",
+    "source_of_truth": "synthetic-data/masters/*.csv",
+    "note": "Small DB seed (core pack)."
+  },
+  "records": [
+    {
+      "recycler_id": "REC_0001",
+      "recycler_name": "Ritupath Recovery Works Pvt Ltd",
+      "state": "Haryana",
+      "city": "Sonipat",
+      "hq_address_id": "ADDR_000031",
+      "fake_gstin": "06LNMCR6506Y1Z6",
+      "registered": true,
+      "fake_registration_number": "SYN-PWP-HR-2023-0001",
+      "processing_type": "industrial composting",
+      "supported_materials": [
+        "COMPOSTABLE"
+      ],
+      "monthly_capacity_kg": 270000.0,
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "recycler_id": "REC_0002",
+      "recycler_name": "Suvarnaline Waste Solutions Pvt Ltd",
+      "state": "West Bengal",
+      "city": "Howrah",
+      "hq_address_id": "ADDR_000032",
+      "fake_gstin": "19TALCY2571B3ZM",
+      "registered": true,
+      "fake_registration_number": "SYN-PWP-WB-2023-0002",
+      "processing_type": "mixed-plastic processing",
+      "supported_materials": [
+        "HDPE",
+        "LDPE",
+        "LLDPE",
+        "PP",
+        "PS",
+        "PVC"
+      ],
+      "monthly_capacity_kg": 195000.0,
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "recycler_id": "REC_0003",
+      "recycler_name": "Rituwick Recovery Works Pvt Ltd",
+      "state": "Tamil Nadu",
+      "city": "Coimbatore",
+      "hq_address_id": "ADDR_000033",
+      "fake_gstin": "33SHMCS2463J1Z7",
+      "registered": true,
+      "fake_registration_number": "SYN-PWP-TN-2024-0003",
+      "processing_type": "MLP processing",
+      "supported_materials": [
+        "MLP"
+      ],
+      "monthly_capacity_kg": 167000.0,
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "recycler_id": "REC_0004",
+      "recycler_name": "Aquastone Recovery Works Pvt Ltd",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "hq_address_id": "ADDR_000034",
+      "fake_gstin": "36GCTCG7017D1ZF",
+      "registered": true,
+      "fake_registration_number": "SYN-PWP-TS-2022-0004",
+      "processing_type": "PET recycling",
+      "supported_materials": [
+        "PET"
+      ],
+      "monthly_capacity_kg": 117000.0,
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "recycler_id": "REC_0005",
+      "recycler_name": "Saffrabrook Reprocessors Pvt Ltd",
+      "state": "Rajasthan",
+      "city": "Jaipur",
+      "hq_address_id": "ADDR_000035",
+      "fake_gstin": "08OPNCV4379G3ZL",
+      "registered": true,
+      "fake_registration_number": "SYN-PWP-RJ-2022-0005",
+      "processing_type": "LDPE recycling",
+      "supported_materials": [
+        "LDPE",
+        "LLDPE"
+      ],
+      "monthly_capacity_kg": 176000.0,
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "recycler_id": "REC_TEST_001",
+      "recycler_name": "Vanashore Polymer Recycling Pvt Ltd",
+      "state": "Uttar Pradesh",
+      "city": "Ghaziabad",
+      "hq_address_id": "ADDR_000036",
+      "fake_gstin": "09KZXCG0870G2ZA",
+      "registered": false,
+      "fake_registration_number": "SYN-PWP-UP-2024-0901",
+      "processing_type": "mixed-plastic processing",
+      "supported_materials": [
+        "HDPE",
+        "LDPE",
+        "LLDPE",
+        "PP",
+        "PS",
+        "PVC"
+      ],
+      "monthly_capacity_kg": 790000.0,
+      "test_entity": true,
+      "test_scenario": "TS01_UNREGISTERED_RECYCLER",
+      "synthetic_flag": true
+    }
+  ]
+}

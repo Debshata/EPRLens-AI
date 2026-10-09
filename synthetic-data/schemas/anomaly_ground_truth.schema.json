@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/anomaly_ground_truth.schema.json",
+  "title": "Anomaly ground truth (never visible to detectors)",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "anomaly_instance_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "anomaly_instance_id",
+    "record_id",
+    "record_type",
+    "anomaly_type",
+    "expected_detection_method",
+    "severity",
+    "is_anomaly",
+    "test_case_type",
+    "split",
+    "seed",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "anomaly_instance_id": {
+      "type": "string",
+      "description": "Id",
+      "pattern": "^ANM_\\d{7}$",
+      "x-provenance": "GT"
+    },
+    "record_id": {
+      "type": "string",
+      "description": "Affected record",
+      "x-provenance": "GT"
+    },
+    "record_type": {
+      "type": "string",
+      "description": "Table",
+      "enum": [
+        "invoice",
+        "invoice_line",
+        "transaction",
+        "product_month",
+        "recycling",
+        "component"
+      ],
+      "x-provenance": "GT"
+    },
+    "anomaly_type": {
+      "type": "string",
+      "description": "AN01…AN20",
+      "enum": [
+        "AN01",
+        "AN02",
+        "AN03",
+        "AN04",
+        "AN05",
+        "AN06",
+        "AN07",
+        "AN08",
+        "AN09",
+        "AN10",
+        "AN11",
+        "AN12",
+        "AN13",
+        "AN14",
+        "AN15",
+        "AN16",
+        "AN17",
+        "AN18",
+        "AN19",
+        "AN20"
+      ],
+      "x-provenance": "GT"
+    },
+    "field": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Mutated field",
+      "x-provenance": "GT"
+    },
+    "original_value": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Before",
+      "x-provenance": "GT"
+    },
+    "modified_value": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "After",
+      "x-provenance": "GT"
+    },
+    "expected_detection_method": {
+      "type": "string",
+      "description": "R | ML | R+ML",
+      "enum": [
+        "R",
+        "ML",
+        "R+ML"
+      ],
+      "x-provenance": "GT"
+    },
+    "expected_rule_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Rules expected to fire",
+      "x-provenance": "GT"
+    },
+    "severity": {
+      "type": "string",
+      "description": "Severity",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "n/a"
+      ],
+      "x-provenance": "GT"
+    },
+    "is_anomaly": {
+      "type": "boolean",
+      "description": "False for hard negatives (AN17)",
+      "x-provenance": "GT"
+    },
+    "test_case_type": {
+      "type": "string",
+      "description": "Case type",
+      "enum": [
+        "routine",
+        "targeted_anomaly",
+        "targeted_legit_hard"
+      ],
+      "x-provenance": "GT"
+    },
+    "split": {
+      "type": "string",
+      "description": "train | validation | test",
+      "enum": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "x-provenance": "GT"
+    },
+    "seed": {
+      "type": "integer",
+      "description": "Sub-seed used",
+      "x-provenance": "GT"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

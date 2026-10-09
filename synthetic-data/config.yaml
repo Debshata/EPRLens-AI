@@ -1,0 +1,88 @@
+# Full-dataset configuration — SYNTHETIC — EPRLens Demo
+# Status: PROPOSED. Consumed by generate.py, which is built only after
+# "APPROVED — GENERATE FULL SYNTHETIC DATASET". Values mirror docs/generator-assumptions.md.
+
+seed: 20261009
+generator_version: "0.1.0-proposal"
+entity_config: synthetic-data/config/entity_seed.yaml
+entity_pack: full
+
+window: {start: "2023-04", end: "2026-03"}          # DS-01 B, 36 months, FY-aligned
+
+outputs:
+  root: data/generated
+  csv_dir: csv
+  pdf_dir: invoices/pdf
+  json_dir: invoices/json
+  manifest: manifests/MANIFEST.json
+
+sales:
+  packaged_share: [0.6, 0.9]
+  growth: {mean: 0.08, sd: 0.10, min: -0.2, max: 0.5}
+  noise_sd: 0.08
+  launch_ramp_months: [3, 6]
+  buyer_registered_beta: [4, 3]
+  export_company_share: 0.15
+  export_unit_share: [0.02, 0.15]
+  return_unit_share: [0.005, 0.02]
+
+purchases:                                          # DS-03 A: produced = sold
+  safety_stock: [0.10, 0.30]
+  opening_months: [1, 2]
+  written_off_share: [0.0, 0.01]
+  small_company_order_every_months: 2
+
+invoices:
+  sales_lines_max: 12
+  multi_material_share: 0.02
+  shared_number_groups: 300                         # AN17 legit groups of 2–5 (handbook p.41)
+  cancelled_share: 0.005
+  gst_rates: {default: 18, alternatives: [5, 12]}   # illustrative, TBD verification
+  price_per_kg_inr:                                 # illustrative, NOT market prices
+    PET: [110, 160]
+    HDPE: [100, 150]
+    LDPE: [100, 145]
+    LLDPE: [100, 145]
+    PP: [100, 150]
+    PVC: [90, 140]
+    PS: [120, 200]
+    MLP: [180, 320]
+    COMPOSTABLE: [250, 450]
+    PAPER: [60, 100]
+    CARDBOARD: [40, 80]
+    GLASS: [15, 35]
+    METAL: [250, 400]
+  conversion_margin: [0.2, 0.6]
+
+recycling:                                          # DS-11 A synthetic proxy
+  generation_lag_weights: {1: 0.5, 2: 0.3, 3: 0.2}
+  collection_beta: [6, 4]
+  recycling_beta: [17, 3]
+  documentation_beta: [9, 1]
+
+scenarios:
+  per_company: 3
+  reduction_pct: [5, 15, 25]
+
+business_descriptions: {count: 150, vague_share: 0.1}
+
+anomalies:                                          # DS-07 A — see docs/anomaly-distribution.md
+  invoice_counts: {AN01: 200, AN02: 150, AN03: 120, AN04: 150, AN05: 150, AN06: 200, AN07: 250,
+                   AN08: 200, AN10: 80, AN14: 80, AN15: 80, AN16: 80, AN18: 60, AN19: 80, AN20: 100}
+  product_month_counts: {AN09: 330}
+  recycling_counts: {AN11: 300, AN12: 250, AN13: 150}
+  compound_share_max: 0.02
+
+pdfs:
+  total: 1000
+  routine: 600
+  targeted_anomaly: 280
+  targeted_legit_hard: 120
+  templates: [L01, L02, L03, L04, L05, L06, L07, L08, L09, L10, L11, L12]
+  min_docs_per_template: 50
+  renderer: reportlab                               # DS-18 A (pending)
+  watermark: "SYNTHETIC — EPRLens Demo"
+
+splits:                                             # DS-08 A
+  forecast: {train_months: 24, validation_months: 6, test_months: 6, holdout_companies: 40}
+  anomaly: {train: 0.6, validation: 0.2, test: 0.2, by: company}

@@ -1,0 +1,307 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "0.2.0-entities",
+    "entity_pack": "full",
+    "source_of_truth": "synthetic-data/masters/*.csv",
+    "note": "TEST FIXTURES ONLY — not a production authorization model. No passwords are stored."
+  },
+  "users": [
+    {
+      "user_id": "USR_0001",
+      "display_name": "Demo Company Admin 01",
+      "fake_email": "demo.admin01@example.com",
+      "role": "company_admin",
+      "company_id": "COMP_0001",
+      "company_scope": [
+        "COMP_0001"
+      ],
+      "permissions": [
+        "company:read",
+        "company:write",
+        "users:manage",
+        "uploads:write",
+        "findings:review",
+        "scenarios:run",
+        "reports:export"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0002",
+      "display_name": "Demo Sustainability Manager 01",
+      "fake_email": "demo.manager01@example.com",
+      "role": "sustainability_manager",
+      "company_id": "COMP_0001",
+      "company_scope": [
+        "COMP_0001"
+      ],
+      "permissions": [
+        "company:read",
+        "uploads:write",
+        "findings:review",
+        "forecast:read",
+        "scenarios:run",
+        "reports:export"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0003",
+      "display_name": "Demo Compliance Manager 01",
+      "fake_email": "demo.compliance01@example.com",
+      "role": "compliance_manager",
+      "company_id": "COMP_0002",
+      "company_scope": [
+        "COMP_0002"
+      ],
+      "permissions": [
+        "company:read",
+        "uploads:write",
+        "findings:review",
+        "rules:read",
+        "reports:export"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0004",
+      "display_name": "Demo Consultant 01",
+      "fake_email": "demo.consultant01@example.com",
+      "role": "consultant",
+      "company_id": null,
+      "company_scope": [
+        "COMP_0001",
+        "COMP_0002",
+        "COMP_0003",
+        "COMP_0004",
+        "COMP_0005"
+      ],
+      "permissions": [
+        "company:read",
+        "findings:review",
+        "scenarios:run",
+        "reports:export",
+        "multi_company:read"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0005",
+      "display_name": "Demo Demo User 01",
+      "fake_email": "demo.user01@example.com",
+      "role": "demo_user",
+      "company_id": "COMP_0001",
+      "company_scope": [
+        "COMP_0001"
+      ],
+      "permissions": [
+        "company:read",
+        "forecast:read",
+        "scenarios:run"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0006",
+      "display_name": "Demo Finance User 01",
+      "fake_email": "demo.finance01@example.com",
+      "role": "finance_user",
+      "company_id": "COMP_0006",
+      "company_scope": [
+        "COMP_0006"
+      ],
+      "permissions": [
+        "company:read",
+        "invoices:read",
+        "uploads:write"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0007",
+      "display_name": "Demo Operations User 01",
+      "fake_email": "demo.ops01@example.com",
+      "role": "operations_user",
+      "company_id": "COMP_0007",
+      "company_scope": [
+        "COMP_0007"
+      ],
+      "permissions": [
+        "company:read",
+        "transactions:read",
+        "uploads:write"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0008",
+      "display_name": "Demo Company Admin 02",
+      "fake_email": "demo.admin02@example.com",
+      "role": "company_admin",
+      "company_id": "COMP_0008",
+      "company_scope": [
+        "COMP_0008"
+      ],
+      "permissions": [
+        "company:read",
+        "company:write",
+        "users:manage",
+        "uploads:write",
+        "findings:review",
+        "scenarios:run",
+        "reports:export"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0009",
+      "display_name": "Demo Sustainability Manager 02",
+      "fake_email": "demo.manager02@example.com",
+      "role": "sustainability_manager",
+      "company_id": "COMP_0009",
+      "company_scope": [
+        "COMP_0009"
+      ],
+      "permissions": [
+        "company:read",
+        "uploads:write",
+        "findings:review",
+        "forecast:read",
+        "scenarios:run",
+        "reports:export"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0010",
+      "display_name": "Demo Compliance Manager 02",
+      "fake_email": "demo.compliance02@example.com",
+      "role": "compliance_manager",
+      "company_id": "COMP_0010",
+      "company_scope": [
+        "COMP_0010"
+      ],
+      "permissions": [
+        "company:read",
+        "uploads:write",
+        "findings:review",
+        "rules:read",
+        "reports:export"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0011",
+      "display_name": "Demo Demo User 02",
+      "fake_email": "demo.user02@example.com",
+      "role": "demo_user",
+      "company_id": "COMP_0011",
+      "company_scope": [
+        "COMP_0011"
+      ],
+      "permissions": [
+        "company:read",
+        "forecast:read",
+        "scenarios:run"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0012",
+      "display_name": "Demo Operations User 02",
+      "fake_email": "demo.ops02@example.com",
+      "role": "operations_user",
+      "company_id": "COMP_0012",
+      "company_scope": [
+        "COMP_0012"
+      ],
+      "permissions": [
+        "company:read",
+        "transactions:read",
+        "uploads:write"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0013",
+      "display_name": "Demo Finance User 02",
+      "fake_email": "demo.finance02@example.com",
+      "role": "finance_user",
+      "company_id": "COMP_0013",
+      "company_scope": [
+        "COMP_0013"
+      ],
+      "permissions": [
+        "company:read",
+        "invoices:read",
+        "uploads:write"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0014",
+      "display_name": "Demo Company Admin 03",
+      "fake_email": "demo.admin03@example.com",
+      "role": "company_admin",
+      "company_id": "COMP_0014",
+      "company_scope": [
+        "COMP_0014"
+      ],
+      "permissions": [
+        "company:read",
+        "company:write",
+        "users:manage",
+        "uploads:write",
+        "findings:review",
+        "scenarios:run",
+        "reports:export"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    },
+    {
+      "user_id": "USR_0015",
+      "display_name": "Demo Consultant 02",
+      "fake_email": "demo.consultant02@example.com",
+      "role": "consultant",
+      "company_id": null,
+      "company_scope": [
+        "COMP_0006",
+        "COMP_0007",
+        "COMP_0008",
+        "COMP_0009",
+        "COMP_0010",
+        "COMP_0011",
+        "COMP_0012",
+        "COMP_0013",
+        "COMP_0014",
+        "COMP_0015"
+      ],
+      "permissions": [
+        "company:read",
+        "findings:review",
+        "scenarios:run",
+        "reports:export",
+        "multi_company:read"
+      ],
+      "fixture_only": true,
+      "synthetic_flag": true
+    }
+  ]
+}

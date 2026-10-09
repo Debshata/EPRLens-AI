@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/suppliers.schema.json",
+  "title": "Supplier master",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "supplier_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "supplier_id",
+    "supplier_name",
+    "supplier_type",
+    "state",
+    "city",
+    "hq_address_id",
+    "fake_gstin",
+    "registration_status",
+    "supported_materials",
+    "supported_component_forms",
+    "min_order_quantity",
+    "typical_unit",
+    "test_entity",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "supplier_id": {
+      "type": "string",
+      "description": "Supplier id",
+      "pattern": "^SUP_(\\d{4}|TEST_\\d{3})$",
+      "x-provenance": "M"
+    },
+    "supplier_name": {
+      "type": "string",
+      "description": "Fictional name",
+      "x-provenance": "E"
+    },
+    "supplier_type": {
+      "type": "string",
+      "description": "Type",
+      "enum": [
+        "PET bottle manufacturer",
+        "plastic resin supplier",
+        "flexible packaging supplier",
+        "cap supplier",
+        "closure supplier",
+        "label supplier",
+        "shrink-film supplier",
+        "pouch supplier",
+        "carton supplier",
+        "packaging converter",
+        "raw-material supplier",
+        "component supplier"
+      ],
+      "x-provenance": "E"
+    },
+    "state": {
+      "type": "string",
+      "description": "State",
+      "x-provenance": "E"
+    },
+    "city": {
+      "type": "string",
+      "description": "City",
+      "x-provenance": "E"
+    },
+    "hq_address_id": {
+      "type": "string",
+      "description": "Address",
+      "pattern": "^ADDR_\\d{6}$",
+      "x-provenance": "M",
+      "x-foreign-key": "addresses.address_id"
+    },
+    "fake_gstin": {
+      "type": "string",
+      "description": "GSTIN-like, deliberately invalid checksum",
+      "pattern": "^\\d{2}[A-Z]{5}\\d{4}[A-Z][1-9A-Z]Z[0-9A-Z]$",
+      "x-provenance": "P"
+    },
+    "registration_status": {
+      "type": "string",
+      "description": "Declared EPR registration of the vendor (handbook p.42)",
+      "enum": [
+        "registered",
+        "unregistered",
+        "unknown"
+      ],
+      "x-provenance": "H"
+    },
+    "supported_materials": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Materials supplied",
+      "x-provenance": "E"
+    },
+    "supported_component_forms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Component forms supplied (empty for resin/raw-material suppliers)",
+      "x-provenance": "E"
+    },
+    "min_order_quantity": {
+      "type": "number",
+      "description": "Minimum order quantity in typical_unit",
+      "minimum": 0,
+      "x-provenance": "E"
+    },
+    "typical_unit": {
+      "type": "string",
+      "description": "Typical invoicing unit",
+      "enum": [
+        "kg",
+        "g",
+        "MT",
+        "pcs",
+        "cartons",
+        "bottles",
+        "bags",
+        "rolls"
+      ],
+      "x-provenance": "E"
+    },
+    "test_entity": {
+      "type": "boolean",
+      "description": "True for deliberately problematic *_TEST_* entities (DS-22/23).",
+      "x-provenance": "M"
+    },
+    "test_scenario": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Scenario code (see docs/dummy-entities.md), null for normal entities.",
+      "pattern": "^TS\\d{2}_[A-Z0-9_]+$",
+      "x-provenance": "M"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

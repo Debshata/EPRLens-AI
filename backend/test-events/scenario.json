@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "0.2.0-entities",
+    "entity_pack": "full",
+    "source_of_truth": "synthetic-data/masters/*.csv",
+    "note": "Invocation envelope TBD (D056). Payload shape is a proposal."
+  },
+  "action": "what_if",
+  "company_id": "COMP_0001",
+  "product_id": "PROD_000001",
+  "input": {
+    "baseline_weight_g": 25.0,
+    "reduction_pct": 15,
+    "units": 100000,
+    "units_note": "Illustrative input, not generated sales."
+  },
+  "expected_output": {
+    "proposed_weight_g": 21.25,
+    "baseline_kg": 2500.0,
+    "proposed_kg": 2125.0,
+    "projected_reduction_kg": 375.0
+  }
+}

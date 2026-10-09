@@ -1,0 +1,32 @@
+{
+  "synthetic": true,
+  "watermark": "SYNTHETIC — EPRLens Demo",
+  "generator_version": "0.1.0",
+  "git_commit": "<commit sha>",
+  "seed": 20261009,
+  "config_sha256": "<sha256 of config.yaml>",
+  "entity_config_sha256": "<sha256 of config/entity_seed.yaml>",
+  "generated_at": "<ISO-8601 UTC — excluded from reproducibility checks>",
+  "clean_data_sha256": "<sha256 over clean CSVs before anomaly injection>",
+  "schema_versions": {"tables": "0.1.0-proposal", "invoice_document": "0.1.0-proposal"},
+  "counts": {
+    "companies": 200,
+    "products": "<n>",
+    "packaging_components": "<n>",
+    "transactions": "<n>",
+    "material_events": "<n>",
+    "invoices": "<n>",
+    "invoice_lines": "<n>",
+    "recycling": "<n>",
+    "anomaly_ground_truth": "<n>",
+    "scenarios": "<n>",
+    "business_descriptions": 150,
+    "invoice_pdfs": 1000,
+    "invoice_json": 1000
+  },
+  "file_hashes": {
+    "csv/companies.csv": "<sha256>",
+    "invoices/pdf/DOC_000001.pdf": "<sha256>",
+    "invoices/json/DOC_000001.json": "<sha256>"
+  }
+}

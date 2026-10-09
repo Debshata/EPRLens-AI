@@ -1,0 +1,52 @@
+recycler_id,recycler_name,state,city,hq_address_id,fake_gstin,registered,fake_registration_number,processing_type,supported_materials,monthly_capacity_kg,test_entity,test_scenario,synthetic_flag
+REC_0001,Ritupath Recovery Works Pvt Ltd,Haryana,Sonipat,ADDR_000031,06LNMCR6506Y1Z6,true,SYN-PWP-HR-2023-0001,industrial composting,COMPOSTABLE,270000.0,false,,true
+REC_0002,Suvarnaline Waste Solutions Pvt Ltd,West Bengal,Howrah,ADDR_000032,19TALCY2571B3ZM,true,SYN-PWP-WB-2023-0002,mixed-plastic processing,HDPE|LDPE|LLDPE|PP|PS|PVC,195000.0,false,,true
+REC_0003,Rituwick Recovery Works Pvt Ltd,Tamil Nadu,Coimbatore,ADDR_000033,33SHMCS2463J1Z7,true,SYN-PWP-TN-2024-0003,MLP processing,MLP,167000.0,false,,true
+REC_0004,Aquastone Recovery Works Pvt Ltd,Telangana,Hyderabad,ADDR_000034,36GCTCG7017D1ZF,true,SYN-PWP-TS-2022-0004,PET recycling,PET,117000.0,false,,true
+REC_0005,Saffrabrook Reprocessors Pvt Ltd,Rajasthan,Jaipur,ADDR_000035,08OPNCV4379G3ZL,true,SYN-PWP-RJ-2022-0005,LDPE recycling,LDPE|LLDPE,176000.0,false,,true
+REC_0006,Udayakart Reprocessors Pvt Ltd,West Bengal,Durgapur,ADDR_000554,19LJWCR7506O3ZZ,true,SYN-PWP-WB-2024-0006,HDPE recycling,HDPE,403000.0,false,,true
+REC_0007,Yuvawick Reprocessors Pvt Ltd,Andhra Pradesh,Vijayawada,ADDR_000555,37LDVCT7372V3ZT,false,,LDPE recycling,LDPE|LLDPE,131000.0,false,,true
+REC_0008,Hirakart Recyclers Pvt Ltd,Haryana,Sonipat,ADDR_000556,06BTXCO6995N1ZC,false,SYN-PWP-HR-2024-0008,MLP processing,MLP,68000.0,false,,true
+REC_0009,Jalapact Recyclers Pvt Ltd,Assam,Guwahati,ADDR_000557,18GIKCN6378R1ZA,true,SYN-PWP-AS-2024-0009,PET recycling,PET,815000.0,false,,true
+REC_0010,Chandrastone Polymer Recycling Pvt Ltd,West Bengal,Kolkata,ADDR_000558,19NPYCF0911C2Z9,true,SYN-PWP-WB-2023-0010,PP recycling,PP,136000.0,false,,true
+REC_0011,Zararoot Polymer Recycling Pvt Ltd,Madhya Pradesh,Indore,ADDR_000559,23UPDCN9223G1ZO,true,SYN-PWP-MP-2022-0011,industrial composting,COMPOSTABLE,118000.0,false,,true
+REC_0012,Vanadale Recyclers Pvt Ltd,Delhi,Delhi,ADDR_000560,07OMOCU6040V2ZV,true,SYN-PWP-DL-2022-0012,mixed-plastic processing,HDPE|LDPE|LLDPE|PP|PS|PVC,162000.0,false,,true
+REC_0013,Jalavista Recyclers Pvt Ltd,Uttarakhand,Haridwar,ADDR_000561,05ZVYCB2074M2ZT,false,SYN-PWP-UK-2023-0013,HDPE recycling,HDPE,88000.0,false,,true
+REC_0014,Saffrakart Polymer Recycling Pvt Ltd,Uttar Pradesh,Kanpur,ADDR_000562,09BGRCT5928D2ZU,false,,LDPE recycling,LDPE|LLDPE,125000.0,false,,true
+REC_0015,Suvarnavista Reprocessors Pvt Ltd,Himachal Pradesh,Baddi,ADDR_000563,02ESOCO0562R3ZZ,true,SYN-PWP-HP-2023-0015,MLP processing,MLP,444000.0,false,,true
+REC_0016,Hirasprout Recyclers Pvt Ltd,Kerala,Kochi,ADDR_000564,32JDECB2642Y2ZV,true,SYN-PWP-KL-2022-0016,PET recycling,PET,184000.0,false,,true
+REC_0017,Vedaloom Waste Solutions Pvt Ltd,West Bengal,Howrah,ADDR_000565,19IHICB7088B2ZG,true,SYN-PWP-WB-2024-0017,PP recycling,PP,243000.0,false,,true
+REC_0018,Udayashore Waste Solutions Pvt Ltd,Haryana,Faridabad,ADDR_000566,06FLNCR8221R2Z8,true,SYN-PWP-HR-2022-0018,industrial composting,COMPOSTABLE,708000.0,false,,true
+REC_0019,Gangawick Recyclers Pvt Ltd,Karnataka,Bengaluru,ADDR_000567,29BQNCR2697N1ZQ,true,SYN-PWP-KA-2024-0019,mixed-plastic processing,HDPE|LDPE|LLDPE|PP|PS|PVC,265000.0,false,,true
+REC_0020,Taragrove Waste Solutions Pvt Ltd,Kerala,Thiruvananthapuram,ADDR_000568,32JLFCW7484H2ZA,false,SYN-PWP-KL-2022-0020,industrial composting,COMPOSTABLE,590000.0,false,,true
+REC_0021,Kirawave Polymer Recycling Pvt Ltd,Uttar Pradesh,Lucknow,ADDR_000569,09GRRCT1835R2ZL,true,SYN-PWP-UP-2022-0021,LDPE recycling,LDPE|LLDPE,269000.0,false,,true
+REC_0022,Pranahaven Waste Solutions Pvt Ltd,Uttar Pradesh,Ghaziabad,ADDR_000570,09OXLCE6336P3ZF,true,SYN-PWP-UP-2022-0022,PET recycling,PET,73000.0,false,,true
+REC_0023,Yuvabloom Polymer Recycling Pvt Ltd,Delhi,New Delhi,ADDR_000571,07PCTCT2795R1ZH,true,SYN-PWP-DL-2022-0023,LDPE recycling,LDPE|LLDPE,218000.0,false,,true
+REC_0024,Pranastone Waste Solutions Pvt Ltd,Haryana,Faridabad,ADDR_000572,06CXZCH1457A3ZL,false,SYN-PWP-HR-2023-0024,HDPE recycling,HDPE,123000.0,false,,true
+REC_0025,Arunfield Reprocessors Pvt Ltd,Uttarakhand,Rudrapur,ADDR_000573,05OLDCB7361R3ZJ,true,SYN-PWP-UK-2022-0025,PET recycling,PET,77000.0,false,,true
+REC_0026,Ojasfizz Recyclers Pvt Ltd,Himachal Pradesh,Solan,ADDR_000574,02JVICA3202M2ZC,true,SYN-PWP-HP-2024-0026,HDPE recycling,HDPE,228000.0,false,,true
+REC_0027,Kesarleaf Recovery Works Pvt Ltd,Karnataka,Mysuru,ADDR_000575,29NHDCF3390G3ZG,true,SYN-PWP-KA-2022-0027,MLP processing,MLP,242000.0,false,,true
+REC_0028,Zaracrest Polymer Recycling Pvt Ltd,Assam,Guwahati,ADDR_000576,18HJUCW2012Y1ZJ,true,SYN-PWP-AS-2023-0028,PET recycling,PET,308000.0,false,,true
+REC_0029,Saffraridge Recyclers Pvt Ltd,Maharashtra,Nagpur,ADDR_000577,27UYGCA1429U2ZZ,true,SYN-PWP-MH-2023-0029,mixed-plastic processing,HDPE|LDPE|LLDPE|PP|PS|PVC,357000.0,false,,true
+REC_0030,Pranasprout Reprocessors Pvt Ltd,Maharashtra,Aurangabad,ADDR_000578,27BYOCU6996N2Z5,true,SYN-PWP-MH-2022-0030,MLP processing,MLP,456000.0,false,,true
+REC_0031,Vedabrook Polymer Recycling Pvt Ltd,Madhya Pradesh,Pithampur,ADDR_000579,23MVYCP8714O3Z3,true,SYN-PWP-MP-2023-0031,mixed-plastic processing,HDPE|LDPE|LLDPE|PP|PS|PVC,96000.0,false,,true
+REC_0032,Yuvamint Waste Solutions Pvt Ltd,Tamil Nadu,Hosur,ADDR_000580,33AYLCE9002N3ZW,true,SYN-PWP-TN-2022-0032,HDPE recycling,HDPE,139000.0,false,,true
+REC_0033,Ojasgrove Waste Solutions Pvt Ltd,Haryana,Sonipat,ADDR_000581,06LJACI1005Y3ZI,true,SYN-PWP-HR-2023-0033,LDPE recycling,LDPE|LLDPE,278000.0,false,,true
+REC_0034,Suvarnadale Recovery Works Pvt Ltd,Haryana,Faridabad,ADDR_000582,06BOACS5746Z2Z6,true,SYN-PWP-HR-2024-0034,PET recycling,PET,162000.0,false,,true
+REC_0035,Jalashore Recyclers Pvt Ltd,Rajasthan,Jodhpur,ADDR_000583,08XSGCF0015M1ZA,true,SYN-PWP-RJ-2023-0035,PET recycling,PET,77000.0,false,,true
+REC_0036,Vedapeak Recovery Works Pvt Ltd,Tamil Nadu,Coimbatore,ADDR_000584,33IHPCJ4446X3Z9,true,SYN-PWP-TN-2023-0036,MLP processing,MLP,110000.0,false,,true
+REC_0037,Ojasglow Reprocessors Pvt Ltd,Himachal Pradesh,Solan,ADDR_000585,02SVSCG7009K3ZJ,true,SYN-PWP-HP-2023-0037,industrial composting,COMPOSTABLE,116000.0,false,,true
+REC_0038,Ritupath Recyclers Pvt Ltd,Maharashtra,Nagpur,ADDR_000586,27PPFCO5099A3ZB,false,SYN-PWP-MH-2023-0038,MLP processing,MLP,160000.0,false,,true
+REC_0039,Saffraloom Waste Solutions Pvt Ltd,Maharashtra,Mumbai,ADDR_000587,27CZVCG7804M1Z1,true,SYN-PWP-MH-2022-0039,HDPE recycling,HDPE,296000.0,false,,true
+REC_0040,Pranaline Recovery Works Pvt Ltd,Delhi,Delhi,ADDR_000588,07DDKCB5202F2ZQ,true,SYN-PWP-DL-2022-0040,PET recycling,PET,314000.0,false,,true
+REC_0041,Zarakart Polymer Recycling Pvt Ltd,Maharashtra,Nagpur,ADDR_000589,27DQOCQ5621K3ZA,true,SYN-PWP-MH-2024-0041,mixed-plastic processing,HDPE|LDPE|LLDPE|PP|PS|PVC,80000.0,false,,true
+REC_0042,Novavista Waste Solutions Pvt Ltd,Tamil Nadu,Coimbatore,ADDR_000590,33OJUCU8371F2Z7,true,SYN-PWP-TN-2022-0042,PP recycling,PP,678000.0,false,,true
+REC_0043,Ganganest Waste Solutions Pvt Ltd,Maharashtra,Nagpur,ADDR_000591,27WQQCQ0867U2ZR,true,SYN-PWP-MH-2023-0043,PP recycling,PP,1067000.0,false,,true
+REC_0044,Kirabloom Reprocessors Pvt Ltd,Tamil Nadu,Chennai,ADDR_000592,33VJJCM2713W3Z2,true,SYN-PWP-TN-2023-0044,industrial composting,COMPOSTABLE,141000.0,false,,true
+REC_0045,Pranavale Waste Solutions Pvt Ltd,Uttar Pradesh,Kanpur,ADDR_000593,09IEJCG9248L3Z4,true,SYN-PWP-UP-2024-0045,PP recycling,PP,485000.0,false,,true
+REC_0046,Zaragrove Recyclers Pvt Ltd,Haryana,Sonipat,ADDR_000594,06IFMCR5348L3ZT,true,SYN-PWP-HR-2024-0046,PP recycling,PP,178000.0,false,,true
+REC_0047,Vrikshray Reprocessors Pvt Ltd,Haryana,Gurugram,ADDR_000595,06XRWCE6463L1Z2,false,SYN-PWP-HR-2022-0047,PP recycling,PP,1177000.0,false,,true
+REC_0048,Indraleaf Reprocessors Pvt Ltd,Gujarat,Ahmedabad,ADDR_000596,24FLICU7685C1ZR,true,SYN-PWP-GJ-2022-0048,LDPE recycling,LDPE|LLDPE,289000.0,false,,true
+REC_0049,Ritugrove Polymer Recycling Pvt Ltd,West Bengal,Kolkata,ADDR_000597,19PVNCK1491Y1Z2,true,SYN-PWP-WB-2022-0049,industrial composting,COMPOSTABLE,250000.0,false,,true
+REC_0050,Mithrafield Polymer Recycling Pvt Ltd,Gujarat,Vadodara,ADDR_000598,24FHVCM6499I3ZI,true,SYN-PWP-GJ-2024-0050,HDPE recycling,HDPE,134000.0,false,,true
+REC_TEST_001,Vanashore Polymer Recycling Pvt Ltd,Uttar Pradesh,Ghaziabad,ADDR_000036,09KZXCG0870G2ZA,false,SYN-PWP-UP-2024-0901,mixed-plastic processing,HDPE|LDPE|LLDPE|PP|PS|PVC,790000.0,true,TS01_UNREGISTERED_RECYCLER,true

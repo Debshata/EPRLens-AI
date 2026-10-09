@@ -1,0 +1,341 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "0.2.0-entities",
+    "entity_pack": "full",
+    "source_of_truth": "synthetic-data/masters/*.csv",
+    "note": "Small DB seed (core pack)."
+  },
+  "records": [
+    {
+      "supplier_id": "SUP_0001",
+      "supplier_name": "Yuvawave PET Bottles Pvt Ltd",
+      "supplier_type": "PET bottle manufacturer",
+      "state": "Gujarat",
+      "city": "Vapi",
+      "hq_address_id": "ADDR_000009",
+      "fake_gstin": "24ZWNCQ0245Y2ZZ",
+      "registration_status": "registered",
+      "supported_materials": [
+        "PET"
+      ],
+      "supported_component_forms": [
+        "bottle",
+        "jar"
+      ],
+      "min_order_quantity": 50000,
+      "typical_unit": "pcs",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0002",
+      "supplier_name": "Chandraleaf Caps Pvt Ltd",
+      "supplier_type": "cap supplier",
+      "state": "Karnataka",
+      "city": "Bengaluru",
+      "hq_address_id": "ADDR_000010",
+      "fake_gstin": "29PHMCO5664A2Z4",
+      "registration_status": "registered",
+      "supported_materials": [
+        "PP",
+        "HDPE"
+      ],
+      "supported_component_forms": [
+        "cap",
+        "closure"
+      ],
+      "min_order_quantity": 50000,
+      "typical_unit": "pcs",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0003",
+      "supplier_name": "Zarapeak Label Prints Pvt Ltd",
+      "supplier_type": "label supplier",
+      "state": "West Bengal",
+      "city": "Howrah",
+      "hq_address_id": "ADDR_000011",
+      "fake_gstin": "19YJQCL0840A2ZY",
+      "registration_status": "unregistered",
+      "supported_materials": [
+        "PP",
+        "PAPER",
+        "PVC"
+      ],
+      "supported_component_forms": [
+        "label_film",
+        "paper_label"
+      ],
+      "min_order_quantity": 10,
+      "typical_unit": "rolls",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0004",
+      "supplier_name": "Nilafizz Corrugators Pvt Ltd",
+      "supplier_type": "carton supplier",
+      "state": "Goa",
+      "city": "Verna",
+      "hq_address_id": "ADDR_000012",
+      "fake_gstin": "30FJTCE0299F1Z3",
+      "registration_status": "registered",
+      "supported_materials": [
+        "CARDBOARD",
+        "PAPER"
+      ],
+      "supported_component_forms": [
+        "box",
+        "carton",
+        "void_fill"
+      ],
+      "min_order_quantity": 10000,
+      "typical_unit": "pcs",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0005",
+      "supplier_name": "Lumiwell Packaging Components Pvt Ltd",
+      "supplier_type": "component supplier",
+      "state": "Goa",
+      "city": "Margao",
+      "hq_address_id": "ADDR_000013",
+      "fake_gstin": "30FQYCU3815R3ZY",
+      "registration_status": "registered",
+      "supported_materials": [
+        "PS",
+        "PP",
+        "HDPE",
+        "METAL",
+        "GLASS"
+      ],
+      "supported_component_forms": [
+        "can",
+        "cap",
+        "drum",
+        "eps_block",
+        "glass_bottle",
+        "pail",
+        "tray"
+      ],
+      "min_order_quantity": 5000,
+      "typical_unit": "pcs",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0006",
+      "supplier_name": "Taravale Pouch Pack Pvt Ltd",
+      "supplier_type": "pouch supplier",
+      "state": "Telangana",
+      "city": "Medchal",
+      "hq_address_id": "ADDR_000014",
+      "fake_gstin": "36HXLCQ8971U3ZZ",
+      "registration_status": "registered",
+      "supported_materials": [
+        "LDPE",
+        "LLDPE",
+        "MLP",
+        "COMPOSTABLE"
+      ],
+      "supported_component_forms": [
+        "compostable_bag",
+        "pouch_laminate",
+        "pouch_mono",
+        "sachet_laminate",
+        "sachet_mono"
+      ],
+      "min_order_quantity": 10000,
+      "typical_unit": "pcs",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0007",
+      "supplier_name": "Samabrook Polyfilms Pvt Ltd",
+      "supplier_type": "shrink-film supplier",
+      "state": "Kerala",
+      "city": "Kochi",
+      "hq_address_id": "ADDR_000015",
+      "fake_gstin": "32FCMCZ3765T2Z1",
+      "registration_status": "registered",
+      "supported_materials": [
+        "LDPE",
+        "LLDPE",
+        "PP",
+        "PVC"
+      ],
+      "supported_component_forms": [
+        "film",
+        "liner",
+        "shrink_wrap",
+        "stretch_wrap"
+      ],
+      "min_order_quantity": 500,
+      "typical_unit": "kg",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0008",
+      "supplier_name": "Vrikshbloom Packaging Solutions Pvt Ltd",
+      "supplier_type": "packaging converter",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "hq_address_id": "ADDR_000016",
+      "fake_gstin": "27JOVCI0213D2ZV",
+      "registration_status": "unknown",
+      "supported_materials": [
+        "PET",
+        "HDPE",
+        "PP",
+        "PS",
+        "PVC",
+        "MLP"
+      ],
+      "supported_component_forms": [
+        "blister",
+        "bottle",
+        "drum",
+        "eps_block",
+        "jar",
+        "laminated_tube",
+        "pail",
+        "pouch_laminate",
+        "sachet_laminate",
+        "tray",
+        "tub"
+      ],
+      "min_order_quantity": 1000,
+      "typical_unit": "kg",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0009",
+      "supplier_name": "Ecoroot Flexi Pack Pvt Ltd",
+      "supplier_type": "flexible packaging supplier",
+      "state": "Himachal Pradesh",
+      "city": "Solan",
+      "hq_address_id": "ADDR_000017",
+      "fake_gstin": "02PDRCY2053H3ZD",
+      "registration_status": "registered",
+      "supported_materials": [
+        "LDPE",
+        "LLDPE",
+        "MLP",
+        "COMPOSTABLE"
+      ],
+      "supported_component_forms": [
+        "bag",
+        "compostable_bag",
+        "compostable_mailer",
+        "film",
+        "liner",
+        "mailer",
+        "pouch_laminate",
+        "pouch_mono",
+        "sachet_laminate",
+        "sachet_mono"
+      ],
+      "min_order_quantity": 250,
+      "typical_unit": "kg",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_0010",
+      "supplier_name": "Jalavista Converters Pvt Ltd",
+      "supplier_type": "packaging converter",
+      "state": "Maharashtra",
+      "city": "Aurangabad",
+      "hq_address_id": "ADDR_000018",
+      "fake_gstin": "27OSJCQ7156S3Z1",
+      "registration_status": "unregistered",
+      "supported_materials": [
+        "PET",
+        "HDPE",
+        "PP",
+        "PS",
+        "PVC",
+        "MLP"
+      ],
+      "supported_component_forms": [
+        "blister",
+        "bottle",
+        "drum",
+        "eps_block",
+        "jar",
+        "laminated_tube",
+        "pail",
+        "pouch_laminate",
+        "sachet_laminate",
+        "tray",
+        "tub"
+      ],
+      "min_order_quantity": 500,
+      "typical_unit": "kg",
+      "test_entity": false,
+      "test_scenario": null,
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_TEST_001",
+      "supplier_name": "Ecoglow PET Bottles Pvt Ltd",
+      "supplier_type": "PET bottle manufacturer",
+      "state": "Haryana",
+      "city": "Sonipat",
+      "hq_address_id": "ADDR_000019",
+      "fake_gstin": "06ODQCM2783K1Z4",
+      "registration_status": "registered",
+      "supported_materials": [
+        "PET"
+      ],
+      "supported_component_forms": [
+        "bottle",
+        "jar"
+      ],
+      "min_order_quantity": 50000,
+      "typical_unit": "pcs",
+      "test_entity": true,
+      "test_scenario": "TS02_SUPPLIER_ABNORMAL_QUANTITY",
+      "synthetic_flag": true
+    },
+    {
+      "supplier_id": "SUP_TEST_002",
+      "supplier_name": "Rituwell Caps Pvt Ltd",
+      "supplier_type": "cap supplier",
+      "state": "Gujarat",
+      "city": "Vapi",
+      "hq_address_id": "ADDR_000008",
+      "fake_gstin": "24JUMCZ9636M1ZR",
+      "registration_status": "registered",
+      "supported_materials": [
+        "PP"
+      ],
+      "supported_component_forms": [
+        "cap",
+        "closure"
+      ],
+      "min_order_quantity": 5000,
+      "typical_unit": "pcs",
+      "test_entity": true,
+      "test_scenario": "TS03_SUPPLIER_MATERIAL_CHANGE",
+      "synthetic_flag": true
+    }
+  ]
+}

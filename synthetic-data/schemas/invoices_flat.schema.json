@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/invoices_flat.schema.json",
+  "title": "Flattened invoice view with exactly the brief's columns (one row per line, derived)",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "invoice_line_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "invoice_line_id",
+    "invoice_id",
+    "invoice_number",
+    "invoice_type",
+    "company_id",
+    "supplier_id",
+    "buyer_id",
+    "invoice_date",
+    "rate",
+    "amount",
+    "gst",
+    "total",
+    "is_anomaly",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "invoice_line_id": {
+      "type": "string",
+      "description": "Line id",
+      "x-provenance": "M"
+    },
+    "invoice_id": {
+      "type": "string",
+      "description": "Header id",
+      "x-provenance": "M"
+    },
+    "invoice_number": {
+      "type": "string",
+      "description": "",
+      "x-provenance": "P"
+    },
+    "invoice_type": {
+      "type": "string",
+      "description": "",
+      "enum": [
+        "PKG_PURCHASE",
+        "FG_SALES",
+        "RECYCLER_PROCESSING",
+        "WASTE_PROCUREMENT",
+        "CREDIT_NOTE",
+        "RETURN",
+        "IMPORT_COMMERCIAL",
+        "PKG_COMPONENT",
+        "MULTI_MATERIAL",
+        "RECYCLING_SERVICE"
+      ],
+      "x-provenance": "P"
+    },
+    "company_id": {
+      "type": "string",
+      "description": "",
+      "x-provenance": "M"
+    },
+    "supplier_id": {
+      "type": "string",
+      "description": "",
+      "x-provenance": "M"
+    },
+    "buyer_id": {
+      "type": "string",
+      "description": "",
+      "x-provenance": "M"
+    },
+    "invoice_date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "",
+      "x-provenance": "P"
+    },
+    "material": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "",
+      "x-provenance": "P"
+    },
+    "plastic_category": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "",
+      "x-provenance": "P"
+    },
+    "raw_quantity": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "",
+      "x-provenance": "P"
+    },
+    "raw_unit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "",
+      "x-provenance": "P"
+    },
+    "normalized_quantity_kg": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "",
+      "x-provenance": "M"
+    },
+    "recorded_quantity_kg": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "",
+      "x-provenance": "M"
+    },
+    "rate": {
+      "type": "number",
+      "description": "",
+      "x-provenance": "P"
+    },
+    "amount": {
+      "type": "number",
+      "description": "taxable value",
+      "x-provenance": "P"
+    },
+    "gst": {
+      "type": "number",
+      "description": "",
+      "x-provenance": "P"
+    },
+    "total": {
+      "type": "number",
+      "description": "line total",
+      "x-provenance": "P"
+    },
+    "is_anomaly": {
+      "type": "boolean",
+      "description": "",
+      "x-provenance": "GT"
+    },
+    "anomaly_type": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "",
+      "x-provenance": "GT"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+====================================SYNTHETIC — EPRLens Demo====================================
+                                          TAX INVOICE                                           
+
+Yuvawave PET Bottles Pvt Ltd
+Unit 862, Zarawave House, Amrit Commercial Complex, Vapi, Gujarat 395570, India
+GSTIN: 24ZWNCQ0245Y2ZZ    Tel: +91-00000-04401
+
+Invoice No.: SYYU/2526/00123          Invoice Date: 14/10/2025
+Place of Supply: Delhi (07)
+
+Bill To:
+  EcoFizz Beverages Pvt Ltd
+  Plot No. 153, Sector 8, Nilgiri Business Park, New Delhi, Delhi 116724, India
+
+#  Description                                 HSN         Qty Unit     Rate       Taxable
+------------------------------------------------------------------------------------------------
+1  PET bottle 500 ml — PET (21.0 g/pc)         3923     48,000 pcs      3.97   1,90,560.00
+2  PET bottle 1.25 L — PET (38.0 g/pc)         3923     36,000 pcs      7.18   2,58,480.00
+3  PET bottle 1 L — PET (22.0 g/pc)            3923     24,000 pcs      4.16     99,840.00
+------------------------------------------------------------------------------------------------
+                                                             Total taxable value     5,48,880.00
+                                                                      IGST @ 18%       98,798.40
+                                                             Invoice total (Rs.)     6,47,678.40
+
+Bank: SYN-ACCT-001234  IFSC: SYNT0DEMO01
+for Yuvawave PET Bottles Pvt Ltd — Authorised Signatory
+
+========================SYNTHETIC — EPRLens Demo · DOC_990001 · page 1/1========================

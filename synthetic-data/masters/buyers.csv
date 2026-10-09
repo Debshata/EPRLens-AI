@@ -1,0 +1,152 @@
+buyer_id,buyer_name,buyer_type,state,city,hq_address_id,fake_gstin,gst_registered,epr_registered,company_size,test_entity,test_scenario,synthetic_flag
+BUY_0001,Ojaswell Retail Mart,retailer,Telangana,Medchal,ADDR_000020,,false,false,small,false,,true
+BUY_0002,Suvarnabloom Wholesalers Pvt Ltd,wholesaler,Haryana,Panipat,ADDR_000021,06JYNCC0349J2ZZ,true,false,small,false,,true
+BUY_0003,Hirawave Retail Mart,retailer,West Bengal,Howrah,ADDR_000022,19VTJFJ3030N2ZZ,true,false,micro,false,,true
+BUY_0004,Vedabloom Manufacturing LLP,manufacturing customer,Karnataka,Bengaluru,ADDR_000023,29WPKCY3386K2Z1,true,true,medium,false,,true
+BUY_0005,Samaridge Supermarket Pvt Ltd,supermarket,Uttar Pradesh,Kanpur,ADDR_000024,09ZKNCV7860C3ZS,true,true,small,false,,true
+BUY_0006,Gangashore Hospitality Services,institutional buyer,Karnataka,Bengaluru,ADDR_000025,29JKDFN4126S2ZM,true,false,medium,false,,true
+BUY_0007,Rituhaven Supermarket Pvt Ltd,supermarket,Rajasthan,Jaipur,ADDR_000026,08VSCFU9388M2ZU,true,true,small,false,,true
+BUY_0008,Vrikshmint Distribution Pvt Ltd,distributor,Punjab,Jalandhar,ADDR_000027,03WADFL2291Y3ZM,true,true,medium,false,,true
+BUY_0009,Kirawick E-Store,e-commerce seller,Rajasthan,Bhiwadi,ADDR_000028,08NQCFN4062O1ZY,true,false,large,false,,true
+BUY_0010,Nilapeak Wholesale Traders LLP,wholesaler,Haryana,Panipat,ADDR_000029,06YUEFM8629B3Z3,true,true,medium,false,,true
+BUY_0011,Lumibrook Hypermart Pvt Ltd,supermarket,Himachal Pradesh,Solan,ADDR_000414,02ZELFT7867R1ZR,true,true,large,false,,true
+BUY_0012,Gangavista Industries,manufacturing customer,Maharashtra,Aurangabad,ADDR_000415,27TUUCL7385W2ZO,true,true,small,false,,true
+BUY_0013,Vrikshleaf Wholesalers LLP,wholesaler,West Bengal,Durgapur,ADDR_000416,19NGMFP3128H1ZQ,true,false,large,false,,true
+BUY_0014,Bodhipeak General Stores,retailer,Rajasthan,Bhiwadi,ADDR_000417,08GBSFP2702I2Z6,true,false,small,false,,true
+BUY_0015,Kesarloom General Stores,retailer,Himachal Pradesh,Baddi,ADDR_000418,,false,false,small,false,,true
+BUY_0016,Hirashore Retail Mart,retailer,Uttarakhand,Dehradun,ADDR_000419,05NXSCQ6698U1Z8,true,false,micro,false,,true
+BUY_0017,Saffradale E-Store Pvt Ltd,e-commerce seller,Maharashtra,Nagpur,ADDR_000420,27WSJFJ3094R3ZM,true,false,small,false,,true
+BUY_0018,Tarapath Institutional Supplies Pvt Ltd,institutional buyer,Delhi,Delhi,ADDR_000421,07XOPFQ9564F3ZJ,true,false,medium,false,,true
+BUY_0019,Purenest Retail Mart,retailer,Delhi,Delhi,ADDR_000422,07SUPCK5674W2ZJ,true,false,small,false,,true
+BUY_0020,Kesarwick Wholesale Traders LLP,wholesaler,Maharashtra,Nagpur,ADDR_000423,27LYBCJ1373W1ZU,true,true,medium,false,,true
+BUY_0021,Aquapeak Distribution LLP,distributor,Uttar Pradesh,Kanpur,ADDR_000424,09DCGFB9520G2ZT,true,true,medium,false,,true
+BUY_0022,Chandrawave Distribution Pvt Ltd,distributor,Karnataka,Mysuru,ADDR_000425,29WKWCG5179T2Z1,true,true,large,false,,true
+BUY_0023,Saffrashore Retail Mart,retailer,Tamil Nadu,Coimbatore,ADDR_000426,33TASCA8235M1ZD,true,false,micro,false,,true
+BUY_0024,Samasprout Industries LLP,manufacturing customer,Maharashtra,Nagpur,ADDR_000427,27AIFFI9898X3ZU,true,true,small,false,,true
+BUY_0025,Novabrook E-Store LLP,e-commerce seller,Delhi,New Delhi,ADDR_000428,07FYTCM3805A1ZZ,true,true,medium,false,,true
+BUY_0026,Kiranest Hypermart,supermarket,Maharashtra,Nagpur,ADDR_000429,27GGOCK0264O1ZN,true,true,large,false,,true
+BUY_0027,Nilawing Distribution Pvt Ltd,distributor,Telangana,Hyderabad,ADDR_000430,36XZZFD0065Q1ZU,true,true,medium,false,,true
+BUY_0028,Gangavale Online Sellers,e-commerce seller,West Bengal,Kolkata,ADDR_000431,19KJNFU4461V2ZW,true,true,large,false,,true
+BUY_0029,Lumiwell E-Store LLP,e-commerce seller,Maharashtra,Pune,ADDR_000432,27LXRFK1621A1Z4,true,true,medium,false,,true
+BUY_0030,Rituvale Online Sellers LLP,e-commerce seller,Maharashtra,Nagpur,ADDR_000433,27NPFCK7310Y2ZU,true,true,medium,false,,true
+BUY_0031,Rituleaf Retail Mart,retailer,Karnataka,Hubballi,ADDR_000434,,false,false,small,false,,true
+BUY_0032,Indraray Hospitality Services,institutional buyer,Karnataka,Mysuru,ADDR_000435,29DFUCP2057G3Z1,true,false,large,false,,true
+BUY_0033,Mithrawell Wholesale Traders Pvt Ltd,wholesaler,Maharashtra,Pune,ADDR_000436,27DCBFO8846B2ZV,true,false,medium,false,,true
+BUY_0034,Taravista Distribution Pvt Ltd,distributor,Gujarat,Vapi,ADDR_000437,24RCQFU5436V1ZN,true,true,medium,false,,true
+BUY_0035,Vrikshwick Hypermart Pvt Ltd,supermarket,Gujarat,Vadodara,ADDR_000438,24UWDCO7542D3ZR,true,false,small,false,,true
+BUY_0036,Aquanest Distributors,distributor,Tamil Nadu,Coimbatore,ADDR_000439,33XNTFA3900U1ZY,true,true,medium,false,,true
+BUY_0037,Taraline Industries Pvt Ltd,manufacturing customer,Maharashtra,Nagpur,ADDR_000440,27XVQCB0977Z3Z0,true,true,large,false,,true
+BUY_0038,Aquawick Hospitality Services LLP,institutional buyer,Maharashtra,Nagpur,ADDR_000441,27UVECO2584W1ZJ,true,true,medium,false,,true
+BUY_0039,Indradale Distribution Pvt Ltd,distributor,Tamil Nadu,Chennai,ADDR_000442,33JWIFR9842O2ZB,true,true,large,false,,true
+BUY_0040,Ecoridge General Stores,retailer,Telangana,Medchal,ADDR_000443,,false,false,micro,false,,true
+BUY_0041,Ecopath Distribution LLP,distributor,West Bengal,Durgapur,ADDR_000444,19MLJFJ7922I2ZS,true,false,small,false,,true
+BUY_0042,Dharasprout Distribution,distributor,Maharashtra,Aurangabad,ADDR_000445,27MDICT2401G2Z4,true,true,medium,false,,true
+BUY_0043,Chandravista Distributors LLP,distributor,Rajasthan,Bhiwadi,ADDR_000446,08WJFCK0291N2ZP,true,true,medium,false,,true
+BUY_0044,Ritumint General Stores,retailer,Gujarat,Vapi,ADDR_000447,24FYHFC0710Y1ZW,true,false,small,false,,true
+BUY_0045,Saffrabrook Manufacturing LLP,manufacturing customer,Telangana,Medchal,ADDR_000448,36CBJCA3188H2ZR,true,false,small,false,,true
+BUY_0046,Saffrashore Distributors Pvt Ltd,distributor,West Bengal,Durgapur,ADDR_000449,19FHGFG9988E1ZX,true,true,small,false,,true
+BUY_0047,Zarawick Hospitality Services LLP,institutional buyer,Maharashtra,Pune,ADDR_000450,27BWQCI2098Y2ZW,true,true,small,false,,true
+BUY_0048,Vedaglow Retail Mart,retailer,Uttar Pradesh,Ghaziabad,ADDR_000451,,false,false,micro,false,,true
+BUY_0049,Pranavista Retail Mart,retailer,Maharashtra,Aurangabad,ADDR_000452,27EMUCX2395M2ZR,true,false,small,false,,true
+BUY_0050,Kesarbloom Wholesalers LLP,wholesaler,Telangana,Hyderabad,ADDR_000453,36WIUCD5425X1ZE,true,false,medium,false,,true
+BUY_0051,Dharaleaf E-Store,e-commerce seller,Punjab,Mohali,ADDR_000454,03HKQFT2178B3ZX,true,false,medium,false,,true
+BUY_0052,Arunloom Online Sellers,e-commerce seller,Uttar Pradesh,Ghaziabad,ADDR_000455,09KGPCG0177C3ZJ,true,true,medium,false,,true
+BUY_0053,Jalapath Supermarket Pvt Ltd,supermarket,Goa,Verna,ADDR_000456,30SUPFG7799X2ZY,true,false,medium,false,,true
+BUY_0054,Tarabloom Distribution,distributor,Bihar,Patna,ADDR_000457,10TOZCW7217W1ZW,true,true,medium,false,,true
+BUY_0055,Ritustone Retail Mart,retailer,Uttar Pradesh,Noida,ADDR_000458,,false,false,small,false,,true
+BUY_0056,Indradale Institutional Supplies Pvt Ltd,institutional buyer,Himachal Pradesh,Solan,ADDR_000459,02OYNFT8424G1ZF,true,true,medium,false,,true
+BUY_0057,Pureshore Industries Pvt Ltd,manufacturing customer,Karnataka,Bengaluru,ADDR_000460,29CJRFX0805R3ZK,true,true,small,false,,true
+BUY_0058,Vanapact Retail Mart,retailer,Gujarat,Ahmedabad,ADDR_000461,24FUGFD3680J2ZZ,true,false,micro,false,,true
+BUY_0059,Dharadale Institutional Supplies LLP,institutional buyer,Andhra Pradesh,Visakhapatnam,ADDR_000462,37QOGCG4629L1Z8,true,false,medium,false,,true
+BUY_0060,Suvarnashore Supermarket LLP,supermarket,Haryana,Panipat,ADDR_000463,06YCGFB0075J2ZY,true,false,medium,false,,true
+BUY_0061,Rituwell Wholesale Traders,wholesaler,Maharashtra,Aurangabad,ADDR_000464,27UAVFG1297S3ZR,true,true,medium,false,,true
+BUY_0062,Ecoglow Distribution Pvt Ltd,distributor,Haryana,Sonipat,ADDR_000465,06LZACL1027A1ZN,true,false,small,false,,true
+BUY_0063,Indraglow Manufacturing Pvt Ltd,manufacturing customer,West Bengal,Durgapur,ADDR_000466,19HOUCG7321V3Z3,true,true,medium,false,,true
+BUY_0064,Mithraroot Retail Mart,retailer,Andhra Pradesh,Visakhapatnam,ADDR_000467,37WISCL6299F1Z8,true,false,micro,false,,true
+BUY_0065,Aquahaven Supermarket LLP,supermarket,West Bengal,Kolkata,ADDR_000468,19MKMCJ9267P3ZB,true,true,small,false,,true
+BUY_0066,Nilamint General Stores,retailer,Karnataka,Hubballi,ADDR_000469,29LUAFH7762E2ZP,true,false,micro,false,,true
+BUY_0067,Nilawell Supermarket Pvt Ltd,supermarket,Gujarat,Vapi,ADDR_000470,24IPVFR6858Z1ZL,true,true,small,false,,true
+BUY_0068,Udayawell Industries Pvt Ltd,manufacturing customer,Bihar,Patna,ADDR_000471,10ZVXCJ9142Q2ZM,true,true,medium,false,,true
+BUY_0069,Mithrapact Industries LLP,manufacturing customer,Tamil Nadu,Coimbatore,ADDR_000472,33XVLFQ2286J1ZQ,true,true,medium,false,,true
+BUY_0070,Mithraroot Wholesalers Pvt Ltd,wholesaler,Karnataka,Bengaluru,ADDR_000473,29HWTFT3933D2Z3,true,false,medium,false,,true
+BUY_0071,Vrikshfield Wholesale Traders,wholesaler,Uttar Pradesh,Ghaziabad,ADDR_000474,09FFJCJ9809O2ZB,true,false,small,false,,true
+BUY_0072,Ojashaven Institutional Supplies Pvt Ltd,institutional buyer,Tamil Nadu,Hosur,ADDR_000475,33KJIFD2875Y2ZF,true,false,large,false,,true
+BUY_0073,Jalapact Wholesale Traders LLP,wholesaler,Haryana,Panipat,ADDR_000476,06MWKCC8821K2Z6,true,true,medium,false,,true
+BUY_0074,Kesarstone Wholesalers,wholesaler,Bihar,Patna,ADDR_000477,10ZLLFO7753T2ZS,true,true,large,false,,true
+BUY_0075,Tarawick Hypermart LLP,supermarket,Maharashtra,Nagpur,ADDR_000478,27XKTCO2567B2Z2,true,true,small,false,,true
+BUY_0076,Bodhiglow Manufacturing Pvt Ltd,manufacturing customer,Delhi,New Delhi,ADDR_000479,07LFHFU3218W2ZC,true,true,medium,false,,true
+BUY_0077,Bodhigrove Hypermart,supermarket,Maharashtra,Mumbai,ADDR_000480,27CJACA8392O3Z6,true,false,medium,false,,true
+BUY_0078,Yuvakart Online Sellers,e-commerce seller,West Bengal,Howrah,ADDR_000481,19ROPFU7088E2ZV,true,false,small,false,,true
+BUY_0079,Mithraray Distributors,distributor,Maharashtra,Mumbai,ADDR_000482,27IYKCW6661R2ZV,true,true,medium,false,,true
+BUY_0080,Udayawick Industries LLP,manufacturing customer,Uttar Pradesh,Noida,ADDR_000483,09AUVCV8041G3ZV,true,false,large,false,,true
+BUY_0081,Vanaray Distributors,distributor,Maharashtra,Aurangabad,ADDR_000484,27NSNFN7700R1ZV,true,true,small,false,,true
+BUY_0082,Novavale Wholesalers Pvt Ltd,wholesaler,Punjab,Mohali,ADDR_000485,03USRCF5233P1Z1,true,false,small,false,,true
+BUY_0083,Pureroot Hospitality Services Pvt Ltd,institutional buyer,Himachal Pradesh,Baddi,ADDR_000486,02PICFJ6972R3Z4,true,false,large,false,,true
+BUY_0084,Nilapath E-Store LLP,e-commerce seller,Gujarat,Vadodara,ADDR_000487,24CRFCF8943L1ZK,true,false,medium,false,,true
+BUY_0085,Kirawave Manufacturing,manufacturing customer,Andhra Pradesh,Vijayawada,ADDR_000488,37MWWFC4981W1ZG,true,true,small,false,,true
+BUY_0086,Lumihaven Distribution,distributor,Punjab,Ludhiana,ADDR_000489,03DSYFH9243V2Z1,true,true,medium,false,,true
+BUY_0087,Rituglow Retail Mart,retailer,Uttar Pradesh,Ghaziabad,ADDR_000490,09WZOFK3526F2ZO,true,false,micro,false,,true
+BUY_0088,Saffranest E-Store Pvt Ltd,e-commerce seller,Bihar,Hajipur,ADDR_000491,10OACCE9987M2ZB,true,false,medium,false,,true
+BUY_0089,Taravista Wholesalers,wholesaler,Rajasthan,Jaipur,ADDR_000492,08YAHFP9182E2Z2,true,false,medium,false,,true
+BUY_0090,Yuvadale General Stores,retailer,Andhra Pradesh,Vijayawada,ADDR_000493,,false,false,small,false,,true
+BUY_0091,Novaline General Stores,retailer,Punjab,Ludhiana,ADDR_000494,03RLOFG5508L1ZB,true,false,micro,false,,true
+BUY_0092,Vedasprout Distribution Pvt Ltd,distributor,Uttarakhand,Dehradun,ADDR_000495,05WJAFM5648G3ZO,true,false,medium,false,,true
+BUY_0093,Pranabloom Distributors LLP,distributor,Delhi,Delhi,ADDR_000496,07YDRCT3096P1ZS,true,false,medium,false,,true
+BUY_0094,Ecoridge Distributors LLP,distributor,Maharashtra,Aurangabad,ADDR_000497,27OWNCB9731B3ZR,true,false,small,false,,true
+BUY_0095,Bodhifizz Retail Mart,retailer,Kerala,Thiruvananthapuram,ADDR_000498,,false,false,micro,false,,true
+BUY_0096,Ojasfizz Distributors LLP,distributor,Andhra Pradesh,Vijayawada,ADDR_000499,37GIBCT5278Q1ZZ,true,true,small,false,,true
+BUY_0097,Ritufizz E-Store LLP,e-commerce seller,Uttarakhand,Dehradun,ADDR_000500,05ZYRCK3313U2Z9,true,false,medium,false,,true
+BUY_0098,Rituwell Supermarket,supermarket,Maharashtra,Mumbai,ADDR_000501,27UHQCT5501G1Z0,true,false,large,false,,true
+BUY_0099,Jalastone Retail Mart,retailer,Uttar Pradesh,Ghaziabad,ADDR_000502,09JOHFS8492C1ZX,true,false,micro,false,,true
+BUY_0100,Udayamint General Stores,retailer,Tamil Nadu,Chennai,ADDR_000503,33UOIFN0063R1Z1,true,true,small,false,,true
+BUY_0101,Kesarbloom Retail Mart,retailer,Himachal Pradesh,Solan,ADDR_000504,,false,false,micro,false,,true
+BUY_0102,Bodhigrove Wholesale Traders Pvt Ltd,wholesaler,Uttar Pradesh,Kanpur,ADDR_000505,09QIDFH9423Y2ZY,true,true,medium,false,,true
+BUY_0103,Pranawick Supermarket Pvt Ltd,supermarket,Karnataka,Hubballi,ADDR_000506,29CKPCQ2885V1ZH,true,false,small,false,,true
+BUY_0104,Nilaglow Retail Mart,retailer,Madhya Pradesh,Indore,ADDR_000507,,false,false,small,false,,true
+BUY_0105,Kiraroot Hospitality Services,institutional buyer,Maharashtra,Nagpur,ADDR_000508,27FVZFO9485U2ZH,true,false,large,false,,true
+BUY_0106,Zarafizz Retail Mart,retailer,Karnataka,Bengaluru,ADDR_000509,29RDNFN4691W3Z0,true,false,small,false,,true
+BUY_0107,Yuvaroot Supermarket,supermarket,Gujarat,Vadodara,ADDR_000510,24RQGCF6244Y3ZJ,true,true,medium,false,,true
+BUY_0108,Novapath Industries Pvt Ltd,manufacturing customer,Rajasthan,Bhiwadi,ADDR_000511,08HCBCD2624O3Z2,true,true,small,false,,true
+BUY_0109,Aquacrest E-Store LLP,e-commerce seller,Assam,Guwahati,ADDR_000512,18YQUFO6494V1ZQ,true,true,large,false,,true
+BUY_0110,Purecrest Online Sellers LLP,e-commerce seller,Karnataka,Mysuru,ADDR_000513,29TMPFR2701F3Z0,true,false,large,false,,true
+BUY_0111,Vanacrest Supermarket LLP,supermarket,Bihar,Patna,ADDR_000514,10NRTCF0766O2ZH,true,false,small,false,,true
+BUY_0112,Zaraglow E-Store Pvt Ltd,e-commerce seller,Assam,Guwahati,ADDR_000515,18EJDCJ7367O1ZP,true,true,medium,false,,true
+BUY_0113,Ojaswing Distribution,distributor,Uttar Pradesh,Ghaziabad,ADDR_000516,09KBTCM7941X1Z6,true,true,large,false,,true
+BUY_0114,Jalavista Wholesale Traders Pvt Ltd,wholesaler,Maharashtra,Aurangabad,ADDR_000517,27WMGFQ4036U2ZK,true,true,medium,false,,true
+BUY_0115,Kirabloom Supermarket LLP,supermarket,Rajasthan,Jodhpur,ADDR_000518,08KFHFH3572T1ZG,true,true,small,false,,true
+BUY_0116,Aqualine Distribution,distributor,Delhi,Delhi,ADDR_000519,07ZBECA1441G2ZA,true,false,medium,false,,true
+BUY_0117,Pranaglow Hypermart LLP,supermarket,Haryana,Panipat,ADDR_000520,06ADYFX3502Q3ZH,true,true,large,false,,true
+BUY_0118,Mithramint Retail Mart,retailer,Kerala,Kochi,ADDR_000521,32FGTFV5471K3ZZ,true,false,micro,false,,true
+BUY_0119,Lumivista Distribution,distributor,Gujarat,Ahmedabad,ADDR_000522,24NWEFM7000D1ZI,true,false,small,false,,true
+BUY_0120,Dharawick Retail Mart,retailer,Telangana,Medchal,ADDR_000523,,false,false,small,false,,true
+BUY_0121,Arunridge Distributors Pvt Ltd,distributor,Odisha,Bhubaneswar,ADDR_000524,21OFHCH8907R2ZS,true,true,medium,false,,true
+BUY_0122,Ojasshore Distributors LLP,distributor,Andhra Pradesh,Visakhapatnam,ADDR_000525,37BIZFU8933J1ZV,true,true,medium,false,,true
+BUY_0123,Chandragrove General Stores,retailer,Maharashtra,Mumbai,ADDR_000526,27ZVACP4304U3ZK,true,true,micro,false,,true
+BUY_0124,Purevale Retail Mart,retailer,Gujarat,Vapi,ADDR_000527,24BZICT7940Z1ZY,true,false,small,false,,true
+BUY_0125,Saffranest Distributors Pvt Ltd,distributor,Delhi,New Delhi,ADDR_000528,07GYAFR5019J3ZR,true,false,small,false,,true
+BUY_0126,Hiraleaf Distributors Pvt Ltd,distributor,Punjab,Ludhiana,ADDR_000529,03CXCCJ4901K1Z7,true,true,medium,false,,true
+BUY_0127,Arunline General Stores,retailer,Telangana,Hyderabad,ADDR_000530,36QAWFW8888S2ZJ,true,false,micro,false,,true
+BUY_0128,Pranapeak Distributors LLP,distributor,Gujarat,Vadodara,ADDR_000531,24GABCH0976Q2Z3,true,false,small,false,,true
+BUY_0129,Vanagrove Distribution Pvt Ltd,distributor,Uttar Pradesh,Ghaziabad,ADDR_000532,09VURFI7188Z2ZK,true,true,small,false,,true
+BUY_0130,Samafield Retail Mart,retailer,Haryana,Faridabad,ADDR_000533,06LNDCX9357P1ZX,true,false,small,false,,true
+BUY_0131,Jalavista Distributors,distributor,Uttar Pradesh,Ghaziabad,ADDR_000534,09VQCCP4183D1Z3,true,true,medium,false,,true
+BUY_0132,Pureline Retail Mart,retailer,Telangana,Hyderabad,ADDR_000535,36MNSFK9133P3ZB,true,true,micro,false,,true
+BUY_0133,Vedadale Online Sellers Pvt Ltd,e-commerce seller,West Bengal,Howrah,ADDR_000536,19AEECV0435C1ZN,true,false,medium,false,,true
+BUY_0134,Aquamint Wholesale Traders LLP,wholesaler,Delhi,New Delhi,ADDR_000537,07DMYFU9108Z1ZM,true,false,small,false,,true
+BUY_0135,Udayakart Distribution LLP,distributor,Odisha,Cuttack,ADDR_000538,21AEMCV2817D2ZJ,true,true,medium,false,,true
+BUY_0136,Pranabrook Industries LLP,manufacturing customer,Andhra Pradesh,Sri City,ADDR_000539,37GLPCS2915J1ZF,true,false,small,false,,true
+BUY_0137,Suvarnabloom Distribution,distributor,Maharashtra,Aurangabad,ADDR_000540,27JWOFN9456H2ZY,true,false,medium,false,,true
+BUY_0138,Yuvahaven Distributors LLP,distributor,Rajasthan,Bhiwadi,ADDR_000541,08YPUCF9088T2ZK,true,true,medium,false,,true
+BUY_0139,Vedabrook Wholesale Traders,wholesaler,Punjab,Ludhiana,ADDR_000542,03YMYCX7480P2ZK,true,true,medium,false,,true
+BUY_0140,Purekart Distribution,distributor,Himachal Pradesh,Baddi,ADDR_000543,02VOSCV9784H3Z3,true,false,small,false,,true
+BUY_0141,Aqualine Wholesale Traders LLP,wholesaler,Tamil Nadu,Chennai,ADDR_000544,33DXUCD8548K1Z1,true,false,medium,false,,true
+BUY_0142,Udayafizz Hypermart Pvt Ltd,supermarket,Maharashtra,Mumbai,ADDR_000545,27IFUCL7174L1ZD,true,false,medium,false,,true
+BUY_0143,Kesarroot Supermarket,supermarket,Uttar Pradesh,Noida,ADDR_000546,09VVMFH6434L1ZZ,true,true,large,false,,true
+BUY_0144,Vanawing Wholesale Traders Pvt Ltd,wholesaler,Gujarat,Vapi,ADDR_000547,24JWLFP7522W2ZH,true,true,small,false,,true
+BUY_0145,Kirahaven Distributors LLP,distributor,Bihar,Hajipur,ADDR_000548,10KOHCK2376E1ZQ,true,true,medium,false,,true
+BUY_0146,Aquacrest Hypermart,supermarket,West Bengal,Howrah,ADDR_000549,19TPXFG4847H3ZM,true,false,medium,false,,true
+BUY_0147,Nilapact General Stores,retailer,Tamil Nadu,Chennai,ADDR_000550,33IBKFD0722X1ZG,true,false,micro,false,,true
+BUY_0148,Tararidge General Stores,retailer,Maharashtra,Aurangabad,ADDR_000551,,false,false,micro,false,,true
+BUY_0149,Nilasprout Wholesalers LLP,wholesaler,Maharashtra,Aurangabad,ADDR_000552,27OMDFB4046L3Z9,true,false,small,false,,true
+BUY_0150,Purebloom Manufacturing Pvt Ltd,manufacturing customer,Telangana,Medchal,ADDR_000553,36HYGCO3406S1ZJ,true,false,medium,false,,true
+BUY_TEST_001,Vrikshpeak Distribution,distributor,Uttar Pradesh,Kanpur,ADDR_000030,09XWICL7758D1Z,true,false,small,true,TS04_BUYER_INCOMPLETE_REGISTRATION,true

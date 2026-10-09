@@ -1,0 +1,171 @@
+# Entity-master configuration — SYNTHETIC — EPRLens Demo
+# Status: PROPOSED. Values follow the recommended options in docs/DECISIONS-REQUIRED.md.
+# Changing any value and re-running generate_entities.py regenerates every master deterministically.
+
+seed: 20261009
+generator_version: "0.2.0-entities"
+window: {start: "2023-04-01", end: "2026-03-31"}        # DS-01 B
+
+# The "core" pack is generated identically in both modes, so its IDs are stable
+# for the demo company, frontend mocks and AWS test events.
+packs:
+  test:  {companies: 5,   suppliers: 10,  buyers: 10,  recyclers: 5,  test_users: 5}
+  full:  {companies: 200, suppliers: 120, buyers: 150, recyclers: 50, test_users: 15}
+
+products_per_company: {min: 3, max: 15}
+
+industry_weights:            # DS-15 A — illustrative, deliberately unequal
+  FMCG: 14
+  Food: 14
+  Beverages: 9
+  Personal Care: 9
+  Pharmaceuticals: 9
+  Electronics: 7
+  Automotive: 6
+  Cosmetics: 6
+  Retail: 6
+  E-commerce: 6
+  Household Products: 6
+  Appliances: 5
+  Industrial Goods: 3
+
+state_weights:               # HQ-state weights — illustrative
+  Maharashtra: 16
+  Gujarat: 10
+  Tamil Nadu: 9
+  Karnataka: 8
+  Uttar Pradesh: 8
+  Delhi: 7
+  Haryana: 7
+  West Bengal: 5
+  Telangana: 5
+  Rajasthan: 4
+  Punjab: 3
+  Madhya Pradesh: 3
+  Andhra Pradesh: 3
+  Kerala: 2
+  Himachal Pradesh: 2
+  Uttarakhand: 2
+  Goa: 1
+  Odisha: 2
+  Assam: 1
+  Bihar: 2
+
+turnover: {median_cr: 40, sigma: 1.4, min_cr: 0.5, max_cr: 2500}   # DS-14 A
+size_bands_cr: {micro: 5, small: 50, medium: 250}                 # upper bounds; above = large
+msme_probability: {micro: 0.85, small: 0.85, medium: 0.4, large: 0.0}
+states_operated_range: {micro: [1, 2], small: [1, 4], medium: [3, 8], large: [6, 14]}
+epr_registered_probability: {micro: 0.4, small: 0.55, medium: 0.75, large: 0.9}
+
+role_probabilities:          # business facts, not regulatory conclusions
+  manufacturer: {default: 0.75, Retail: 0.3, E-commerce: 0.25, Electronics: 0.4, Appliances: 0.6}
+  importer: {default: 0.15, Electronics: 0.6, Appliances: 0.5, Automotive: 0.3, Cosmetics: 0.3, E-commerce: 0.3}
+  brand_owner: {default: 0.85, Industrial Goods: 0.4, E-commerce: 0.5}
+
+recyclers:
+  unregistered_share: 0.16   # DS-22 A (8 of 50 in full mode)
+  capacity_kg_median: 150000
+
+spec_version_share: 0.08     # components that get a lighter v2 mid-window
+
+# ------------------------------------------------------------------ core pack
+demo_company:                # DS-24 A — FICTIONAL / SYNTHETIC
+  company_id: COMP_0001
+  company_name: EcoFizz Beverages Pvt Ltd
+  industry: Beverages
+  turnover_cr: 180
+  manufacturer: true
+  importer: false
+  brand_owner: true
+  msme_flag: false
+  headquarters_state: Delhi
+  states_operated: [Delhi, Haryana, Uttar Pradesh, Rajasthan, Punjab]
+  registration_status: registered
+  plants: [Haryana]
+  products:
+    - name: EcoFizz Cola 750 ml
+      category: Carbonated soft drink
+      unit: bottle
+      units_per_case: 24
+      launch_date: "2019-05-01"
+      components:
+        - {name: PET bottle, form: bottle, material: PET, weight_g: 28.0, recycled_pct: 0,
+           v2: {weight_g: 25.0, recycled_pct: 10, effective_from: "2025-04-01"}}
+        - {name: Cap, form: cap, material: PP, weight_g: 2.2}
+        - {name: Label, form: label_film, material: PP, weight_g: 0.9}
+        - {name: Outer carton (per-unit share), form: carton, material: CARDBOARD, weight_g: 16.5, recycled_pct: 60}
+    - name: EcoFizz Lemon Twist 500 ml
+      category: Carbonated soft drink
+      unit: bottle
+      units_per_case: 24
+      launch_date: "2020-03-15"
+      components:
+        - {name: PET bottle, form: bottle, material: PET, weight_g: 21.0}
+        - {name: Cap, form: cap, material: PP, weight_g: 2.0}
+        - {name: Label, form: label_film, material: PP, weight_g: 0.7}
+        - {name: Outer carton (per-unit share), form: carton, material: CARDBOARD, weight_g: 12.0, recycled_pct: 60}
+    - name: EcoFizz Orange Burst 1.25 L
+      category: Carbonated soft drink
+      unit: bottle
+      units_per_case: 12
+      launch_date: "2021-04-01"
+      components:
+        - {name: PET bottle, form: bottle, material: PET, weight_g: 38.0}
+        - {name: Cap, form: cap, material: PP, weight_g: 2.3}
+        - {name: Label, form: label_film, material: PP, weight_g: 1.2}
+        - {name: Outer carton (per-unit share), form: carton, material: CARDBOARD, weight_g: 22.0, recycled_pct: 60}
+    - name: AquaPure Drinking Water 1 L
+      category: Packaged drinking water
+      unit: bottle
+      units_per_case: 12
+      launch_date: "2023-09-01"
+      components:
+        - {name: PET bottle, form: bottle, material: PET, weight_g: 22.0}
+        - {name: Cap, form: cap, material: HDPE, weight_g: 1.8}
+        - {name: Label, form: label_film, material: PP, weight_g: 0.6}
+        - {name: Outer carton (per-unit share), form: carton, material: CARDBOARD, weight_g: 18.0, recycled_pct: 60}
+    - name: EcoFizz Ginger Soda 300 ml Glass
+      category: Carbonated soft drink (glass)
+      unit: bottle
+      units_per_case: 24
+      launch_date: "2022-11-01"
+      components:
+        - {name: Glass bottle, form: glass_bottle, material: GLASS, weight_g: 210.0}
+        - {name: Cap, form: cap, material: PP, weight_g: 2.5}
+        - {name: Paper label, form: paper_label, material: PAPER, weight_g: 0.8}
+        - {name: Outer carton (per-unit share), form: carton, material: CARDBOARD, weight_g: 20.0, recycled_pct: 60}
+
+anchor_companies:            # COMP_0002..COMP_0005: fixed industries for category coverage
+  - {company_id: COMP_0002, industry: Food, n_products: 3, manufacturer: true, brand_owner: true}  # Cat III (MLP) + PROD_TEST_001
+  - {company_id: COMP_0003, industry: Personal Care, n_products: 3}   # Cat I/II; uses REC_TEST_001
+  - {company_id: COMP_0004, industry: Electronics, n_products: 3, importer: true}  # EPS Cat I
+  - {company_id: COMP_0005, industry: E-commerce, n_products: 3}      # Cat II + Cat IV
+
+test_entities:               # DS-22 A — clearly labelled problematic entities
+  REC_TEST_001: {scenario: TS01_UNREGISTERED_RECYCLER, used_by: COMP_0003, state: Uttar Pradesh}
+  SUP_TEST_001: {scenario: TS02_SUPPLIER_ABNORMAL_QUANTITY, supplier_type: PET bottle manufacturer, state: Haryana, secondary_for: COMP_0001}
+  SUP_TEST_002: {scenario: TS03_SUPPLIER_MATERIAL_CHANGE, supplier_type: cap supplier, state: Gujarat, primary_for: COMP_0003}
+  BUY_TEST_001: {scenario: TS04_BUYER_INCOMPLETE_REGISTRATION, buyer_type: distributor, state: Uttar Pradesh, buyer_of: COMP_0001}
+  PROD_TEST_001:
+    scenario: TS05_STALE_PACKAGING_WEIGHT
+    company_id: COMP_0002
+    name_suffix: Masala Chips 52 g
+    launch_date: "2021-08-01"
+    components:
+      - {name: Laminate snack pouch, form: pouch_laminate, material: MLP, weight_g: 6.5,
+         v2: {weight_g: 5.2, recycled_pct: 0, effective_from: "2025-01-01"}}
+      - {name: Outer carton (per-unit share), form: carton, material: CARDBOARD, weight_g: 9.0, recycled_pct: 50}
+
+inactive_examples:           # for inactive-entity handling tests
+  discontinued_product_company: COMP_0004    # last product discontinued 2025-06-30
+  ended_supplier_relationship_company: COMP_0002   # one BUYS_FROM ends 2024-12-31
+
+# Scenario codes -> descriptions (also in docs/dummy-entities.md)
+test_scenarios:
+  TS01_UNREGISTERED_RECYCLER: "Unregistered recycler carrying a claimed SYN-PWP number; used by COMP_0003 (AN13)"
+  TS02_SUPPLIER_ABNORMAL_QUANTITY: "PET bottle supplier with irregular x5 quantity spikes; secondary supplier of COMP_0001 (AN09/AN01)"
+  TS03_SUPPLIER_MATERIAL_CHANGE: "Cap supplier whose master says PP only; later invoices switch to HDPE from 2025-07 (AN20/AN03)"
+  TS04_BUYER_INCOMPLETE_REGISTRATION: "Distributor with a truncated 14-character GSTIN and no EPR registration; buyer of COMP_0001 (AN06)"
+  TS05_STALE_PACKAGING_WEIGHT: "Snack pouch v1 6.5 g superseded by v2 5.2 g on 2025-01-01; masters still using v1 are stale (AN18)"
+
+test_user_roles_core: [company_admin, sustainability_manager, compliance_manager, consultant, demo_user]

@@ -1,0 +1,123 @@
+supplier_id,supplier_name,supplier_type,state,city,hq_address_id,fake_gstin,registration_status,supported_materials,supported_component_forms,min_order_quantity,typical_unit,test_entity,test_scenario,synthetic_flag
+SUP_0001,Yuvawave PET Bottles Pvt Ltd,PET bottle manufacturer,Gujarat,Vapi,ADDR_000009,24ZWNCQ0245Y2ZZ,registered,PET,bottle|jar,50000,pcs,false,,true
+SUP_0002,Chandraleaf Caps Pvt Ltd,cap supplier,Karnataka,Bengaluru,ADDR_000010,29PHMCO5664A2Z4,registered,PP|HDPE,cap|closure,50000,pcs,false,,true
+SUP_0003,Zarapeak Label Prints Pvt Ltd,label supplier,West Bengal,Howrah,ADDR_000011,19YJQCL0840A2ZY,unregistered,PP|PAPER|PVC,label_film|paper_label,10,rolls,false,,true
+SUP_0004,Nilafizz Corrugators Pvt Ltd,carton supplier,Goa,Verna,ADDR_000012,30FJTCE0299F1Z3,registered,CARDBOARD|PAPER,box|carton|void_fill,10000,pcs,false,,true
+SUP_0005,Lumiwell Packaging Components Pvt Ltd,component supplier,Goa,Margao,ADDR_000013,30FQYCU3815R3ZY,registered,PS|PP|HDPE|METAL|GLASS,can|cap|drum|eps_block|glass_bottle|pail|tray,5000,pcs,false,,true
+SUP_0006,Taravale Pouch Pack Pvt Ltd,pouch supplier,Telangana,Medchal,ADDR_000014,36HXLCQ8971U3ZZ,registered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,10000,pcs,false,,true
+SUP_0007,Samabrook Polyfilms Pvt Ltd,shrink-film supplier,Kerala,Kochi,ADDR_000015,32FCMCZ3765T2Z1,registered,LDPE|LLDPE|PP|PVC,film|liner|shrink_wrap|stretch_wrap,500,kg,false,,true
+SUP_0008,Vrikshbloom Packaging Solutions Pvt Ltd,packaging converter,Maharashtra,Pune,ADDR_000016,27JOVCI0213D2ZV,unknown,PET|HDPE|PP|PS|PVC|MLP,blister|bottle|drum|eps_block|jar|laminated_tube|pail|pouch_laminate|sachet_laminate|tray|tub,1000,kg,false,,true
+SUP_0009,Ecoroot Flexi Pack Pvt Ltd,flexible packaging supplier,Himachal Pradesh,Solan,ADDR_000017,02PDRCY2053H3ZD,registered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,250,kg,false,,true
+SUP_0010,Jalavista Converters Pvt Ltd,packaging converter,Maharashtra,Aurangabad,ADDR_000018,27OSJCQ7156S3Z1,unregistered,PET|HDPE|PP|PS|PVC|MLP,blister|bottle|drum|eps_block|jar|laminated_tube|pail|pouch_laminate|sachet_laminate|tray|tub,500,kg,false,,true
+SUP_0011,Arunwave PET Bottles Pvt Ltd,PET bottle manufacturer,Gujarat,Surat,ADDR_000304,24RIPCY8211B1ZU,registered,PET,bottle|jar,50000,pcs,false,,true
+SUP_0012,Vrikshvista Caps Pvt Ltd,cap supplier,Gujarat,Vadodara,ADDR_000305,24SPRCI3586P2ZS,unknown,PP|HDPE,cap|closure,10000,pcs,false,,true
+SUP_0013,Udayacrest Corrugators Pvt Ltd,carton supplier,Karnataka,Hubballi,ADDR_000306,29ESWCM6163W3ZH,registered,CARDBOARD|PAPER,box|carton|void_fill,25000,pcs,false,,true
+SUP_0014,Udayaloom Closures Pvt Ltd,closure supplier,Telangana,Hyderabad,ADDR_000307,36TCWCK4161O3ZD,registered,PP|HDPE,cap|closure,50000,pcs,false,,true
+SUP_0015,Kesarsprout Pack Components Pvt Ltd,component supplier,Maharashtra,Mumbai,ADDR_000308,27HZVCW2299M2Z8,registered,PS|PP|HDPE|METAL|GLASS,can|cap|drum|eps_block|glass_bottle|pail|tray,5000,pcs,false,,true
+SUP_0016,Novanest Flexi Pack Pvt Ltd,flexible packaging supplier,Maharashtra,Pune,ADDR_000309,27EYMCI3280P3ZA,registered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,1000,kg,false,,true
+SUP_0017,Samacrest Labels Pvt Ltd,label supplier,Telangana,Hyderabad,ADDR_000310,36QUICZ2386N2Z5,registered,PP|PAPER|PVC,label_film|paper_label,20,rolls,false,,true
+SUP_0018,Bodhiridge Converters Pvt Ltd,packaging converter,Maharashtra,Nagpur,ADDR_000311,27IBICS1654G1ZJ,registered,PET|HDPE|PP|PS|PVC|MLP,blister|bottle|drum|eps_block|jar|laminated_tube|pail|pouch_laminate|sachet_laminate|tray|tub,1000,kg,false,,true
+SUP_0019,Gangaline Resins Pvt Ltd,plastic resin supplier,Uttar Pradesh,Kanpur,ADDR_000312,09QWICT3955J3ZP,unregistered,PET|HDPE|LDPE|LLDPE|PP,,1,MT,false,,true
+SUP_0020,Pranamint Pouch Pack Pvt Ltd,pouch supplier,Gujarat,Ahmedabad,ADDR_000313,24OPYCH9227H3ZT,unregistered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,10000,pcs,false,,true
+SUP_0021,Pureleaf Polychem Pvt Ltd,raw-material supplier,Madhya Pradesh,Pithampur,ADDR_000314,23WVYCV2795E2ZD,registered,PS|PVC|HDPE|PP,,5,MT,false,,true
+SUP_0022,Vanawing Polyfilms Pvt Ltd,shrink-film supplier,Kerala,Thiruvananthapuram,ADDR_000315,32DMDCH0957W2ZH,registered,LDPE|LLDPE|PP|PVC,film|liner|shrink_wrap|stretch_wrap,1000,kg,false,,true
+SUP_0023,Aquadale Preforms & Bottles Pvt Ltd,PET bottle manufacturer,Maharashtra,Aurangabad,ADDR_000316,27SYXCL5017H1ZA,registered,PET,bottle|jar,5000,pcs,false,,true
+SUP_0024,Suvarnawing Cap Works Pvt Ltd,cap supplier,Kerala,Thiruvananthapuram,ADDR_000317,32KIOCT1164C3ZK,unregistered,PP|HDPE,cap|closure,50000,pcs,false,,true
+SUP_0025,Vrikshwing Cartons Pvt Ltd,carton supplier,Karnataka,Hubballi,ADDR_000318,29CPTCA0510U3ZO,registered,CARDBOARD|PAPER,box|carton|void_fill,5000,pcs,false,,true
+SUP_0026,Hiranest Closure Systems Pvt Ltd,closure supplier,Uttarakhand,Haridwar,ADDR_000319,05NQHCT7188B1ZI,unregistered,PP|HDPE,cap|closure,5000,pcs,false,,true
+SUP_0027,Udayakart Packaging Components Pvt Ltd,component supplier,Uttar Pradesh,Noida,ADDR_000320,09KISCB8311M3Z8,registered,PS|PP|HDPE|METAL|GLASS,can|cap|drum|eps_block|glass_bottle|pail|tray,25000,pcs,false,,true
+SUP_0028,Lumiwing Flexibles Pvt Ltd,flexible packaging supplier,Haryana,Faridabad,ADDR_000321,06FRVCV0816D2ZM,registered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,1000,kg,false,,true
+SUP_0029,Dharawave Labels Pvt Ltd,label supplier,Rajasthan,Jodhpur,ADDR_000322,08STGCY2188Q3Z3,registered,PP|PAPER|PVC,label_film|paper_label,10,rolls,false,,true
+SUP_0030,Vrikshmint Converters Pvt Ltd,packaging converter,Himachal Pradesh,Solan,ADDR_000323,02DUGCS0815C2ZV,registered,PET|HDPE|PP|PS|PVC|MLP,blister|bottle|drum|eps_block|jar|laminated_tube|pail|pouch_laminate|sachet_laminate|tray|tub,500,kg,false,,true
+SUP_0031,Chandraray Resins Pvt Ltd,plastic resin supplier,Maharashtra,Nagpur,ADDR_000324,27GAOCG7961U3ZN,unregistered,PET|HDPE|LDPE|LLDPE|PP,,2,MT,false,,true
+SUP_0032,Indradale Pouches Pvt Ltd,pouch supplier,Kerala,Kochi,ADDR_000325,32ZSJCQ3198A2ZL,registered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,50000,pcs,false,,true
+SUP_0033,Chandrapeak Raw Materials Pvt Ltd,raw-material supplier,Uttar Pradesh,Lucknow,ADDR_000326,09ZDSCC4271E1ZT,registered,PS|PVC|HDPE|PP,,0.5,MT,false,,true
+SUP_0034,Taramint Polyfilms Pvt Ltd,shrink-film supplier,Maharashtra,Mumbai,ADDR_000327,27WDXCW6762E2ZK,unknown,LDPE|LLDPE|PP|PVC,film|liner|shrink_wrap|stretch_wrap,1000,kg,false,,true
+SUP_0035,Dhararay Preforms & Bottles Pvt Ltd,PET bottle manufacturer,Maharashtra,Aurangabad,ADDR_000328,27FHTCE5303H2ZU,registered,PET,bottle|jar,5000,pcs,false,,true
+SUP_0036,Gangawave Caps Pvt Ltd,cap supplier,Tamil Nadu,Chennai,ADDR_000329,33JSKCV3855A1ZA,unknown,PP|HDPE,cap|closure,25000,pcs,false,,true
+SUP_0037,Dharabrook Corrugators Pvt Ltd,carton supplier,Karnataka,Hubballi,ADDR_000330,29GGGCW6034O3ZZ,registered,CARDBOARD|PAPER,box|carton|void_fill,50000,pcs,false,,true
+SUP_0038,Ojaswell Closures Pvt Ltd,closure supplier,Maharashtra,Pune,ADDR_000331,27OWQCT1903S2ZR,registered,PP|HDPE,cap|closure,10000,pcs,false,,true
+SUP_0039,Rituvista Packaging Components Pvt Ltd,component supplier,Madhya Pradesh,Indore,ADDR_000332,23IQKCC6220C3Z8,registered,PS|PP|HDPE|METAL|GLASS,can|cap|drum|eps_block|glass_bottle|pail|tray,50000,pcs,false,,true
+SUP_0040,Arunsprout Flexibles Pvt Ltd,flexible packaging supplier,Karnataka,Hubballi,ADDR_000333,29YURCT5024H2Z2,registered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,250,kg,false,,true
+SUP_0041,Ritucrest Labels Pvt Ltd,label supplier,Gujarat,Vadodara,ADDR_000334,24ZRRCD5751K2ZG,unregistered,PP|PAPER|PVC,label_film|paper_label,10,rolls,false,,true
+SUP_0042,Dharaglow Converters Pvt Ltd,packaging converter,Andhra Pradesh,Sri City,ADDR_000335,37FTECY6624B2ZJ,registered,PET|HDPE|PP|PS|PVC|MLP,blister|bottle|drum|eps_block|jar|laminated_tube|pail|pouch_laminate|sachet_laminate|tray|tub,100,kg,false,,true
+SUP_0043,Samavale Resins Pvt Ltd,plastic resin supplier,Uttar Pradesh,Noida,ADDR_000336,09MPCCL6801N1ZS,registered,PET|HDPE|LDPE|LLDPE|PP,,1,MT,false,,true
+SUP_0044,Bodhiline Pouches Pvt Ltd,pouch supplier,Gujarat,Vapi,ADDR_000337,24XWUCV1107B1ZF,unregistered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,10000,pcs,false,,true
+SUP_0045,Zaravale Polychem Pvt Ltd,raw-material supplier,Himachal Pradesh,Baddi,ADDR_000338,02XJTCX2953Y3ZE,registered,PS|PVC|HDPE|PP,,2,MT,false,,true
+SUP_0046,Arunnest Polyfilms Pvt Ltd,shrink-film supplier,Uttarakhand,Haridwar,ADDR_000339,05AYRCY1665Y1ZC,registered,LDPE|LLDPE|PP|PVC,film|liner|shrink_wrap|stretch_wrap,250,kg,false,,true
+SUP_0047,Vanaridge PET Bottles Pvt Ltd,PET bottle manufacturer,Karnataka,Mysuru,ADDR_000340,29MXXCV0334D1ZK,unknown,PET,bottle|jar,5000,pcs,false,,true
+SUP_0048,Jalashore Cap Works Pvt Ltd,cap supplier,Punjab,Mohali,ADDR_000341,03ZXVCD3169D2ZX,unknown,PP|HDPE,cap|closure,50000,pcs,false,,true
+SUP_0049,Ojascrest Cartons Pvt Ltd,carton supplier,Gujarat,Ahmedabad,ADDR_000342,24OVECR3278W2ZN,registered,CARDBOARD|PAPER,box|carton|void_fill,50000,pcs,false,,true
+SUP_0050,Zarahaven Closures Pvt Ltd,closure supplier,Haryana,Panipat,ADDR_000343,06SCICS1271O2ZX,registered,PP|HDPE,cap|closure,5000,pcs,false,,true
+SUP_0051,Jalacrest Pack Components Pvt Ltd,component supplier,Andhra Pradesh,Sri City,ADDR_000344,37TMGCE4199T2Z6,registered,PS|PP|HDPE|METAL|GLASS,can|cap|drum|eps_block|glass_bottle|pail|tray,50000,pcs,false,,true
+SUP_0052,Vrikshmint Flexibles Pvt Ltd,flexible packaging supplier,Uttar Pradesh,Lucknow,ADDR_000345,09NOACJ2756U1ZT,registered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,100,kg,false,,true
+SUP_0053,Bodhishore Label Prints Pvt Ltd,label supplier,Madhya Pradesh,Pithampur,ADDR_000346,23RWMCG1269Y1ZU,registered,PP|PAPER|PVC,label_film|paper_label,20,rolls,false,,true
+SUP_0054,Gangaroot Converters Pvt Ltd,packaging converter,Uttar Pradesh,Kanpur,ADDR_000347,09SUZCZ1417Q2ZO,registered,PET|HDPE|PP|PS|PVC|MLP,blister|bottle|drum|eps_block|jar|laminated_tube|pail|pouch_laminate|sachet_laminate|tray|tub,1000,kg,false,,true
+SUP_0055,Kiranest Resins Pvt Ltd,plastic resin supplier,Kerala,Kochi,ADDR_000348,32ONNCG8783F3Z7,registered,PET|HDPE|LDPE|LLDPE|PP,,0.5,MT,false,,true
+SUP_0056,Aquawing Pouch Pack Pvt Ltd,pouch supplier,Haryana,Panipat,ADDR_000349,06CDUCB2357E1ZZ,registered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,50000,pcs,false,,true
+SUP_0057,Arunstone Raw Materials Pvt Ltd,raw-material supplier,Delhi,Delhi,ADDR_000350,07JCPCA3927P1Z9,unregistered,PS|PVC|HDPE|PP,,0.5,MT,false,,true
+SUP_0058,Udayawell Shrink Films Pvt Ltd,shrink-film supplier,Karnataka,Mysuru,ADDR_000351,29VYYCP1082E3ZU,registered,LDPE|LLDPE|PP|PVC,film|liner|shrink_wrap|stretch_wrap,500,kg,false,,true
+SUP_0059,Yuvaline Preforms & Bottles Pvt Ltd,PET bottle manufacturer,Karnataka,Hubballi,ADDR_000352,29WOGCR5279L1ZV,registered,PET,bottle|jar,25000,pcs,false,,true
+SUP_0060,Samavale Cap Works Pvt Ltd,cap supplier,Gujarat,Ahmedabad,ADDR_000353,24CSOCY1037M3ZC,unregistered,PP|HDPE,cap|closure,10000,pcs,false,,true
+SUP_0061,Gangaleaf Corrugators Pvt Ltd,carton supplier,Bihar,Patna,ADDR_000354,10BBOCF4682I3Z8,registered,CARDBOARD|PAPER,box|carton|void_fill,25000,pcs,false,,true
+SUP_0062,Zaravista Closure Systems Pvt Ltd,closure supplier,Odisha,Bhubaneswar,ADDR_000355,21DAMCN5048H2ZR,unknown,PP|HDPE,cap|closure,25000,pcs,false,,true
+SUP_0063,Vrikshkart Pack Components Pvt Ltd,component supplier,Delhi,New Delhi,ADDR_000356,07ZBDCR3506M3ZE,registered,PS|PP|HDPE|METAL|GLASS,can|cap|drum|eps_block|glass_bottle|pail|tray,10000,pcs,false,,true
+SUP_0064,Puresprout Flexi Pack Pvt Ltd,flexible packaging supplier,West Bengal,Kolkata,ADDR_000357,19BCSCV7632T2Z4,registered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,500,kg,false,,true
+SUP_0065,Pranafield Labels Pvt Ltd,label supplier,Karnataka,Mysuru,ADDR_000358,29NGHCT1503H3ZG,registered,PP|PAPER|PVC,label_film|paper_label,10,rolls,false,,true
+SUP_0066,Zarabloom Converters Pvt Ltd,packaging converter,Tamil Nadu,Coimbatore,ADDR_000359,33AWNCT4053A2ZN,registered,PET|HDPE|PP|PS|PVC|MLP,blister|bottle|drum|eps_block|jar|laminated_tube|pail|pouch_laminate|sachet_laminate|tray|tub,1000,kg,false,,true
+SUP_0067,Suvarnafield Resins Pvt Ltd,plastic resin supplier,Madhya Pradesh,Pithampur,ADDR_000360,23YNACU2264Q1Z2,registered,PET|HDPE|LDPE|LLDPE|PP,,5,MT,false,,true
+SUP_0068,Purefizz Pouches Pvt Ltd,pouch supplier,Andhra Pradesh,Visakhapatnam,ADDR_000361,37WCUCA6310P3ZL,registered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,10000,pcs,false,,true
+SUP_0069,Lumibrook Polychem Pvt Ltd,raw-material supplier,Karnataka,Hubballi,ADDR_000362,29GKRCJ5763O3ZK,unregistered,PS|PVC|HDPE|PP,,2,MT,false,,true
+SUP_0070,Ecohaven Shrink Films Pvt Ltd,shrink-film supplier,Andhra Pradesh,Visakhapatnam,ADDR_000363,37VUOCQ0083U2Z7,registered,LDPE|LLDPE|PP|PVC,film|liner|shrink_wrap|stretch_wrap,100,kg,false,,true
+SUP_0071,Saffranest Preforms & Bottles Pvt Ltd,PET bottle manufacturer,Maharashtra,Mumbai,ADDR_000364,27MVTCU2213L3Z6,registered,PET,bottle|jar,5000,pcs,false,,true
+SUP_0072,Samastone Cap Works Pvt Ltd,cap supplier,Maharashtra,Mumbai,ADDR_000365,27DEFCW6312R2Z0,registered,PP|HDPE,cap|closure,25000,pcs,false,,true
+SUP_0073,Chandracrest Corrugators Pvt Ltd,carton supplier,West Bengal,Kolkata,ADDR_000366,19LBGCY3657E3ZR,registered,CARDBOARD|PAPER,box|carton|void_fill,5000,pcs,false,,true
+SUP_0074,Vrikshdale Closures Pvt Ltd,closure supplier,Assam,Guwahati,ADDR_000367,18UAVCK2044O1Z6,unknown,PP|HDPE,cap|closure,10000,pcs,false,,true
+SUP_0075,Ojasvale Converters Pvt Ltd,packaging converter,Maharashtra,Pune,ADDR_000368,27XMNCX7424K3ZS,unregistered,PET|HDPE|PP|PS|PVC|MLP,blister|bottle|drum|eps_block|jar|laminated_tube|pail|pouch_laminate|sachet_laminate|tray|tub,1000,kg,false,,true
+SUP_0076,Ritumint Packaging Components Pvt Ltd,component supplier,Maharashtra,Nagpur,ADDR_000369,27TGICB5857F1ZZ,registered,PS|PP|HDPE|METAL|GLASS,can|cap|drum|eps_block|glass_bottle|pail|tray,50000,pcs,false,,true
+SUP_0077,Dharawing Labels Pvt Ltd,label supplier,Haryana,Panipat,ADDR_000370,06BVUCO5172D3ZN,registered,PP|PAPER|PVC,label_film|paper_label,10,rolls,false,,true
+SUP_0078,Yuvadale Cap Works Pvt Ltd,cap supplier,Karnataka,Bengaluru,ADDR_000371,29MGDCL9059M3ZX,registered,PP|HDPE,cap|closure,50000,pcs,false,,true
+SUP_0079,Ecogrove Cap Works Pvt Ltd,cap supplier,Gujarat,Vadodara,ADDR_000372,24BIHCD9693I2Z8,registered,PP|HDPE,cap|closure,5000,pcs,false,,true
+SUP_0080,Kirawing Polymers Pvt Ltd,plastic resin supplier,Haryana,Faridabad,ADDR_000373,06QXYCI2434S2ZT,registered,PET|HDPE|LDPE|LLDPE|PP,,1,MT,false,,true
+SUP_0081,Vanaline Shrink Films Pvt Ltd,shrink-film supplier,Kerala,Kochi,ADDR_000374,32CNYCJ9507N3ZM,unregistered,LDPE|LLDPE|PP|PVC,film|liner|shrink_wrap|stretch_wrap,100,kg,false,,true
+SUP_0082,Suvarnaline Pack Components Pvt Ltd,component supplier,Gujarat,Surat,ADDR_000375,24LMNCW7251H2ZJ,registered,PS|PP|HDPE|METAL|GLASS,can|cap|drum|eps_block|glass_bottle|pail|tray,25000,pcs,false,,true
+SUP_0083,Udayafield Labels Pvt Ltd,label supplier,Maharashtra,Mumbai,ADDR_000376,27OQPCH5123Q1Z9,registered,PP|PAPER|PVC,label_film|paper_label,10,rolls,false,,true
+SUP_0084,Ecofizz Preforms & Bottles Pvt Ltd,PET bottle manufacturer,Assam,Guwahati,ADDR_000377,18VXKCP8784Z1Z6,registered,PET,bottle|jar,50000,pcs,false,,true
+SUP_0085,Suvarnaline Caps Pvt Ltd,cap supplier,Haryana,Panipat,ADDR_000378,06LDKCI6541W3ZS,registered,PP|HDPE,cap|closure,5000,pcs,false,,true
+SUP_0086,Vrikshleaf Pouches Pvt Ltd,pouch supplier,Rajasthan,Jodhpur,ADDR_000379,08VYKCM7314K1Z3,registered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,50000,pcs,false,,true
+SUP_0087,Hirawave Packaging Components Pvt Ltd,component supplier,Maharashtra,Pune,ADDR_000380,27UVXCB3127U2ZP,registered,PS|PP|HDPE|METAL|GLASS,can|cap|drum|eps_block|glass_bottle|pail|tray,10000,pcs,false,,true
+SUP_0088,Suvarnamint Packaging Components Pvt Ltd,component supplier,Madhya Pradesh,Indore,ADDR_000381,23BGNCN2841P1Z1,registered,PS|PP|HDPE|METAL|GLASS,can|cap|drum|eps_block|glass_bottle|pail|tray,5000,pcs,false,,true
+SUP_0089,Lumiwick Polychem Pvt Ltd,raw-material supplier,Haryana,Sonipat,ADDR_000382,06TYBCM7521Z1ZL,registered,PS|PVC|HDPE|PP,,2,MT,false,,true
+SUP_0090,Aquaglow Shrink Films Pvt Ltd,shrink-film supplier,Delhi,Delhi,ADDR_000383,07VKXCY6642A2ZI,unregistered,LDPE|LLDPE|PP|PVC,film|liner|shrink_wrap|stretch_wrap,1000,kg,false,,true
+SUP_0091,Rituline Labels Pvt Ltd,label supplier,Uttar Pradesh,Ghaziabad,ADDR_000384,09FNGCG8111A1ZF,registered,PP|PAPER|PVC,label_film|paper_label,10,rolls,false,,true
+SUP_0092,Chandrabloom Shrink Films Pvt Ltd,shrink-film supplier,Andhra Pradesh,Visakhapatnam,ADDR_000385,37YIOCO9980O1ZX,unregistered,LDPE|LLDPE|PP|PVC,film|liner|shrink_wrap|stretch_wrap,250,kg,false,,true
+SUP_0093,Kesarline Caps Pvt Ltd,cap supplier,Gujarat,Vapi,ADDR_000386,24OXECB0553D2ZY,registered,PP|HDPE,cap|closure,50000,pcs,false,,true
+SUP_0094,Dhararidge Pouch Pack Pvt Ltd,pouch supplier,Maharashtra,Aurangabad,ADDR_000387,27HOPCB1595W3ZE,unregistered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,5000,pcs,false,,true
+SUP_0095,Dharastone Closure Systems Pvt Ltd,closure supplier,Tamil Nadu,Coimbatore,ADDR_000388,33CWECN7216N1ZS,registered,PP|HDPE,cap|closure,25000,pcs,false,,true
+SUP_0096,Bodhinest Flexibles Pvt Ltd,flexible packaging supplier,Gujarat,Ahmedabad,ADDR_000389,24IENCV6498Q2ZZ,registered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,500,kg,false,,true
+SUP_0097,Aquafield Flexibles Pvt Ltd,flexible packaging supplier,Karnataka,Bengaluru,ADDR_000390,29MWFCU9588Y1Z5,unregistered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,500,kg,false,,true
+SUP_0098,Bodhivista Flexi Pack Pvt Ltd,flexible packaging supplier,Karnataka,Hubballi,ADDR_000391,29CADCC0659C2ZZ,registered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,500,kg,false,,true
+SUP_0099,Arunloom Flexibles Pvt Ltd,flexible packaging supplier,Gujarat,Vapi,ADDR_000392,24MTOCU2593B3ZA,registered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,500,kg,false,,true
+SUP_0100,Mithragrove PET Bottles Pvt Ltd,PET bottle manufacturer,Tamil Nadu,Chennai,ADDR_000393,33PUMCX3363N3ZM,registered,PET,bottle|jar,5000,pcs,false,,true
+SUP_0101,Kesarvista Polyfilms Pvt Ltd,shrink-film supplier,Karnataka,Mysuru,ADDR_000394,29NQFCK8564A3ZA,registered,LDPE|LLDPE|PP|PVC,film|liner|shrink_wrap|stretch_wrap,100,kg,false,,true
+SUP_0102,Zararay Flexi Pack Pvt Ltd,flexible packaging supplier,Tamil Nadu,Hosur,ADDR_000395,33TGECE5607D3Z5,registered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,250,kg,false,,true
+SUP_0103,Aquaray Polymers Pvt Ltd,plastic resin supplier,Tamil Nadu,Hosur,ADDR_000396,33JLACF4487H2ZT,registered,PET|HDPE|LDPE|LLDPE|PP,,5,MT,false,,true
+SUP_0104,Hiraloom Pouches Pvt Ltd,pouch supplier,Gujarat,Vadodara,ADDR_000397,24CBECO1130A1ZJ,registered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,10000,pcs,false,,true
+SUP_0105,Ecosprout Pouch Pack Pvt Ltd,pouch supplier,Gujarat,Surat,ADDR_000398,24RNLCR8154Y1Z7,registered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,10000,pcs,false,,true
+SUP_0106,Indrapath Polychem Pvt Ltd,raw-material supplier,Gujarat,Vapi,ADDR_000399,24HYHCG7623O3Z7,registered,PS|PVC|HDPE|PP,,2,MT,false,,true
+SUP_0107,Tarapeak Polyfilms Pvt Ltd,shrink-film supplier,Madhya Pradesh,Bhopal,ADDR_000400,23WPMCW9877G1ZE,registered,LDPE|LLDPE|PP|PVC,film|liner|shrink_wrap|stretch_wrap,250,kg,false,,true
+SUP_0108,Novavale Flexibles Pvt Ltd,flexible packaging supplier,West Bengal,Durgapur,ADDR_000401,19EJTCD9463Y3ZZ,registered,LDPE|LLDPE|MLP|COMPOSTABLE,bag|compostable_bag|compostable_mailer|film|liner|mailer|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,100,kg,false,,true
+SUP_0109,Vedadale Resins Pvt Ltd,plastic resin supplier,Maharashtra,Aurangabad,ADDR_000402,27SOWCX7478H3Z5,registered,PET|HDPE|LDPE|LLDPE|PP,,5,MT,false,,true
+SUP_0110,Kirapeak Corrugators Pvt Ltd,carton supplier,Telangana,Medchal,ADDR_000403,36OQNCP6509Y1Z3,registered,CARDBOARD|PAPER,box|carton|void_fill,50000,pcs,false,,true
+SUP_0111,Ojasfield Polychem Pvt Ltd,raw-material supplier,Telangana,Hyderabad,ADDR_000404,36YTDCR9815D2Z5,registered,PS|PVC|HDPE|PP,,0.5,MT,false,,true
+SUP_0112,Ritushore Corrugators Pvt Ltd,carton supplier,Haryana,Panipat,ADDR_000405,06ITCCX1027W3ZS,registered,CARDBOARD|PAPER,box|carton|void_fill,50000,pcs,false,,true
+SUP_0113,Ritufizz Labels Pvt Ltd,label supplier,Andhra Pradesh,Vijayawada,ADDR_000406,37RVXCP8362F1ZS,registered,PP|PAPER|PVC,label_film|paper_label,20,rolls,false,,true
+SUP_0114,Dharawing Preforms & Bottles Pvt Ltd,PET bottle manufacturer,Maharashtra,Mumbai,ADDR_000407,27HXFCF3126Z2ZC,registered,PET,bottle|jar,10000,pcs,false,,true
+SUP_0115,Chandrawave Cartons Pvt Ltd,carton supplier,Gujarat,Vapi,ADDR_000408,24HHVCN9605J1Z1,registered,CARDBOARD|PAPER,box|carton|void_fill,5000,pcs,false,,true
+SUP_0116,Jalastone Caps Pvt Ltd,cap supplier,Delhi,New Delhi,ADDR_000409,07GQACT1304Z1ZC,registered,PP|HDPE,cap|closure,10000,pcs,false,,true
+SUP_0117,Hirabloom Pouch Pack Pvt Ltd,pouch supplier,Delhi,New Delhi,ADDR_000410,07OXMCU3405C2ZL,unregistered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,5000,pcs,false,,true
+SUP_0118,Mithrabrook Pouches Pvt Ltd,pouch supplier,Maharashtra,Pune,ADDR_000411,27NNECF0326Y2Z3,registered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,25000,pcs,false,,true
+SUP_0119,Saffrawell Label Prints Pvt Ltd,label supplier,Madhya Pradesh,Pithampur,ADDR_000412,23BTMCN7581K2ZC,unregistered,PP|PAPER|PVC,label_film|paper_label,50,rolls,false,,true
+SUP_0120,Vrikshpact Pouch Pack Pvt Ltd,pouch supplier,Uttar Pradesh,Kanpur,ADDR_000413,09FGDCY5898U2ZD,registered,LDPE|LLDPE|MLP|COMPOSTABLE,compostable_bag|pouch_laminate|pouch_mono|sachet_laminate|sachet_mono,5000,pcs,false,,true
+SUP_TEST_001,Ecoglow PET Bottles Pvt Ltd,PET bottle manufacturer,Haryana,Sonipat,ADDR_000019,06ODQCM2783K1Z4,registered,PET,bottle|jar,50000,pcs,true,TS02_SUPPLIER_ABNORMAL_QUANTITY,true
+SUP_TEST_002,Rituwell Caps Pvt Ltd,cap supplier,Gujarat,Vapi,ADDR_000008,24JUMCZ9636M1ZR,registered,PP,cap|closure,5000,pcs,true,TS03_SUPPLIER_MATERIAL_CHANGE,true

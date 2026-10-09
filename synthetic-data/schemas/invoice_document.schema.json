@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/invoice_document.schema.json",
+  "title": "Invoice PDF ground truth",
+  "description": "SYNTHETIC — EPRLens Demo. One JSON per PDF; values must equal what is printed.",
+  "x-schema-version": "0.2.0",
+  "type": "object",
+  "required": [
+    "document_id",
+    "invoice_number",
+    "invoice_type",
+    "company_id",
+    "supplier_id",
+    "buyer_id",
+    "expected_fields",
+    "linked_transaction_ids",
+    "is_anomaly",
+    "anomaly_types",
+    "template_id",
+    "seed",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "document_id": {
+      "type": "string",
+      "pattern": "^DOC_\\d{6}$"
+    },
+    "invoice_id": {
+      "type": "string",
+      "pattern": "^INV_\\d{8}$"
+    },
+    "invoice_number": {
+      "type": "string"
+    },
+    "invoice_type": {
+      "type": "string",
+      "enum": [
+        "PKG_PURCHASE",
+        "FG_SALES",
+        "RECYCLER_PROCESSING",
+        "WASTE_PROCUREMENT",
+        "CREDIT_NOTE",
+        "RETURN",
+        "IMPORT_COMMERCIAL",
+        "PKG_COMPONENT",
+        "MULTI_MATERIAL",
+        "RECYCLING_SERVICE"
+      ]
+    },
+    "company_id": {
+      "type": "string",
+      "pattern": "^COMP_\\d{4}$"
+    },
+    "supplier_id": {
+      "type": "string",
+      "pattern": "^(COMP_\\d{4}|SUP_(\\d{4}|TEST_\\d{3})|BUY_(\\d{4}|TEST_\\d{3})|REC_(\\d{4}|TEST_\\d{3}))$"
+    },
+    "buyer_id": {
+      "type": "string",
+      "pattern": "^(COMP_\\d{4}|SUP_(\\d{4}|TEST_\\d{3})|BUY_(\\d{4}|TEST_\\d{3})|REC_(\\d{4}|TEST_\\d{3}))$"
+    },
+    "expected_fields": {
+      "type": "object",
+      "required": [
+        "invoice_number",
+        "invoice_date",
+        "vendor",
+        "buyer",
+        "lines",
+        "gst",
+        "invoice_total"
+      ],
+      "properties": {
+        "lines": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "required": [
+              "line_reference",
+              "page_number",
+              "item_description",
+              "quantity",
+              "unit",
+              "normalized_quantity_kg",
+              "rate",
+              "amount"
+            ]
+          }
+        }
+      }
+    },
+    "linked_transaction_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "is_anomaly": {
+      "type": "boolean"
+    },
+    "anomaly_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AN01",
+          "AN02",
+          "AN03",
+          "AN04",
+          "AN05",
+          "AN06",
+          "AN07",
+          "AN08",
+          "AN09",
+          "AN10",
+          "AN11",
+          "AN12",
+          "AN13",
+          "AN14",
+          "AN15",
+          "AN16",
+          "AN17",
+          "AN18",
+          "AN19",
+          "AN20"
+        ]
+      }
+    },
+    "test_case_type": {
+      "type": "string",
+      "enum": [
+        "routine",
+        "targeted_anomaly",
+        "targeted_legit_hard",
+        "illustrative"
+      ]
+    },
+    "template_id": {
+      "type": "string",
+      "pattern": "^L\\d{2}$"
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "synthetic_flag": {
+      "const": true
+    }
+  }
+}

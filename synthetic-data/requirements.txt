@@ -1,0 +1,12 @@
+# SYNTHETIC — EPRLens Demo — pinned dependencies. Target: Python 3.12 (DS-19, approved; verified on 3.12.14)
+# Entity pilot needs only PyYAML, jsonschema, pytest.
+PyYAML==6.0.3
+jsonschema==4.26.0
+pytest==9.1.1
+# Full dataset + ML (installed after approval of DS-04 / DS-18):
+numpy==2.5.1
+pandas==3.0.5
+scikit-learn==1.9.0
+xgboost==3.4.0
+pypdf==6.16.1
+reportlab==5.0.1

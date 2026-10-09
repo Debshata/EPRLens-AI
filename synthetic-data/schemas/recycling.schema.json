@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eprlens.example/schemas/recycling.schema.json",
+  "title": "Recycling proxy records (DS-11 A)",
+  "description": "SYNTHETIC — EPRLens Demo. PROPOSED schema; see docs/DECISIONS-REQUIRED.md.",
+  "x-schema-version": "0.2.0",
+  "x-primary-key": "recycling_record_id",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "recycling_record_id",
+    "company_id",
+    "month",
+    "synthetic_category",
+    "waste_generated_kg",
+    "waste_collected_kg",
+    "waste_recycled_kg",
+    "recycler_id",
+    "recycler_registered",
+    "credits_documented_kg",
+    "basis",
+    "synthetic_flag"
+  ],
+  "properties": {
+    "recycling_record_id": {
+      "type": "string",
+      "description": "Id",
+      "pattern": "^RCY_\\d{7}$",
+      "x-provenance": "M"
+    },
+    "company_id": {
+      "type": "string",
+      "description": "Company",
+      "pattern": "^COMP_\\d{4}$",
+      "x-provenance": "M",
+      "x-foreign-key": "companies.company_id"
+    },
+    "month": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}$",
+      "description": "YYYY-MM",
+      "x-provenance": "M"
+    },
+    "synthetic_category": {
+      "type": "string",
+      "description": "Synthetic category convention",
+      "enum": [
+        "CAT_I",
+        "CAT_II",
+        "CAT_III",
+        "CAT_IV",
+        "NA",
+        "UNKNOWN"
+      ],
+      "x-provenance": "E"
+    },
+    "waste_generated_kg": {
+      "type": "number",
+      "description": "SYNTHETIC PROXY of post-consumer waste",
+      "minimum": 0,
+      "x-provenance": "E"
+    },
+    "waste_collected_kg": {
+      "type": "number",
+      "description": "Collected",
+      "minimum": 0,
+      "x-provenance": "E"
+    },
+    "waste_recycled_kg": {
+      "type": "number",
+      "description": "Recycled",
+      "minimum": 0,
+      "x-provenance": "E"
+    },
+    "recycler_id": {
+      "type": "string",
+      "description": "Recycler",
+      "pattern": "^REC_(\\d{4}|TEST_\\d{3})$",
+      "x-provenance": "M",
+      "x-foreign-key": "recyclers.recycler_id"
+    },
+    "recycler_registered": {
+      "type": "boolean",
+      "description": "Registry status",
+      "x-provenance": "H"
+    },
+    "credits_documented_kg": {
+      "type": "number",
+      "description": "Documented claims, not verified certificates",
+      "minimum": 0,
+      "x-provenance": "E"
+    },
+    "basis": {
+      "type": "string",
+      "description": "Proxy model version",
+      "enum": [
+        "synthetic_proxy_v1"
+      ],
+      "x-provenance": "M"
+    },
+    "synthetic_flag": {
+      "type": "boolean",
+      "description": "Always true. SYNTHETIC — EPRLens Demo.",
+      "enum": [
+        true
+      ],
+      "x-provenance": "M"
+    }
+  }
+}
