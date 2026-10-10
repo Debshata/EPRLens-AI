@@ -1,0 +1,21 @@
+﻿# Ignore downloaded raw datasets
+/data/raw/packaging_images/
+
+# Python environments and generated caches
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Generated dataset manifest
+/ml/datasets/image_manifest.csv
+
+# Local PyTorch training checkpoints
+/ml/models/*.pth

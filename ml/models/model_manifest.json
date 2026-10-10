@@ -1,0 +1,54 @@
+{
+  "model_version": "mobilenetv3-v1-finetuned",
+  "architecture": "MobileNetV3-Small",
+  "source_checkpoint": "mobilenetv3-v1-finetuned.pth",
+  "onnx_artifact": "mobilenetv3-v1.onnx",
+  "selected_epoch": 7,
+  "validation_macro_f1": 0.9113266954032448,
+  "input": {
+    "name": "images",
+    "shape": [
+      "batch_size",
+      3,
+      224,
+      224
+    ],
+    "color": "RGB",
+    "normalization": {
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  "output": {
+    "name": "logits",
+    "classes": [
+      "plastic",
+      "paper",
+      "cardboard",
+      "metal",
+      "glass",
+      "battery",
+      "trash_other"
+    ],
+    "postprocessing": "softmax"
+  },
+  "onnx_opset": 17,
+  "parity_check": {
+    "passed": true,
+    "max_absolute_difference": 4.112720489501953e-06,
+    "test_input_shape": [
+      2,
+      3,
+      224,
+      224
+    ]
+  }
+}

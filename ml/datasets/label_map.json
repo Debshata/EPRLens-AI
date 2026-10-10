@@ -1,0 +1,13 @@
+﻿{
+  "model_version": "mobilenetv3-v1",
+  "image_size": 224,
+  "classes": {
+    "0": "plastic",
+    "1": "paper",
+    "2": "cardboard",
+    "3": "metal",
+    "4": "glass",
+    "5": "battery",
+    "6": "trash_other"
+  }
+}
