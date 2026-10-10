@@ -15,7 +15,7 @@ statements_for() {
     parse-invoice)  echo "$S3_GET_UPLOADS,$DDB_PUT" ;;
     reconcile)      echo "$S3_GET_UPLOADS,$S3_GET_REF,$DDB_RW" ;;
     forecast)       echo "$S3_GET_MODELS,$S3_GET_REF,$DDB_PUT" ;;
-    detect-anomaly) echo "$S3_GET_MODELS" ;;
+    detect-anomaly) echo "$S3_GET_MODELS,$S3_GET_REF" ;;
     company-data)   echo "$S3_GET_REF,$DDB_PUT" ;;
     scenario-engine) echo "" ;;
   esac
