@@ -1,0 +1,14 @@
+{
+ "documents": 1000,
+ "synthetic_only": true,
+ "parser_version": "pdf-text-v1",
+ "invoice_number": 1000,
+ "invoice_date": 1000,
+ "vendor": 1000,
+ "line_count": 1000,
+ "total": 1000,
+ "lines": 3846,
+ "line_quantity": 3839,
+ "line_kg": 3846,
+ "crashes": 0
+}
