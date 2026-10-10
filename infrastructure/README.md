@@ -13,7 +13,10 @@ Scripts use the AWS CLI v2 and the `eprlens` profile in `ap-south-1` (override w
 | 7 | `scripts/70-frontend-env.sh` | Writes git-ignored `frontend/.env.local` for live mode (secret never printed) |
 | – | `scripts/45-redeploy.sh <fn>` | Fast redeploy of one function after a code change |
 | – | `scripts/65-live-api-check.py [url]` | Proves live mode end to end through the Next.js `/api/*` routes (real S3 + Lambda + DynamoDB) |
-| – | `scripts/99-destroy.sh --yes` | Deletes everything above |
+| 8 | `scripts/80-amplify-iam.sh` | IAM role the hosted Next.js server uses instead of keys (invoke `…-*` functions, presign `uploads/*`) |
+| 9 | `scripts/85-amplify-config.sh <app-id>` | After the Amplify app is created in the console: WEB_COMPUTE platform, compute role, env var names, start a build |
+| 10 | `scripts/86-cors.sh <amplify-domain>` | Allow browser uploads to presigned S3 URLs from the Amplify domain |
+| – | `scripts/99-destroy.sh --yes` | Deletes everything above (also delete the Amplify app and `…-amplify-ssr` role) |
 
 Browser check of live mode: `cd frontend && npm run build && npx next start -p 3000`, then `npx playwright test -c playwright.live.config.ts` (browser uploads straight to S3 with presigned URLs; CORS allows `localhost:3000/3100`).
 
