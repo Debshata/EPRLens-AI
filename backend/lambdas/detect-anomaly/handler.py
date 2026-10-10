@@ -8,7 +8,7 @@ for _c in (_here.parent, _here.parents[2] / "shared"):  # zip layout / repo layo
         sys.path.insert(0, str(_c))
         break
 
-for _c in (_here.parent, _here.parents[3] / "syntheticml" / "ml" / "aws_examples"):
+for _c in (_here.parent, *([_here.parents[3] / "syntheticml" / "ml" / "aws_examples"] if len(_here.parents) > 3 else [])):  # zip layout / repo layout
     if (_c / "lambda_anomaly_handler.py").is_file():
         sys.path.insert(0, str(_c))
         break
@@ -18,11 +18,10 @@ from eprlens_shared.lambda_utils import run
 
 
 def _handle(ev: dict) -> dict:
-    if ev.get("use_sample"):  # smoke test: score the ML team's bundled sample record
-        import json
+    if ev.get("use_sample"):  # smoke test: score the ML team's bundled sample record (seeded reference data)
+        from eprlens_shared.storage import read_seed_json
 
-        sample = ml._artifact_dir() / "sample_input.json"
-        ev = json.loads(sample.read_text(encoding="utf-8"))
+        ev = read_seed_json("anomaly_sample_input.json")
     out = ml.handler(ev)
     if out.get("status") != "success":
         raise ValueError(out.get("message") or "The anomaly model could not score this record.")

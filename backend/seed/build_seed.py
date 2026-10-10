@@ -80,6 +80,7 @@ def main() -> None:
     for n in ("company", "dashboard", "simulator"):
         shutil.copy(MOCKS / f"{n}.json", (OUT / COMPANY / f"{n}.json") if (OUT / COMPANY).mkdir(parents=True, exist_ok=True) is None else None)
     write(f"{COMPANY}/forecast_history.json", forecast_history())
+    shutil.copy(ROOT / "syntheticml" / "ml" / "artifacts" / "anomaly" / "v1" / "sample_input.json", OUT / "anomaly_sample_input.json")  # smoke-test record
     print("seed written to", OUT, "->", sorted(str(p.relative_to(OUT)) for p in OUT.rglob("*.json")))
 
 

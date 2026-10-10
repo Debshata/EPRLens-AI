@@ -8,7 +8,7 @@ for _c in (_here.parent, _here.parents[2] / "shared"):  # zip layout / repo layo
         sys.path.insert(0, str(_c))
         break
 
-for _c in (_here.parent, _here.parents[3] / "syntheticml" / "ml" / "aws_examples"):  # zip layout / repo layout
+for _c in (_here.parent, *([_here.parents[3] / "syntheticml" / "ml" / "aws_examples"] if len(_here.parents) > 3 else [])):  # zip layout / repo layout
     if (_c / "lambda_forecast_handler.py").is_file():
         sys.path.insert(0, str(_c))
         break
