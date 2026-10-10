@@ -1,0 +1,18 @@
+# EPRLens infrastructure (AWS: S3 · Lambda · DynamoDB only)
+
+Scripts use the AWS CLI v2 and the `eprlens` profile in `ap-south-1` (override with `AWS_PROFILE`, `AWS_REGION`, `PREFIX`). They are idempotent and macOS bash 3.2 compatible. Account setup: [`../docs/aws-account-setup.md`](../docs/aws-account-setup.md).
+
+| Step | Script | Creates / does |
+|---|---|---|
+| 1 | `scripts/10-storage.sh` | 2 private, encrypted, TLS-only S3 buckets (uploads: 7-day expiry + CORS for localhost; models) and DynamoDB table (PAY_PER_REQUEST) |
+| 2 | `scripts/20-iam.sh` | One least-privilege execution role per Lambda; narrow IAM user `…-frontend` (invoke `…-*` functions, `s3:PutObject` on `uploads/*` for presigned URLs) |
+| 3 | `scripts/30-package.sh` | Builds `build/<fn>.zip` for Linux x86_64 / Python 3.12 (no Docker) |
+| 4 | `scripts/40-deploy.sh` | Uploads zips via S3 and creates/updates the 7 functions, 3-day log retention |
+| 5 | `scripts/50-seed.sh` | Uploads models (`models/material-classifier|forecast|anomaly/v1/`) and demo reference data (`reference/`) |
+| 6 | `scripts/60-smoke.sh` | Invokes every function once with the bundled samples; prints PASS/FAIL |
+| 7 | `scripts/70-frontend-env.sh` | Writes git-ignored `frontend/.env.local` for live mode (secret never printed) |
+| – | `scripts/99-destroy.sh --yes` | Deletes everything above |
+
+Cost control: no always-on resources (no EC2, no provisioned capacity, no API Gateway/Textract/Bedrock/ECR/SageMaker). Lambda memory/timeouts are small (`scripts/config.sh`); uploads expire after 7 days; logs are kept 3 days. Lambda also writes to CloudWatch Logs — an implicit requirement.
+
+IAM note: `eprlens-admin` (AdministratorAccess) is only needed while running these scripts. Afterwards you can detach it or deactivate its key.

@@ -1,0 +1,18 @@
+{
+  "region": "ap-south-1",
+  "account_id": "<12-digit account id>",
+  "uploads_bucket": "eprlens-demo-uploads-<account>",
+  "models_bucket": "eprlens-demo-models-<account>",
+  "dynamodb_table": "eprlens-demo-analysis",
+  "functions": {
+    "classify-image": "eprlens-demo-classify-image",
+    "parse-invoice": "eprlens-demo-parse-invoice",
+    "reconcile": "eprlens-demo-reconcile",
+    "forecast": "eprlens-demo-forecast",
+    "detect-anomaly": "eprlens-demo-detect-anomaly",
+    "scenario-engine": "eprlens-demo-scenario-engine",
+    "company-data": "eprlens-demo-company-data"
+  },
+  "frontend_iam_user": "eprlens-demo-frontend",
+  "note": "Names only. Credentials are never stored in the repo."
+}

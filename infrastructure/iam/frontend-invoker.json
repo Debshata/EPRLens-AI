@@ -1,0 +1,7 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {"Sid": "InvokeEprlensFunctionsOnly", "Effect": "Allow", "Action": "lambda:InvokeFunction", "Resource": "arn:aws:lambda:__REGION__:__ACCOUNT__:function:__PREFIX__-*"},
+    {"Sid": "PresignUploadsOnly", "Effect": "Allow", "Action": "s3:PutObject", "Resource": "arn:aws:s3:::__UPLOADS_BUCKET__/uploads/*"}
+  ]
+}

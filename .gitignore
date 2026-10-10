@@ -19,3 +19,6 @@ __pycache__/
 
 # Local PyTorch training checkpoints
 /ml/models/*.pth
+
+# Lambda build output (zips are large; rebuild with infrastructure/scripts/30-package.sh)
+/infrastructure/build/
