@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+/*
+ * EPRLens design tokens — designprompts.dev "Web3" (dark) recoloured green.
+ * Source: UX spec "Green-adapted visual system". Dark only.
+ * Risk semantics: red = real error/high severity, amber = needs review, green is brand/confirmed
+ * and never means "compliant".
+ */
+:root {
+  --bg: #030304;
+  --surface: #0f1115;
+  --surface-2: #151922;
+  --foreground: #ffffff;
+  --muted: #94a3b8;
+  --border: #1e293b;
+  --green-dark: #166534;
+  --green-primary: #22c55e;
+  --green-bright: #86efac;
+  --green-light: #dcfce7;
+  --danger: #ef4444;
+  --caution: #f59e0b;
+  --info: #38bdf8;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--foreground);
+  --color-muted: var(--muted);
+  --color-line: var(--border);
+  --color-brand-dark: var(--green-dark);
+  --color-brand: var(--green-primary);
+  --color-brand-bright: var(--green-bright);
+  --color-brand-light: var(--green-light);
+  --color-danger: var(--danger);
+  --color-caution: var(--caution);
+  --color-info: var(--info);
+  --font-heading: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace;
+  --shadow-glow: 0 0 30px -8px rgba(34, 197, 94, 0.35);
+  --shadow-glow-sm: 0 0 20px -6px rgba(34, 197, 94, 0.3);
+}
+
+html {
+  color-scheme: dark;
+  background: var(--bg);
+}
+
+body {
+  background: var(--bg);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-heading { font-family: var(--font-heading); }
+
+/* Quantities, scores, ids and dates are always mono with tabular figures. */
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 50px fading grid used on hero / empty states. */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(30, 41, 59, 0.55) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 41, 59, 0.55) 1px, transparent 1px);
+  background-size: 50px 50px;
+  mask-image: radial-gradient(ellipse at center, #000 30%, transparent 75%);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #22c55e, #86efac);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Grid children may shrink below their content width, so wide tables scroll inside their card instead of widening the page. */
+:where(.grid) > * { min-width: 0; }
+
+:focus-visible {
+  outline: 2px solid var(--green-primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
