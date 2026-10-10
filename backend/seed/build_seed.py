@@ -49,7 +49,8 @@ def invoice_index() -> dict:
 
 
 def forecast_history() -> dict:
-    panel = [r for r in csv.DictReader(open(GEN / "csv" / "forecast_panel.csv", encoding="utf-8")) if r["company_id"] == COMPANY]
+    with open(GEN / "csv" / "forecast_panel.csv", encoding="utf-8") as fh:
+        panel = [r for r in csv.DictReader(fh) if r["company_id"] == COMPANY]
     by_prod: dict[str, dict] = collections.defaultdict(dict)
     for r in panel:
         by_prod[r["product_id"]][r["month"]] = {"month": r["month"], "packaging_kg": float(r["packaging_kg"]), "units_sold": int(r["units_sold"]), "weight_per_unit_g": float(r["weight_per_unit_g"])}

@@ -144,8 +144,9 @@ def _lines_table(lines: list[str]) -> list[dict]:
         h0 = next(i for i, ln in enumerate(lines) if ln == "#")
     except StopIteration:
         return []
-    header, i = [], h0
-    while i < len(lines) and not re.fullmatch(r"\d+", lines[i]) or (i == h0):
+    i = h0
+    header = []
+    while i < len(lines) and (i == h0 or not re.fullmatch(r"\d+", lines[i])):  # header cells run until the first row index
         header.append(lines[i])
         i += 1
     header = [h for h in header if h != "#"]
@@ -311,6 +312,6 @@ def parse_invoice_text(text: str, page_count: int, document_id: str, file_name: 
         "page_count": page_count,
         "lines": parsed,
         "fields": fields,
-        "source": {"file_name": file_name, "sha256": sha256, "synthetic": "SYNTHETIC" in text or True},
+        "source": {"file_name": file_name, "sha256": sha256, "synthetic": "SYNTHETIC" in text},
         "extraction": {"method": "digital_pdf_text", "status": "needs_review" if needs_review else "success", "parser_version": PARSER_VERSION},
     }
