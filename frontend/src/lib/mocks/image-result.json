@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "1.0.0",
+    "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+    "note": "FIXTURE. The image model (WP1) is not in the repo yet; these are demo outputs in the agreed WP1 JSON shape, keyed by sample file name. Never an official EPR category."
+  },
+  "results": {
+    "sample-pet-bottle.png": {
+      "predicted_class": "plastic",
+      "confidence": 0.94,
+      "uncertain": false,
+      "model_version": "mobilenetv3-v1"
+    },
+    "sample-carton.png": {
+      "predicted_class": "cardboard",
+      "confidence": 0.88,
+      "uncertain": false,
+      "model_version": "mobilenetv3-v1"
+    },
+    "sample-mixed-wrappers.png": {
+      "predicted_class": "trash_other",
+      "confidence": 0.41,
+      "uncertain": true,
+      "model_version": "mobilenetv3-v1"
+    }
+  },
+  "classes": [
+    "plastic",
+    "paper",
+    "cardboard",
+    "metal",
+    "glass",
+    "battery",
+    "trash_other"
+  ]
+}

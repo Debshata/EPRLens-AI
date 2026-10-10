@@ -1,0 +1,252 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC \u2014 EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "1.0.0",
+    "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+    "note": "History = company total of forecast_panel product rows (units sold x total component weight), Mar-2026 = panel target of the Feb-2026 origin row. Forecast = real forecast-v1 ONNX output run locally per product and summed; months after the first are recursive 'projected' values (model output fed back as history), not model-validated."
+  },
+  "company_id": "COMP_0001",
+  "basis": "packaging_mass_of_units_sold_kg",
+  "history": [
+    {
+      "month": "2023-04",
+      "packaging_kg": 191033.421,
+      "kind": "observed"
+    },
+    {
+      "month": "2023-05",
+      "packaging_kg": 191640.409,
+      "kind": "observed"
+    },
+    {
+      "month": "2023-06",
+      "packaging_kg": 169303.833,
+      "kind": "observed"
+    },
+    {
+      "month": "2023-07",
+      "packaging_kg": 119608.874,
+      "kind": "observed"
+    },
+    {
+      "month": "2023-08",
+      "packaging_kg": 121762.697,
+      "kind": "observed"
+    },
+    {
+      "month": "2023-09",
+      "packaging_kg": 167597.749,
+      "kind": "observed"
+    },
+    {
+      "month": "2023-10",
+      "packaging_kg": 171317.704,
+      "kind": "observed"
+    },
+    {
+      "month": "2023-11",
+      "packaging_kg": 176441.163,
+      "kind": "observed"
+    },
+    {
+      "month": "2023-12",
+      "packaging_kg": 190608.013,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-01",
+      "packaging_kg": 205303.565,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-02",
+      "packaging_kg": 283364.197,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-03",
+      "packaging_kg": 282053.623,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-04",
+      "packaging_kg": 353719.955,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-05",
+      "packaging_kg": 352110.134,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-06",
+      "packaging_kg": 342694.063,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-07",
+      "packaging_kg": 235530.902,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-08",
+      "packaging_kg": 260529.72,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-09",
+      "packaging_kg": 248621.893,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-10",
+      "packaging_kg": 269135.426,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-11",
+      "packaging_kg": 247492.04,
+      "kind": "observed"
+    },
+    {
+      "month": "2024-12",
+      "packaging_kg": 232367.431,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-01",
+      "packaging_kg": 255313.946,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-02",
+      "packaging_kg": 274827.32,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-03",
+      "packaging_kg": 362051.637,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-04",
+      "packaging_kg": 365819.375,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-05",
+      "packaging_kg": 377386.832,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-06",
+      "packaging_kg": 351950.398,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-07",
+      "packaging_kg": 244031.384,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-08",
+      "packaging_kg": 261046.77,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-09",
+      "packaging_kg": 297280.576,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-10",
+      "packaging_kg": 284059.145,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-11",
+      "packaging_kg": 259670.072,
+      "kind": "observed"
+    },
+    {
+      "month": "2025-12",
+      "packaging_kg": 261340.477,
+      "kind": "observed"
+    },
+    {
+      "month": "2026-01",
+      "packaging_kg": 267438.24,
+      "kind": "observed"
+    },
+    {
+      "month": "2026-02",
+      "packaging_kg": 268899.349,
+      "kind": "observed"
+    },
+    {
+      "month": "2026-03",
+      "packaging_kg": 360993.226,
+      "kind": "observed"
+    }
+  ],
+  "forecast": {
+    "model_version": "forecast-v1",
+    "model_name": "xgboost",
+    "target": "next_month_packaging_kg",
+    "interval": null,
+    "interval_note": "interval unavailable \u2014 the model does not return an honest uncertainty range",
+    "synthetic_only": true,
+    "warning": "Trained and evaluated on SYNTHETIC data \u2014 metrics are not real-world accuracy.",
+    "baseline": {
+      "name": "last_value",
+      "next_month_kg": 360993.226
+    },
+    "metrics_test": {
+      "mae_kg": 401.56983023524197,
+      "rmse_kg": 2749.491886123409,
+      "r2": 0.9862572238851119,
+      "baseline_last_value_mae_kg": 659.7702866628723,
+      "source": "ml/evaluation/forecast/metrics.json (synthetic data)"
+    },
+    "points": [
+      {
+        "month": "2026-04",
+        "packaging_kg": 403261.78,
+        "kind": "model",
+        "per_product": {
+          "PROD_000001": 596.452,
+          "PROD_000002": 58382.591,
+          "PROD_000003": 87613.452,
+          "PROD_000004": 178286.919,
+          "PROD_000005": 78382.366
+        }
+      },
+      {
+        "month": "2026-05",
+        "packaging_kg": 412428.71,
+        "kind": "projected",
+        "per_product": {
+          "PROD_000001": 603.221,
+          "PROD_000002": 61211.096,
+          "PROD_000003": 87842.871,
+          "PROD_000004": 180625.931,
+          "PROD_000005": 82145.591
+        }
+      },
+      {
+        "month": "2026-06",
+        "packaging_kg": 382416.064,
+        "kind": "projected",
+        "per_product": {
+          "PROD_000001": 556.915,
+          "PROD_000002": 55593.013,
+          "PROD_000003": 81483.652,
+          "PROD_000004": 167983.953,
+          "PROD_000005": 76798.531
+        }
+      }
+    ]
+  }
+}

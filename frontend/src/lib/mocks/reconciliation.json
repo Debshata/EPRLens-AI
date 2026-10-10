@@ -1,0 +1,268 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "1.0.0",
+    "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+    "note": "Findings for COMP_0001 built from ground-truth anomaly labels + real values from generated CSVs. Only demo-finding-001 has a real anomaly-v1 model score (ml/artifacts/anomaly/v1/sample_output.json); others show model_score=null. Output of reconcile + detect-anomaly in the agreed shape."
+  },
+  "analysis_id": "demo-run-001",
+  "schema_version": "0.4-proposal",
+  "company_id": "COMP_0001",
+  "rules_version": "rules-v1",
+  "tolerances": {
+    "qty_tolerance_kg": 0.01,
+    "qty_tolerance_rel": 0.0005
+  },
+  "findings": [
+    {
+      "finding_id": "demo-finding-001",
+      "type": "unit_conversion_error",
+      "anomaly_code": "AN08",
+      "title": "Invoice 0.5 MT vs recorded 500 MT",
+      "severity": "high",
+      "review_state": "open",
+      "company_id": "COMP_0001",
+      "invoice_id": "INV_00017685",
+      "invoice_number": "SYEC/2526/00004",
+      "document_id": "DOC_000832",
+      "counterparty": "Ecoglow PET Bottles Pvt Ltd",
+      "material": "PET",
+      "component": "PET bottle for 750 ml",
+      "expected": {
+        "label": "Invoice (document)",
+        "raw_value": 0.5,
+        "raw_unit": "MT",
+        "value_kg": 500.0,
+        "source_ref": "DOC_000832:p1:l1"
+      },
+      "observed": {
+        "label": "Recorded (CSV/transaction)",
+        "raw_value": 500.0,
+        "raw_unit": "MT",
+        "value_kg": 500000.0,
+        "source_ref": "TXN_00121740"
+      },
+      "difference_kg": 499500.0,
+      "rule_ids": [
+        "UNIT_MISMATCH",
+        "QTY_MATCH_TOL",
+        "QTY_RATIO_POW10"
+      ],
+      "rule_version": "rules-v1",
+      "detected_by": [
+        "rule",
+        "ml_outlier"
+      ],
+      "model_score": 0.599222,
+      "model_threshold": 0.53867,
+      "model_version": "anomaly-v1",
+      "explanation": "Invoice line 1 prints 0.5 tonne (500 kg). The linked record TXN_00121740 holds 500 tonne (500,000 kg) — exactly 1,000× larger. A unit or decimal slip is the most likely cause; a reviewer must confirm which value is right.",
+      "legal_determination": false
+    },
+    {
+      "finding_id": "demo-finding-002",
+      "type": "quantity_mismatch",
+      "anomaly_code": "AN07",
+      "title": "Invoice line vs record differ by 8,792 kg",
+      "severity": "medium",
+      "review_state": "open",
+      "company_id": "COMP_0001",
+      "invoice_id": "INV_00000068",
+      "invoice_number": "SYEC/2526/00005",
+      "document_id": null,
+      "counterparty": "BUY_TEST_001",
+      "material": "GLASS",
+      "component": "EcoFizz Ginger Soda 300 ml Glass (line 5)",
+      "expected": {
+        "label": "Invoice line",
+        "raw_value": 82227,
+        "raw_unit": "bottles",
+        "value_kg": 19183.559,
+        "source_ref": "INV_00000068:l5"
+      },
+      "observed": {
+        "label": "Recorded (transaction)",
+        "raw_value": 44541,
+        "raw_unit": "bottles",
+        "value_kg": 10391.394,
+        "source_ref": "TXN_00000372"
+      },
+      "difference_kg": 8792.165,
+      "rule_ids": [
+        "QTY_MATCH_TOL"
+      ],
+      "rule_version": "rules-v1",
+      "detected_by": [
+        "rule"
+      ],
+      "model_score": null,
+      "model_version": "anomaly-v1",
+      "explanation": "Invoice line 5 and its linked transaction disagree by more than the 0.05% tolerance (82,227 vs 44,541 bottles). Not a clean power-of-ten ratio, so a keying or partial-delivery issue is possible.",
+      "legal_determination": false
+    },
+    {
+      "finding_id": "demo-finding-003",
+      "type": "recycled_exceeds_collected",
+      "anomaly_code": "AN11",
+      "title": "Recycled quantity exceeds collected (Jul 2024)",
+      "severity": "high",
+      "review_state": "open",
+      "company_id": "COMP_0001",
+      "invoice_id": null,
+      "invoice_number": null,
+      "document_id": null,
+      "counterparty": "REC_0002",
+      "material": "CAT_I (synthetic)",
+      "component": "Recycling record RCY_0000013",
+      "expected": {
+        "label": "Collected (upper bound)",
+        "raw_value": 98538.946,
+        "raw_unit": "kg",
+        "value_kg": 98538.946,
+        "source_ref": "RCY_0000013:waste_collected_kg"
+      },
+      "observed": {
+        "label": "Recycled (recorded)",
+        "raw_value": 149893.353,
+        "raw_unit": "kg",
+        "value_kg": 149893.353,
+        "source_ref": "RCY_0000013:waste_recycled_kg"
+      },
+      "difference_kg": 51354.407,
+      "rule_ids": [
+        "RECYCLED_LE_COLLECTED"
+      ],
+      "rule_version": "rules-v1",
+      "detected_by": [
+        "rule"
+      ],
+      "model_score": null,
+      "model_version": "anomaly-v1",
+      "explanation": "In this synthetic cohort, recycled quantity should not exceed collected quantity for the same month and recycler. The record shows more recycled than collected. This is a data-consistency check, not an EPR obligation test.",
+      "legal_determination": false
+    },
+    {
+      "finding_id": "demo-finding-004",
+      "type": "duplicate_invoice",
+      "anomaly_code": "AN05",
+      "title": "Possible duplicate sales invoice SYEC/2526/00021",
+      "severity": "high",
+      "review_state": "open",
+      "company_id": "COMP_0001",
+      "invoice_id": "INV_00046350",
+      "invoice_number": "SYEC/2526/00021",
+      "document_id": null,
+      "counterparty": "BUY_0010",
+      "material": "multiple",
+      "component": "5 lines (all products)",
+      "expected": {
+        "label": "Original",
+        "raw_value": 1,
+        "raw_unit": "invoice",
+        "value_kg": null,
+        "source_ref": "INV_00000055"
+      },
+      "observed": {
+        "label": "Second entry",
+        "raw_value": 2,
+        "raw_unit": "invoices",
+        "value_kg": null,
+        "source_ref": "INV_00046350"
+      },
+      "difference_kg": 113270.221,
+      "rule_ids": [
+        "DUP_COMPOSITE_KEY"
+      ],
+      "rule_version": "rules-v1",
+      "detected_by": [
+        "rule"
+      ],
+      "model_score": null,
+      "model_version": "anomaly-v1",
+      "explanation": "Two invoices share the same number, date, buyer, lines and total. Shared invoice numbers can be legitimate, so the match uses the full composite key rather than the number alone; here every part matches.",
+      "legal_determination": false
+    },
+    {
+      "finding_id": "demo-finding-005",
+      "type": "category_mismatch",
+      "anomaly_code": "AN04",
+      "title": "Printed plastic category differs from product master",
+      "severity": "high",
+      "review_state": "open",
+      "company_id": "COMP_0001",
+      "invoice_id": "INV_00017682",
+      "invoice_number": "SYEC/2526/00001",
+      "document_id": null,
+      "counterparty": "SUP_TEST_001",
+      "material": "PET",
+      "component": "PET bottle 750 ml (25 g/pc)",
+      "expected": {
+        "label": "Product master",
+        "raw_value": "CAT_I",
+        "raw_unit": null,
+        "value_kg": 12.0,
+        "source_ref": "PKGCOMP_000002"
+      },
+      "observed": {
+        "label": "Invoice line",
+        "raw_value": "CAT_II",
+        "raw_unit": null,
+        "value_kg": 12.0,
+        "source_ref": "INV_00017682:l1"
+      },
+      "difference_kg": null,
+      "rule_ids": [
+        "CATEGORY_MASTER_MATCH"
+      ],
+      "rule_version": "rules-v1",
+      "detected_by": [
+        "rule"
+      ],
+      "model_score": null,
+      "model_version": "anomaly-v1",
+      "explanation": "The line is printed as category II but the component is recorded as category I (rigid). Categories here are a synthetic modelling convention and legal status is still to be verified, so treat this as a data-consistency flag.",
+      "legal_determination": false
+    },
+    {
+      "finding_id": "demo-finding-006",
+      "type": "volume_spike",
+      "anomaly_code": "AN09",
+      "title": "Purchase quantity about 5× the usual level",
+      "severity": "medium",
+      "review_state": "open",
+      "company_id": "COMP_0001",
+      "invoice_id": "INV_00017673",
+      "invoice_number": "SYEC/2324/00001",
+      "document_id": null,
+      "counterparty": "SUP_TEST_001",
+      "material": "PET",
+      "component": "PET bottle 750 ml (28 g/pc)",
+      "expected": {
+        "label": "Typical (approx.)",
+        "raw_value": 294,
+        "raw_unit": "pcs",
+        "value_kg": 8.232,
+        "source_ref": "label ANM_0001265 (original value)"
+      },
+      "observed": {
+        "label": "Recorded",
+        "raw_value": 1470,
+        "raw_unit": "pcs",
+        "value_kg": 41.16,
+        "source_ref": "TXN_00121713"
+      },
+      "difference_kg": 32.928,
+      "rule_ids": [],
+      "rule_version": "rules-v1",
+      "detected_by": [
+        "ml_outlier"
+      ],
+      "model_score": null,
+      "model_version": "anomaly-v1",
+      "explanation": "The quantity is about 5 times what this supplier normally ships. Unusual volume is detected statistically (outlier score) and is not itself a rule violation; the score is not computed in this fixture.",
+      "legal_determination": false
+    }
+  ]
+}

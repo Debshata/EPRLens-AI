@@ -1,0 +1,234 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "1.0.0",
+    "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+    "note": "Active (effective_to = null) components of COMP_0001 products from products.json with FY2025-26 units = sum of forecast_panel units_sold Apr-2025..Feb-2026 plus the Mar-2026 target converted back to units. Weights are declared product-master values."
+  },
+  "company_id": "COMP_0001",
+  "period": "FY2025-26",
+  "default": {
+    "product_id": "PROD_000001",
+    "component_id": "PKGCOMP_000002",
+    "proposed_weight_g": 20.0
+  },
+  "products": [
+    {
+      "product_id": "PROD_000001",
+      "product_name": "EcoFizz Cola 750 ml",
+      "units_fy2025_26": 121547,
+      "components": [
+        {
+          "component_id": "PKGCOMP_000002",
+          "component_name": "PET bottle",
+          "material": "PET",
+          "weight_per_unit_g": 25.0,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_I",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000003",
+          "component_name": "Cap",
+          "material": "PP",
+          "weight_per_unit_g": 2.2,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_I",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000004",
+          "component_name": "Label",
+          "material": "PP",
+          "weight_per_unit_g": 0.9,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_II",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000005",
+          "component_name": "Outer carton (per-unit share)",
+          "material": "CARDBOARD",
+          "weight_per_unit_g": 16.5,
+          "plastic_epr_relevant": false,
+          "synthetic_category": "NA",
+          "weight_status": "declared"
+        }
+      ]
+    },
+    {
+      "product_id": "PROD_000002",
+      "product_name": "EcoFizz Lemon Twist 500 ml",
+      "units_fy2025_26": 14882174,
+      "components": [
+        {
+          "component_id": "PKGCOMP_000006",
+          "component_name": "PET bottle",
+          "material": "PET",
+          "weight_per_unit_g": 21.0,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_I",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000007",
+          "component_name": "Cap",
+          "material": "PP",
+          "weight_per_unit_g": 2.0,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_I",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000008",
+          "component_name": "Label",
+          "material": "PP",
+          "weight_per_unit_g": 0.7,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_II",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000009",
+          "component_name": "Outer carton (per-unit share)",
+          "material": "CARDBOARD",
+          "weight_per_unit_g": 12.0,
+          "plastic_epr_relevant": false,
+          "synthetic_category": "NA",
+          "weight_status": "declared"
+        }
+      ]
+    },
+    {
+      "product_id": "PROD_000003",
+      "product_name": "EcoFizz Orange Burst 1.25 L",
+      "units_fy2025_26": 11333894,
+      "components": [
+        {
+          "component_id": "PKGCOMP_000010",
+          "component_name": "PET bottle",
+          "material": "PET",
+          "weight_per_unit_g": 38.0,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_I",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000011",
+          "component_name": "Cap",
+          "material": "PP",
+          "weight_per_unit_g": 2.3,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_I",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000012",
+          "component_name": "Label",
+          "material": "PP",
+          "weight_per_unit_g": 1.2,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_II",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000013",
+          "component_name": "Outer carton (per-unit share)",
+          "material": "CARDBOARD",
+          "weight_per_unit_g": 22.0,
+          "plastic_epr_relevant": false,
+          "synthetic_category": "NA",
+          "weight_status": "declared"
+        }
+      ]
+    },
+    {
+      "product_id": "PROD_000004",
+      "product_name": "AquaPure Drinking Water 1 L",
+      "units_fy2025_26": 39220030,
+      "components": [
+        {
+          "component_id": "PKGCOMP_000014",
+          "component_name": "PET bottle",
+          "material": "PET",
+          "weight_per_unit_g": 22.0,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_I",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000015",
+          "component_name": "Cap",
+          "material": "HDPE",
+          "weight_per_unit_g": 1.8,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_I",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000016",
+          "component_name": "Label",
+          "material": "PP",
+          "weight_per_unit_g": 0.6,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_II",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000017",
+          "component_name": "Outer carton (per-unit share)",
+          "material": "CARDBOARD",
+          "weight_per_unit_g": 18.0,
+          "plastic_epr_relevant": false,
+          "synthetic_category": "NA",
+          "weight_status": "declared"
+        }
+      ]
+    },
+    {
+      "product_id": "PROD_000005",
+      "product_name": "EcoFizz Ginger Soda 300 ml Glass",
+      "units_fy2025_26": 2917144,
+      "components": [
+        {
+          "component_id": "PKGCOMP_000018",
+          "component_name": "Glass bottle",
+          "material": "GLASS",
+          "weight_per_unit_g": 210.0,
+          "plastic_epr_relevant": false,
+          "synthetic_category": "NA",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000019",
+          "component_name": "Cap",
+          "material": "PP",
+          "weight_per_unit_g": 2.5,
+          "plastic_epr_relevant": true,
+          "synthetic_category": "CAT_I",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000020",
+          "component_name": "Paper label",
+          "material": "PAPER",
+          "weight_per_unit_g": 0.8,
+          "plastic_epr_relevant": false,
+          "synthetic_category": "NA",
+          "weight_status": "declared"
+        },
+        {
+          "component_id": "PKGCOMP_000021",
+          "component_name": "Outer carton (per-unit share)",
+          "material": "CARDBOARD",
+          "weight_per_unit_g": 20.0,
+          "plastic_epr_relevant": false,
+          "synthetic_category": "NA",
+          "weight_status": "declared"
+        }
+      ]
+    }
+  ]
+}

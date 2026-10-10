@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "source_of_truth": "synthetic-data/masters + data/generated (regenerate with synthetic-data/generate.py)",
+    "seed": 20261009,
+    "generator_version": "1.0.0",
+    "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+    "note": "Deterministic what-if results (docs/scenario-formulas.md). Hypothetical."
+  },
+  "scenarios": [
+    {
+      "scenario_id": "SCN_000001",
+      "company_id": "COMP_0001",
+      "product_id": "PROD_000004",
+      "component_id": "PKGCOMP_000014",
+      "reduction_pct": 5,
+      "baseline_weight_g": 22.0,
+      "proposed_weight_g": 20.9,
+      "units": 39220030,
+      "baseline_kg": 862840.66,
+      "proposed_kg": 819698.627,
+      "projected_reduction_kg": 43142.033,
+      "assumptions": "Reduce PET bottle (PET) of AquaPure Drinking Water 1 L by 5% at unchanged FY2025-26 units; assumes a feasible, safe redesign. Synthetic; not a compliance or cost claim.",
+      "synthetic_flag": true
+    },
+    {
+      "scenario_id": "SCN_000002",
+      "company_id": "COMP_0001",
+      "product_id": "PROD_000004",
+      "component_id": "PKGCOMP_000014",
+      "reduction_pct": 15,
+      "baseline_weight_g": 22.0,
+      "proposed_weight_g": 18.7,
+      "units": 39220030,
+      "baseline_kg": 862840.66,
+      "proposed_kg": 733414.561,
+      "projected_reduction_kg": 129426.099,
+      "assumptions": "Reduce PET bottle (PET) of AquaPure Drinking Water 1 L by 15% at unchanged FY2025-26 units; assumes a feasible, safe redesign. Synthetic; not a compliance or cost claim.",
+      "synthetic_flag": true
+    },
+    {
+      "scenario_id": "SCN_000003",
+      "company_id": "COMP_0001",
+      "product_id": "PROD_000004",
+      "component_id": "PKGCOMP_000014",
+      "reduction_pct": 25,
+      "baseline_weight_g": 22.0,
+      "proposed_weight_g": 16.5,
+      "units": 39220030,
+      "baseline_kg": 862840.66,
+      "proposed_kg": 647130.495,
+      "projected_reduction_kg": 215710.165,
+      "assumptions": "Reduce PET bottle (PET) of AquaPure Drinking Water 1 L by 25% at unchanged FY2025-26 units; assumes a feasible, safe redesign. Synthetic; not a compliance or cost claim.",
+      "synthetic_flag": true
+    }
+  ],
+  "results": [
+    {
+      "scenario_id": "SCN_000001",
+      "company_id": "COMP_0001",
+      "product_id": "PROD_000004",
+      "baseline_kg": 1662929.272,
+      "proposed_kg": 1619787.239,
+      "projected_reduction_kg": 43142.033,
+      "reduction_pct_effective": 2.5943,
+      "plastic_baseline_kg": 956968.732,
+      "plastic_proposed_kg": 913826.699,
+      "plastic_reduction_kg": 43142.033,
+      "units_basis": "historical",
+      "period": "FY2025-26",
+      "disclaimer": "Hypothetical; assumes unchanged sales and a feasible redesign; not a compliance or cost claim.",
+      "synthetic_flag": true
+    },
+    {
+      "scenario_id": "SCN_000002",
+      "company_id": "COMP_0001",
+      "product_id": "PROD_000004",
+      "baseline_kg": 1662929.272,
+      "proposed_kg": 1533503.173,
+      "projected_reduction_kg": 129426.099,
+      "reduction_pct_effective": 7.783,
+      "plastic_baseline_kg": 956968.732,
+      "plastic_proposed_kg": 827542.633,
+      "plastic_reduction_kg": 129426.099,
+      "units_basis": "historical",
+      "period": "FY2025-26",
+      "disclaimer": "Hypothetical; assumes unchanged sales and a feasible redesign; not a compliance or cost claim.",
+      "synthetic_flag": true
+    },
+    {
+      "scenario_id": "SCN_000003",
+      "company_id": "COMP_0001",
+      "product_id": "PROD_000004",
+      "baseline_kg": 1662929.272,
+      "proposed_kg": 1447219.107,
+      "projected_reduction_kg": 215710.165,
+      "reduction_pct_effective": 12.9717,
+      "plastic_baseline_kg": 956968.732,
+      "plastic_proposed_kg": 741258.567,
+      "plastic_reduction_kg": 215710.165,
+      "units_basis": "historical",
+      "period": "FY2025-26",
+      "disclaimer": "Hypothetical; assumes unchanged sales and a feasible redesign; not a compliance or cost claim.",
+      "synthetic_flag": true
+    }
+  ]
+}

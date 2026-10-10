@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "1.0.0",
+    "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+    "note": "Real generated demo document DOC_000832 (INV_00017685). Fields mirror parse-invoice output; original value + unit always kept next to the kg-normalised value."
+  },
+  "invoice": {
+    "document_id": "DOC_000832",
+    "invoice_id": "INV_00017685",
+    "invoice_number": "SYEC/2526/00004",
+    "invoice_type": "PKG_PURCHASE",
+    "invoice_date": "2025-11-17",
+    "vendor": {
+      "name": "Ecoglow PET Bottles Pvt Ltd",
+      "gstin": "06ODQCM2783K1Z4"
+    },
+    "buyer": {
+      "name": "EcoFizz Beverages Pvt Ltd",
+      "gstin": "07OLWCZ2975K3ZF"
+    },
+    "currency": "INR",
+    "total_amount": 124524.33,
+    "page_count": 1,
+    "lines": [
+      {
+        "line_reference": "DOC_000832:p1:l1",
+        "transaction_id": "TXN_00121740",
+        "product_id": "PROD_000001",
+        "component_id": "PKGCOMP_000002",
+        "page": 1,
+        "line_no": 1,
+        "description": "PET bottle for 750 ml - PET",
+        "material": "PET",
+        "plastic_category_printed": "CAT_I",
+        "hsn_code": "3923",
+        "quantity": 0.5,
+        "unit": "MT",
+        "printed_quantity": "0.500",
+        "printed_unit": "Tonne",
+        "normalized_quantity_kg": 500.0,
+        "conversion_rule": "MT_TO_KG_1000",
+        "rate": 211058.17,
+        "amount": 105529.09
+      }
+    ],
+    "fields": [
+      {
+        "field": "invoice_number",
+        "raw_text": "SYEC/2526/00004",
+        "normalized_value": "SYEC/2526/00004",
+        "unit": null,
+        "source_ref": "DOC_000832:p1",
+        "confidence_proxy": 1.0,
+        "review_state": "unreviewed",
+        "status": "document_supported"
+      },
+      {
+        "field": "invoice_date",
+        "raw_text": "17/11/2025",
+        "normalized_value": "2025-11-17",
+        "unit": null,
+        "source_ref": "DOC_000832:p1",
+        "confidence_proxy": 1.0,
+        "review_state": "unreviewed",
+        "status": "document_supported"
+      },
+      {
+        "field": "vendor",
+        "raw_text": "Ecoglow PET Bottles Pvt Ltd",
+        "normalized_value": "Ecoglow PET Bottles Pvt Ltd",
+        "unit": null,
+        "source_ref": "DOC_000832:p1",
+        "confidence_proxy": 1.0,
+        "review_state": "unreviewed",
+        "status": "document_supported"
+      },
+      {
+        "field": "line1.quantity",
+        "raw_text": "0.500 Tonne",
+        "normalized_value": 500.0,
+        "unit": "kg",
+        "source_ref": "DOC_000832:p1:l1:quantity",
+        "confidence_proxy": 1.0,
+        "review_state": "unreviewed",
+        "status": "document_supported"
+      },
+      {
+        "field": "line1.amount",
+        "raw_text": "105,529.09",
+        "normalized_value": 105529.09,
+        "unit": "INR",
+        "source_ref": "DOC_000832:p1:l1:amount",
+        "confidence_proxy": 1.0,
+        "review_state": "unreviewed",
+        "status": "document_supported"
+      }
+    ],
+    "source": {
+      "file_name": "DOC_000832.pdf",
+      "sha256": "3a486bc179c279b450cbbcb59f6ce52ba3567d365b3c1dbfb33d3df38192015a",
+      "synthetic": true
+    },
+    "extraction": {
+      "method": "digital_pdf_text",
+      "status": "success",
+      "parser_version": "fixture",
+      "note": "Fixture taken from ground truth JSON; the parse-invoice Lambda returns this shape."
+    }
+  }
+}
