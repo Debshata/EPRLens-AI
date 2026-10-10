@@ -2,6 +2,8 @@
 
 Next.js 15 (App Router) · React 19 · TypeScript (strict) · Tailwind CSS v4 · Radix primitives · Recharts · three.js (react-three-fiber).
 
+**Live demo (AWS Lambda):** <https://vnt7lqwiplspftmctdrlriejfa0jclzy.lambda-url.ap-south-1.on.aws/>
+
 > **Synthetic demo data.** Everything shown by default is generated test data about fictitious companies. EPRLens is pre-compliance decision support — not a CPCB filing, certification or legal advice.
 
 ## Run it (no AWS, no env vars)
