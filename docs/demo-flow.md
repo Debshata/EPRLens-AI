@@ -20,7 +20,7 @@ Shortcuts: `/app/review?demo=1` loads the whole sample flow in one click; the si
 ## Where the numbers come from
 - Mismatch: generated invoice `DOC_000832` (`INV_00017685`) vs transaction `TXN_00121740` in `syntheticml/` (ground-truth anomaly `ANM_0000001`).
 - Forecast: real `forecast-v1` ONNX model output (per product, summed) on COMP_0001 history; months after the first are recursive “projected” values.
-- Anomaly score 0.599 vs threshold 0.539: real `anomaly-v1` sample output. Image result: **fixture** (image model not delivered yet).
+- Anomaly score 0.599 vs threshold 0.539: real `anomaly-v1` sample output. Image result: a **fixture** in mock mode (same JSON shape as the model); live mode runs the real MobileNetV3 ONNX model.
 
 ## Live mode (real AWS backend)
 Same script, but results come from deployed Lambdas. Differences to expect:

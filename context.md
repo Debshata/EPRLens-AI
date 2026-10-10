@@ -2,9 +2,9 @@
 
 > **Document status:** DRAFT v0.4 — proposed enhancements awaiting owner approval
 > **Created:** 2026-10-08
-> **Last updated:** 2026-10-09
+> **Last updated:** 2026-10-10
 > **Owner / approver:** Project owner (the user). No other party may approve decisions.
-> **Implementation status:** Nothing built. No code, no AWS / Supabase / Vercel resources, no datasets downloaded, no models trained.
+> **Implementation status (2026-10-10):** Built and deployed — synthetic dataset and models, image classifier, 7 AWS Lambdas + S3 + DynamoDB in ap-south-1, Next.js frontend hosted on Lambda. See `README.md`. (This document's older sections describe the original plan; Supabase/Vercel were not used.)
 
 ### Change log
 | Version | Date | Change |
@@ -17,6 +17,7 @@
 | v0.5 | 2026-10-09 | Owner approved synthetic-data decisions DS-01…DS-25 (see `syntheticml/docs/DECISIONS-REQUIRED.md`) with safeguards; D024/D061 detail resolved (1,000 PDFs, ReportLab); full dummy entity master generated in `syntheticml/`. Decision Log entry DS-01–DS-25 appended. |
 | v0.6 | 2026-10-09 | Owner approved full synthetic dataset generation. Generated in `syntheticml/` (generator 1.0.0): 174,224 transactions, 46,501 invoices, 718,353 material events, 14,649 recycling rows, 3,010 labelled anomalies + 693 hard negatives, exactly 1,000 PDFs + 1,000 JSON (12 ReportLab layouts). Companies gained a fake GSTIN-like field. ML training not started (D027/D028/D029 still pending). |
 | v0.7 | 2026-10-09 | Synthetic ML phase run by owner instruction: forecast-v1 (XGBoost chosen on validation MAE; test R² 0.986, MAE −39 % vs last value) and anomaly-v1 (rules + Isolation Forest; test F1 0.912, FPR 0.0038). AWS-ready artifacts (ONNX forecast, joblib anomaly), notebook, AWS engineer PDF and tests committed in `syntheticml/` (commit a0afd74). D027/D028/D029 resolved for the synthetic MVP (see decision log). |
+| v0.8 | 2026-10-10 | Implementation phase: frontend (6 pages, mock + live modes), 7 Lambdas (classify-image, parse-invoice, reconcile, forecast, detect-anomaly, scenario-engine, company-data), AWS scripts, public site on Lambda Function URL. D051 (S3/Lambda/DynamoDB only) respected; a Lambda Function URL (a Lambda feature) hosts the UI. Supabase and Vercel not used. `company-data` is a 7th Lambda beyond the runbook's six. |
 
 ---
 
