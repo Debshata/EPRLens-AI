@@ -31,7 +31,8 @@ for f in $FUNCTIONS; do
   aws iam attach-role-policy --role-name "$role" --policy-arn arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
   st="$(statements_for "$f")"
   if [ -n "$st" ]; then
-    echo "{\"Version\":\"2012-10-17\",\"Statement\":[$st]}" > "$BUILD_DIR/policy-$f.json" 2>/dev/null || { mkdir -p "$BUILD_DIR"; echo "{\"Version\":\"2012-10-17\",\"Statement\":[$st]}" > "$BUILD_DIR/policy-$f.json"; }
+    mkdir -p "$BUILD_DIR"
+    echo "{\"Version\":\"2012-10-17\",\"Statement\":[$st]}" > "$BUILD_DIR/policy-$f.json"
     aws iam put-role-policy --role-name "$role" --policy-name "${PREFIX}-$f-access" --policy-document "file://$BUILD_DIR/policy-$f.json"
   fi
 done

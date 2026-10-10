@@ -1,7 +1,6 @@
 /** Mock adapter: bundled fixtures + real client-side logic (CSV parsing, unit normalisation, reconcile, scenario math). */
 import type { EprlensApi } from "./api-client";
 import {
-  AnomalyFixture,
   CompanyBundle,
   DashboardSummary,
   ForecastResponse,
@@ -17,7 +16,6 @@ import { computeScenario } from "./scenario-math";
 import { DEFAULT_TOLERANCES, RULES_VERSION, reconcileInvoice, type RecordRow } from "./reconcile";
 import { assessApplicability } from "./applicability";
 
-import anomalyRaw from "./mocks/anomaly.json";
 import companyRaw from "./mocks/company.json";
 import dashboardRaw from "./mocks/dashboard.json";
 import forecastRaw from "./mocks/forecast.json";
@@ -34,7 +32,6 @@ const reconciliation = ReconciliationResponse.parse(reconciliationRaw);
 const forecast = ForecastResponse.parse(forecastRaw);
 const dashboard = DashboardSummary.parse(dashboardRaw);
 const simulator = SimulatorFixture.parse(simulatorRaw);
-export const anomalyFixture = AnomalyFixture.parse(anomalyRaw);
 
 /** Small delay so loading states are exercised; mock mode is labelled in the UI and never claims to be live. */
 const tick = (ms = 250) => new Promise<void>((r) => setTimeout(r, ms));

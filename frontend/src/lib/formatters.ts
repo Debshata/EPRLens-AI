@@ -1,13 +1,8 @@
 /** Display helpers. Quantities are stored in kg; show kg always and tonnes once ≥ 1,000 kg. */
 
-const intFmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
 const kgFmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 3 });
 const tFmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 });
 const pctFmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 1 });
-
-export function formatInt(n: number): string {
-  return intFmt.format(n);
-}
 
 /** "499,500 kg" — up to 3 decimals, trailing zeros trimmed. */
 export function formatKg(kg: number): string {
