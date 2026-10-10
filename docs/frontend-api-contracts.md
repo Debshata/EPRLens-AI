@@ -38,9 +38,11 @@ Lambda responses may be a bare JSON object or an API-style `{statusCode, body}` 
 
 **ScenarioRequest / Result**: `{product_id, component_id, units, baseline_g_per_unit, proposed_g_per_unit}` → `{baseline_kg, proposed_kg, reduction_kg, reduction_pct, formula, hypothetical:true, disclaimer}` (formula: `kg = units × g ÷ 1000`; 0% change ⇒ 0 kg).
 
-## Open items for the AWS engineer (WP3) — the frontend will not guess
-1. `parse-invoice` should return the **Invoice** shape above (WP3 lists invoice_number, vendor, date, line items, quantities, units, amount — we additionally need per-line `line_reference`, `normalized_quantity_kg`, `conversion_rule`, and field-level `fields[]` with `source_ref`/`confidence_proxy`). Mismatches return `502 contract_mismatch` with the field path.
-2. A function (or actions) for **company profile / create company**, **dashboard summary** and **simulator catalogue** (products + component weights + period units). `LAMBDA_COMPANY_DATA` is optional until agreed; routes answer `503 not_available` without it.
-3. `reconcile` and `validate_transactions` actions (the frontend mock runs the same logic client-side: match on `transaction_id`, else `invoice_id + component_id`; **never on invoice number alone**; tolerance `max(0.01 kg, 0.05%)`).
-4. Response envelope (bare vs `{statusCode, body}`) and CORS are not needed (browser never calls Lambda directly).
-5. Review actions (accept/reject) are stored in the browser in mock mode. A persistent audit endpoint is **not** specified yet; add one if reviews must survive across devices.
+## Backend status (WP3 delivered 2026-10-10)
+Implemented in `backend/lambdas/` and deployed by `infrastructure/scripts/`; the contracts above are verified end to end by `infrastructure/scripts/65-live-api-check.py`.
+- `parse-invoice` returns the **Invoice** shape (`fields[]`, `quantity: null` when the PDF has none). Measured on the 1,000 synthetic invoices: invoice number/date/vendor/total 100%, line quantity 3,839/3,846, kg 3,846/3,846 (`backend/evaluation/invoice_parser_metrics.json`).
+- `company-data` (a 7th Lambda beyond the runbook's six) serves the seeded demo company profile, dashboard summary and simulator catalogue, and stores created companies.
+- `reconcile` links an invoice PDF to the CSV through `reference/invoice_index.json` (invoice number + date + vendor → internal ids), standing in for an ERP link. Invoice number alone is never used.
+- Lambda user-facing failures are `{statusCode, body:{code,message,next_step}}` and reach the UI unchanged.
+
+Still open: review actions (accept/reject) live in the browser only — no audit endpoint exists yet; the uncertainty threshold for the image model (0.60) is an assumption; forecast months after the first are recursive.

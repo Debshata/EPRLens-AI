@@ -5,10 +5,12 @@ import type { UploadKind } from "../contracts";
 
 const PREFIX: Record<UploadKind, string> = { csv: "csv", invoice: "invoices", image: "images" };
 
+/** uploads/<company>/<kind>/<uuid>/<original-name>: the file name is preserved (sanitised) so results can show it. */
 export function s3KeyFor(companyId: string, kind: UploadKind, id: string, fileName: string): string {
-  const ext = fileName.includes(".") ? fileName.slice(fileName.lastIndexOf(".")).toLowerCase().replace(/[^.a-z0-9]/g, "") : "";
   const safeCompany = companyId.replace(/[^A-Za-z0-9_-]/g, "");
-  return `uploads/${safeCompany}/${PREFIX[kind]}/${id}${ext}`;
+  const base = fileName.split(/[\\/]/).pop() ?? "file";
+  const safeName = base.replace(/[^A-Za-z0-9._-]/g, "_").replace(/^\.+/, "").slice(-120) || "file";
+  return `uploads/${safeCompany}/${PREFIX[kind]}/${id}/${safeName}`;
 }
 
 /** Short-lived (5 min) presigned PUT, pinned to the content type and exact size that passed validation. */

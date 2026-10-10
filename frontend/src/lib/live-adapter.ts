@@ -37,6 +37,7 @@ const post = (body: unknown): RequestInit => ({ method: "POST", body: JSON.strin
 let activeCompany: string | null = null;
 /** file name → S3 key of what this session uploaded (the reconcile route needs the CSV's key). */
 const uploadedKeys = new Map<string, string>();
+let lastCsvKey: string | null = null;
 
 function company(): string {
   if (!activeCompany) throw new ApiClientError("no_company", "No company is selected.", "Set up a company (or open the demo company) first.");
@@ -71,10 +72,12 @@ export const liveApi: EprlensApi = {
     return request(Invoice, "/api/documents/analyze", post({ company_id: company(), s3_key: await uploadViaPresign(file, "invoice") }));
   },
   async analyzeCsv(file) {
-    return request(CsvSummary, "/api/transactions/validate", post({ company_id: company(), s3_key: await uploadViaPresign(file, "csv") }));
+    const key = await uploadViaPresign(file, "csv");
+    lastCsvKey = key;
+    return request(CsvSummary, "/api/transactions/validate", post({ company_id: company(), s3_key: key }));
   },
   reconcile: ({ invoice, csv }) => {
-    const csvKey = uploadedKeys.get(csv.file_name);
+    const csvKey = uploadedKeys.get(csv.file_name) ?? lastCsvKey;
     if (!csvKey) throw new ApiClientError("missing_upload", "The CSV is not uploaded in this session.", "Upload the CSV again, then run reconciliation.");
     return request(ReconciliationResponse, "/api/reconcile", post({ company_id: company(), document_id: invoice.document_id, csv_s3_key: csvKey }));
   },

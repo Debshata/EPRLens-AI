@@ -100,7 +100,7 @@ describe("/api route handlers", () => {
       const ok = await presignPOST(json({ company_id: "COMP_0001", kind: "invoice", name: "DOC.pdf", size: 4682, mime: "application/pdf", sha256: "a".repeat(64) }));
       expect(ok.status).toBe(200);
       const body = await ok.json();
-      expect(body.s3_key).toMatch(/^uploads\/COMP_0001\/invoices\/[0-9a-f-]+\.pdf$/);
+      expect(body.s3_key).toMatch(/^uploads\/COMP_0001\/invoices\/[0-9a-f-]+\/DOC\.pdf$/);
       expect(JSON.stringify(body)).not.toMatch(/AWS_SECRET|AWS_ACCESS/);
     });
   });

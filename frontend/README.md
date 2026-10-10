@@ -29,9 +29,10 @@ A fresh clone runs entirely on bundled fixtures. Node 20+ recommended (developed
 
 Only the adapter changes — components import `api` from `src/lib/api-client.ts` and are identical in both modes. Live mode steps:
 
-1. `cp .env.example .env.local` and fill the server variables (`UPLOADS_BUCKET`, `LAMBDA_*`, AWS credentials/role).
-2. Set `NEXT_PUBLIC_API_MODE=live` and restart `npm run dev`.
-3. Uploads: browser → short-lived presigned S3 PUT (minted by `/api/uploads/presign`) → `/api/*` invokes the Lambda with the S3 key.
+1. Deploy the backend with `infrastructure/scripts/` (see `infrastructure/README.md`), then run `bash infrastructure/scripts/70-frontend-env.sh` — it writes a git-ignored `frontend/.env.local` with a narrow IAM key (invoke + presign only; the secret is never printed). Or fill the variables from `.env.example` by hand.
+2. `.env.local` already sets `NEXT_PUBLIC_API_MODE=live`. Run `npm run build && npm run start` (live mode is baked in at build time) and open <http://localhost:3000>. Mock mode for everyone else: just don't have a `.env.local`.
+3. Verify: `python3 ../infrastructure/scripts/65-live-api-check.py http://localhost:3000` and `npx playwright test -c playwright.live.config.ts`.
+4. Uploads: browser → short-lived presigned S3 PUT (minted by `/api/uploads/presign`) → `/api/*` invokes the Lambda with the S3 key.
 
 Request/response shapes: [`../docs/frontend-api-contracts.md`](../docs/frontend-api-contracts.md). Every `/api/*` response is validated with the zod schemas in `src/lib/contracts.ts`; a backend that drifts fails loudly (`contract_mismatch`) instead of rendering wrong numbers.
 
