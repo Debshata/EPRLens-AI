@@ -136,7 +136,8 @@ export const InvoiceLine = z.looseObject({
   line_no: z.number(),
   description: z.string(),
   material: z.string().nullable(),
-  quantity: z.number(),
+  /** null = the document gives no quantity (never shown as zero). */
+  quantity: z.number().nullable(),
   unit: z.string(),
   printed_quantity: z.string().optional(),
   printed_unit: z.string().optional(),

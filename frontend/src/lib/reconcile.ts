@@ -58,7 +58,7 @@ export function reconcileInvoice(invoice: Invoice, records: RecordRow[], tol: To
   const findings: Finding[] = [];
   for (const line of invoice.lines) {
     const rec = matchRecord(line, invoice.invoice_id, records);
-    if (!rec || line.normalized_quantity_kg == null) continue;
+    if (!rec || line.normalized_quantity_kg == null || line.quantity == null) continue;
     const recKg = recordKg(rec);
     if (recKg == null) continue;
     if (!exceedsTolerance(line.normalized_quantity_kg, recKg, tol)) continue;

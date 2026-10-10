@@ -5,6 +5,7 @@ vi.mock("@/lib/server/lambda", () => ({ invokeLambda: vi.fn() }));
 vi.mock("@/lib/server/presign", async (orig) => ({ ...(await orig<typeof import("@/lib/server/presign")>()), presignPut: vi.fn(async () => "https://example-bucket.s3.amazonaws.com/signed") }));
 
 import { invokeLambda } from "@/lib/server/lambda";
+import { LambdaUserError } from "@/lib/server/http";
 import { POST as scenarioPOST } from "@/app/api/scenario/route";
 import { POST as presignPOST } from "@/app/api/uploads/presign/route";
 import { GET as forecastGET } from "@/app/api/forecast/route";
@@ -49,6 +50,13 @@ describe("/api route handlers", () => {
       expect(res.status).toBe(200);
       expect(await res.json()).toMatchObject({ baseline_kg: 2500, proposed_kg: 2000, reduction_kg: 500, reduction_pct: 20, hypothetical: true });
       expect(invokeLambda).toHaveBeenCalledWith("se", { action: "what_if", units: 100000, current_g_per_unit: 25, proposed_g_per_unit: 20 }, "ap-south-1");
+    });
+
+    it("passes a Lambda's friendly error through with its status and next step", async () => {
+      vi.mocked(invokeLambda).mockRejectedValue(new LambdaUserError(404, "invoice_not_found", "That invoice has not been analysed yet.", "Upload the invoice PDF first."));
+      const res = await scenarioPOST(json({ product_id: "p", component_id: "c", units: 1, baseline_g_per_unit: 2, proposed_g_per_unit: 1 }));
+      expect(res.status).toBe(404);
+      expect(await res.json()).toEqual({ code: "invoice_not_found", message: "That invoice has not been analysed yet.", next_step: "Upload the invoice PDF first." });
     });
 
     it("rejects an invalid request with a next step", async () => {

@@ -37,7 +37,7 @@ export function InvoiceExtractionTable({ invoice }: { invoice: Invoice }) {
             <TR key={l.line_reference}>
               <TD className="num whitespace-nowrap text-xs text-muted">{l.line_reference}</TD>
               <TD>{l.description}<span className="block text-xs text-muted">{l.material}</span></TD>
-              <TD className="num whitespace-nowrap text-right">{l.printed_quantity ?? l.quantity} {l.printed_unit ?? l.unit}</TD>
+              <TD className="num whitespace-nowrap text-right">{l.printed_quantity || l.quantity != null ? `${l.printed_quantity ?? l.quantity} ${l.printed_unit ?? l.unit}` : "Unknown"}</TD>
               <TD className="num whitespace-nowrap text-right">{l.normalized_quantity_kg != null ? formatKg(l.normalized_quantity_kg) : "Unknown"}</TD>
               <TD><EvidenceStatusBadge status={l.normalized_quantity_kg != null ? "document_supported" : "unknown"} /></TD>
             </TR>

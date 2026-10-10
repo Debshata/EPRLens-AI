@@ -1,6 +1,6 @@
 import "server-only";
 import { InvokeCommand, LambdaClient } from "@aws-sdk/client-lambda";
-import { LambdaError } from "./http";
+import { LambdaError, LambdaUserError } from "./http";
 
 let client: LambdaClient | null = null;
 
@@ -22,7 +22,13 @@ export async function invokeLambda(functionName: string, payload: unknown, regio
   if (parsed && typeof parsed === "object" && "statusCode" in parsed && "body" in parsed) {
     const env = parsed as { statusCode: number; body: unknown };
     const body = typeof env.body === "string" ? JSON.parse(env.body) : env.body;
-    if (env.statusCode >= 400) throw new LambdaError(`Lambda ${functionName} returned status ${env.statusCode}.`);
+    if (env.statusCode >= 400) {
+      const b = body as { code?: unknown; message?: unknown; next_step?: unknown } | null;
+      if (b && typeof b.message === "string" && typeof b.next_step === "string") {
+        throw new LambdaUserError(env.statusCode, typeof b.code === "string" ? b.code : "backend_error", b.message, b.next_step);
+      }
+      throw new LambdaError(`Lambda ${functionName} returned status ${env.statusCode}.`);
+    }
     return body;
   }
   return parsed;

@@ -12,10 +12,10 @@ export type NormalizeResult =
 const KG = new Set(["kg", "kgs", "kilogram", "kilograms"]);
 const GRAM = new Set(["g", "gm", "gms", "gram", "grams"]);
 const TONNE = new Set(["mt", "t", "tonne", "tonnes", "ton", "tons", "metric ton", "metric tons"]);
-const PIECE = new Set(["pcs", "pc", "piece", "pieces", "nos", "bottles", "bottle", "units", "unit"]);
+const PIECE = new Set(["pcs", "pc", "piece", "pieces", "nos", "bottles", "bottle", "btl", "units", "unit", "bags", "bag"]);
 
 export function normalizeUnit(unit: string): "kg" | "g" | "mt" | "pcs" | null {
-  const u = unit.trim().toLowerCase();
+  const u = unit.trim().toLowerCase().replace(/\./g, ""); // "M.T." → "mt"
   if (KG.has(u)) return "kg";
   if (GRAM.has(u)) return "g";
   if (TONNE.has(u)) return "mt";

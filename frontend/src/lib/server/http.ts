@@ -13,6 +13,7 @@ export function toErrorResponse(e: unknown) {
   if (e instanceof MissingConfigError) {
     return apiError(503, "live_not_configured", e.message, "Set the missing variables in frontend/.env.local (see .env.example), or switch to mock mode with NEXT_PUBLIC_API_MODE=mock.");
   }
+  if (e instanceof LambdaUserError) return apiError(e.status >= 400 && e.status < 500 ? e.status : 502, e.code, e.message, e.next_step);
   if (e instanceof NotAvailableError) {
     return apiError(503, "not_available", `${e.feature} is not configured on the backend yet.`, "Set LAMBDA_COMPANY_DATA once the backend exposes it (see docs/frontend-api-contracts.md), or use mock mode.");
   }
@@ -21,6 +22,19 @@ export function toErrorResponse(e: unknown) {
 }
 
 export class LambdaError extends Error {}
+
+/** A Lambda reported a user-facing problem ({statusCode, body:{code,message,next_step}}): pass it through unchanged. */
+export class LambdaUserError extends Error {
+  readonly status: number;
+  readonly code: string;
+  readonly next_step: string;
+  constructor(status: number, code: string, message: string, next_step: string) {
+    super(message);
+    this.status = status;
+    this.code = code;
+    this.next_step = next_step;
+  }
+}
 
 export class NotAvailableError extends Error {
   readonly feature: string;
