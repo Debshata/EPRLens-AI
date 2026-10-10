@@ -1,0 +1,602 @@
+{
+ "company_id": "COMP_0001",
+ "industry": "Beverages",
+ "basis": "packaging_mass_of_units_sold_kg",
+ "history": [
+  {
+   "month": "2023-04",
+   "packaging_kg": 191033.421,
+   "kind": "observed"
+  },
+  {
+   "month": "2023-05",
+   "packaging_kg": 191640.409,
+   "kind": "observed"
+  },
+  {
+   "month": "2023-06",
+   "packaging_kg": 169303.833,
+   "kind": "observed"
+  },
+  {
+   "month": "2023-07",
+   "packaging_kg": 119608.874,
+   "kind": "observed"
+  },
+  {
+   "month": "2023-08",
+   "packaging_kg": 121762.697,
+   "kind": "observed"
+  },
+  {
+   "month": "2023-09",
+   "packaging_kg": 167597.749,
+   "kind": "observed"
+  },
+  {
+   "month": "2023-10",
+   "packaging_kg": 171317.704,
+   "kind": "observed"
+  },
+  {
+   "month": "2023-11",
+   "packaging_kg": 176441.163,
+   "kind": "observed"
+  },
+  {
+   "month": "2023-12",
+   "packaging_kg": 190608.013,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-01",
+   "packaging_kg": 205303.565,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-02",
+   "packaging_kg": 283364.197,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-03",
+   "packaging_kg": 282053.623,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-04",
+   "packaging_kg": 353719.955,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-05",
+   "packaging_kg": 352110.134,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-06",
+   "packaging_kg": 342694.063,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-07",
+   "packaging_kg": 235530.902,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-08",
+   "packaging_kg": 260529.72,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-09",
+   "packaging_kg": 248621.893,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-10",
+   "packaging_kg": 269135.426,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-11",
+   "packaging_kg": 247492.04,
+   "kind": "observed"
+  },
+  {
+   "month": "2024-12",
+   "packaging_kg": 232367.431,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-01",
+   "packaging_kg": 255313.946,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-02",
+   "packaging_kg": 274827.32,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-03",
+   "packaging_kg": 362051.637,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-04",
+   "packaging_kg": 365819.375,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-05",
+   "packaging_kg": 377386.832,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-06",
+   "packaging_kg": 351950.398,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-07",
+   "packaging_kg": 244031.384,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-08",
+   "packaging_kg": 261046.77,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-09",
+   "packaging_kg": 297280.576,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-10",
+   "packaging_kg": 284059.145,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-11",
+   "packaging_kg": 259670.072,
+   "kind": "observed"
+  },
+  {
+   "month": "2025-12",
+   "packaging_kg": 261340.477,
+   "kind": "observed"
+  },
+  {
+   "month": "2026-01",
+   "packaging_kg": 267438.24,
+   "kind": "observed"
+  },
+  {
+   "month": "2026-02",
+   "packaging_kg": 268899.349,
+   "kind": "observed"
+  },
+  {
+   "month": "2026-03",
+   "packaging_kg": 360993.226,
+   "kind": "observed"
+  }
+ ],
+ "products": {
+  "PROD_000001": [
+   {
+    "month": "2025-03",
+    "packaging_kg": 522.22,
+    "units_sold": 10971,
+    "weight_per_unit_g": 47.6
+   },
+   {
+    "month": "2025-04",
+    "packaging_kg": 528.465,
+    "units_sold": 11849,
+    "weight_per_unit_g": 44.6
+   },
+   {
+    "month": "2025-05",
+    "packaging_kg": 574.983,
+    "units_sold": 12892,
+    "weight_per_unit_g": 44.6
+   },
+   {
+    "month": "2025-06",
+    "packaging_kg": 491.18,
+    "units_sold": 11013,
+    "weight_per_unit_g": 44.6
+   },
+   {
+    "month": "2025-07",
+    "packaging_kg": 369.333,
+    "units_sold": 8281,
+    "weight_per_unit_g": 44.6
+   },
+   {
+    "month": "2025-08",
+    "packaging_kg": 380.215,
+    "units_sold": 8525,
+    "weight_per_unit_g": 44.6
+   },
+   {
+    "month": "2025-09",
+    "packaging_kg": 469.415,
+    "units_sold": 10525,
+    "weight_per_unit_g": 44.6
+   },
+   {
+    "month": "2025-10",
+    "packaging_kg": 437.258,
+    "units_sold": 9804,
+    "weight_per_unit_g": 44.6
+   },
+   {
+    "month": "2025-11",
+    "packaging_kg": 346.676,
+    "units_sold": 7773,
+    "weight_per_unit_g": 44.6
+   },
+   {
+    "month": "2025-12",
+    "packaging_kg": 419.017,
+    "units_sold": 9395,
+    "weight_per_unit_g": 44.6
+   },
+   {
+    "month": "2026-01",
+    "packaging_kg": 406.083,
+    "units_sold": 9105,
+    "weight_per_unit_g": 44.6
+   },
+   {
+    "month": "2026-02",
+    "packaging_kg": 511.74,
+    "units_sold": 11474,
+    "weight_per_unit_g": 44.6
+   },
+   {
+    "month": "2026-03",
+    "packaging_kg": 486.631,
+    "units_sold": 10911,
+    "weight_per_unit_g": 44.6
+   }
+  ],
+  "PROD_000002": [
+   {
+    "month": "2025-03",
+    "packaging_kg": 56443.913,
+    "units_sold": 1581062,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2025-04",
+    "packaging_kg": 52384.788,
+    "units_sold": 1467361,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2025-05",
+    "packaging_kg": 61218.324,
+    "units_sold": 1714799,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2025-06",
+    "packaging_kg": 58837.563,
+    "units_sold": 1648111,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2025-07",
+    "packaging_kg": 28788.837,
+    "units_sold": 806410,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2025-08",
+    "packaging_kg": 37911.258,
+    "units_sold": 1061940,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2025-09",
+    "packaging_kg": 43575.42,
+    "units_sold": 1220600,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2025-10",
+    "packaging_kg": 37500.815,
+    "units_sold": 1050443,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2025-11",
+    "packaging_kg": 42118.753,
+    "units_sold": 1179797,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2025-12",
+    "packaging_kg": 38529.046,
+    "units_sold": 1079245,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2026-01",
+    "packaging_kg": 37793.591,
+    "units_sold": 1058644,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2026-02",
+    "packaging_kg": 41374.408,
+    "units_sold": 1158947,
+    "weight_per_unit_g": 35.7
+   },
+   {
+    "month": "2026-03",
+    "packaging_kg": 51260.809,
+    "units_sold": 1435877,
+    "weight_per_unit_g": 35.7
+   }
+  ],
+  "PROD_000003": [
+   {
+    "month": "2025-03",
+    "packaging_kg": 80011.016,
+    "units_sold": 1260016,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2025-04",
+    "packaging_kg": 86267.036,
+    "units_sold": 1358536,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2025-05",
+    "packaging_kg": 79684.499,
+    "units_sold": 1254874,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2025-06",
+    "packaging_kg": 63993.84,
+    "units_sold": 1007777,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2025-07",
+    "packaging_kg": 49795.366,
+    "units_sold": 784179,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2025-08",
+    "packaging_kg": 49003.395,
+    "units_sold": 771707,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2025-09",
+    "packaging_kg": 57313.512,
+    "units_sold": 902575,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2025-10",
+    "packaging_kg": 52043.266,
+    "units_sold": 819579,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2025-11",
+    "packaging_kg": 44662.916,
+    "units_sold": 703353,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2025-12",
+    "packaging_kg": 50423.445,
+    "units_sold": 794070,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2026-01",
+    "packaging_kg": 53755.036,
+    "units_sold": 846536,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2026-02",
+    "packaging_kg": 50978.943,
+    "units_sold": 802818,
+    "weight_per_unit_g": 63.5
+   },
+   {
+    "month": "2026-03",
+    "packaging_kg": 81781.015,
+    "units_sold": 1287890,
+    "weight_per_unit_g": 63.5
+   }
+  ],
+  "PROD_000004": [
+   {
+    "month": "2025-03",
+    "packaging_kg": 162354.349,
+    "units_sold": 3829112,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2025-04",
+    "packaging_kg": 161061.022,
+    "units_sold": 3798609,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2025-05",
+    "packaging_kg": 164329.553,
+    "units_sold": 3875697,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2025-06",
+    "packaging_kg": 156521.084,
+    "units_sold": 3691535,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2025-07",
+    "packaging_kg": 122346.387,
+    "units_sold": 2885528,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2025-08",
+    "packaging_kg": 121107.29,
+    "units_sold": 2856304,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2025-09",
+    "packaging_kg": 142674.304,
+    "units_sold": 3364960,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2025-10",
+    "packaging_kg": 145682.287,
+    "units_sold": 3435903,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2025-11",
+    "packaging_kg": 120226.302,
+    "units_sold": 2835526,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2025-12",
+    "packaging_kg": 124645.697,
+    "units_sold": 2939757,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2026-01",
+    "packaging_kg": 127902.695,
+    "units_sold": 3016573,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2026-02",
+    "packaging_kg": 126241.039,
+    "units_sold": 2977383,
+    "weight_per_unit_g": 42.4
+   },
+   {
+    "month": "2026-03",
+    "packaging_kg": 150191.612,
+    "units_sold": 3542255,
+    "weight_per_unit_g": 42.4
+   }
+  ],
+  "PROD_000005": [
+   {
+    "month": "2025-03",
+    "packaging_kg": 62720.139,
+    "units_sold": 268839,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2025-04",
+    "packaging_kg": 65578.064,
+    "units_sold": 281089,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2025-05",
+    "packaging_kg": 71579.473,
+    "units_sold": 306813,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2025-06",
+    "packaging_kg": 72106.731,
+    "units_sold": 309073,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2025-07",
+    "packaging_kg": 42731.461,
+    "units_sold": 183161,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2025-08",
+    "packaging_kg": 52644.612,
+    "units_sold": 225652,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2025-09",
+    "packaging_kg": 53247.925,
+    "units_sold": 228238,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2025-10",
+    "packaging_kg": 48395.519,
+    "units_sold": 207439,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2025-11",
+    "packaging_kg": 52315.425,
+    "units_sold": 224241,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2025-12",
+    "packaging_kg": 47323.272,
+    "units_sold": 202843,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2026-01",
+    "packaging_kg": 47580.835,
+    "units_sold": 203947,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2026-02",
+    "packaging_kg": 49793.219,
+    "units_sold": 213430,
+    "weight_per_unit_g": 233.3
+   },
+   {
+    "month": "2026-03",
+    "packaging_kg": 77273.159,
+    "units_sold": 331218,
+    "weight_per_unit_g": 233.3
+   }
+  ]
+ },
+ "model": {
+  "model_version": "forecast-v1",
+  "model_name": "xgboost",
+  "target": "next_month_packaging_kg",
+  "warning": "Trained and evaluated on SYNTHETIC data — metrics are not real-world accuracy.",
+  "metrics_test": {
+   "mae_kg": 401.56983023524197,
+   "rmse_kg": 2749.491886123409,
+   "r2": 0.9862572238851119,
+   "baseline_last_value_mae_kg": 659.7702866628723,
+   "source": "ml/evaluation/forecast/metrics.json (synthetic data)"
+  }
+ }
+}

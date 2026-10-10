@@ -1,0 +1,10 @@
+# Local development and tests only (the Lambdas have their own requirements.txt)
+pytest
+numpy==2.5.1
+onnxruntime==1.31.0
+Pillow
+pypdf
+joblib==1.6.0
+scikit-learn==1.9.0
+scipy==1.18.1
+boto3

@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "seed": 20261009,
+    "generator_version": "1.0.0",
+    "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+    "note": "Demo company COMP_0001 (EcoFizz Beverages). Same IDs as synthetic-data/masters."
+  },
+  "company": {
+    "company_id": "COMP_0001",
+    "company_name": "EcoFizz Beverages Pvt Ltd",
+    "industry": "Beverages",
+    "company_size": "medium",
+    "turnover_cr": 180,
+    "manufacturer": true,
+    "importer": false,
+    "brand_owner": true,
+    "msme_flag": false,
+    "states_operated": [
+      "Delhi",
+      "Haryana",
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Punjab"
+    ],
+    "headquarters_state": "Delhi",
+    "hq_address_id": "ADDR_000001",
+    "fake_gstin": "07OLWCZ2975K3ZF",
+    "epr_registered": true,
+    "registration_status": "registered",
+    "waste_stream": "plastic_packaging",
+    "business_description": "EcoFizz Beverages Pvt Ltd is a FICTIONAL Delhi-based beverage manufacturer and brand owner selling carbonated soft drinks and packaged drinking water in PET bottles, plus one glass-bottle soda, across five north-Indian states. Bottles and caps are bought from packaging suppliers; outer cartons are corrugated board. (SYNTHETIC — EPRLens Demo)",
+    "annual_units": 59069190,
+    "active_products": 5,
+    "created_at": "2023-02-08T10:00:00+05:30",
+    "test_entity": false,
+    "test_scenario": null,
+    "synthetic_flag": true
+  },
+  "addresses": [
+    {
+      "address_id": "ADDR_000001",
+      "entity_type": "company",
+      "entity_id": "COMP_0001",
+      "address_kind": "hq",
+      "address_line_1": "Plot No. 153, Sector 8",
+      "address_line_2": "Nilgiri Business Park",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "state_code": "07",
+      "postal_code": "116724",
+      "country": "India",
+      "synthetic_flag": true
+    },
+    {
+      "address_id": "ADDR_000002",
+      "entity_type": "company",
+      "entity_id": "COMP_0001",
+      "address_kind": "plant",
+      "address_line_1": "Shed 30, Phase II",
+      "address_line_2": "Sagar Industrial Area",
+      "city": "Sonipat",
+      "state": "Haryana",
+      "state_code": "06",
+      "postal_code": "125680",
+      "country": "India",
+      "synthetic_flag": true
+    }
+  ],
+  "roles": {
+    "producer": false,
+    "importer": false,
+    "brand_owner": true,
+    "manufacturer": true
+  },
+  "rules_version": "applicability-demo-v0"
+}

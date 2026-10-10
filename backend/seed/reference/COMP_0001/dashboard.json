@@ -1,0 +1,232 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "watermark": "SYNTHETIC — EPRLens Demo",
+    "source_of_truth": "synthetic-data/masters + data/generated (regenerate with synthetic-data/generate.py)",
+    "seed": 20261009,
+    "generator_version": "1.0.0",
+    "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
+    "note": "Aggregates for COMP_0001. No risk score: weights/bands are pending (D007/D031). Recycling figures are a synthetic proxy, not obligations."
+  },
+  "company_id": "COMP_0001",
+  "monthly_placed_on_market": [
+    {
+      "month": "2023-04",
+      "plastic_kg": 73869.5,
+      "total_packaging_kg": 173473.5
+    },
+    {
+      "month": "2023-05",
+      "plastic_kg": 77737.2,
+      "total_packaging_kg": 174024.8
+    },
+    {
+      "month": "2023-06",
+      "plastic_kg": 66608.0,
+      "total_packaging_kg": 153741.3
+    },
+    {
+      "month": "2023-07",
+      "plastic_kg": 46564.2,
+      "total_packaging_kg": 108614.3
+    },
+    {
+      "month": "2023-08",
+      "plastic_kg": 47235.0,
+      "total_packaging_kg": 110570.3
+    },
+    {
+      "month": "2023-09",
+      "plastic_kg": 72297.0,
+      "total_packaging_kg": 152192.0
+    },
+    {
+      "month": "2023-10",
+      "plastic_kg": 71928.5,
+      "total_packaging_kg": 155570.1
+    },
+    {
+      "month": "2023-11",
+      "plastic_kg": 77300.0,
+      "total_packaging_kg": 160222.6
+    },
+    {
+      "month": "2023-12",
+      "plastic_kg": 84861.8,
+      "total_packaging_kg": 173087.4
+    },
+    {
+      "month": "2024-01",
+      "plastic_kg": 91495.5,
+      "total_packaging_kg": 186432.1
+    },
+    {
+      "month": "2024-02",
+      "plastic_kg": 128967.1,
+      "total_packaging_kg": 257317.4
+    },
+    {
+      "month": "2024-03",
+      "plastic_kg": 123256.1,
+      "total_packaging_kg": 256127.3
+    },
+    {
+      "month": "2024-04",
+      "plastic_kg": 162115.9,
+      "total_packaging_kg": 321206.0
+    },
+    {
+      "month": "2024-05",
+      "plastic_kg": 157812.1,
+      "total_packaging_kg": 319744.2
+    },
+    {
+      "month": "2024-06",
+      "plastic_kg": 153084.5,
+      "total_packaging_kg": 311193.5
+    },
+    {
+      "month": "2024-07",
+      "plastic_kg": 102921.6,
+      "total_packaging_kg": 213880.8
+    },
+    {
+      "month": "2024-08",
+      "plastic_kg": 119948.2,
+      "total_packaging_kg": 236581.7
+    },
+    {
+      "month": "2024-09",
+      "plastic_kg": 114608.5,
+      "total_packaging_kg": 225768.6
+    },
+    {
+      "month": "2024-10",
+      "plastic_kg": 118389.8,
+      "total_packaging_kg": 244396.4
+    },
+    {
+      "month": "2024-11",
+      "plastic_kg": 112350.4,
+      "total_packaging_kg": 224742.4
+    },
+    {
+      "month": "2024-12",
+      "plastic_kg": 105932.8,
+      "total_packaging_kg": 211008.1
+    },
+    {
+      "month": "2025-01",
+      "plastic_kg": 113124.0,
+      "total_packaging_kg": 231845.4
+    },
+    {
+      "month": "2025-02",
+      "plastic_kg": 127376.2,
+      "total_packaging_kg": 249565.0
+    },
+    {
+      "month": "2025-03",
+      "plastic_kg": 167273.3,
+      "total_packaging_kg": 328771.7
+    },
+    {
+      "month": "2025-04",
+      "plastic_kg": 167883.5,
+      "total_packaging_kg": 332193.1
+    },
+    {
+      "month": "2025-05",
+      "plastic_kg": 171095.2,
+      "total_packaging_kg": 342697.4
+    },
+    {
+      "month": "2025-06",
+      "plastic_kg": 156224.8,
+      "total_packaging_kg": 319599.1
+    },
+    {
+      "month": "2025-07",
+      "plastic_kg": 111469.4,
+      "total_packaging_kg": 221600.0
+    },
+    {
+      "month": "2025-08",
+      "plastic_kg": 115953.9,
+      "total_packaging_kg": 237051.3
+    },
+    {
+      "month": "2025-09",
+      "plastic_kg": 135627.6,
+      "total_packaging_kg": 269954.4
+    },
+    {
+      "month": "2025-10",
+      "plastic_kg": 130344.1,
+      "total_packaging_kg": 257948.3
+    },
+    {
+      "month": "2025-11",
+      "plastic_kg": 115431.7,
+      "total_packaging_kg": 235801.3
+    },
+    {
+      "month": "2025-12",
+      "plastic_kg": 118988.6,
+      "total_packaging_kg": 237318.1
+    },
+    {
+      "month": "2026-01",
+      "plastic_kg": 122219.5,
+      "total_packaging_kg": 242855.2
+    },
+    {
+      "month": "2026-02",
+      "plastic_kg": 121944.3,
+      "total_packaging_kg": 244181.9
+    },
+    {
+      "month": "2026-03",
+      "plastic_kg": 158953.4,
+      "total_packaging_kg": 327810.6
+    }
+  ],
+  "material_mix_fy2025_26_kg": {
+    "CARDBOARD": 1084465.9,
+    "GLASS": 556289.8,
+    "HDPE": 64106.8,
+    "PAPER": 2119.2,
+    "PET": 1461184.8,
+    "PP": 100844.2
+  },
+  "recycling_by_fy": {
+    "FY2023-24": {
+      "waste_generated_kg": 658117.0,
+      "waste_collected_kg": 359798.5,
+      "waste_recycled_kg": 298808.2,
+      "credits_documented_kg": 266630.7
+    },
+    "FY2024-25": {
+      "waste_generated_kg": 1507389.9,
+      "waste_collected_kg": 946139.3,
+      "waste_recycled_kg": 883923.0,
+      "credits_documented_kg": 714497.2
+    },
+    "FY2025-26": {
+      "waste_generated_kg": 1635352.6,
+      "waste_collected_kg": 974804.1,
+      "waste_recycled_kg": 861047.1,
+      "credits_documented_kg": 738782.1
+    }
+  },
+  "anomaly_label_counts": {
+    "AN02": 3,
+    "AN04": 1,
+    "AN05": 1,
+    "AN07": 3,
+    "AN08": 1,
+    "AN09": 7,
+    "AN11": 3,
+    "AN19": 2
+  }
+}
