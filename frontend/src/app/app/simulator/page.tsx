@@ -7,6 +7,7 @@ import { Disclaimer } from "@/components/data/disclaimer";
 import { PageHeader } from "@/components/data/page-header";
 import { BeforeAfterSummary } from "@/components/scenario/before-after-summary";
 import { ScenarioInputs, type ScenarioForm } from "@/components/scenario/scenario-inputs";
+import { ScenarioPresets } from "@/components/scenario/scenario-presets";
 import { Button } from "@/components/ui/button";
 import { Card, CardTitle } from "@/components/ui/card";
 import { api } from "@/lib/api-client";
@@ -82,6 +83,7 @@ export default function SimulatorPage() {
           <CardTitle>Scenario</CardTitle>
           <ScenarioInputs catalog={cat.data} form={form} onChange={patch} errors={errors} reductionPct={pct} baselineStatus={edited ? "estimated" : "declared"}
             onReduction={(v) => patch({ proposed: String(weightFromReduction(baseline > 0 ? baseline : 0, v)) })} />
+          <ScenarioPresets catalog={cat.data} onPick={setForm} />
           <div className="flex flex-wrap gap-3 border-t border-white/10 pt-4">
             <Button variant="outline" size="sm" onClick={() => setForm(defaults)}><RotateCcw aria-hidden /> Reset to baseline</Button>
             <Button size="sm" onClick={save} disabled={!result}><Bookmark aria-hidden /> Save scenario</Button>

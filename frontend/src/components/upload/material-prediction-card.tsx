@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardTitle } from "@/components/ui/card";
 import { EvidenceStatusBadge } from "@/components/data/status-badges";
 import type { ImageResult } from "@/lib/contracts";
+import { API_MODE } from "@/lib/config";
 import { formatPct } from "@/lib/formatters";
 
 const LABEL: Record<ImageResult["predicted_class"], string> = {
@@ -41,7 +42,7 @@ export function MaterialPredictionCard({ result, previewSrc, fileName }: { resul
             <p className="text-sm text-caution">Confidence is low, so this is not a reliable result. Please confirm the material yourself or upload a clearer photo.</p>
           )}
           <p className="text-xs text-muted">Model: <span className="num">{result.model_version}</span> · Probable material only — not an official EPR or legal category. Plastic category (I–IV) must be confirmed from product specifications.</p>
-          <Badge variant="neutral">Demo output (image model not connected)</Badge>
+          <Badge variant="neutral">{API_MODE === "mock" ? "Fixture output (mock mode)" : "Live model output"}</Badge>
         </div>
       </div>
     </Card>

@@ -327,6 +327,23 @@ export const SimulatorFixture = z.looseObject({
 });
 export type SimulatorFixture = z.infer<typeof SimulatorFixture>;
 
+/** Example what-if scenarios shipped with the synthetic dataset (5 / 15 / 25 % lighter PET bottle). */
+export const ScenarioPresetFixture = z.looseObject({
+  _meta: FixtureMeta,
+  scenarios: z.array(
+    z.looseObject({
+      scenario_id: z.string(),
+      product_id: z.string(),
+      component_id: z.string(),
+      reduction_pct: z.number(),
+      baseline_weight_g: z.number(),
+      proposed_weight_g: z.number(),
+      units: z.number(),
+    }),
+  ),
+});
+export type ScenarioPresetFixture = z.infer<typeof ScenarioPresetFixture>;
+
 // ---------- dashboard ----------
 export const DashboardSummary = z.looseObject({
   _meta: FixtureMeta,

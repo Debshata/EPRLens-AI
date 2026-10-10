@@ -92,6 +92,9 @@ test("landing → demo company → evidence → mismatch → review → forecast
   await expect(page.getByTestId("baseline-kg")).toHaveText("2,500 kg");
   await expect(page.getByTestId("proposed-kg")).toHaveText("2,000 kg");
   await expect(page.getByTestId("reduction-kg")).toHaveText("500 kg");
+  await page.getByRole("button", { name: /25% lighter/ }).click();
+  await expect(page.getByTestId("reduction-pct")).toHaveText("25.0%");
+  await expect(page.getByTestId("reduction-kg")).toHaveText("215,710.165 kg");
   await page.getByLabel("Proposed g / unit").fill("-3");
   await expect(page.getByText(/must be greater than 0/i)).toBeVisible();
   await noHorizontalScroll(page);

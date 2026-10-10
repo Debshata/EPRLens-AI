@@ -5,7 +5,7 @@
     "seed": 20261009,
     "generator_version": "1.0.0",
     "dataset_sha256": "0c8f6d5ad65954a9af9f4eb7f74ed187c093c69428bdd8e21212dd9eea2252d8",
-    "note": "FIXTURE. The image model (WP1) is not in the repo yet; these are demo outputs in the agreed WP1 JSON shape, keyed by sample file name. Never an official EPR category."
+    "note": "FIXTURE for mock mode: demo outputs in the image model's JSON shape, keyed by sample file name (live mode runs the real MobileNetV3 ONNX model). Never an official EPR category."
   },
   "results": {
     "sample-pet-bottle.png": {
