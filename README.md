@@ -71,4 +71,4 @@ Follow the 3-minute script in [`docs/demo-flow.md`](docs/demo-flow.md) (or open 
 Synthetic data only; one demo company is pre-seeded and other companies start empty. No login (public demo). Review decisions are stored in the browser, not in the backend. Forecast months after the first are recursive and labelled "projected". The image model sees public waste photos, not retail packaging, so it is an aid with a confirm step. EPR applicability hints come from a secondary handbook and always say "requires verification".
 
 ## Team
-Frontend and AWS backend/infrastructure: Vaibhav Jain · Synthetic data and tabular models: Debshata Choudhury · Packaging image classifier: Ishani Jindal (per the git history).
+Frontend: Vaibhav Jain · Synthetic data and tabular models: Debshata Choudhury · Packaging image classifier: Ishani Jindal · AWS backend/infrastructure: Pratham Ranjan.
